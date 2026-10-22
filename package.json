@@ -2,8 +2,9 @@
   "name": "preco",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
   "type": "module",
-  "description": "Banco de notas fiscais de mercado: gerador sintetico (portal NFC-e falso) + builder de bundle estatico",
+  "description": "Base colaborativa e open source de precos a partir de notas fiscais (NFC-e)",
   "scripts": {
     "gerar": "node --disable-warning=ExperimentalWarning src/gerador/index.js",
     "build": "node --disable-warning=ExperimentalWarning src/builder/index.js",
