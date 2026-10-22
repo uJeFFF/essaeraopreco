@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ESSE ERA O PREÇO</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="pagina">
+      <header class="topo">
+        <h1>ESSE ERA O PREÇO DE <span id="produto" class="produto">1KG DE CARNE</span></h1>
+
+        <div class="filtros" id="filtros">
+          <label class="filtro-ano">De <select id="filtroDe"></select></label>
+          <label class="filtro-ano">Até <select id="filtroAte"></select></label>
+
+          <details class="filtro-menu" id="menuGovernos">
+            <summary>Governos</summary>
+            <div class="menu-painel" id="painelGovernos"></div>
+          </details>
+
+          <details class="filtro-menu" id="menuEstados">
+            <summary>Estados</summary>
+            <div class="menu-painel menu-painel-estados" id="painelEstados"></div>
+          </details>
+
+          <button type="button" class="filtro-limpar" id="limparFiltros">Limpar</button>
+        </div>
+      </header>
+
+      <main>
+        <div class="legenda">
+          <span class="leg-ext" id="legMin">MAIS BARATO</span>
+          <div class="leg-barra" id="legBarra" aria-hidden="true"></div>
+          <span class="leg-ext" id="legMax">MAIS CARO</span>
+          <span class="leg-vazio"><i class="amostra-missing"></i> sem dados</span>
+        </div>
+
+        <div class="heatmap-area">
+          <div id="heatmap" class="heatmap" role="table" aria-label="Heatmap de preços por estado e ano"></div>
+          <p id="vazio" class="vazio oculto"></p>
+        </div>
+
+        <p class="nota" id="nota"></p>
+      </main>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

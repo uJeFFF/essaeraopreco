@@ -1,0 +1,18 @@
+{
+  "name": "preco",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Banco de notas fiscais de mercado: gerador sintetico (portal NFC-e falso) + builder de bundle estatico",
+  "scripts": {
+    "gerar": "node --disable-warning=ExperimentalWarning src/gerador/index.js",
+    "build": "node --disable-warning=ExperimentalWarning src/builder/index.js",
+    "compilar": "node src/compilar-web.js",
+    "pipeline": "npm run gerar && npm run build && npm run compilar",
+    "verificar": "node scripts/verificar-site.js",
+    "front": "node src/server.js"
+  },
+  "engines": {
+    "node": ">=22.5"
+  }
+}

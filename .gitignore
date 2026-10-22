@@ -1,0 +1,10 @@
+node_modules/
+.vercel/
+
+# Artefatos gerados (regeneráveis)
+data/
+bundle/
+*.log
+
+# web/dados/ é gerado por src/compilar-web.js, mas versionado de propósito:
+# é o artefato estático publicado na Vercel.

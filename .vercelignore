@@ -1,0 +1,7 @@
+# O deploy publica apenas web/ (outputDirectory). Estes diretorios nao
+# precisam ser enviados para a Vercel.
+data/
+bundle/
+src/
+node_modules/
+*.log
