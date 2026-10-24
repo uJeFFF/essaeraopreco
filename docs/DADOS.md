@@ -54,6 +54,25 @@ O popup de cada célula mostra a **mediana corrigida**, a mediana nominal da
 notas de exemplo por faixa. Os arquivos de estado são carregados sob demanda e
 ficam em cache na página.
 
+### Streamgraph (`/02/`)
+
+O segundo frontend, em `web/02/`, mostra um **streamgraph de UF × ano**:
+
+- cada onda é uma UF;
+- o centro da onda acompanha a **mediana real** do ano;
+- a espessura é o **range (máximo − mínimo)** do ano, desenhado
+  simetricamente em torno da mediana;
+- todas as ondas usam o mesmo ciano com **10% de opacidade**, então a
+  sobreposição fica visível;
+- o hover destaca uma onda, mostra a linha da mediana, o ano, o mínimo, o
+  máximo e o número de notas;
+- anos sem nota entre o primeiro e o último ano da UF são interpolados
+  linearmente; não há extrapolação nas pontas;
+- a página não tem filtros: exibe a série inteira de 1980 a 2026, com a faixa
+  dos governos no topo e uma tira de UFs para identificação.
+
+A página lê `web/dados/ondas.json` e reaproveita `web/governos.js`.
+
 ## Dados do frontend (`web/dados/`)
 
 Gerado por `npm run compilar`, versionado e publicado na Vercel.
@@ -61,6 +80,7 @@ Gerado por `npm run compilar`, versionado e publicado na Vercel.
 ```text
 web/dados/
   base.json                 # medianas estado × ano, medianas por governo e catálogo
+  ondas.json                # mediana, min, max e n por UF × ano (streamgraph)
   estados/{UF}.json         # por ano: min, max, 10 contagens e até 10 amostras/faixa
 ```
 
@@ -97,6 +117,31 @@ Cada amostra é:
 [precoRealCentavos, precoNominalCentavos, data, chave, estabId]
 ```
 
+### `ondas.json`
+
+Arquivo enxuto do streamgraph, gerado por `npm run compilar:ondas` (também roda
+no fim de `npm run compilar`). Ele combina a mediana de `base.json` com o
+mínimo e o máximo de `estados/{UF}.json`, sem carregar as amostras no browser.
+
+```text
+{
+  schemaVersion: 1,
+  geradoEm, origem, periodo, anos, produto, contagens,
+  estados: [
+    { id, uf, nome, valores: [[ano, medianaCentavos, minCentavos, maxCentavos, nNotas], ...] }
+  ]
+}
+```
+
+`valores` traz somente os anos com nota; o frontend interpola os anos vazios
+entre o primeiro e o último ponto de cada UF.
+
+Para gerar apenas esse arquivo sem sortear novas amostras:
+
+```bash
+npm run compilar:ondas
+```
+
 ### Amostragem
 
 - O intervalo `mín–máx` de cada célula é dividido em **10 faixas**.
@@ -113,6 +158,7 @@ Com as 100 mil notas sintéticas atuais:
 - **56.648 amostras**;
 - **~4,2 MB raw / ~1,1 MB gzip / ~0,8 MB Brotli**;
 - `base.json` com ~27 KB raw / ~10 KB gzip;
+- `ondas.json` com ~33 KB raw / ~12 KB gzip / ~9 KB Brotli;
 - o estado é baixado sob demanda no primeiro hover do popup.
 
 A Vercel aplica gzip/Brotli automaticamente; não é necessário versionar `.gz`.

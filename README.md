@@ -56,6 +56,8 @@ O envio de notas reais ainda é roadmap. O fluxo planejado é:
 - Compilador que gera os dados enxutos consumidos pelo frontend.
 - Heatmap **estado × ano** com medianas por estado/ano e por governo, popup,
   histograma e notas de exemplo.
+- Streamgraph **UF × ano** em `/02/`, com mediana, mínimo e máximo por ano e
+  destaque no hover.
 - Deploy estático configurado para a Vercel.
 
 ## Roadmap
@@ -98,7 +100,7 @@ abra uma issue.
 Requisitos: Node.js **>= 22.5**. O projeto não tem dependências externas.
 
 ```bash
-npm run front      # serve web/ em http://localhost:8080/
+npm run front      # serve web/ em http://localhost:8080/ (heatmap) e /02/ (streamgraph)
 npm run verificar  # checagem usada no deploy
 ```
 

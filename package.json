@@ -8,7 +8,8 @@
   "scripts": {
     "gerar": "node --disable-warning=ExperimentalWarning src/gerador/index.js",
     "build": "node --disable-warning=ExperimentalWarning src/builder/index.js",
-    "compilar": "node src/compilar-web.js",
+    "compilar": "node src/compilar-web.js && node src/compilar-ondas.js",
+    "compilar:ondas": "node src/compilar-ondas.js",
     "pipeline": "npm run gerar && npm run build && npm run compilar",
     "verificar": "node scripts/verificar-site.js",
     "front": "node src/server.js"
