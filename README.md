@@ -56,8 +56,8 @@ O envio de notas reais ainda é roadmap. O fluxo planejado é:
 - Compilador que gera os dados enxutos consumidos pelo frontend.
 - Heatmap **estado × ano** com medianas por estado/ano e por governo, popup,
   histograma e notas de exemplo.
-- Streamgraph **UF × ano** em `/02/`, com mediana, mínimo e máximo por ano e
-  destaque no hover.
+- Streamgraph **UF × ano** em `/02/`, com mediana, mínimo e máximo por ano,
+  destaque no hover e barras da mediana nacional.
 - Deploy estático configurado para a Vercel.
 
 ## Roadmap

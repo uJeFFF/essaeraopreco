@@ -66,10 +66,20 @@ O segundo frontend, em `web/02/`, mostra um **streamgraph de UF × ano**:
   sobreposição fica visível;
 - o hover destaca uma onda, mostra a linha da mediana, o ano, o mínimo, o
   máximo e o número de notas;
+- entre os governos e o streamgraph, barras todas na mesma cor mostram a
+  **mediana nacional por ano** — calculada no frontend como a mediana das
+  medianas estaduais, já que os dados publicados não trazem a série do Brasil;
+- o hover também vale na faixa das barras: mostra o ano, a mediana do Brasil e
+  quantas UFs entraram no cálculo;
 - anos sem nota entre o primeiro e o último ano da UF são interpolados
   linearmente; não há extrapolação nas pontas;
 - a página não tem filtros: exibe a série inteira de 1980 a 2026, com a faixa
-  dos governos no topo e uma tira de UFs para identificação.
+  dos governos no topo e uma tira de UFs para identificação. Clicar numa UF
+  (na tira ou numa onda) trava o destaque; clicar de novo, clicar no vazio ou
+  apertar `Esc` solta;
+- as divisórias dos governos são pontilhadas, vão dos governos até o eixo dos
+  anos e caem **entre** os anos (meio do caminho entre o último ano de um
+  governo e o primeiro do seguinte), já que os dados são anuais.
 
 A página lê `web/dados/ondas.json` e reaproveita `web/governos.js`.
 

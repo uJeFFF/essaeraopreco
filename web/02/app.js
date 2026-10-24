@@ -12,14 +12,19 @@ const URL_DADOS = "../dados/ondas.json";
 const SVG_NS = "http://www.w3.org/2000/svg";
 
 const LARGURA = 1220;
-const ALTURA = 640;
-const MARGEM = { top: 70, right: 34, bottom: 62, left: 78 };
+const ALTURA = 770;
+const MARGEM = { top: 200, right: 34, bottom: 62, left: 78 };
 const PLOT = {
   x: MARGEM.left,
   y: MARGEM.top,
   w: LARGURA - MARGEM.left - MARGEM.right,
   h: ALTURA - MARGEM.top - MARGEM.bottom,
 };
+
+// Faixa das barras da mediana nacional: 150px entre os governos e o grafico.
+const BARRAS_BASE = MARGEM.top - 18;
+const BARRAS_ALTURA = 112;
+const BARRAS_TOPO = BARRAS_BASE - BARRAS_ALTURA;
 
 const ESPESSURA_MIN = 1.4;
 const RAIO_HOVER = 32;
@@ -203,6 +208,37 @@ function caminhoFita(xs, cima, baixo) {
   return `${d} Z`;
 }
 
+/**
+ * Serie nacional: para cada ano, a mediana das medianas estaduais.
+ * Nao existe mediana do Brasil nos dados do site, entao esta e a melhor
+ * aproximacao possivel a partir de ondas.json (26-27 UFs por ano).
+ */
+function calcularMedianaBrasil(estados, anos) {
+  const serie = new Map();
+
+  for (const ano of anos) {
+    const valores = [];
+
+    for (const estado of estados) {
+      const ponto = estado.porAno.get(ano);
+      if (ponto) valores.push(ponto.med);
+    }
+
+    if (!valores.length) continue;
+
+    valores.sort((a, b) => a - b);
+    const meio = Math.floor(valores.length / 2);
+    const mediana =
+      valores.length % 2
+        ? valores[meio]
+        : (valores[meio - 1] + valores[meio]) / 2;
+
+    serie.set(ano, { ano, med: mediana, ufs: valores.length });
+  }
+
+  return serie;
+}
+
 function montarGrafico(dados, estados, dominio) {
   const container = document.getElementById("grafico");
   container.innerHTML = "";
@@ -211,7 +247,8 @@ function montarGrafico(dados, estados, dominio) {
     viewBox: `0 0 ${LARGURA} ${ALTURA}`,
     role: "img",
     "aria-label":
-      "Streamgraph de preços reais por unidade da federação entre 1980 e 2026",
+      "Streamgraph de preços reais por unidade da federação entre 1980 e 2026, " +
+      "com as barras da mediana nacional por ano acima do gráfico",
   });
 
   const anos = dados.anos;
@@ -229,7 +266,21 @@ function montarGrafico(dados, estados, dominio) {
   const anoEmX = (px) =>
     ANO_MIN + ((px - PLOT.x) / PLOT.w) * (ANO_MAX - ANO_MIN);
 
-  // Recorte para as fitas nao invadirem os eixos.
+  const larguraBarra = Math.max(3, passoAno * 0.62);
+  const barrasInicio = PLOT.x - larguraBarra / 2;
+  const barrasFim = PLOT.x + PLOT.w + larguraBarra / 2;
+
+  // Barras da mediana nacional. A escala e recortada entre o minimo e o
+  // maximo da serie para a variacao ficar legivel na faixa baixa.
+  const brasil = calcularMedianaBrasil(estados, anos);
+  const valoresBrasil = [...brasil.values()].map((ponto) => ponto.med);
+  const baseBarra = Math.min(...valoresBrasil) - 1;
+  const topoBarra = Math.max(...valoresBrasil) + 1;
+  const escalaBarra = (valor) =>
+    BARRAS_BASE -
+    ((valor - baseBarra) / (topoBarra - baseBarra)) * BARRAS_ALTURA;
+
+  // Recorte para as fitas e as barras nao invadirem os eixos.
   const defs = criarSvg("defs");
   const recorte = criarSvg("clipPath", { id: "recorte-ondas" });
   recorte.appendChild(
@@ -241,6 +292,17 @@ function montarGrafico(dados, estados, dominio) {
     }),
   );
   defs.appendChild(recorte);
+
+  const recorteBarras = criarSvg("clipPath", { id: "recorte-barras" });
+  recorteBarras.appendChild(
+    criarSvg("rect", {
+      x: barrasInicio,
+      y: BARRAS_TOPO,
+      width: barrasFim - barrasInicio,
+      height: BARRAS_BASE - BARRAS_TOPO,
+    }),
+  );
+  defs.appendChild(recorteBarras);
   svg.appendChild(defs);
 
   // Grade horizontal e rotulos do eixo Y.
@@ -266,16 +328,6 @@ function montarGrafico(dados, estados, dominio) {
     svg.appendChild(rotulo);
   }
 
-  const tituloY = criarSvg("text", {
-    x: 18,
-    y: PLOT.y + PLOT.h / 2,
-    transform: `rotate(-90 18 ${PLOT.y + PLOT.h / 2})`,
-    "text-anchor": "middle",
-    class: "eixo-y-titulo",
-  });
-  tituloY.textContent = "PREÇO REAL · R$/KG (2026)";
-  svg.appendChild(tituloY);
-
   // Faixa dos governos, sem colunas: apenas nomes e divisores discretos.
   svg.appendChild(
     criarSvg("line", {
@@ -287,13 +339,17 @@ function montarGrafico(dados, estados, dominio) {
     }),
   );
 
+  // Cada governo comeca entre anos: a divisoria cai no meio do caminho entre
+  // o ultimo ano do governo anterior e o primeiro ano deste governo.
+  const divisoesGoverno = [];
+
   for (const governo of GOVERNOS) {
     if (governo.ate < ANO_MIN || governo.de > ANO_MAX) continue;
 
     const de = Math.max(governo.de, ANO_MIN);
     const ate = Math.min(governo.ate, ANO_MAX);
-    const x1 = escalaX(de);
-    const x2 = Math.min(PLOT.x + PLOT.w, escalaX(ate) + passoAno);
+    const x1 = escalaX(Math.max(de - 0.5, ANO_MIN));
+    const x2 = Math.min(PLOT.x + PLOT.w, escalaX(ate + 0.5));
 
     const rotulo = criarSvg("text", {
       x: (x1 + x2) / 2,
@@ -304,17 +360,46 @@ function montarGrafico(dados, estados, dominio) {
     rotulo.textContent = governo.nome;
     svg.appendChild(rotulo);
 
-    if (de > ANO_MIN) {
-      svg.appendChild(
-        criarSvg("line", {
-          x1,
-          y1: 32,
-          x2: x1,
-          y2: 40,
-          class: "gov-divisoria",
-        }),
-      );
+    if (governo.de > ANO_MIN) {
+      divisoesGoverno.push(escalaX(governo.de - 0.5));
     }
+  }
+
+  // Barras da mediana nacional, na faixa entre os governos e o streamgraph.
+  const barras = new Map();
+
+  svg.appendChild(
+    criarSvg("line", {
+      x1: barrasInicio,
+      y1: BARRAS_BASE,
+      x2: barrasFim,
+      y2: BARRAS_BASE,
+      class: "barras-base",
+    }),
+  );
+
+  if (valoresBrasil.length) {
+    const grupoBarras = criarSvg("g", {
+      class: "barras",
+      "clip-path": "url(#recorte-barras)",
+    });
+
+    for (const [ano, ponto] of brasil) {
+      const x = escalaX(ano);
+      const y = escalaBarra(ponto.med);
+      const barra = criarSvg("rect", {
+        class: "barra-brasil",
+        x: (x - larguraBarra / 2).toFixed(2),
+        y: y.toFixed(2),
+        width: larguraBarra.toFixed(2),
+        height: Math.max(1, BARRAS_BASE - y).toFixed(2),
+        rx: 2,
+      });
+      grupoBarras.appendChild(barra);
+      barras.set(ano, barra);
+    }
+
+    svg.appendChild(grupoBarras);
   }
 
   // Ondas.
@@ -363,6 +448,27 @@ function montarGrafico(dados, estados, dominio) {
   }
 
   svg.appendChild(grupoOndas);
+
+  // Divisorias dos governos: pontilhadas, dos governos ate o eixo dos anos,
+  // por cima das barras e das ondas.
+  const divisorias = criarSvg("g", {
+    class: "governos-divisorias",
+    "aria-hidden": "true",
+  });
+
+  for (const x of divisoesGoverno) {
+    divisorias.appendChild(
+      criarSvg("line", {
+        x1: x,
+        y1: 32,
+        x2: x,
+        y2: PLOT.y + PLOT.h,
+        class: "gov-divisoria",
+      }),
+    );
+  }
+
+  svg.appendChild(divisorias);
 
   // Eixo X: marca em todo ano, rotulo a cada 5 anos e no ultimo ano.
   const baseY = PLOT.y + PLOT.h;
@@ -423,7 +529,7 @@ function montarGrafico(dados, estados, dominio) {
   const guia = criarSvg("g", { class: "guia oculto" });
   const guiaLinha = criarSvg("line", {
     x1: PLOT.x,
-    y1: PLOT.y,
+    y1: BARRAS_TOPO,
     x2: PLOT.x,
     y2: baseY,
     class: "guia-linha",
@@ -462,12 +568,12 @@ function montarGrafico(dados, estados, dominio) {
   guia.appendChild(guiaUf);
   svg.appendChild(guia);
 
-  // Camada transparente que captura o mouse em toda a area do grafico.
+  // Camada transparente que captura o mouse na faixa das barras e no grafico.
   const overlay = criarSvg("rect", {
     x: PLOT.x,
-    y: PLOT.y,
+    y: BARRAS_TOPO,
     width: PLOT.w,
-    height: PLOT.h,
+    height: baseY - BARRAS_TOPO,
     class: "overlay",
   });
   svg.appendChild(overlay);
@@ -476,7 +582,8 @@ function montarGrafico(dados, estados, dominio) {
 
   // --- estado do destaque ------------------------------------------------
 
-  let travado = false;
+  // UF presa por clique (chip ou onda do grafico); null = apenas hover.
+  let ufTravada = null;
 
   const chips = new Map();
   for (const chip of document.querySelectorAll(".uf")) {
@@ -497,18 +604,38 @@ function montarGrafico(dados, estados, dominio) {
     }
 
     for (const [ufChip, chip] of chips) {
-      chip.classList.toggle("ativa", uf != null && ufChip === uf);
+      const ativo = uf != null && ufChip === uf;
+      const preso = ufTravada != null && ufChip === ufTravada;
+      chip.classList.toggle("ativa", ativo);
+      chip.classList.toggle("travada", preso);
+      chip.setAttribute("aria-pressed", ativo ? "true" : "false");
+      if (chip.dataset.nome) {
+        chip.title =
+          `${chip.dataset.nome} — ` +
+          (preso ? "clique para destravar" : "clique para travar");
+      }
     }
   }
 
+  function destacarBarra(ano) {
+    for (const [anoBarra, barra] of barras) {
+      barra.classList.toggle("ativa", anoBarra === ano);
+    }
+  }
+
+  function esconderGuia() {
+    guia.classList.add("oculto");
+    tooltip.classList.add("oculto");
+    destacarBarra(null);
+  }
+
   function mostrarGuia(resultado) {
-    const { ano, estado, ponto } = resultado;
+    const { ano, ponto } = resultado;
     const x = escalaX(ano);
-    const y = escalaY(ponto.med);
 
     guiaLinha.setAttribute("x1", x);
     guiaLinha.setAttribute("x2", x);
-    guiaLinha.setAttribute("y1", PLOT.y);
+    guiaLinha.setAttribute("y1", BARRAS_TOPO);
     guiaLinha.setAttribute("y2", baseY);
 
     const fundoX = Math.min(
@@ -522,27 +649,46 @@ function montarGrafico(dados, estados, dominio) {
     guiaAno.setAttribute("y", PLOT.y + 17);
     guiaAno.textContent = ano;
 
-    guiaPonto.setAttribute("cx", x);
-    guiaPonto.setAttribute("cy", y);
+    destacarBarra(ano);
 
-    const pertoDaDireita = x > PLOT.x + PLOT.w - 46;
-    guiaUf.setAttribute("x", pertoDaDireita ? x - 10 : x + 10);
-    guiaUf.setAttribute("y", y - 8);
-    guiaUf.setAttribute("text-anchor", pertoDaDireita ? "end" : "start");
-    guiaUf.textContent = estado.uf;
+    // Na faixa das barras so aparecem a guia e o ano, sem ponto nem UF.
+    const ehBrasil = resultado.tipo === "brasil";
+    guiaPonto.classList.toggle("oculto", ehBrasil);
+    guiaUf.classList.toggle("oculto", ehBrasil);
+
+    if (!ehBrasil) {
+      const y = escalaY(ponto.med);
+
+      guiaPonto.setAttribute("cx", x);
+      guiaPonto.setAttribute("cy", y);
+
+      const pertoDaDireita = x > PLOT.x + PLOT.w - 46;
+      guiaUf.setAttribute("x", pertoDaDireita ? x - 10 : x + 10);
+      guiaUf.setAttribute("y", y - 8);
+      guiaUf.setAttribute("text-anchor", pertoDaDireita ? "end" : "start");
+      guiaUf.textContent = resultado.estado.uf;
+    }
 
     guia.classList.remove("oculto");
   }
 
   function mostrarTooltip(resultado) {
-    const { estado, ponto, ano, clientX, clientY } = resultado;
+    const { ponto, ano, clientX, clientY } = resultado;
+    const ehBrasil = resultado.tipo === "brasil";
 
     tooltip.innerHTML = "";
     tooltip.classList.remove("oculto");
 
     const topo = criarHtml("div", "tt-topo");
-    topo.appendChild(criarHtml("span", "tt-uf", estado.uf));
-    topo.appendChild(criarHtml("span", "tt-nome", estado.nome));
+    if (ehBrasil) {
+      topo.appendChild(criarHtml("span", "tt-uf tt-brasil", "BR"));
+      topo.appendChild(
+        criarHtml("span", "tt-nome", "Brasil · mediana das UFs"),
+      );
+    } else {
+      topo.appendChild(criarHtml("span", "tt-uf", resultado.estado.uf));
+      topo.appendChild(criarHtml("span", "tt-nome", resultado.estado.nome));
+    }
     topo.appendChild(criarHtml("span", "tt-ano", String(ano)));
 
     const mediana = criarHtml("div", "tt-mediana");
@@ -551,34 +697,42 @@ function montarGrafico(dados, estados, dominio) {
       criarHtml("strong", null, formatarBRL(ponto.med)),
     );
 
-    const minimo = criarHtml("div", "tt-linha");
-    minimo.appendChild(criarHtml("span", null, "Mínimo do ano"));
-    minimo.appendChild(criarHtml("b", null, formatarBRL(ponto.min)));
-
-    const maximo = criarHtml("div", "tt-linha");
-    maximo.appendChild(criarHtml("span", null, "Máximo do ano"));
-    maximo.appendChild(criarHtml("b", null, formatarBRL(ponto.max)));
-
-    const notas = criarHtml("div", "tt-notas");
-    if (ponto.interpolado) {
-      notas.textContent = "Sem notas neste ano · faixa interpolada";
-    } else {
-      const quantidade = ponto.n.toLocaleString("pt-BR");
-      notas.appendChild(
-        criarHtml(
-          "strong",
-          null,
-          `${quantidade} ${ponto.n === 1 ? "nota" : "notas"}`,
-        ),
-      );
-      notas.appendChild(document.createTextNode(" no ano"));
-    }
-
     tooltip.appendChild(topo);
     tooltip.appendChild(mediana);
-    tooltip.appendChild(minimo);
-    tooltip.appendChild(maximo);
-    tooltip.appendChild(notas);
+
+    if (ehBrasil) {
+      const notas = criarHtml("div", "tt-notas");
+      notas.appendChild(criarHtml("strong", null, `${ponto.ufs} UFs`));
+      notas.appendChild(document.createTextNode(" com dados no ano"));
+      tooltip.appendChild(notas);
+    } else {
+      const minimo = criarHtml("div", "tt-linha");
+      minimo.appendChild(criarHtml("span", null, "Mínimo do ano"));
+      minimo.appendChild(criarHtml("b", null, formatarBRL(ponto.min)));
+
+      const maximo = criarHtml("div", "tt-linha");
+      maximo.appendChild(criarHtml("span", null, "Máximo do ano"));
+      maximo.appendChild(criarHtml("b", null, formatarBRL(ponto.max)));
+
+      const notas = criarHtml("div", "tt-notas");
+      if (ponto.interpolado) {
+        notas.textContent = "Sem notas neste ano · faixa interpolada";
+      } else {
+        const quantidade = ponto.n.toLocaleString("pt-BR");
+        notas.appendChild(
+          criarHtml(
+            "strong",
+            null,
+            `${quantidade} ${ponto.n === 1 ? "nota" : "notas"}`,
+          ),
+        );
+        notas.appendChild(document.createTextNode(" no ano"));
+      }
+
+      tooltip.appendChild(minimo);
+      tooltip.appendChild(maximo);
+      tooltip.appendChild(notas);
+    }
 
     const caixa = tooltip.getBoundingClientRect();
     let left = clientX + 16;
@@ -595,11 +749,23 @@ function montarGrafico(dados, estados, dominio) {
 
   function limpar() {
     aplicarDestaque(null);
-    guia.classList.add("oculto");
-    tooltip.classList.add("oculto");
+    esconderGuia();
   }
 
-  function pontoDoEvento(evento) {
+  /** Trava a UF clicada; clicar de novo na mesma (ou Esc) solta. */
+  function travarUf(uf) {
+    ufTravada = uf != null && ufTravada === uf ? null : uf;
+
+    if (ufTravada == null) {
+      limpar();
+      return;
+    }
+
+    aplicarDestaque(ufTravada);
+    esconderGuia();
+  }
+
+  function pontoDoEvento(evento, filtroUf = null) {
     const matriz = svg.getScreenCTM();
     if (!matriz) return null;
 
@@ -611,7 +777,7 @@ function montarGrafico(dados, estados, dominio) {
     if (
       local.x < PLOT.x ||
       local.x > PLOT.x + PLOT.w ||
-      local.y < PLOT.y ||
+      local.y < BARRAS_TOPO ||
       local.y > baseY
     ) {
       return null;
@@ -622,9 +788,24 @@ function montarGrafico(dados, estados, dominio) {
       Math.min(ANO_MAX, Math.round(anoEmX(local.x))),
     );
 
+    // Faixa das barras: leitura nacional, nao disputa com as ondas.
+    if (local.y < PLOT.y) {
+      const dadosAno = brasil.get(ano);
+      if (!dadosAno) return null;
+      return {
+        tipo: "brasil",
+        ano,
+        ponto: dadosAno,
+        clientX: evento.clientX,
+        clientY: evento.clientY,
+      };
+    }
+
     let melhor = null;
 
     for (const estado of estados) {
+      if (filtroUf != null && estado.uf !== filtroUf) continue;
+
       const dadosAno = estado.porAno.get(ano);
       if (!dadosAno) continue;
 
@@ -643,6 +824,7 @@ function montarGrafico(dados, estados, dominio) {
         (dentro === melhor.dentro && distancia < melhor.distancia)
       ) {
         melhor = {
+          tipo: "uf",
           estado,
           ponto: dadosAno,
           ano,
@@ -662,68 +844,88 @@ function montarGrafico(dados, estados, dominio) {
   // --- eventos -----------------------------------------------------------
 
   overlay.addEventListener("pointermove", (evento) => {
-    if (travado) return;
+    // Com UF travada, so ela responde ao mouse (as barras seguem nacionais).
+    const resultado = pontoDoEvento(evento, ufTravada);
 
-    const resultado = pontoDoEvento(evento);
     if (!resultado) {
-      limpar();
+      if (ufTravada == null) {
+        limpar();
+      } else {
+        esconderGuia();
+      }
       return;
     }
 
-    aplicarDestaque(resultado.estado.uf);
+    if (resultado.tipo === "uf") {
+      aplicarDestaque(resultado.estado.uf);
+    } else if (ufTravada == null) {
+      aplicarDestaque(null);
+    }
+
     mostrarGuia(resultado);
     mostrarTooltip(resultado);
   });
 
   overlay.addEventListener("pointerleave", (evento) => {
-    if (evento.pointerType === "mouse" && !travado) limpar();
+    if (evento.pointerType !== "mouse") return;
+    if (ufTravada == null) limpar();
+    else esconderGuia();
   });
 
+  // Clique (mouse ou toque) trava a onda sob o cursor; fora das ondas, solta.
   overlay.addEventListener("pointerdown", (evento) => {
-    if (evento.pointerType === "mouse") return;
-
     const resultado = pontoDoEvento(evento);
-    if (!resultado) {
-      travado = false;
-      limpar();
+
+    // A faixa das barras nao trava nem destrava UF.
+    if (resultado?.tipo === "brasil") {
+      mostrarGuia(resultado);
+      mostrarTooltip(resultado);
       return;
     }
 
-    travado = true;
-    aplicarDestaque(resultado.estado.uf);
+    travarUf(resultado ? resultado.estado.uf : null);
+
+    if (ufTravada == null || !resultado) return;
+    aplicarDestaque(ufTravada);
     mostrarGuia(resultado);
     mostrarTooltip(resultado);
   });
 
   window.addEventListener("keydown", (evento) => {
-    if (evento.key === "Escape") {
-      travado = false;
-      limpar();
-    }
+    if (evento.key !== "Escape" || ufTravada == null) return;
+    travarUf(null);
   });
 
-  // A tira de UFs destaca a onda correspondente, sem funcionar como filtro.
+  // A tira de UFs destaca a onda correspondente; clicar trava na UF.
   for (const [uf, chip] of chips) {
+    chip.addEventListener("click", () => {
+      travarUf(uf);
+    });
+
+    chip.addEventListener("keydown", (evento) => {
+      if (evento.key !== "Enter" && evento.key !== " ") return;
+      evento.preventDefault();
+      travarUf(uf);
+    });
+
     chip.addEventListener("pointerenter", () => {
-      if (travado) return;
+      if (ufTravada != null) return;
       aplicarDestaque(uf);
-      guia.classList.add("oculto");
-      tooltip.classList.add("oculto");
+      esconderGuia();
     });
 
     chip.addEventListener("pointerleave", () => {
-      if (!travado) limpar();
+      if (ufTravada == null) limpar();
     });
 
     chip.addEventListener("focus", () => {
-      if (travado || !chip.matches(":focus-visible")) return;
+      if (ufTravada != null || !chip.matches(":focus-visible")) return;
       aplicarDestaque(uf);
-      guia.classList.add("oculto");
-      tooltip.classList.add("oculto");
+      esconderGuia();
     });
 
     chip.addEventListener("blur", () => {
-      if (!travado) limpar();
+      if (ufTravada == null) limpar();
     });
   }
 }
@@ -738,7 +940,10 @@ function montarLegenda(estados) {
     chip.className = "uf";
     chip.dataset.uf = estado.uf;
     chip.tabIndex = 0;
-    chip.title = estado.nome;
+    chip.setAttribute("role", "button");
+    chip.setAttribute("aria-pressed", "false");
+    chip.dataset.nome = estado.nome;
+    chip.title = `${estado.nome} — clique para travar`;
     chip.textContent = estado.uf;
     chip.setAttribute("aria-label", `${estado.uf} — ${estado.nome}`);
     lista.appendChild(chip);
@@ -776,16 +981,6 @@ async function main() {
 
   montarLegenda(estados);
   montarGrafico(dados, estados, dominio);
-
-  const notas = dados.contagens?.notas;
-  const textoNotas = notas
-    ? `${notas.toLocaleString("pt-BR")} notas`
-    : "dados sintéticos";
-
-  document.getElementById("nota").textContent =
-    `Cada onda = uma UF · centro = mediana real · espessura = faixa de preços do ano, ` +
-    `desenhada simetricamente em torno da mediana (mínimo e máximo reais no tooltip) · ` +
-    `valores corrigidos para R$ de 2026 · ${estados.length} UFs · ${textoNotas}.`;
 
   carregando.classList.add("oculto");
 }
