@@ -14,6 +14,9 @@ const obrigatorios = [
   'web/02/index.html',
   'web/02/styles.css',
   'web/02/app.js',
+  'web/03/index.html',
+  'web/03/styles.css',
+  'web/03/app.js',
 ];
 
 try {

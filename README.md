@@ -58,6 +58,8 @@ O envio de notas reais ainda é roadmap. O fluxo planejado é:
   histograma e notas de exemplo.
 - Streamgraph **UF × ano** em `/02/`, com mediana, mínimo e máximo por ano,
   destaque no hover e barras da mediana nacional.
+- Streamgraph **colorido** em `/03/`, com uma cor sólida por UF e as faixas de
+  menor range na frente das de maior range.
 - Deploy estático configurado para a Vercel.
 
 ## Roadmap
