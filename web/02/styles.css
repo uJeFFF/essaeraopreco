@@ -162,6 +162,17 @@ main {
   stroke-width: 1;
 }
 
+.barra-grade {
+  stroke: var(--grade);
+  stroke-width: 1;
+}
+
+.rotulo-barra {
+  font-size: 9px;
+  fill: var(--texto-suave);
+  font-variant-numeric: tabular-nums;
+}
+
 .barra-brasil {
   fill: var(--ciano);
   fill-opacity: 0.55;
@@ -364,7 +375,7 @@ main {
 /* --- tira de UFs ------------------------------------------------------ */
 
 .ufs {
-  margin-top: 16px;
+  margin-top: 8px;
 }
 
 .ufs-lista {

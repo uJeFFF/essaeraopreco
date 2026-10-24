@@ -69,6 +69,8 @@ O segundo frontend, em `web/02/`, mostra um **streamgraph de UF × ano**:
 - entre os governos e o streamgraph, barras todas na mesma cor mostram a
   **mediana nacional por ano** — calculada no frontend como a mediana das
   medianas estaduais, já que os dados publicados não trazem a série do Brasil;
+  a faixa tem régua de preço própria (escala recortada, ticks de R$ 2 em R$ 2,
+  linhas guias claras), já que a altura relativa das barras usa um recorte;
 - o hover também vale na faixa das barras: mostra o ano, a mediana do Brasil e
   quantas UFs entraram no cálculo;
 - anos sem nota entre o primeiro e o último ano da UF são interpolados
@@ -77,6 +79,9 @@ O segundo frontend, em `web/02/`, mostra um **streamgraph de UF × ano**:
   dos governos no topo e uma tira de UFs para identificação. Clicar numa UF
   (na tira ou numa onda) trava o destaque; clicar de novo, clicar no vazio ou
   apertar `Esc` solta;
+- cada ano ocupa uma faixa de 1 ano e fica no centro dela, então 1980 e 2026
+  não encostam nas bordas: a primeira/última barra e as pontas do streamgraph
+  (que ganham meio ano de "cap" reto) ficam dentro do plot;
 - as divisórias dos governos são pontilhadas, vão dos governos até o eixo dos
   anos e caem **entre** os anos (meio do caminho entre o último ano de um
   governo e o primeiro do seguinte), já que os dados são anuais.

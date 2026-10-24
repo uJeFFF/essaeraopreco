@@ -12,8 +12,8 @@ const URL_DADOS = "../dados/ondas.json";
 const SVG_NS = "http://www.w3.org/2000/svg";
 
 const LARGURA = 1220;
-const ALTURA = 770;
-const MARGEM = { top: 200, right: 34, bottom: 62, left: 78 };
+const ALTURA = 714;
+const MARGEM = { top: 156, right: 34, bottom: 50, left: 78 };
 const PLOT = {
   x: MARGEM.left,
   y: MARGEM.top,
@@ -21,9 +21,9 @@ const PLOT = {
   h: ALTURA - MARGEM.top - MARGEM.bottom,
 };
 
-// Faixa das barras da mediana nacional: 150px entre os governos e o grafico.
+// Faixa das barras da mediana nacional: ~106px entre os governos e o grafico.
 const BARRAS_BASE = MARGEM.top - 18;
-const BARRAS_ALTURA = 112;
+const BARRAS_ALTURA = 90;
 const BARRAS_TOPO = BARRAS_BASE - BARRAS_ALTURA;
 
 const ESPESSURA_MIN = 1.4;
@@ -254,28 +254,32 @@ function montarGrafico(dados, estados, dominio) {
   const anos = dados.anos;
   const ANO_MIN = anos[0];
   const ANO_MAX = anos[anos.length - 1];
-  const passoAno = PLOT.w / (ANO_MAX - ANO_MIN);
+
+  // Cada ano ocupa uma faixa de 1 ano e fica no centro dela: assim 1980 e 2026
+  // nao encostam nas bordas e a primeira/ultima barra ficam dentro do plot.
+  const totalAnos = ANO_MAX - ANO_MIN + 1;
+  const passoAno = PLOT.w / totalAnos;
 
   const escalaX = (ano) =>
-    PLOT.x + ((ano - ANO_MIN) / (ANO_MAX - ANO_MIN)) * PLOT.w;
+    PLOT.x + (ano - ANO_MIN + 0.5) * passoAno;
   const escalaY = (valor) =>
     PLOT.y +
     (1 - (valor - dominio.minimo) / (dominio.maximo - dominio.minimo)) *
       PLOT.h;
   const pxPorReal = PLOT.h / (dominio.maximo - dominio.minimo);
   const anoEmX = (px) =>
-    ANO_MIN + ((px - PLOT.x) / PLOT.w) * (ANO_MAX - ANO_MIN);
+    ANO_MIN + (px - PLOT.x) / passoAno - 0.5;
 
   const larguraBarra = Math.max(3, passoAno * 0.62);
-  const barrasInicio = PLOT.x - larguraBarra / 2;
-  const barrasFim = PLOT.x + PLOT.w + larguraBarra / 2;
+  const barrasInicio = PLOT.x;
+  const barrasFim = PLOT.x + PLOT.w;
 
   // Barras da mediana nacional. A escala e recortada entre o minimo e o
-  // maximo da serie para a variacao ficar legivel na faixa baixa.
+  // maximo da serie (com folga de meio real) para a variacao ficar legivel.
   const brasil = calcularMedianaBrasil(estados, anos);
   const valoresBrasil = [...brasil.values()].map((ponto) => ponto.med);
-  const baseBarra = Math.min(...valoresBrasil) - 1;
-  const topoBarra = Math.max(...valoresBrasil) + 1;
+  const baseBarra = Math.min(...valoresBrasil) - 0.5;
+  const topoBarra = Math.max(...valoresBrasil) + 0.5;
   const escalaBarra = (valor) =>
     BARRAS_BASE -
     ((valor - baseBarra) / (topoBarra - baseBarra)) * BARRAS_ALTURA;
@@ -378,6 +382,38 @@ function montarGrafico(dados, estados, dominio) {
     }),
   );
 
+  // Regua de preco da faixa das barras: escala propria, recortada, com linhas
+  // guias claras e rotulos na mesma coluna dos precos do eixo principal.
+  const passoRegua = 2;
+  const primeiroTickBarra = Math.ceil(baseBarra / passoRegua) * passoRegua;
+
+  for (
+    let valor = primeiroTickBarra;
+    valor <= topoBarra;
+    valor += passoRegua
+  ) {
+    const y = escalaBarra(valor);
+
+    svg.appendChild(
+      criarSvg("line", {
+        x1: PLOT.x,
+        y1: y,
+        x2: PLOT.x + PLOT.w,
+        y2: y,
+        class: "barra-grade",
+      }),
+    );
+
+    const rotulo = criarSvg("text", {
+      x: PLOT.x - 12,
+      y: y + 3,
+      "text-anchor": "end",
+      class: "rotulo-barra",
+    });
+    rotulo.textContent = `R$ ${valor}`;
+    svg.appendChild(rotulo);
+  }
+
   if (valoresBrasil.length) {
     const grupoBarras = criarSvg("g", {
       class: "barras",
@@ -421,6 +457,20 @@ function montarGrafico(dados, estados, dominio) {
         ESPESSURA_MIN / 2,
       ),
     );
+
+    // Meia faixa de "cap" nas pontas: a onda comeca meio ano antes do primeiro
+    // ano com dado e termina meio ano depois do ultimo, ate a borda do plot.
+    if (estado.porAno.has(ANO_MIN)) {
+      xs.unshift(PLOT.x);
+      centros.unshift(centros[0]);
+      metades.unshift(metades[0]);
+    }
+
+    if (estado.porAno.has(ANO_MAX)) {
+      xs.push(PLOT.x + PLOT.w);
+      centros.push(centros[centros.length - 1]);
+      metades.push(metades[metades.length - 1]);
+    }
 
     const grupo = criarSvg("g", {
       class: "onda-grupo",
