@@ -11,6 +11,7 @@
   --largura-regiao: 30px;
   --largura-estado: 70px;
   --largura-canto: calc(var(--largura-regiao) + var(--largura-estado));
+  --altura-mediana: calc(2 * var(--celula) + var(--gap-celula));
 }
 
 * {
@@ -385,6 +386,90 @@ main {
   margin-right: 0;
 }
 
+/* --- mediana por governo --------------------------------------------- */
+
+.hm-row-mediana {
+  height: var(--altura-mediana);
+}
+
+.hm-canto.hm-canto-mediana {
+  height: var(--altura-mediana);
+  background: #eef4fb;
+  color: #0b5f86;
+  font-size: 9px;
+  letter-spacing: 0.6px;
+}
+
+.hm-grupo-mediana {
+  height: 100%;
+}
+
+.hm-media {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: safe center;
+  width: 100%;
+  height: 100%;
+  padding: 0 4px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: none;
+  background: #eef4fb;
+  border-radius: 4px;
+  color: #0b5f86;
+  font-size: 14px;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+  cursor: default;
+}
+
+.hm-media::-webkit-scrollbar {
+  display: none;
+}
+
+.hm-media-valor {
+  display: block;
+  min-width: max-content;
+}
+
+.hm-media.media-estreita::after {
+  content: attr(data-valor);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 3;
+  padding: 5px 9px;
+  border: 1px solid var(--borda);
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0 8px 20px rgba(20, 30, 60, 0.18);
+  color: var(--texto);
+  font-size: 13px;
+  font-weight: 800;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(-50%, -50%) scale(0.96);
+  transition: opacity 0.12s ease, transform 0.12s ease;
+}
+
+.hm-media.media-estreita:hover {
+  z-index: 20;
+  overflow: visible;
+}
+
+.hm-media.media-estreita:hover .hm-media-valor {
+  opacity: 0;
+}
+
+.hm-media.media-estreita:hover::after {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+}
+
 /* --- colunas fixas (regiao / estado) --------------------------------- */
 
 .hm-canto,
@@ -535,10 +620,44 @@ main {
 }
 
 .popup-valores {
+  margin-bottom: 10px;
+}
+
+.popup-preco-principal {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding-bottom: 9px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid #eef0f4;
+}
+
+.popup-preco-rotulo {
+  color: var(--texto-suave);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.7px;
+  text-transform: uppercase;
+}
+
+.popup-preco-valor {
+  color: #0b5f86;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 1.05;
+  font-variant-numeric: tabular-nums;
+}
+
+.popup-preco-obs {
+  color: var(--texto-suave);
+  font-size: 11px;
+}
+
+.popup-preco-secundario {
   display: flex;
   flex-wrap: wrap;
   gap: 4px 14px;
-  margin-bottom: 10px;
+  font-size: 12px;
 }
 
 .popup-val-item {

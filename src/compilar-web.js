@@ -11,6 +11,8 @@ import { randomInt } from 'node:crypto';
 import { mkdir, readFile, readdir, rm, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 
+import { GOVERNOS } from '../web/governos.js';
+
 const FAIXAS = 10;
 const LIMITE_POR_FAIXA = 10;
 
@@ -24,6 +26,15 @@ const ENTRADA = path.resolve(arg('entrada', 'bundle'));
 const SAIDA = path.resolve(arg('saida', 'web/dados'));
 
 const centavos = (valor) => Math.round(Number(valor) * 100);
+
+function mediana(valores) {
+  if (!valores.length) return null;
+  const ordenados = valores.slice().sort((a, b) => a - b);
+  const meio = Math.floor(ordenados.length / 2);
+  return ordenados.length % 2
+    ? ordenados[meio]
+    : (ordenados[meio - 1] + ordenados[meio]) / 2;
+}
 
 async function lerJson(caminho) {
   return JSON.parse(await readFile(caminho, 'utf8'));
@@ -174,9 +185,39 @@ async function main() {
   }
 
   const anos = anosDoPeriodo(meta?.periodo, cubo);
-  const porEstadoAno = new Map(
-    cubo.map((linha) => [`${linha.estadoId}:${Number(linha.ano)}`, linha]),
-  );
+
+  const notasPorEstadoAno = new Map();
+  for (const estado of estados) {
+    const notas = notasPorUf.get(estado.uf) ?? [];
+    for (const nota of notas) {
+      const ano = Number(String(nota[2]).slice(0, 4));
+      if (!Number.isFinite(ano)) continue;
+      const chave = `${estado.id}:${ano}`;
+      let lista = notasPorEstadoAno.get(chave);
+      if (!lista) {
+        lista = [];
+        notasPorEstadoAno.set(chave, lista);
+      }
+      lista.push(nota);
+    }
+  }
+
+  const governos = {};
+  for (const gov of GOVERNOS) {
+    const precos = [];
+    for (const notas of notasPorUf.values()) {
+      for (const nota of notas) {
+        const ano = Number(String(nota[2]).slice(0, 4));
+        if (ano >= gov.de && ano <= gov.ate) precos.push(nota[0]);
+      }
+    }
+    governos[gov.nome] = {
+      de: gov.de,
+      ate: gov.ate,
+      medianaCentavos: precos.length ? centavos(mediana(precos)) : null,
+      nNotas: precos.length,
+    };
+  }
 
   const base = {
     schemaVersion: 1,
@@ -200,15 +241,16 @@ async function main() {
       uf: estado.uf,
       nome: estado.nome,
       valores: anos.map((ano) => {
-        const linha = porEstadoAno.get(`${estado.id}:${ano}`);
-        if (!linha || linha.precoMedio == null) return null;
+        const lista = notasPorEstadoAno.get(`${estado.id}:${ano}`);
+        if (!lista || !lista.length) return null;
         return [
-          centavos(linha.precoMedio),
-          centavos(linha.precoMedioNominal ?? linha.precoMedio),
-          linha.nCompras,
+          centavos(mediana(lista.map((nota) => nota[0]))),
+          centavos(mediana(lista.map((nota) => nota[1]))),
+          lista.length,
         ];
       }),
     })),
+    governos,
     estabelecimentos: Object.fromEntries(estabelecimentos.map((estab) => [estab.id, estab.nome])),
   };
 
@@ -219,22 +261,10 @@ async function main() {
   let bytesEstados = 0;
 
   for (const estado of estados) {
-    const notas = notasPorUf.get(estado.uf) ?? [];
-    const porAno = new Map();
+    const anosComNotas = anos.filter((ano) => notasPorEstadoAno.has(`${estado.id}:${ano}`));
 
-    for (const nota of notas) {
-      const ano = Number(String(nota[2]).slice(0, 4));
-      if (!Number.isFinite(ano)) continue;
-      let lista = porAno.get(ano);
-      if (!lista) {
-        lista = [];
-        porAno.set(ano, lista);
-      }
-      lista.push(nota);
-    }
-
-    const linhas = [...porAno.keys()].sort((a, b) => a - b).map((ano) => {
-      const lista = porAno.get(ano).sort(compararNota);
+    const linhas = anosComNotas.map((ano) => {
+      const lista = notasPorEstadoAno.get(`${estado.id}:${ano}`).slice().sort(compararNota);
       const { min, max, faixas } = dividirFaixas(lista);
       const contagens = faixas.map((faixa) => faixa.length);
       const amostras = faixas.map(escolherAmostra);

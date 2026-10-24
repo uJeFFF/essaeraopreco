@@ -56,11 +56,17 @@ Transforma o bundle no conjunto pequeno que o frontend consome.
 node src/compilar-web.js --entrada=bundle --saida=web/dados
 ```
 
+- Calcula a **mediana real e nominal de cada estado × ano**.
+- Calcula a **mediana real de cada governo**, usando todas as notas de todos os
+  estados e anos do período.
 - Divide o intervalo de preços de cada célula em **10 faixas**.
 - Cada faixa guarda no máximo **10 notas de exemplo**.
 - A nota de menor preço e a de maior preço da faixa são sempre incluídas.
 - As demais são sorteadas com `crypto.randomInt`, sem seed fixa.
 - Cada execução gera um `web/dados/` diferente.
+
+O bundle completo continua com médias ponderadas para análise; o `web/dados/`
+que alimenta o heatmap é a camada de medianas.
 
 O formato dos arquivos está em [DADOS.md](DADOS.md).
 

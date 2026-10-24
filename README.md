@@ -8,7 +8,7 @@
 Plataforma **open source e colaborativa** para construir um histórico público
 de preços a partir de notas fiscais do consumidor (NFC-e).
 
-![Heatmap de preços por estado e ano](docs/assets/heatmap.png)
+![Heatmap de preços medianos por estado e ano](docs/assets/heatmap.png)
 
 *Dados sintéticos de demonstração.*
 
@@ -54,7 +54,8 @@ O envio de notas reais ainda é roadmap. O fluxo planejado é:
 - Gerador sintético de NFC-e (1980–2026) para desenvolvimento e testes.
 - Builder que lê XML, deduplica pela chave e gera o bundle de dados.
 - Compilador que gera os dados enxutos consumidos pelo frontend.
-- Heatmap **estado × ano** com popup, histograma e notas de exemplo.
+- Heatmap **estado × ano** com medianas por estado/ano e por governo, popup,
+  histograma e notas de exemplo.
 - Deploy estático configurado para a Vercel.
 
 ## Roadmap

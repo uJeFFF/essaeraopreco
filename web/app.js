@@ -4,6 +4,8 @@
 // Arquitetura: o grid e montado UMA vez (todos os governos/anos/estados) e os
 // filtros apenas mostram/escondem com CSS (classe .oculto) + repintam a escala.
 
+import { GOVERNOS } from "./governos.js";
+
 const BASE = "./dados";
 
 // Rampa ciano (mais barato) -> azuis escuros -> preto (mais caro).
@@ -77,23 +79,6 @@ function formatarData(data) {
 function urlSefaz(chave) {
   return `https://www.nfce.fazenda.gov.br/portal/consulta?chave=${encodeURIComponent(chave)}`;
 }
-
-// Governos federais — cada coluna do heatmap é um ano.
-const GOVERNOS = [
-  { nome: "FIGUEIREDO", de: 1980, ate: 1984 },
-  { nome: "SARNEY", de: 1985, ate: 1989 },
-  { nome: "COLLOR", de: 1990, ate: 1992 },
-  { nome: "ITAMAR", de: 1993, ate: 1994 },
-  { nome: "FHC 1", de: 1995, ate: 1998 },
-  { nome: "FHC 2", de: 1999, ate: 2002 },
-  { nome: "LULA 1", de: 2003, ate: 2006 },
-  { nome: "LULA 2", de: 2007, ate: 2010 },
-  { nome: "DILMA 1", de: 2011, ate: 2014 },
-  { nome: "DILMA 2", de: 2015, ate: 2016 },
-  { nome: "TEMER", de: 2017, ate: 2018 },
-  { nome: "BOLSONARO", de: 2019, ate: 2022 },
-  { nome: "LULA 3", de: 2023, ate: 2026 },
-];
 
 // Regioes (IBGE) na ordem em que devem aparecer no eixo Y.
 const REGIOES = [
@@ -373,17 +358,25 @@ async function main() {
 
     popupTitulo.textContent = `${estado.nome} • ${ano}`;
     popupValores.innerHTML = "";
-    popupValores.appendChild(
-      el("span", "popup-val-item", `Corrigido: ${real != null ? formatarBRL(real) : "—"}`),
+
+    const precoPrincipal = el("div", "popup-preco-principal");
+    precoPrincipal.appendChild(el("span", "popup-preco-rotulo", "Preço corrigido"));
+    precoPrincipal.appendChild(
+      el("strong", "popup-preco-valor", real != null ? formatarBRL(real) : "—"),
     );
-    popupValores.appendChild(
+    precoPrincipal.appendChild(el("span", "popup-preco-obs", "mediana em reais de 2026"));
+    popupValores.appendChild(precoPrincipal);
+
+    const precoSecundario = el("div", "popup-preco-secundario");
+    precoSecundario.appendChild(
       el(
         "span",
         "popup-val-item",
         `Na época: ${nominal != null ? formatarNominal(nominal, `${ano}-07-01`) : "—"}`,
       ),
     );
-    popupValores.appendChild(el("span", "popup-val-notas", `${n} nota(s)`));
+    precoSecundario.appendChild(el("span", "popup-val-notas", `${n} nota(s)`));
+    popupValores.appendChild(precoSecundario);
 
     popupLista.innerHTML = "";
     popupLista.appendChild(el("p", "popup-vazio", "Carregando notas…"));
@@ -500,6 +493,7 @@ async function main() {
   // --- montagem unica do grid ------------------------------------------
 
   const rotuloPorGov = new Map();
+  const mediaPorGov = new Map();
 
   function montarHeatmap() {
     const fragment = document.createDocumentFragment();
@@ -518,7 +512,37 @@ async function main() {
     }
     fragment.appendChild(linhaGovernos);
 
-    // Linha 2: anos
+    // Linha 2: mediana de todas as notas de cada governo
+    const linhaMedianas = el("div", "hm-row hm-row-mediana");
+    const cantoMediana = el("div", "hm-canto hm-canto-mediana", "MEDIANA");
+    cantoMediana.title = "Mediana de todas as notas de cada governo";
+    linhaMedianas.appendChild(cantoMediana);
+    for (const gov of GOVERNOS) {
+      const grupo = el("div", "hm-grupo hm-grupo-mediana");
+      grupo.dataset.gov = gov.nome;
+      grupo.style.width = larguraGrupo(gov.ate - gov.de + 1);
+
+      const info = base.governos?.[gov.nome];
+      const valor =
+        info?.medianaCentavos != null ? formatarBRL(info.medianaCentavos / 100) : "—";
+
+      const media = el("div", "hm-media");
+      media.dataset.valor = valor;
+      media.setAttribute(
+        "aria-label",
+        info?.nNotas
+          ? `Mediana de ${info.nNotas.toLocaleString("pt-BR")} notas do governo ${gov.nome}`
+          : `Sem notas no governo ${gov.nome}`,
+      );
+      media.appendChild(el("span", "hm-media-valor", valor));
+
+      grupo.appendChild(media);
+      linhaMedianas.appendChild(grupo);
+      mediaPorGov.set(gov.nome, { grupo, media });
+    }
+    fragment.appendChild(linhaMedianas);
+
+    // Linha 3: anos
     const linhaAnos = el("div", "hm-row");
     linhaAnos.appendChild(el("div", "hm-canto", "UF/ANO"));
     for (const gov of GOVERNOS) {
@@ -594,6 +618,12 @@ async function main() {
     }
   }
 
+  function atualizarMedianasEstreitas() {
+    for (const { media } of mediaPorGov.values()) {
+      media.classList.toggle("media-estreita", media.scrollWidth > media.clientWidth + 1);
+    }
+  }
+
   // --- filtros: apenas mostrar/esconder + repintar ---------------------
 
   function aplicarFiltros() {
@@ -642,7 +672,12 @@ async function main() {
       }
       const rotulo = rotuloPorGov.get(gov.nome);
       rotulo.classList.toggle("oculto", !visivel);
-      if (visivel) rotulo.style.width = larguraGrupo(anosPorGov.get(gov.nome));
+      const mediaGov = mediaPorGov.get(gov.nome);
+      if (visivel) {
+        const largura = larguraGrupo(anosPorGov.get(gov.nome));
+        rotulo.style.width = largura;
+        if (mediaGov) mediaGov.grupo.style.width = largura;
+      }
     }
 
     // Celulas: visibilidade + repintura da escala.
@@ -735,8 +770,10 @@ async function main() {
     nota.textContent =
       `${celulasComDados.toLocaleString("pt-BR")} células com dados • ` +
       `${anosVisiveis.size} anos × ${estadosVisiveis.size} estados • ` +
-      `preço real (R$ 2026)` +
+      `mediana real (R$ 2026)` +
       (meta && meta.origem ? ` • origem: ${meta.origem}` : "");
+
+    requestAnimationFrame(atualizarMedianasEstreitas);
   }
 
   // --- filtros UI ------------------------------------------------------
@@ -892,6 +929,8 @@ async function main() {
       if (!menu.contains(evento.target)) menu.removeAttribute("open");
     }
   });
+
+  window.addEventListener("resize", () => requestAnimationFrame(atualizarMedianasEstreitas));
 
   // --- inicio ----------------------------------------------------------
 

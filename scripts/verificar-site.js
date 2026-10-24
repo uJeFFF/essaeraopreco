@@ -7,6 +7,7 @@ const obrigatorios = [
   'web/index.html',
   'web/styles.css',
   'web/app.js',
+  'web/governos.js',
   'web/favicon.svg',
   'web/dados/base.json',
 ];

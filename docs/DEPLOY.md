@@ -72,4 +72,5 @@ npm run verificar
 ```
 
 O script confere `web/index.html`, `web/styles.css`, `web/app.js`,
-`web/favicon.svg`, `web/dados/base.json` e os 27 arquivos de estado.
+`web/governos.js`, `web/favicon.svg`, `web/dados/base.json` e os 27 arquivos de
+estado.
