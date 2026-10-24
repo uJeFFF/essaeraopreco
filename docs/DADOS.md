@@ -88,6 +88,23 @@ O segundo frontend, em `web/02/`, mostra um **streamgraph de UF × ano**:
 
 A página lê `web/dados/ondas.json` e reaproveita `web/governos.js`.
 
+### Heatmap UF × ano (`/03/`)
+
+O terceiro frontend, em `web/03/`, reaproveita a página do `/02/` e troca o
+streamgraph por um **heatmap de quadrados**, uma linha por UF (ordem
+alfabética) e uma coluna por ano:
+
+- a cor de cada célula vem da mediana real do ano, na mesma rampa ciano
+  (mais barato) → azul escuro → preto (mais caro) do heatmap da home;
+- anos fora do intervalo de uma UF aparecem como célula clara "sem dados";
+- o hover mostra mediana, mínimo, máximo e nº de notas no tooltip, com a guia
+  vertical no ano; clicar numa célula trava a UF, como nos chips;
+- as barras da mediana nacional, a régua de preço delas, a faixa de governos,
+  as divisórias pontilhadas e o eixo de anos são iguais aos do `/02/`;
+- a legenda de cor fica entre o gráfico e a tira de UFs.
+
+A página também lê `web/dados/ondas.json` e `web/governos.js`.
+
 ## Dados do frontend (`web/dados/`)
 
 Gerado por `npm run compilar`, versionado e publicado na Vercel.

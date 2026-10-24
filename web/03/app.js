@@ -1,12 +1,8 @@
-// Frontend /03/: streamgraph de precos reais por UF ao longo dos anos.
-// Mesmo grafico do /02/, mas com uma cor solida por UF e as ondas empilhadas
-// do maior range medio (atras) para o menor (na frente).
+// Frontend /03/: heatmap de precos reais por UF x ano.
+// Mesma pagina do /02/ (barras da mediana nacional, faixa de governos, trava
+// por clique), mas no lugar do streamgraph vai um grid de quadrados: uma linha
+// por UF e uma coluna por ano.
 // Le apenas web/dados/ondas.json (gerado por src/compilar-ondas.js).
-//
-// Cada onda e uma UF:
-//   - o centro segue a mediana real do ano;
-//   - a espessura e o range (max - min) do ano, desenhado simetricamente em
-//     torno da mediana. Minimo e maximo reais aparecem no tooltip.
 
 import { GOVERNOS } from "../governos.js";
 
@@ -28,77 +24,36 @@ const BARRAS_BASE = MARGEM.top - 18;
 const BARRAS_ALTURA = 90;
 const BARRAS_TOPO = BARRAS_BASE - BARRAS_ALTURA;
 
-const ESPESSURA_MIN = 1.4;
-const RAIO_HOVER = 32;
-
-// Paleta categorica: 9 familias de matiz x 3 variacoes (escura, media, clara).
-const CORES = [
-  "#b81e2b",
-  "#e23645",
-  "#e7747e",
-  "#b85e1e",
-  "#e27e36",
-  "#e7a474",
-  "#b8921e",
-  "#e2b736",
-  "#e7ca74",
-  "#5eb81e",
-  "#7ee236",
-  "#a4e774",
-  "#1eb878",
-  "#36e29b",
-  "#74e7b7",
-  "#1e9fb8",
-  "#36c6e2",
-  "#74d3e7",
-  "#1e51b8",
-  "#3670e2",
-  "#749ae7",
-  "#5e1eb8",
-  "#7e36e2",
-  "#a474e7",
-  "#b81e92",
-  "#e236b7",
-  "#e774ca",
+// Rampa de cor da home: ciano (mais barato) -> azuis escuros -> preto (caro).
+const PARADAS = [
+  [0.0, [0, 255, 255]],
+  [0.2, [0, 200, 235]],
+  [0.4, [0, 130, 200]],
+  [0.6, [0, 70, 140]],
+  [0.8, [5, 30, 75]],
+  [1.0, [0, 0, 0]],
 ];
 
-const CORES_POR_UF = new Map();
-
-/** Distribui a paleta em ordem alfabetica com passo 7, para variar a familia. */
-function atribuirCores(estados) {
-  const ordenados = estados.slice().sort((a, b) => a.uf.localeCompare(b.uf));
-  ordenados.forEach((estado, indice) => {
-    CORES_POR_UF.set(estado.uf, CORES[(indice * 7) % CORES.length]);
-  });
+function corDaEscala(t) {
+  const x = Math.max(0, Math.min(1, t));
+  for (let i = 1; i < PARADAS.length; i++) {
+    const [p1, c1] = PARADAS[i - 1];
+    const [p2, c2] = PARADAS[i];
+    if (x <= p2) {
+      const f = (x - p1) / (p2 - p1 || 1);
+      const c = c1.map((v, j) => Math.round(v + (c2[j] - v) * f));
+      return `rgb(${c[0]}, ${c[1]}, ${c[2]})`;
+    }
+  }
+  const ultima = PARADAS[PARADAS.length - 1][1];
+  return `rgb(${ultima[0]}, ${ultima[1]}, ${ultima[2]})`;
 }
 
-function corDaUf(uf) {
-  return CORES_POR_UF.get(uf) ?? "#29a8de";
-}
-
-function luminancia(hex) {
-  const valor = hex.replace("#", "");
-  const canais = [0, 2, 4].map((inicio) => {
-    const canal = parseInt(valor.slice(inicio, inicio + 2), 16) / 255;
-    return canal <= 0.03928
-      ? canal / 12.92
-      : ((canal + 0.055) / 1.055) ** 2.4;
-  });
-  return 0.2126 * canais[0] + 0.7152 * canais[1] + 0.0722 * canais[2];
-}
-
-/** Texto/linha que contrasta com a cor solida do estado. */
-function corDoTexto(cor) {
-  return luminancia(cor) > 0.179 ? "#1c2230" : "#ffffff";
-}
-
-/** Espessura media da faixa (max - min) do estado, usada para empilhar. */
-function faixaMedia(estado) {
-  if (!estado.pontos.length) return 0;
-
-  let soma = 0;
-  for (const ponto of estado.pontos) soma += ponto.max - ponto.min;
-  return soma / estado.pontos.length;
+function gradienteCss() {
+  const partes = PARADAS.map(
+    ([p, c]) => `rgb(${c[0]}, ${c[1]}, ${c[2]}) ${Math.round(p * 100)}%`,
+  );
+  return `linear-gradient(90deg, ${partes.join(", ")})`;
 }
 
 const tooltip = document.getElementById("tooltip");
@@ -201,84 +156,6 @@ function prepararEstados(dados) {
   });
 }
 
-function calcularDominio(estados) {
-  let minimo = Infinity;
-  let maximo = -Infinity;
-
-  for (const estado of estados) {
-    for (const ponto of estado.pontos) {
-      const metade = (ponto.max - ponto.min) / 2;
-      minimo = Math.min(minimo, ponto.med - metade);
-      maximo = Math.max(maximo, ponto.med + metade);
-    }
-  }
-
-  return { minimo: minimo - 0.6, maximo: maximo + 0.6 };
-}
-
-/** Segmentos de uma curva Catmull-Rom convertidos para cubicas de Bezier. */
-function segmentos(xs, ys) {
-  const total = xs.length;
-  const lista = [];
-
-  for (let i = 0; i < total - 1; i++) {
-    const i0 = Math.max(0, i - 1);
-    const i1 = i;
-    const i2 = i + 1;
-    const i3 = Math.min(total - 1, i + 2);
-
-    lista.push({
-      x0: xs[i1],
-      y0: ys[i1],
-      c1x: xs[i1] + (xs[i2] - xs[i0]) / 6,
-      c1y: ys[i1] + (ys[i2] - ys[i0]) / 6,
-      c2x: xs[i2] - (xs[i3] - xs[i1]) / 6,
-      c2y: ys[i2] - (ys[i3] - ys[i1]) / 6,
-      x1: xs[i2],
-      y1: ys[i2],
-    });
-  }
-
-  return lista;
-}
-
-function caminhoSuave(xs, ys) {
-  const lista = segmentos(xs, ys);
-  if (!lista.length) return "";
-
-  let d = `M ${lista[0].x0.toFixed(2)} ${lista[0].y0.toFixed(2)}`;
-  for (const s of lista) {
-    d += ` C ${s.c1x.toFixed(2)} ${s.c1y.toFixed(2)},`;
-    d += ` ${s.c2x.toFixed(2)} ${s.c2y.toFixed(2)},`;
-    d += ` ${s.x1.toFixed(2)} ${s.y1.toFixed(2)}`;
-  }
-  return d;
-}
-
-function caminhoFita(xs, cima, baixo) {
-  const segmentosCima = segmentos(xs, cima);
-  const segmentosBaixo = segmentos(xs, baixo);
-  if (!segmentosCima.length || !segmentosBaixo.length) return "";
-
-  let d = `M ${segmentosCima[0].x0.toFixed(2)} ${segmentosCima[0].y0.toFixed(2)}`;
-  for (const s of segmentosCima) {
-    d += ` C ${s.c1x.toFixed(2)} ${s.c1y.toFixed(2)},`;
-    d += ` ${s.c2x.toFixed(2)} ${s.c2y.toFixed(2)},`;
-    d += ` ${s.x1.toFixed(2)} ${s.y1.toFixed(2)}`;
-  }
-
-  const ultimoBaixo = segmentosBaixo[segmentosBaixo.length - 1];
-  d += ` L ${ultimoBaixo.x1.toFixed(2)} ${ultimoBaixo.y1.toFixed(2)}`;
-
-  for (let i = segmentosBaixo.length - 1; i >= 0; i--) {
-    const s = segmentosBaixo[i];
-    d += ` C ${s.c2x.toFixed(2)} ${s.c2y.toFixed(2)},`;
-    d += ` ${s.c1x.toFixed(2)} ${s.c1y.toFixed(2)},`;
-    d += ` ${s.x0.toFixed(2)} ${s.y0.toFixed(2)}`;
-  }
-
-  return `${d} Z`;
-}
 
 /**
  * Serie nacional: para cada ano, a mediana das medianas estaduais.
@@ -311,7 +188,7 @@ function calcularMedianaBrasil(estados, anos) {
   return serie;
 }
 
-function montarGrafico(dados, estados, dominio) {
+function montarGrafico(dados, estados) {
   const container = document.getElementById("grafico");
   container.innerHTML = "";
 
@@ -319,7 +196,7 @@ function montarGrafico(dados, estados, dominio) {
     viewBox: `0 0 ${LARGURA} ${ALTURA}`,
     role: "img",
     "aria-label":
-      "Streamgraph de preços reais por unidade da federação entre 1980 e 2026, " +
+      "Heatmap de preços reais por unidade da federação e ano entre 1980 e 2026, " +
       "com as barras da mediana nacional por ano acima do gráfico",
   });
 
@@ -334,17 +211,30 @@ function montarGrafico(dados, estados, dominio) {
 
   const escalaX = (ano) =>
     PLOT.x + (ano - ANO_MIN + 0.5) * passoAno;
-  const escalaY = (valor) =>
-    PLOT.y +
-    (1 - (valor - dominio.minimo) / (dominio.maximo - dominio.minimo)) *
-      PLOT.h;
-  const pxPorReal = PLOT.h / (dominio.maximo - dominio.minimo);
   const anoEmX = (px) =>
     ANO_MIN + (px - PLOT.x) / passoAno - 0.5;
 
   const larguraBarra = Math.max(3, passoAno * 0.62);
   const barrasInicio = PLOT.x;
   const barrasFim = PLOT.x + PLOT.w;
+
+  // --- heatmap: uma linha por UF (alfabetica), uma coluna por ano ---------
+  const linhas = estados.slice().sort((a, b) => a.uf.localeCompare(b.uf));
+  const alturaLinha = PLOT.h / linhas.length;
+  const alturaCelula = alturaLinha - 2;
+  const larguraCelula = passoAno - 2;
+
+  let medianaMin = Infinity;
+  let medianaMax = -Infinity;
+
+  for (const estado of linhas) {
+    for (const ponto of estado.pontos) {
+      medianaMin = Math.min(medianaMin, ponto.med);
+      medianaMax = Math.max(medianaMax, ponto.med);
+    }
+  }
+
+  const amplitudeMediana = medianaMax - medianaMin || 1;
 
   // Barras da mediana nacional. A escala e recortada entre o minimo e o
   // maximo da serie (com folga de meio real) para a variacao ficar legivel.
@@ -356,19 +246,7 @@ function montarGrafico(dados, estados, dominio) {
     BARRAS_BASE -
     ((valor - baseBarra) / (topoBarra - baseBarra)) * BARRAS_ALTURA;
 
-  // Recorte para as fitas e as barras nao invadirem os eixos.
   const defs = criarSvg("defs");
-  const recorte = criarSvg("clipPath", { id: "recorte-ondas" });
-  recorte.appendChild(
-    criarSvg("rect", {
-      x: PLOT.x,
-      y: PLOT.y,
-      width: PLOT.w,
-      height: PLOT.h,
-    }),
-  );
-  defs.appendChild(recorte);
-
   const recorteBarras = criarSvg("clipPath", { id: "recorte-barras" });
   recorteBarras.appendChild(
     criarSvg("rect", {
@@ -380,29 +258,6 @@ function montarGrafico(dados, estados, dominio) {
   );
   defs.appendChild(recorteBarras);
   svg.appendChild(defs);
-
-  // Grade horizontal e rotulos do eixo Y.
-  const primeiroTick = Math.ceil(dominio.minimo / 5) * 5;
-  for (let valor = primeiroTick; valor <= dominio.maximo; valor += 5) {
-    const y = escalaY(valor);
-    svg.appendChild(
-      criarSvg("line", {
-        x1: PLOT.x,
-        y1: y,
-        x2: PLOT.x + PLOT.w,
-        y2: y,
-        class: "grade",
-      }),
-    );
-    const rotulo = criarSvg("text", {
-      x: PLOT.x - 12,
-      y: y + 3.5,
-      "text-anchor": "end",
-      class: "rotulo-y",
-    });
-    rotulo.textContent = `R$ ${valor}`;
-    svg.appendChild(rotulo);
-  }
 
   // Faixa dos governos, sem colunas: apenas nomes e divisores discretos.
   svg.appendChild(
@@ -510,81 +365,77 @@ function montarGrafico(dados, estados, dominio) {
     svg.appendChild(grupoBarras);
   }
 
-  // Ondas.
-  const grupoOndas = criarSvg("g", {
-    class: "ondas",
-    "clip-path": "url(#recorte-ondas)",
-  });
+  // Heatmap: 27 linhas (UFs) x 47 colunas (anos).
+  const grupoHeatmap = criarSvg("g", { class: "heatmap" });
+  const gruposLinha = new Map();
+  const celulas = new Map();
 
-  const grupos = new Map();
-
-  // Maior range medio atras, menor range medio na frente (ultimo no SVG).
-  const ordemOndas = estados
-    .filter((estado) => estado.pontos.length)
-    .sort((a, b) => faixaMedia(b) - faixaMedia(a));
-
-  for (const estado of ordemOndas) {
-    const xs = estado.pontos.map((ponto) => escalaX(ponto.ano));
-    const centros = estado.pontos.map((ponto) => escalaY(ponto.med));
-    const metades = estado.pontos.map((ponto) =>
-      Math.max(
-        ((ponto.max - ponto.min) / 2) * pxPorReal,
-        ESPESSURA_MIN / 2,
-      ),
-    );
-
-    // Meia faixa de "cap" nas pontas: a onda comeca meio ano antes do primeiro
-    // ano com dado e termina meio ano depois do ultimo, ate a borda do plot.
-    if (estado.porAno.has(ANO_MIN)) {
-      xs.unshift(PLOT.x);
-      centros.unshift(centros[0]);
-      metades.unshift(metades[0]);
-    }
-
-    if (estado.porAno.has(ANO_MAX)) {
-      xs.push(PLOT.x + PLOT.w);
-      centros.push(centros[centros.length - 1]);
-      metades.push(metades[metades.length - 1]);
-    }
-
-    const cor = corDaUf(estado.uf);
-
+  linhas.forEach((estado, indice) => {
+    const yLinha = PLOT.y + indice * alturaLinha;
     const grupo = criarSvg("g", {
-      class: "onda-grupo",
+      class: "hm-linha",
       "data-uf": estado.uf,
     });
-    grupo.style.setProperty("--cor", cor);
-    grupo.style.setProperty("--cor-centro", corDoTexto(cor));
 
-    const fita = criarSvg("path", {
-      class: "fita",
-      d: caminhoFita(
-        xs,
-        centros.map((centro, i) => centro - metades[i]),
-        centros.map((centro, i) => centro + metades[i]),
-      ),
+    grupo.appendChild(
+      criarSvg("rect", {
+        class: "hm-fundo",
+        x: PLOT.x,
+        y: yLinha.toFixed(2),
+        width: PLOT.w,
+        height: alturaLinha.toFixed(2),
+      }),
+    );
+
+    for (const ano of anos) {
+      const ponto = estado.porAno.get(ano);
+      const celula = criarSvg("rect", {
+        class: ponto ? "hm-celula" : "hm-celula sem-dados",
+        x: (escalaX(ano) - larguraCelula / 2).toFixed(2),
+        y: (yLinha + 1).toFixed(2),
+        width: larguraCelula.toFixed(2),
+        height: alturaCelula.toFixed(2),
+        rx: 2,
+      });
+
+      if (ponto) {
+        const t = (ponto.med - medianaMin) / amplitudeMediana;
+        celula.setAttribute("fill", corDaEscala(t));
+        celula.dataset.ano = String(ano);
+        celulas.set(`${estado.uf}:${ano}`, celula);
+      }
+
+      grupo.appendChild(celula);
+    }
+
+    const rotulo = criarSvg("text", {
+      class: "hm-rotulo",
+      x: PLOT.x - 8,
+      y: (yLinha + alturaLinha / 2 + 3.5).toFixed(2),
+      "text-anchor": "end",
     });
+    rotulo.textContent = estado.uf;
+    grupo.appendChild(rotulo);
 
-    const centro = criarSvg("path", {
-      class: "centro",
-      d: caminhoSuave(xs, centros),
-    });
+    grupo.appendChild(
+      criarSvg("rect", {
+        class: "hm-contorno",
+        x: PLOT.x,
+        y: yLinha.toFixed(2),
+        width: PLOT.w,
+        height: alturaLinha.toFixed(2),
+        rx: 2,
+      }),
+    );
 
-    grupo.appendChild(fita);
-    grupo.appendChild(centro);
-    grupoOndas.appendChild(grupo);
-    grupos.set(estado.uf, grupo);
-  }
+    grupoHeatmap.appendChild(grupo);
+    gruposLinha.set(estado.uf, grupo);
+  });
 
-  // Ordem de empilhamento de referencia, para o destaque poder ser desfeito.
-  const ordemBase = ordemOndas
-    .map((estado) => grupos.get(estado.uf))
-    .filter(Boolean);
-
-  svg.appendChild(grupoOndas);
+  svg.appendChild(grupoHeatmap);
 
   // Divisorias dos governos: pontilhadas, dos governos ate o eixo dos anos,
-  // por cima das barras e das ondas.
+  // por cima das barras e do heatmap.
   const divisorias = criarSvg("g", {
     class: "governos-divisorias",
     "aria-hidden": "true",
@@ -670,36 +521,23 @@ function montarGrafico(dados, estados, dominio) {
   });
   const guiaAnoFundo = criarSvg("rect", {
     x: PLOT.x,
-    y: PLOT.y + 4,
+    y: PLOT.y - 18,
     width: 46,
-    height: 18,
-    rx: 9,
-    ry: 9,
+    height: 16,
+    rx: 8,
+    ry: 8,
     class: "guia-ano-fundo",
   });
   const guiaAno = criarSvg("text", {
     x: PLOT.x + 23,
-    y: PLOT.y + 17,
+    y: PLOT.y - 6,
     "text-anchor": "middle",
     class: "guia-ano",
-  });
-  const guiaPonto = criarSvg("circle", {
-    cx: PLOT.x,
-    cy: PLOT.y,
-    r: 4,
-    class: "guia-ponto",
-  });
-  const guiaUf = criarSvg("text", {
-    x: PLOT.x,
-    y: PLOT.y,
-    class: "guia-uf",
   });
 
   guia.appendChild(guiaLinha);
   guia.appendChild(guiaAnoFundo);
   guia.appendChild(guiaAno);
-  guia.appendChild(guiaPonto);
-  guia.appendChild(guiaUf);
   svg.appendChild(guia);
 
   // Camada transparente que captura o mouse na faixa das barras e no grafico.
@@ -716,7 +554,7 @@ function montarGrafico(dados, estados, dominio) {
 
   // --- estado do destaque ------------------------------------------------
 
-  // UF presa por clique (chip ou onda do grafico); null = apenas hover.
+  // UF presa por clique (chip ou celula do heatmap); null = apenas hover.
   let ufTravada = null;
 
   const chips = new Map();
@@ -724,23 +562,14 @@ function montarGrafico(dados, estados, dominio) {
     chips.set(chip.dataset.uf, chip);
   }
 
-  function restaurarOrdemOndas() {
-    for (const grupo of ordemBase) grupoOndas.appendChild(grupo);
-  }
-
   function aplicarDestaque(uf) {
-    grupoOndas.classList.toggle("explorando", uf != null);
-
-    if (uf == null) restaurarOrdemOndas();
-
-    for (const [ufEstado, grupo] of grupos) {
-      const destacado = uf != null && ufEstado === uf;
+    for (const [ufLinha, grupo] of gruposLinha) {
+      const destacado = uf != null && ufLinha === uf;
       grupo.classList.toggle("destaque", destacado);
-      grupo.classList.toggle("apagada", uf != null && !destacado);
-
-      if (destacado && grupo.parentNode.lastElementChild !== grupo) {
-        grupo.parentNode.appendChild(grupo);
-      }
+      grupo.classList.toggle(
+        "travada",
+        ufTravada != null && ufLinha === ufTravada,
+      );
     }
 
     for (const [ufChip, chip] of chips) {
@@ -763,14 +592,24 @@ function montarGrafico(dados, estados, dominio) {
     }
   }
 
+  let celulaAtiva = null;
+
+  function destacarCelula(uf, ano) {
+    if (celulaAtiva) celulaAtiva.classList.remove("ativa");
+    celulaAtiva =
+      uf == null || ano == null ? null : celulas.get(`${uf}:${ano}`) ?? null;
+    if (celulaAtiva) celulaAtiva.classList.add("ativa");
+  }
+
   function esconderGuia() {
     guia.classList.add("oculto");
     tooltip.classList.add("oculto");
     destacarBarra(null);
+    destacarCelula(null, null);
   }
 
   function mostrarGuia(resultado) {
-    const { ano, ponto } = resultado;
+    const { ano } = resultado;
     const x = escalaX(ano);
 
     guiaLinha.setAttribute("x1", x);
@@ -783,34 +622,17 @@ function montarGrafico(dados, estados, dominio) {
       PLOT.x + PLOT.w - 46,
     );
     guiaAnoFundo.setAttribute("x", fundoX);
-    guiaAnoFundo.setAttribute("y", PLOT.y + 4);
+    guiaAnoFundo.setAttribute("y", PLOT.y - 18);
 
     guiaAno.setAttribute("x", fundoX + 23);
-    guiaAno.setAttribute("y", PLOT.y + 17);
+    guiaAno.setAttribute("y", PLOT.y - 6);
     guiaAno.textContent = ano;
 
     destacarBarra(ano);
-
-    // Na faixa das barras so aparecem a guia e o ano, sem ponto nem UF.
-    const ehBrasil = resultado.tipo === "brasil";
-    guiaPonto.classList.toggle("oculto", ehBrasil);
-    guiaUf.classList.toggle("oculto", ehBrasil);
-    guiaPonto.style.fill = ehBrasil
-      ? ""
-      : corDaUf(resultado.estado.uf);
-
-    if (!ehBrasil) {
-      const y = escalaY(ponto.med);
-
-      guiaPonto.setAttribute("cx", x);
-      guiaPonto.setAttribute("cy", y);
-
-      const pertoDaDireita = x > PLOT.x + PLOT.w - 46;
-      guiaUf.setAttribute("x", pertoDaDireita ? x - 10 : x + 10);
-      guiaUf.setAttribute("y", y - 8);
-      guiaUf.setAttribute("text-anchor", pertoDaDireita ? "end" : "start");
-      guiaUf.textContent = resultado.estado.uf;
-    }
+    destacarCelula(
+      resultado.tipo === "uf" ? resultado.estado.uf : null,
+      resultado.tipo === "uf" ? ano : null,
+    );
 
     guia.classList.remove("oculto");
   }
@@ -829,11 +651,7 @@ function montarGrafico(dados, estados, dominio) {
         criarHtml("span", "tt-nome", "Brasil · mediana das UFs"),
       );
     } else {
-      const cor = corDaUf(resultado.estado.uf);
-      const chip = criarHtml("span", "tt-uf", resultado.estado.uf);
-      chip.style.background = cor;
-      chip.style.color = corDoTexto(cor);
-      topo.appendChild(chip);
+      topo.appendChild(criarHtml("span", "tt-uf", resultado.estado.uf));
       topo.appendChild(criarHtml("span", "tt-nome", resultado.estado.nome));
     }
     topo.appendChild(criarHtml("span", "tt-ano", String(ano)));
@@ -912,7 +730,7 @@ function montarGrafico(dados, estados, dominio) {
     esconderGuia();
   }
 
-  function pontoDoEvento(evento, filtroUf = null) {
+  function pontoDoEvento(evento) {
     const matriz = svg.getScreenCTM();
     if (!matriz) return null;
 
@@ -935,7 +753,7 @@ function montarGrafico(dados, estados, dominio) {
       Math.min(ANO_MAX, Math.round(anoEmX(local.x))),
     );
 
-    // Faixa das barras: leitura nacional, nao disputa com as ondas.
+    // Faixa das barras: leitura nacional, nao disputa com o heatmap.
     if (local.y < PLOT.y) {
       const dadosAno = brasil.get(ano);
       if (!dadosAno) return null;
@@ -948,51 +766,33 @@ function montarGrafico(dados, estados, dominio) {
       };
     }
 
-    let melhor = null;
+    const indice = Math.min(
+      linhas.length - 1,
+      Math.max(0, Math.floor((local.y - PLOT.y) / alturaLinha)),
+    );
+    const estado = linhas[indice];
 
-    for (const estado of estados) {
-      if (filtroUf != null && estado.uf !== filtroUf) continue;
+    // Com UF travada, so as celulas dela respondem ao mouse.
+    if (ufTravada != null && estado.uf !== ufTravada) return null;
 
-      const dadosAno = estado.porAno.get(ano);
-      if (!dadosAno) continue;
+    const dadosAno = estado.porAno.get(ano);
+    if (!dadosAno) return null;
 
-      const centroY = escalaY(dadosAno.med);
-      const metade = Math.max(
-        ((dadosAno.max - dadosAno.min) / 2) * pxPorReal,
-        ESPESSURA_MIN / 2,
-      );
-      const dentro =
-        local.y >= centroY - metade && local.y <= centroY + metade;
-      const distancia = Math.abs(local.y - centroY);
-
-      if (
-        !melhor ||
-        (dentro && !melhor.dentro) ||
-        (dentro === melhor.dentro && distancia < melhor.distancia)
-      ) {
-        melhor = {
-          tipo: "uf",
-          estado,
-          ponto: dadosAno,
-          ano,
-          dentro,
-          distancia,
-          clientX: evento.clientX,
-          clientY: evento.clientY,
-        };
-      }
-    }
-
-    if (!melhor) return null;
-    if (!melhor.dentro && melhor.distancia > RAIO_HOVER) return null;
-    return melhor;
+    return {
+      tipo: "uf",
+      estado,
+      ponto: dadosAno,
+      ano,
+      clientX: evento.clientX,
+      clientY: evento.clientY,
+    };
   }
 
   // --- eventos -----------------------------------------------------------
 
   overlay.addEventListener("pointermove", (evento) => {
-    // Com UF travada, so ela responde ao mouse (as barras seguem nacionais).
-    const resultado = pontoDoEvento(evento, ufTravada);
+    // Com UF travada, so as celulas dela respondem (as barras seguem nacionais).
+    const resultado = pontoDoEvento(evento);
 
     if (!resultado) {
       if (ufTravada == null) {
@@ -1019,7 +819,7 @@ function montarGrafico(dados, estados, dominio) {
     else esconderGuia();
   });
 
-  // Clique (mouse ou toque) trava a onda sob o cursor; fora das ondas, solta.
+  // Clique (mouse ou toque) trava a UF da celula; fora das celulas, solta.
   overlay.addEventListener("pointerdown", (evento) => {
     const resultado = pontoDoEvento(evento);
 
@@ -1092,7 +892,6 @@ function montarLegenda(estados) {
     chip.dataset.nome = estado.nome;
     chip.title = `${estado.nome} — clique para travar`;
     chip.textContent = estado.uf;
-    chip.style.setProperty("--cor", corDaUf(estado.uf));
     chip.setAttribute("aria-label", `${estado.uf} — ${estado.nome}`);
     lista.appendChild(chip);
   }
@@ -1117,10 +916,6 @@ async function main() {
     throw new Error("ondas.json nao tem estados.");
   }
 
-  atribuirCores(estados);
-
-  const dominio = calcularDominio(estados);
-
   const produto = dados.produto;
   if (produto) {
     const rotulo =
@@ -1130,7 +925,10 @@ async function main() {
   }
 
   montarLegenda(estados);
-  montarGrafico(dados, estados, dominio);
+  montarGrafico(dados, estados);
+
+  const legenda = document.getElementById("legBarra");
+  if (legenda) legenda.style.background = gradienteCss();
 
   carregando.classList.add("oculto");
 }
