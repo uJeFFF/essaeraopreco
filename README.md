@@ -60,6 +60,8 @@ O envio de notas reais ainda é roadmap. O fluxo planejado é:
   destaque no hover e barras da mediana nacional.
 - Heatmap **UF × ano** em `/03/`, com barras da mediana nacional, faixa de
   governos e trava por clique na linha da UF.
+- Bolhas **UF × ano** em `/07/`: uma linha por UF, bolha com área proporcional
+  ao preço e X nos anos sem nota.
 - Deploy estático configurado para a Vercel.
 
 ## Roadmap
