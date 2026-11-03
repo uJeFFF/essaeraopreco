@@ -8,6 +8,8 @@ const obrigatorios = [
   'web/styles.css',
   'web/app.js',
   'web/governos.js',
+  'web/menu.css',
+  'web/menu.js',
   'web/favicon.svg',
   'web/dados/base.json',
   'web/dados/ondas.json',
@@ -17,6 +19,9 @@ const obrigatorios = [
   'web/03/index.html',
   'web/03/styles.css',
   'web/03/app.js',
+  'web/08/index.html',
+  'web/08/styles.css',
+  'web/08/app.js',
 ];
 
 try {

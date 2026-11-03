@@ -62,6 +62,9 @@ O envio de notas reais ainda é roadmap. O fluxo planejado é:
   governos e trava por clique na linha da UF.
 - Bolhas **UF × ano** em `/07/`: uma linha por UF, bolha com área proporcional
   ao preço e X nos anos sem nota.
+- Radial **UF × ano** em `/08/`: 28 anéis (1999–2026) e 27 colunas em 270°,
+  com quatro modos de camada (tamanho, cor, heatmap e mín–máx),
+  barras da mediana nacional e a faixa de governos no vão.
 - Deploy estático configurado para a Vercel.
 
 ## Roadmap

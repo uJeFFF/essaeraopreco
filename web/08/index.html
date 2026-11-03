@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ESSE ERA O PREÇO · Radial</title>
+    <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="../menu.css" />
+  </head>
+  <body>
+    <main class="radial">
+      <header class="radial-topo">
+        <p class="radial-kicker">ESSE ERA O PREÇO</p>
+        <h1>
+          <span id="produto">1KG DE CARNE</span>
+          <span id="periodo" class="radial-periodo"></span>
+        </h1>
+        <p class="radial-sub">Mediana por UF e ano · escala = preço</p>
+      </header>
+
+      <div class="radial-area">
+        <div id="grafico" class="grafico-radial"></div>
+        <p id="carregando" class="aviso">Carregando dados…</p>
+        <p id="erro" class="aviso erro oculto" role="alert"></p>
+      </div>
+
+      <div class="radial-legenda" id="legenda"></div>
+    </main>
+
+    <div class="opcoes" id="opcoes">
+      <button
+        class="opcoes-aba"
+        type="button"
+        aria-label="Abrir opções de visualização"
+        aria-expanded="false"
+        aria-controls="opcoes-painel"
+      >
+        <svg viewBox="0 0 16 16" aria-hidden="true" focusable="false">
+          <rect x="2" y="3" width="12" height="2" rx="1" fill="currentColor" />
+          <rect x="2" y="7" width="12" height="2" rx="1" fill="currentColor" />
+          <rect x="2" y="11" width="12" height="2" rx="1" fill="currentColor" />
+        </svg>
+      </button>
+      <div class="opcoes-painel" id="opcoes-painel">
+        <p class="opcoes-titulo">CAMADAS</p>
+        <div
+          class="opcoes-lista"
+          role="radiogroup"
+          aria-label="Modo de visualização"
+        >
+          <button
+            class="opcao"
+            type="button"
+            role="radio"
+            aria-checked="false"
+            data-modo="tamanho"
+          >
+            Tamanho
+          </button>
+          <button
+            class="opcao"
+            type="button"
+            role="radio"
+            aria-checked="true"
+            data-modo="cor"
+          >
+            Cor
+          </button>
+          <button
+            class="opcao"
+            type="button"
+            role="radio"
+            aria-checked="false"
+            data-modo="heatmap"
+          >
+            Heatmap
+          </button>
+          <button
+            class="opcao"
+            type="button"
+            role="radio"
+            aria-checked="false"
+            data-modo="faixa"
+          >
+            Mín–máx
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div id="tooltip" class="tooltip oculto" role="tooltip"></div>
+    <script type="module" src="app.js"></script>
+    <script type="module" src="../menu.js"></script>
+  </body>
+</html>
