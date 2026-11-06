@@ -1,0 +1,325 @@
+﻿cidade;uf;corte;ancora_tipo;ancora_mes;status;inpc_regiao;inpc_item;primeiro_mes;ultimo_mes;meses_com_valor;lacunas;observacao
+Aracaju;SE;acém;derivado;2026-08;serie;AJU;acem;2018-04;2026-09;102;0;
+Aracaju;SE;alcatra;observado;2025-09;serie;AJU;alcatra;2018-04;2026-09;102;0;
+Aracaju;SE;capa de filé;derivado;2026-08;serie;AJU;capa de file;2019-12;2026-09;82;0;
+Aracaju;SE;contrafilé;observado;2025-09;serie;AJU;contrafile;2019-12;2026-09;82;0;
+Aracaju;SE;costela;observado;2025-09;serie;AJU;costela;2018-04;2026-09;102;0;
+Aracaju;SE;coxão duro;observado;2025-09;sem_item_inpc;AJU;;;;0;0;
+Aracaju;SE;coxão mole;observado;2025-09;serie;AJU;cha de dentro;2018-04;2026-09;102;0;
+Aracaju;SE;filé-mignon;observado;2025-09;sem_serie_regional_no_mes_ancora;AJU;file-mignon;;;0;0;INPC regional não existe para o corte
+Aracaju;SE;lagarto;observado;2025-09;serie;AJU;lagarto comum;2018-04;2026-09;102;0;
+Aracaju;SE;músculo;observado;2025-09;serie;AJU;musculo;2018-04;2026-09;102;0;
+Aracaju;SE;patinho;observado;2025-09;sem_serie_regional_no_mes_ancora;AJU;patinho;;;0;0;INPC regional termina em 2019-12
+Aracaju;SE;picanha;observado;2025-09;sem_serie_regional_no_mes_ancora;AJU;picanha;;;0;0;INPC regional não existe para o corte
+Belo Horizonte;MG;acém;observado;2026-10;aguarda_inpc;BH;acem;;;0;0;INPC de 2026-10 ainda não publicado (último: 2026-09)
+Belo Horizonte;MG;alcatra;observado;2026-10;aguarda_inpc;BH;alcatra;;;0;0;INPC de 2026-10 ainda não publicado (último: 2026-09)
+Belo Horizonte;MG;capa de filé;derivado;2026-08;sem_serie_regional_no_mes_ancora;BH;capa de file;;;0;0;INPC regional não existe para o corte
+Belo Horizonte;MG;contrafilé;observado;2026-10;aguarda_inpc;BH;contrafile;;;0;0;INPC de 2026-10 ainda não publicado (último: 2026-09)
+Belo Horizonte;MG;costela;derivado;2026-08;serie;BH;costela;2007-12;2026-09;226;0;
+Belo Horizonte;MG;coxão duro;observado;2026-10;sem_item_inpc;BH;;;;0;0;
+Belo Horizonte;MG;coxão mole;observado;2026-10;aguarda_inpc;BH;cha de dentro;;;0;0;INPC de 2026-10 ainda não publicado (último: 2026-09)
+Belo Horizonte;MG;filé-mignon;observado;2026-10;sem_serie_regional_no_mes_ancora;BH;file-mignon;;;0;0;INPC regional não existe para o corte
+Belo Horizonte;MG;lagarto;derivado;2026-08;sem_serie_regional_no_mes_ancora;BH;lagarto comum;;;0;0;INPC regional termina em 2019-12
+Belo Horizonte;MG;músculo;observado;2026-10;aguarda_inpc;BH;musculo;;;0;0;INPC de 2026-10 ainda não publicado (último: 2026-09)
+Belo Horizonte;MG;patinho;observado;2026-10;aguarda_inpc;BH;patinho;;;0;0;INPC de 2026-10 ainda não publicado (último: 2026-09)
+Belo Horizonte;MG;picanha;observado;2026-10;aguarda_inpc;BH;picanha;;;0;0;INPC de 2026-10 ainda não publicado (último: 2026-09)
+Belém;PA;acém;derivado;2026-08;serie;BEL;acem;2011-12;2026-09;178;0;
+Belém;PA;alcatra;derivado;2026-08;serie;BEL;alcatra;2007-12;2026-09;226;0;
+Belém;PA;capa de filé;derivado;2026-08;serie;BEL;capa de file;2019-12;2026-09;82;0;
+Belém;PA;contrafilé;derivado;2026-08;serie;BEL;contrafile;2007-12;2026-09;226;0;
+Belém;PA;costela;derivado;2026-08;serie;BEL;costela;2007-12;2026-09;226;0;
+Belém;PA;coxão duro;derivado;2026-08;sem_item_inpc;BEL;;;;0;0;
+Belém;PA;coxão mole;derivado;2026-08;serie;BEL;cha de dentro;2011-12;2026-09;178;0;
+Belém;PA;filé-mignon;derivado;2026-08;sem_serie_regional_no_mes_ancora;BEL;file-mignon;;;0;0;INPC regional termina em 2019-12
+Belém;PA;lagarto;derivado;2026-08;sem_serie_regional_no_mes_ancora;BEL;lagarto comum;;;0;0;INPC regional não existe para o corte
+Belém;PA;músculo;derivado;2026-08;serie;BEL;musculo;2011-12;2026-09;178;0;
+Belém;PA;patinho;derivado;2026-08;sem_serie_regional_no_mes_ancora;BEL;patinho;;;0;0;INPC regional termina em 2019-12
+Belém;PA;picanha;derivado;2026-08;sem_serie_regional_no_mes_ancora;BEL;picanha;;;0;0;INPC regional não existe para o corte
+Boa Vista;RR;acém;derivado;2026-08;sem_inpc_regional;;acem;;;0;0;
+Boa Vista;RR;alcatra;derivado;2026-08;sem_inpc_regional;;alcatra;;;0;0;
+Boa Vista;RR;capa de filé;derivado;2026-08;sem_inpc_regional;;capa de file;;;0;0;
+Boa Vista;RR;contrafilé;derivado;2026-08;sem_inpc_regional;;contrafile;;;0;0;
+Boa Vista;RR;costela;derivado;2026-08;sem_inpc_regional;;costela;;;0;0;
+Boa Vista;RR;coxão duro;derivado;2026-08;sem_inpc_regional;;;;;0;0;
+Boa Vista;RR;coxão mole;derivado;2026-08;sem_inpc_regional;;cha de dentro;;;0;0;
+Boa Vista;RR;filé-mignon;derivado;2026-08;sem_inpc_regional;;file-mignon;;;0;0;
+Boa Vista;RR;lagarto;derivado;2026-08;sem_inpc_regional;;lagarto comum;;;0;0;
+Boa Vista;RR;músculo;derivado;2026-08;sem_inpc_regional;;musculo;;;0;0;
+Boa Vista;RR;patinho;derivado;2026-08;sem_inpc_regional;;patinho;;;0;0;
+Boa Vista;RR;picanha;derivado;2026-08;sem_inpc_regional;;picanha;;;0;0;
+Brasília;DF;acém;derivado;2026-08;serie;DF;acem;2007-12;2026-09;226;0;
+Brasília;DF;alcatra;derivado;2026-08;serie;DF;alcatra;2019-12;2026-09;82;0;
+Brasília;DF;capa de filé;derivado;2026-08;serie;DF;capa de file;2019-12;2026-09;82;0;
+Brasília;DF;contrafilé;derivado;2026-08;serie;DF;contrafile;2007-12;2026-09;226;0;
+Brasília;DF;costela;derivado;2026-08;serie;DF;costela;2007-12;2026-09;226;0;
+Brasília;DF;coxão duro;derivado;2026-08;sem_item_inpc;DF;;;;0;0;
+Brasília;DF;coxão mole;derivado;2026-08;serie;DF;cha de dentro;2011-12;2026-09;178;0;
+Brasília;DF;filé-mignon;derivado;2026-08;serie;DF;file-mignon;2019-12;2026-09;82;0;
+Brasília;DF;lagarto;derivado;2026-08;sem_serie_regional_no_mes_ancora;DF;lagarto comum;;;0;0;INPC regional termina em 2019-12
+Brasília;DF;músculo;derivado;2026-08;sem_serie_regional_no_mes_ancora;DF;musculo;;;0;0;INPC regional termina em 2019-12
+Brasília;DF;patinho;derivado;2026-08;serie;DF;patinho;2007-12;2026-09;226;0;
+Brasília;DF;picanha;derivado;2026-08;serie;DF;picanha;2019-12;2026-09;82;0;
+Campo Grande;MS;acém;derivado;2026-08;serie;CG;acem;2013-12;2026-09;154;0;
+Campo Grande;MS;alcatra;derivado;2026-08;serie;CG;alcatra;2013-12;2026-09;154;0;
+Campo Grande;MS;capa de filé;derivado;2026-08;serie;CG;capa de file;2013-12;2026-09;154;0;
+Campo Grande;MS;contrafilé;derivado;2026-08;serie;CG;contrafile;2013-12;2026-09;154;0;
+Campo Grande;MS;costela;derivado;2026-08;serie;CG;costela;2013-12;2026-09;154;0;
+Campo Grande;MS;coxão duro;derivado;2026-08;sem_item_inpc;CG;;;;0;0;
+Campo Grande;MS;coxão mole;derivado;2026-08;serie;CG;cha de dentro;2013-12;2026-09;154;0;
+Campo Grande;MS;filé-mignon;derivado;2026-08;sem_serie_regional_no_mes_ancora;CG;file-mignon;;;0;0;INPC regional não existe para o corte
+Campo Grande;MS;lagarto;derivado;2026-08;serie;CG;lagarto comum;2013-12;2026-09;154;0;
+Campo Grande;MS;músculo;derivado;2026-08;serie;CG;musculo;2019-12;2026-09;82;0;
+Campo Grande;MS;patinho;derivado;2026-08;serie;CG;patinho;2013-12;2026-09;154;0;
+Campo Grande;MS;picanha;derivado;2026-08;sem_serie_regional_no_mes_ancora;CG;picanha;;;0;0;INPC regional não existe para o corte
+Cuiabá;MT;acém;derivado;2026-08;sem_inpc_regional;;acem;;;0;0;
+Cuiabá;MT;alcatra;derivado;2026-08;sem_inpc_regional;;alcatra;;;0;0;
+Cuiabá;MT;capa de filé;derivado;2026-08;sem_inpc_regional;;capa de file;;;0;0;
+Cuiabá;MT;contrafilé;derivado;2026-08;sem_inpc_regional;;contrafile;;;0;0;
+Cuiabá;MT;costela;derivado;2026-08;sem_inpc_regional;;costela;;;0;0;
+Cuiabá;MT;coxão duro;derivado;2026-08;sem_inpc_regional;;;;;0;0;
+Cuiabá;MT;coxão mole;derivado;2026-08;sem_inpc_regional;;cha de dentro;;;0;0;
+Cuiabá;MT;filé-mignon;derivado;2026-08;sem_inpc_regional;;file-mignon;;;0;0;
+Cuiabá;MT;lagarto;derivado;2026-08;sem_inpc_regional;;lagarto comum;;;0;0;
+Cuiabá;MT;músculo;derivado;2026-08;sem_inpc_regional;;musculo;;;0;0;
+Cuiabá;MT;patinho;derivado;2026-08;sem_inpc_regional;;patinho;;;0;0;
+Cuiabá;MT;picanha;derivado;2026-08;sem_inpc_regional;;picanha;;;0;0;
+Curitiba;PR;acém;derivado;2026-08;sem_serie_regional_no_mes_ancora;CUR;acem;;;0;0;INPC regional termina em 2019-12
+Curitiba;PR;alcatra;derivado;2026-08;serie;CUR;alcatra;2007-12;2026-09;226;0;
+Curitiba;PR;capa de filé;derivado;2026-08;serie;CUR;capa de file;2019-12;2026-09;82;0;
+Curitiba;PR;contrafilé;derivado;2026-08;serie;CUR;contrafile;2007-12;2026-09;226;0;
+Curitiba;PR;costela;derivado;2026-08;serie;CUR;costela;2007-12;2026-09;226;0;
+Curitiba;PR;coxão duro;derivado;2026-08;sem_item_inpc;CUR;;;;0;0;
+Curitiba;PR;coxão mole;derivado;2026-08;serie;CUR;cha de dentro;2011-12;2026-09;178;0;
+Curitiba;PR;filé-mignon;derivado;2026-08;sem_serie_regional_no_mes_ancora;CUR;file-mignon;;;0;0;INPC regional termina em 2005-01
+Curitiba;PR;lagarto;derivado;2026-08;serie;CUR;lagarto comum;2019-12;2026-09;82;0;
+Curitiba;PR;músculo;derivado;2026-08;serie;CUR;musculo;2007-12;2026-09;226;0;
+Curitiba;PR;patinho;derivado;2026-08;serie;CUR;patinho;2007-12;2026-09;226;0;
+Curitiba;PR;picanha;derivado;2026-08;sem_serie_regional_no_mes_ancora;CUR;picanha;;;0;0;INPC regional não existe para o corte
+Florianópolis;SC;acém;derivado;2026-08;sem_inpc_regional;;acem;;;0;0;
+Florianópolis;SC;alcatra;derivado;2026-08;sem_inpc_regional;;alcatra;;;0;0;
+Florianópolis;SC;capa de filé;derivado;2026-08;sem_inpc_regional;;capa de file;;;0;0;
+Florianópolis;SC;contrafilé;derivado;2026-08;sem_inpc_regional;;contrafile;;;0;0;
+Florianópolis;SC;costela;derivado;2026-08;sem_inpc_regional;;costela;;;0;0;
+Florianópolis;SC;coxão duro;derivado;2026-08;sem_inpc_regional;;;;;0;0;
+Florianópolis;SC;coxão mole;derivado;2026-08;sem_inpc_regional;;cha de dentro;;;0;0;
+Florianópolis;SC;filé-mignon;derivado;2026-08;sem_inpc_regional;;file-mignon;;;0;0;
+Florianópolis;SC;lagarto;derivado;2026-08;sem_inpc_regional;;lagarto comum;;;0;0;
+Florianópolis;SC;músculo;derivado;2026-08;sem_inpc_regional;;musculo;;;0;0;
+Florianópolis;SC;patinho;derivado;2026-08;sem_inpc_regional;;patinho;;;0;0;
+Florianópolis;SC;picanha;derivado;2026-08;sem_inpc_regional;;picanha;;;0;0;
+Fortaleza;CE;acém;derivado;2026-08;serie;FOR;acem;2007-12;2026-09;226;0;
+Fortaleza;CE;alcatra;derivado;2026-08;serie;FOR;alcatra;2007-12;2026-09;226;0;
+Fortaleza;CE;capa de filé;derivado;2026-08;sem_serie_regional_no_mes_ancora;FOR;capa de file;;;0;0;INPC regional não existe para o corte
+Fortaleza;CE;contrafilé;derivado;2026-08;serie;FOR;contrafile;2007-12;2026-09;226;0;
+Fortaleza;CE;costela;derivado;2026-08;serie;FOR;costela;2007-12;2026-09;226;0;
+Fortaleza;CE;coxão duro;observado;2026-10;sem_item_inpc;FOR;;;;0;0;
+Fortaleza;CE;coxão mole;observado;2026-10;sem_serie_regional_no_mes_ancora;FOR;cha de dentro;;;0;0;INPC regional termina em 2019-12
+Fortaleza;CE;filé-mignon;derivado;2026-08;sem_serie_regional_no_mes_ancora;FOR;file-mignon;;;0;0;INPC regional não existe para o corte
+Fortaleza;CE;lagarto;derivado;2026-08;sem_serie_regional_no_mes_ancora;FOR;lagarto comum;;;0;0;INPC regional não existe para o corte
+Fortaleza;CE;músculo;derivado;2026-08;sem_serie_regional_no_mes_ancora;FOR;musculo;;;0;0;INPC regional não existe para o corte
+Fortaleza;CE;patinho;derivado;2026-08;serie;FOR;patinho;2007-12;2026-09;226;0;
+Fortaleza;CE;picanha;derivado;2026-08;sem_serie_regional_no_mes_ancora;FOR;picanha;;;0;0;INPC regional não existe para o corte
+Goiânia;GO;acém;derivado;2026-08;serie;GOI;acem;2007-12;2026-09;226;0;
+Goiânia;GO;alcatra;derivado;2026-08;serie;GOI;alcatra;2007-12;2026-09;226;0;
+Goiânia;GO;capa de filé;derivado;2026-08;sem_serie_regional_no_mes_ancora;GOI;capa de file;;;0;0;INPC regional não existe para o corte
+Goiânia;GO;contrafilé;derivado;2026-08;serie;GOI;contrafile;2007-12;2026-09;226;0;
+Goiânia;GO;costela;derivado;2026-08;serie;GOI;costela;2007-12;2026-09;226;0;
+Goiânia;GO;coxão duro;derivado;2026-08;sem_item_inpc;GOI;;;;0;0;
+Goiânia;GO;coxão mole;derivado;2026-08;serie;GOI;cha de dentro;2011-12;2026-09;178;0;
+Goiânia;GO;filé-mignon;derivado;2026-08;sem_serie_regional_no_mes_ancora;GOI;file-mignon;;;0;0;INPC regional termina em 2005-01
+Goiânia;GO;lagarto;derivado;2026-08;serie;GOI;lagarto comum;2011-12;2026-09;178;0;
+Goiânia;GO;músculo;derivado;2026-08;serie;GOI;musculo;2007-12;2026-09;226;0;
+Goiânia;GO;patinho;derivado;2026-08;serie;GOI;patinho;2007-12;2026-09;226;0;
+Goiânia;GO;picanha;derivado;2026-08;sem_serie_regional_no_mes_ancora;GOI;picanha;;;0;0;INPC regional não existe para o corte
+João Pessoa;PB;acém;observado;2026-08;sem_inpc_regional;;acem;;;0;0;
+João Pessoa;PB;alcatra;observado;2026-08;sem_inpc_regional;;alcatra;;;0;0;
+João Pessoa;PB;capa de filé;derivado;2026-08;sem_inpc_regional;;capa de file;;;0;0;
+João Pessoa;PB;contrafilé;observado;2026-08;sem_inpc_regional;;contrafile;;;0;0;
+João Pessoa;PB;costela;observado;2026-08;sem_inpc_regional;;costela;;;0;0;
+João Pessoa;PB;coxão duro;observado;2026-08;sem_inpc_regional;;;;;0;0;
+João Pessoa;PB;coxão mole;observado;2026-08;sem_inpc_regional;;cha de dentro;;;0;0;
+João Pessoa;PB;filé-mignon;derivado;2026-08;sem_inpc_regional;;file-mignon;;;0;0;
+João Pessoa;PB;lagarto;derivado;2026-08;sem_inpc_regional;;lagarto comum;;;0;0;
+João Pessoa;PB;músculo;observado;2026-08;sem_inpc_regional;;musculo;;;0;0;
+João Pessoa;PB;patinho;observado;2026-08;sem_inpc_regional;;patinho;;;0;0;
+João Pessoa;PB;picanha;observado;2026-08;sem_inpc_regional;;picanha;;;0;0;
+Macapá;AP;acém;derivado;2026-08;sem_inpc_regional;;acem;;;0;0;
+Macapá;AP;alcatra;derivado;2026-08;sem_inpc_regional;;alcatra;;;0;0;
+Macapá;AP;capa de filé;derivado;2026-08;sem_inpc_regional;;capa de file;;;0;0;
+Macapá;AP;contrafilé;derivado;2026-08;sem_inpc_regional;;contrafile;;;0;0;
+Macapá;AP;costela;derivado;2026-08;sem_inpc_regional;;costela;;;0;0;
+Macapá;AP;coxão duro;derivado;2026-08;sem_inpc_regional;;;;;0;0;
+Macapá;AP;coxão mole;derivado;2026-08;sem_inpc_regional;;cha de dentro;;;0;0;
+Macapá;AP;filé-mignon;derivado;2026-08;sem_inpc_regional;;file-mignon;;;0;0;
+Macapá;AP;lagarto;derivado;2026-08;sem_inpc_regional;;lagarto comum;;;0;0;
+Macapá;AP;músculo;derivado;2026-08;sem_inpc_regional;;musculo;;;0;0;
+Macapá;AP;patinho;derivado;2026-08;sem_inpc_regional;;patinho;;;0;0;
+Macapá;AP;picanha;derivado;2026-08;sem_inpc_regional;;picanha;;;0;0;
+Maceió;AL;acém;derivado;2026-08;sem_inpc_regional;;acem;;;0;0;
+Maceió;AL;alcatra;derivado;2026-08;sem_inpc_regional;;alcatra;;;0;0;
+Maceió;AL;capa de filé;derivado;2026-08;sem_inpc_regional;;capa de file;;;0;0;
+Maceió;AL;contrafilé;derivado;2026-08;sem_inpc_regional;;contrafile;;;0;0;
+Maceió;AL;costela;derivado;2026-08;sem_inpc_regional;;costela;;;0;0;
+Maceió;AL;coxão duro;derivado;2026-08;sem_inpc_regional;;;;;0;0;
+Maceió;AL;coxão mole;derivado;2026-08;sem_inpc_regional;;cha de dentro;;;0;0;
+Maceió;AL;filé-mignon;derivado;2026-08;sem_inpc_regional;;file-mignon;;;0;0;
+Maceió;AL;lagarto;derivado;2026-08;sem_inpc_regional;;lagarto comum;;;0;0;
+Maceió;AL;músculo;derivado;2026-08;sem_inpc_regional;;musculo;;;0;0;
+Maceió;AL;patinho;derivado;2026-08;sem_inpc_regional;;patinho;;;0;0;
+Maceió;AL;picanha;derivado;2026-08;sem_inpc_regional;;picanha;;;0;0;
+Manaus;AM;acém;derivado;2026-08;sem_inpc_regional;;acem;;;0;0;
+Manaus;AM;alcatra;derivado;2026-08;sem_inpc_regional;;alcatra;;;0;0;
+Manaus;AM;capa de filé;derivado;2026-08;sem_inpc_regional;;capa de file;;;0;0;
+Manaus;AM;contrafilé;derivado;2026-08;sem_inpc_regional;;contrafile;;;0;0;
+Manaus;AM;costela;derivado;2026-08;sem_inpc_regional;;costela;;;0;0;
+Manaus;AM;coxão duro;derivado;2026-08;sem_inpc_regional;;;;;0;0;
+Manaus;AM;coxão mole;derivado;2026-08;sem_inpc_regional;;cha de dentro;;;0;0;
+Manaus;AM;filé-mignon;derivado;2026-08;sem_inpc_regional;;file-mignon;;;0;0;
+Manaus;AM;lagarto;derivado;2026-08;sem_inpc_regional;;lagarto comum;;;0;0;
+Manaus;AM;músculo;derivado;2026-08;sem_inpc_regional;;musculo;;;0;0;
+Manaus;AM;patinho;derivado;2026-08;sem_inpc_regional;;patinho;;;0;0;
+Manaus;AM;picanha;derivado;2026-08;sem_inpc_regional;;picanha;;;0;0;
+Natal;RN;acém;derivado;2026-08;sem_inpc_regional;;acem;;;0;0;
+Natal;RN;alcatra;derivado;2026-08;sem_inpc_regional;;alcatra;;;0;0;
+Natal;RN;capa de filé;derivado;2026-08;sem_inpc_regional;;capa de file;;;0;0;
+Natal;RN;contrafilé;derivado;2026-08;sem_inpc_regional;;contrafile;;;0;0;
+Natal;RN;costela;derivado;2026-08;sem_inpc_regional;;costela;;;0;0;
+Natal;RN;coxão duro;derivado;2026-08;sem_inpc_regional;;;;;0;0;
+Natal;RN;coxão mole;derivado;2026-08;sem_inpc_regional;;cha de dentro;;;0;0;
+Natal;RN;filé-mignon;derivado;2026-08;sem_inpc_regional;;file-mignon;;;0;0;
+Natal;RN;lagarto;derivado;2026-08;sem_inpc_regional;;lagarto comum;;;0;0;
+Natal;RN;músculo;derivado;2026-08;sem_inpc_regional;;musculo;;;0;0;
+Natal;RN;patinho;derivado;2026-08;sem_inpc_regional;;patinho;;;0;0;
+Natal;RN;picanha;derivado;2026-08;sem_inpc_regional;;picanha;;;0;0;
+Palmas;TO;acém;observado;2026-09;sem_inpc_regional;;acem;;;0;0;
+Palmas;TO;alcatra;observado;2026-09;sem_inpc_regional;;alcatra;;;0;0;
+Palmas;TO;capa de filé;derivado;2026-08;sem_inpc_regional;;capa de file;;;0;0;
+Palmas;TO;contrafilé;observado;2026-09;sem_inpc_regional;;contrafile;;;0;0;
+Palmas;TO;costela;observado;2026-09;sem_inpc_regional;;costela;;;0;0;
+Palmas;TO;coxão duro;observado;2026-09;sem_inpc_regional;;;;;0;0;
+Palmas;TO;coxão mole;observado;2026-09;sem_inpc_regional;;cha de dentro;;;0;0;
+Palmas;TO;filé-mignon;observado;2026-09;sem_inpc_regional;;file-mignon;;;0;0;
+Palmas;TO;lagarto;observado;2026-09;sem_inpc_regional;;lagarto comum;;;0;0;
+Palmas;TO;músculo;observado;2026-09;sem_inpc_regional;;musculo;;;0;0;
+Palmas;TO;patinho;observado;2026-09;sem_inpc_regional;;patinho;;;0;0;
+Palmas;TO;picanha;observado;2026-09;sem_inpc_regional;;picanha;;;0;0;
+Porto Alegre;RS;acém;derivado;2026-08;serie;POA;acem;2011-12;2026-09;178;0;
+Porto Alegre;RS;alcatra;derivado;2026-08;sem_serie_regional_no_mes_ancora;POA;alcatra;;;0;0;INPC regional termina em 2019-12
+Porto Alegre;RS;capa de filé;derivado;2026-08;sem_serie_regional_no_mes_ancora;POA;capa de file;;;0;0;INPC regional não existe para o corte
+Porto Alegre;RS;contrafilé;derivado;2026-08;serie;POA;contrafile;2007-12;2026-09;226;0;
+Porto Alegre;RS;costela;derivado;2026-08;serie;POA;costela;2007-12;2026-09;226;0;
+Porto Alegre;RS;coxão duro;derivado;2026-08;sem_item_inpc;POA;;;;0;0;
+Porto Alegre;RS;coxão mole;derivado;2026-08;serie;POA;cha de dentro;2019-12;2026-09;82;0;
+Porto Alegre;RS;filé-mignon;derivado;2026-08;sem_serie_regional_no_mes_ancora;POA;file-mignon;;;0;0;INPC regional não existe para o corte
+Porto Alegre;RS;lagarto;derivado;2026-08;sem_serie_regional_no_mes_ancora;POA;lagarto comum;;;0;0;INPC regional não existe para o corte
+Porto Alegre;RS;músculo;derivado;2026-08;serie;POA;musculo;2007-12;2026-09;226;0;
+Porto Alegre;RS;patinho;derivado;2026-08;sem_serie_regional_no_mes_ancora;POA;patinho;;;0;0;INPC regional termina em 2011-12
+Porto Alegre;RS;picanha;derivado;2026-08;serie;POA;picanha;2019-12;2026-09;82;0;
+Porto Velho;RO;acém;derivado;2026-08;sem_inpc_regional;;acem;;;0;0;
+Porto Velho;RO;alcatra;derivado;2026-08;sem_inpc_regional;;alcatra;;;0;0;
+Porto Velho;RO;capa de filé;derivado;2026-08;sem_inpc_regional;;capa de file;;;0;0;
+Porto Velho;RO;contrafilé;derivado;2026-08;sem_inpc_regional;;contrafile;;;0;0;
+Porto Velho;RO;costela;derivado;2026-08;sem_inpc_regional;;costela;;;0;0;
+Porto Velho;RO;coxão duro;derivado;2026-08;sem_inpc_regional;;;;;0;0;
+Porto Velho;RO;coxão mole;derivado;2026-08;sem_inpc_regional;;cha de dentro;;;0;0;
+Porto Velho;RO;filé-mignon;derivado;2026-08;sem_inpc_regional;;file-mignon;;;0;0;
+Porto Velho;RO;lagarto;derivado;2026-08;sem_inpc_regional;;lagarto comum;;;0;0;
+Porto Velho;RO;músculo;derivado;2026-08;sem_inpc_regional;;musculo;;;0;0;
+Porto Velho;RO;patinho;derivado;2026-08;sem_inpc_regional;;patinho;;;0;0;
+Porto Velho;RO;picanha;derivado;2026-08;sem_inpc_regional;;picanha;;;0;0;
+Recife;PE;acém;derivado;2026-08;serie;REC;acem;2007-12;2026-09;226;0;
+Recife;PE;alcatra;derivado;2026-08;serie;REC;alcatra;2007-12;2026-09;226;0;
+Recife;PE;capa de filé;derivado;2026-08;serie;REC;capa de file;2019-12;2026-09;82;0;
+Recife;PE;contrafilé;derivado;2026-08;serie;REC;contrafile;2007-12;2026-09;226;0;
+Recife;PE;costela;derivado;2026-08;serie;REC;costela;2007-12;2026-09;226;0;
+Recife;PE;coxão duro;derivado;2026-08;sem_item_inpc;REC;;;;0;0;
+Recife;PE;coxão mole;derivado;2026-08;serie;REC;cha de dentro;2011-12;2026-09;178;0;
+Recife;PE;filé-mignon;derivado;2026-08;sem_serie_regional_no_mes_ancora;REC;file-mignon;;;0;0;INPC regional termina em 2005-01
+Recife;PE;lagarto;derivado;2026-08;sem_serie_regional_no_mes_ancora;REC;lagarto comum;;;0;0;INPC regional não existe para o corte
+Recife;PE;músculo;derivado;2026-08;serie;REC;musculo;2011-12;2026-09;178;0;
+Recife;PE;patinho;derivado;2026-08;serie;REC;patinho;2007-12;2026-09;226;0;
+Recife;PE;picanha;derivado;2026-08;sem_serie_regional_no_mes_ancora;REC;picanha;;;0;0;INPC regional não existe para o corte
+Rio Branco;AC;acém;derivado;2026-08;serie;RB;acem;2018-04;2026-09;102;0;
+Rio Branco;AC;alcatra;derivado;2026-08;serie;RB;alcatra;2018-04;2026-09;102;0;
+Rio Branco;AC;capa de filé;derivado;2026-08;sem_serie_regional_no_mes_ancora;RB;capa de file;;;0;0;INPC regional termina em 2019-12
+Rio Branco;AC;contrafilé;derivado;2026-08;serie;RB;contrafile;2018-04;2026-09;102;0;
+Rio Branco;AC;costela;derivado;2026-08;serie;RB;costela;2018-04;2026-09;102;0;
+Rio Branco;AC;coxão duro;derivado;2026-08;sem_item_inpc;RB;;;;0;0;
+Rio Branco;AC;coxão mole;derivado;2026-08;serie;RB;cha de dentro;2018-04;2026-09;102;0;
+Rio Branco;AC;filé-mignon;derivado;2026-08;serie;RB;file-mignon;2019-12;2026-09;82;0;
+Rio Branco;AC;lagarto;derivado;2026-08;sem_serie_regional_no_mes_ancora;RB;lagarto comum;;;0;0;INPC regional termina em 2019-12
+Rio Branco;AC;músculo;derivado;2026-08;sem_serie_regional_no_mes_ancora;RB;musculo;;;0;0;INPC regional termina em 2019-12
+Rio Branco;AC;patinho;observado;2026-04;serie;RB;patinho;2018-04;2026-09;102;0;
+Rio Branco;AC;picanha;observado;2026-04;sem_serie_regional_no_mes_ancora;RB;picanha;;;0;0;INPC regional não existe para o corte
+Rio de Janeiro;RJ;acém;derivado;2026-08;serie;RJ;acem;2007-12;2026-09;226;0;
+Rio de Janeiro;RJ;alcatra;derivado;2026-08;serie;RJ;alcatra;2007-12;2026-09;226;0;
+Rio de Janeiro;RJ;capa de filé;derivado;2026-08;sem_serie_regional_no_mes_ancora;RJ;capa de file;;;0;0;INPC regional termina em 2019-12
+Rio de Janeiro;RJ;contrafilé;derivado;2026-08;serie;RJ;contrafile;2007-12;2026-09;226;0;
+Rio de Janeiro;RJ;costela;derivado;2026-08;serie;RJ;costela;2007-12;2026-09;226;0;
+Rio de Janeiro;RJ;coxão duro;derivado;2026-08;sem_item_inpc;RJ;;;;0;0;
+Rio de Janeiro;RJ;coxão mole;derivado;2026-08;serie;RJ;cha de dentro;2019-12;2026-09;82;0;
+Rio de Janeiro;RJ;filé-mignon;derivado;2026-08;sem_serie_regional_no_mes_ancora;RJ;file-mignon;;;0;0;INPC regional não existe para o corte
+Rio de Janeiro;RJ;lagarto;derivado;2026-08;sem_serie_regional_no_mes_ancora;RJ;lagarto comum;;;0;0;INPC regional não existe para o corte
+Rio de Janeiro;RJ;músculo;derivado;2026-08;serie;RJ;musculo;2007-12;2026-09;226;0;
+Rio de Janeiro;RJ;patinho;derivado;2026-08;serie;RJ;patinho;2007-12;2026-09;226;0;
+Rio de Janeiro;RJ;picanha;derivado;2026-08;sem_serie_regional_no_mes_ancora;RJ;picanha;;;0;0;INPC regional não existe para o corte
+Salvador;BA;acém;derivado;2026-08;serie;SAL;acem;2007-12;2026-09;226;0;
+Salvador;BA;alcatra;derivado;2026-08;serie;SAL;alcatra;2007-12;2026-09;226;0;
+Salvador;BA;capa de filé;derivado;2026-08;serie;SAL;capa de file;2019-12;2026-09;82;0;
+Salvador;BA;contrafilé;derivado;2026-08;serie;SAL;contrafile;2007-12;2026-09;226;0;
+Salvador;BA;costela;derivado;2026-08;serie;SAL;costela;2007-12;2026-09;226;0;
+Salvador;BA;coxão duro;derivado;2026-08;sem_item_inpc;SAL;;;;0;0;
+Salvador;BA;coxão mole;derivado;2026-08;serie;SAL;cha de dentro;2011-12;2026-09;178;0;
+Salvador;BA;filé-mignon;derivado;2026-08;sem_serie_regional_no_mes_ancora;SAL;file-mignon;;;0;0;INPC regional termina em 2005-01
+Salvador;BA;lagarto;derivado;2026-08;serie;SAL;lagarto comum;2019-12;2026-09;82;0;
+Salvador;BA;músculo;derivado;2026-08;serie;SAL;musculo;2007-12;2026-09;226;0;
+Salvador;BA;patinho;derivado;2026-08;sem_serie_regional_no_mes_ancora;SAL;patinho;;;0;0;INPC regional termina em 2019-12
+Salvador;BA;picanha;derivado;2026-08;sem_serie_regional_no_mes_ancora;SAL;picanha;;;0;0;INPC regional não existe para o corte
+São Luís;MA;acém;derivado;2026-08;serie;SL;acem;2018-04;2026-09;102;0;
+São Luís;MA;alcatra;derivado;2026-08;serie;SL;alcatra;2018-04;2026-09;102;0;
+São Luís;MA;capa de filé;derivado;2026-08;sem_serie_regional_no_mes_ancora;SL;capa de file;;;0;0;INPC regional não existe para o corte
+São Luís;MA;contrafilé;derivado;2026-08;serie;SL;contrafile;2018-04;2026-09;102;0;
+São Luís;MA;costela;derivado;2026-08;serie;SL;costela;2018-04;2026-09;102;0;
+São Luís;MA;coxão duro;derivado;2026-08;sem_item_inpc;SL;;;;0;0;
+São Luís;MA;coxão mole;derivado;2026-08;serie;SL;cha de dentro;2018-04;2026-09;102;0;
+São Luís;MA;filé-mignon;derivado;2026-08;sem_serie_regional_no_mes_ancora;SL;file-mignon;;;0;0;INPC regional não existe para o corte
+São Luís;MA;lagarto;derivado;2026-08;sem_serie_regional_no_mes_ancora;SL;lagarto comum;;;0;0;INPC regional não existe para o corte
+São Luís;MA;músculo;derivado;2026-08;serie;SL;musculo;2018-04;2026-09;102;0;
+São Luís;MA;patinho;derivado;2026-08;serie;SL;patinho;2018-04;2026-09;102;0;
+São Luís;MA;picanha;derivado;2026-08;sem_serie_regional_no_mes_ancora;SL;picanha;;;0;0;INPC regional não existe para o corte
+São Paulo;SP;acém;observado;2026-08;serie;SP;acem;2007-12;2026-09;226;0;"IEA 2025-2026; INPC regional"
+São Paulo;SP;alcatra;observado;2026-08;serie;SP;alcatra;2007-12;2026-09;226;0;"IEA 2025-2026; INPC regional"
+São Paulo;SP;capa de filé;observado;2026-08;serie;SP + NACIONAL;capa de file;2008-01;2026-09;225;0;"IEA 2025-2026; INPC nacional; regional até 2011"
+São Paulo;SP;contrafilé;observado;2026-08;serie;SP;contrafile;2007-12;2026-09;226;0;"IEA 2025-2026; INPC regional"
+São Paulo;SP;costela;observado;2026-08;serie;SP;costela;2007-12;2026-09;226;0;"IEA 2025-2026; INPC regional"
+São Paulo;SP;coxão duro;observado;2026-08;serie;;;2025-01;2026-08;20;0;"Só IEA/SP 2025-2026; sem INPC"
+São Paulo;SP;coxão mole;observado;2026-08;serie;SP;cha de dentro;2011-12;2026-09;178;0;"IEA 2025-2026; INPC regional"
+São Paulo;SP;filé-mignon;observado;2026-08;serie;NACIONAL;file-mignon;2012-01;2026-09;177;0;"IEA 2025-2026; INPC nacional"
+São Paulo;SP;lagarto;observado;2026-08;serie;SP;lagarto comum;2011-12;2026-09;178;0;"IEA 2025-2026; INPC regional"
+São Paulo;SP;músculo;observado;2026-08;serie;NACIONAL;musculo;2008-01;2026-09;225;0;"IEA 2025-2026; INPC nacional; regional com falhas, não usado"
+São Paulo;SP;patinho;observado;2026-08;serie;SP;patinho;2007-12;2026-09;226;0;"IEA 2025-2026; INPC regional"
+São Paulo;SP;picanha;observado;2026-08;serie;NACIONAL;picanha;2020-01;2026-09;81;0;"IEA 2025-2026; INPC nacional"
+Teresina;PI;acém;derivado;2026-08;sem_inpc_regional;;acem;;;0;0;
+Teresina;PI;alcatra;derivado;2026-08;sem_inpc_regional;;alcatra;;;0;0;
+Teresina;PI;capa de filé;derivado;2026-08;sem_inpc_regional;;capa de file;;;0;0;
+Teresina;PI;contrafilé;derivado;2026-08;sem_inpc_regional;;contrafile;;;0;0;
+Teresina;PI;costela;derivado;2026-08;sem_inpc_regional;;costela;;;0;0;
+Teresina;PI;coxão duro;derivado;2026-08;sem_inpc_regional;;;;;0;0;
+Teresina;PI;coxão mole;derivado;2026-08;sem_inpc_regional;;cha de dentro;;;0;0;
+Teresina;PI;filé-mignon;derivado;2026-08;sem_inpc_regional;;file-mignon;;;0;0;
+Teresina;PI;lagarto;derivado;2026-08;sem_inpc_regional;;lagarto comum;;;0;0;
+Teresina;PI;músculo;derivado;2026-08;sem_inpc_regional;;musculo;;;0;0;
+Teresina;PI;patinho;derivado;2026-08;sem_inpc_regional;;patinho;;;0;0;
+Teresina;PI;picanha;derivado;2026-08;sem_inpc_regional;;picanha;;;0;0;
+Vitória;ES;acém;observado;2026-08;serie;VIT;acem;2013-12;2026-09;154;0;
+Vitória;ES;alcatra;derivado;2026-08;serie;VIT;alcatra;2013-12;2026-09;154;0;
+Vitória;ES;capa de filé;derivado;2026-08;serie;VIT;capa de file;2019-12;2026-09;82;0;
+Vitória;ES;contrafilé;derivado;2026-08;serie;VIT;contrafile;2013-12;2026-09;154;0;
+Vitória;ES;costela;derivado;2026-08;serie;VIT;costela;2013-12;2026-09;154;0;
+Vitória;ES;coxão duro;derivado;2026-08;sem_item_inpc;VIT;;;;0;0;
+Vitória;ES;coxão mole;derivado;2026-08;serie;VIT;cha de dentro;2013-12;2026-09;154;0;
+Vitória;ES;filé-mignon;derivado;2026-08;sem_serie_regional_no_mes_ancora;VIT;file-mignon;;;0;0;INPC regional não existe para o corte
+Vitória;ES;lagarto;derivado;2026-08;serie;VIT;lagarto comum;2013-12;2026-09;154;0;
+Vitória;ES;músculo;derivado;2026-08;serie;VIT;musculo;2013-12;2026-09;154;0;
+Vitória;ES;patinho;derivado;2026-08;serie;VIT;patinho;2013-12;2026-09;154;0;
+Vitória;ES;picanha;derivado;2026-08;sem_serie_regional_no_mes_ancora;VIT;picanha;;;0;0;INPC regional não existe para o corte

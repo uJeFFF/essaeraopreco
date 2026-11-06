@@ -1,0 +1,7007 @@
+﻿ano_mes;cidade;e_capital;fator_vs_sp
+1994-01;Brasília;1;0.9320
+1994-01;Belo Horizonte;1;1.0138
+1994-01;Rio de Janeiro;1;1.0161
+1994-01;São Paulo;1;1.0000
+1994-01;Vitória;1;1.0148
+1994-01;Curitiba;1;1.0082
+1994-01;Florianópolis;1;1.1074
+1994-01;Porto Alegre;1;0.9654
+1994-01;Belém;1;0.9814
+1994-01;Fortaleza;1;0.9844
+1994-01;João Pessoa;1;1.1037
+1994-01;Natal;1;1.0581
+1994-01;Recife;1;1.0308
+1994-01;Salvador;1;0.9827
+1994-02;Brasília;1;0.9199
+1994-02;Belo Horizonte;1;0.9269
+1994-02;Rio de Janeiro;1;0.9558
+1994-02;São Paulo;1;1.0000
+1994-02;Vitória;1;0.9909
+1994-02;Curitiba;1;0.9898
+1994-02;Florianópolis;1;1.1241
+1994-02;Porto Alegre;1;0.9595
+1994-02;Belém;1;1.0397
+1994-02;Fortaleza;1;1.1681
+1994-02;João Pessoa;1;1.1079
+1994-02;Natal;1;1.0575
+1994-02;Recife;1;0.9695
+1994-02;Salvador;1;0.9890
+1994-03;Brasília;1;0.9358
+1994-03;Belo Horizonte;1;1.0049
+1994-03;Rio de Janeiro;1;1.0304
+1994-03;São Paulo;1;1.0000
+1994-03;Vitória;1;0.9808
+1994-03;Curitiba;1;1.0007
+1994-03;Florianópolis;1;1.0491
+1994-03;Porto Alegre;1;1.0198
+1994-03;Belém;1;1.1678
+1994-03;Fortaleza;1;1.1175
+1994-03;João Pessoa;1;1.0375
+1994-03;Natal;1;1.1053
+1994-03;Recife;1;1.0283
+1994-03;Salvador;1;1.0265
+1994-04;Brasília;1;0.9462
+1994-04;Belo Horizonte;1;0.9770
+1994-04;Rio de Janeiro;1;0.9669
+1994-04;São Paulo;1;1.0000
+1994-04;Vitória;1;0.9302
+1994-04;Curitiba;1;0.9513
+1994-04;Florianópolis;1;0.9942
+1994-04;Porto Alegre;1;0.9435
+1994-04;Belém;1;0.8799
+1994-04;Fortaleza;1;1.0484
+1994-04;João Pessoa;1;1.1188
+1994-04;Natal;1;1.0216
+1994-04;Recife;1;1.0562
+1994-04;Salvador;1;1.0324
+1994-05;Brasília;1;1.0054
+1994-05;Belo Horizonte;1;1.0176
+1994-05;Rio de Janeiro;1;1.0036
+1994-05;São Paulo;1;1.0000
+1994-05;Vitória;1;0.9738
+1994-05;Curitiba;1;0.9723
+1994-05;Florianópolis;1;1.0580
+1994-05;Porto Alegre;1;1.0523
+1994-05;Belém;1;1.1179
+1994-05;Fortaleza;1;1.1425
+1994-05;João Pessoa;1;1.1866
+1994-05;Natal;1;1.0796
+1994-05;Recife;1;1.0729
+1994-05;Salvador;1;1.0173
+1994-06;Brasília;1;1.0072
+1994-06;Belo Horizonte;1;1.0164
+1994-06;Rio de Janeiro;1;0.9604
+1994-06;São Paulo;1;1.0000
+1994-06;Vitória;1;1.1398
+1994-06;Curitiba;1;0.9703
+1994-06;Florianópolis;1;1.1567
+1994-06;Porto Alegre;1;0.9971
+1994-06;Belém;1;0.9492
+1994-06;Fortaleza;1;1.1046
+1994-06;João Pessoa;1;1.2072
+1994-06;Natal;1;1.1873
+1994-06;Recife;1;1.0821
+1994-06;Salvador;1;1.1414
+1994-07;Brasília;1;1.0467
+1994-07;Belo Horizonte;1;1.0841
+1994-07;Rio de Janeiro;1;1.0156
+1994-07;São Paulo;1;1.0000
+1994-07;Vitória;1;1.0218
+1994-07;Curitiba;1;0.9720
+1994-07;Florianópolis;1;1.1558
+1994-07;Porto Alegre;1;1.1059
+1994-07;Belém;1;0.9813
+1994-07;Fortaleza;1;1.1121
+1994-07;João Pessoa;1;1.1869
+1994-07;Natal;1;1.1495
+1994-07;Recife;1;1.1433
+1994-07;Salvador;1;1.1682
+1994-08;Brasília;1;1.0059
+1994-08;Belo Horizonte;1;1.0385
+1994-08;Rio de Janeiro;1;0.9675
+1994-08;São Paulo;1;1.0000
+1994-08;Vitória;1;0.9704
+1994-08;Curitiba;1;0.9704
+1994-08;Florianópolis;1;1.0888
+1994-08;Porto Alegre;1;1.0533
+1994-08;Belém;1;0.9379
+1994-08;Fortaleza;1;1.0562
+1994-08;João Pessoa;1;1.1036
+1994-08;Natal;1;1.1657
+1994-08;Recife;1;1.0888
+1994-08;Salvador;1;1.1243
+1994-09;Brasília;1;0.9615
+1994-09;Belo Horizonte;1;1.0110
+1994-09;Rio de Janeiro;1;0.9148
+1994-09;São Paulo;1;1.0000
+1994-09;Vitória;1;1.0055
+1994-09;Curitiba;1;0.9423
+1994-09;Florianópolis;1;1.0330
+1994-09;Porto Alegre;1;0.9698
+1994-09;Belém;1;0.9203
+1994-09;Fortaleza;1;0.9890
+1994-09;João Pessoa;1;0.9780
+1994-09;Natal;1;1.0412
+1994-09;Recife;1;1.0027
+1994-09;Salvador;1;1.0412
+1994-10;Brasília;1;0.9934
+1994-10;Belo Horizonte;1;1.0000
+1994-10;Rio de Janeiro;1;0.9249
+1994-10;São Paulo;1;1.0000
+1994-10;Vitória;1;0.9492
+1994-10;Curitiba;1;0.9757
+1994-10;Florianópolis;1;1.0000
+1994-10;Porto Alegre;1;0.8896
+1994-10;Belém;1;0.9713
+1994-10;Fortaleza;1;1.0508
+1994-10;João Pessoa;1;1.0684
+1994-10;Natal;1;1.0177
+1994-10;Recife;1;1.0265
+1994-10;Salvador;1;0.9249
+1994-11;Brasília;1;1.0263
+1994-11;Belo Horizonte;1;1.0141
+1994-11;Rio de Janeiro;1;0.9313
+1994-11;São Paulo;1;1.0000
+1994-11;Vitória;1;0.9576
+1994-11;Curitiba;1;0.9455
+1994-11;Florianópolis;1;0.9717
+1994-11;Porto Alegre;1;0.9192
+1994-11;Belém;1;0.8808
+1994-11;Fortaleza;1;1.0646
+1994-11;João Pessoa;1;1.0242
+1994-11;Natal;1;0.9758
+1994-11;Recife;1;1.0141
+1994-11;Salvador;1;0.9111
+1994-12;Brasília;1;0.9899
+1994-12;Goiânia;1;0.8864
+1994-12;Belo Horizonte;1;0.9919
+1994-12;Rio de Janeiro;1;0.9026
+1994-12;São Paulo;1;1.0000
+1994-12;Vitória;1;0.9939
+1994-12;Curitiba;1;0.9331
+1994-12;Florianópolis;1;0.9797
+1994-12;Porto Alegre;1;0.8702
+1994-12;Belém;1;0.8316
+1994-12;Fortaleza;1;0.9675
+1994-12;João Pessoa;1;0.9980
+1994-12;Natal;1;0.9270
+1994-12;Recife;1;0.9939
+1994-12;Salvador;1;0.9249
+1995-01;Brasília;1;1.0149
+1995-01;Goiânia;1;0.8426
+1995-01;Belo Horizonte;1;1.0085
+1995-01;Rio de Janeiro;1;0.8872
+1995-01;São Paulo;1;1.0000
+1995-01;Vitória;1;0.9383
+1995-01;Curitiba;1;0.9617
+1995-01;Florianópolis;1;1.0170
+1995-01;Porto Alegre;1;0.9319
+1995-01;Belém;1;0.8830
+1995-01;Fortaleza;1;1.0043
+1995-01;João Pessoa;1;0.9745
+1995-01;Natal;1;0.9936
+1995-01;Recife;1;0.9915
+1995-01;Salvador;1;0.9574
+1995-02;Brasília;1;1.1114
+1995-02;Goiânia;1;0.8341
+1995-02;Belo Horizonte;1;0.9432
+1995-02;Rio de Janeiro;1;0.8864
+1995-02;São Paulo;1;1.0000
+1995-02;Vitória;1;0.9705
+1995-02;Curitiba;1;0.9886
+1995-02;Florianópolis;1;1.0636
+1995-02;Porto Alegre;1;0.9364
+1995-02;Belém;1;0.9159
+1995-02;Fortaleza;1;0.9977
+1995-02;João Pessoa;1;1.0250
+1995-02;Natal;1;1.0432
+1995-02;Recife;1;1.0114
+1995-02;Salvador;1;0.9909
+1995-03;Brasília;1;0.9812
+1995-03;Goiânia;1;0.8329
+1995-03;Belo Horizonte;1;0.9082
+1995-03;Rio de Janeiro;1;0.8565
+1995-03;São Paulo;1;1.0000
+1995-03;Vitória;1;0.9341
+1995-03;Curitiba;1;0.9976
+1995-03;Florianópolis;1;1.0541
+1995-03;Porto Alegre;1;1.0024
+1995-03;Belém;1;0.9224
+1995-03;Fortaleza;1;1.0000
+1995-03;João Pessoa;1;1.0612
+1995-03;Natal;1;1.0165
+1995-03;Recife;1;1.0400
+1995-03;Salvador;1;1.0024
+1995-04;Brasília;1;1.0048
+1995-04;Goiânia;1;0.8269
+1995-04;Belo Horizonte;1;0.9231
+1995-04;Rio de Janeiro;1;0.8750
+1995-04;São Paulo;1;1.0000
+1995-04;Vitória;1;0.9038
+1995-04;Curitiba;1;1.0072
+1995-04;Florianópolis;1;1.0625
+1995-04;Porto Alegre;1;1.0481
+1995-04;Belém;1;0.9183
+1995-04;Fortaleza;1;0.9952
+1995-04;João Pessoa;1;1.0697
+1995-04;Natal;1;1.0288
+1995-04;Recife;1;1.0192
+1995-04;Salvador;1;1.0625
+1995-05;Brasília;1;0.9658
+1995-05;Goiânia;1;0.8582
+1995-05;Belo Horizonte;1;0.9169
+1995-05;Rio de Janeiro;1;0.8851
+1995-05;São Paulo;1;1.0000
+1995-05;Vitória;1;0.9267
+1995-05;Curitiba;1;0.9658
+1995-05;Florianópolis;1;1.0709
+1995-05;Porto Alegre;1;1.0073
+1995-05;Belém;1;0.9364
+1995-05;Fortaleza;1;1.0122
+1995-05;João Pessoa;1;1.0465
+1995-05;Natal;1;1.0293
+1995-05;Recife;1;0.9927
+1995-05;Salvador;1;1.0538
+1995-06;Brasília;1;0.9754
+1995-06;Goiânia;1;0.8177
+1995-06;Belo Horizonte;1;0.8818
+1995-06;Rio de Janeiro;1;0.8547
+1995-06;São Paulo;1;1.0000
+1995-06;Vitória;1;0.9089
+1995-06;Curitiba;1;0.9631
+1995-06;Florianópolis;1;1.0665
+1995-06;Porto Alegre;1;1.0025
+1995-06;Belém;1;0.9089
+1995-06;Fortaleza;1;1.0074
+1995-06;João Pessoa;1;1.0123
+1995-06;Natal;1;1.0296
+1995-06;Recife;1;0.9951
+1995-06;Salvador;1;1.0148
+1995-07;Brasília;1;0.9590
+1995-07;Goiânia;1;0.8072
+1995-07;Belo Horizonte;1;0.9036
+1995-07;Rio de Janeiro;1;0.8723
+1995-07;São Paulo;1;1.0000
+1995-07;Vitória;1;0.8602
+1995-07;Curitiba;1;0.9422
+1995-07;Florianópolis;1;1.0554
+1995-07;Porto Alegre;1;0.9711
+1995-07;Belém;1;0.9157
+1995-07;Fortaleza;1;0.9711
+1995-07;João Pessoa;1;1.0506
+1995-07;Natal;1;1.0506
+1995-07;Recife;1;0.9952
+1995-07;Salvador;1;0.9928
+1995-08;Brasília;1;0.9579
+1995-08;Goiânia;1;0.8037
+1995-08;Belo Horizonte;1;0.9206
+1995-08;Rio de Janeiro;1;0.8551
+1995-08;São Paulo;1;1.0000
+1995-08;Vitória;1;0.9042
+1995-08;Curitiba;1;0.9673
+1995-08;Florianópolis;1;1.0584
+1995-08;Porto Alegre;1;0.9790
+1995-08;Belém;1;0.8435
+1995-08;Fortaleza;1;0.9673
+1995-08;João Pessoa;1;1.0280
+1995-08;Natal;1;1.0935
+1995-08;Recife;1;1.0000
+1995-08;Salvador;1;1.0023
+1995-09;Brasília;1;0.9455
+1995-09;Goiânia;1;0.8223
+1995-09;Belo Horizonte;1;0.9218
+1995-09;Rio de Janeiro;1;0.8578
+1995-09;São Paulo;1;1.0000
+1995-09;Vitória;1;0.9194
+1995-09;Curitiba;1;0.9336
+1995-09;Florianópolis;1;1.0640
+1995-09;Porto Alegre;1;0.9929
+1995-09;Belém;1;0.8578
+1995-09;Aracaju;1;0.9597
+1995-09;Fortaleza;1;0.9810
+1995-09;João Pessoa;1;1.0450
+1995-09;Natal;1;1.0640
+1995-09;Recife;1;1.0095
+1995-09;Salvador;1;0.9645
+1995-10;Brasília;1;0.9395
+1995-10;Goiânia;1;0.8326
+1995-10;Belo Horizonte;1;0.9233
+1995-10;Rio de Janeiro;1;0.8791
+1995-10;São Paulo;1;1.0000
+1995-10;Vitória;1;0.8977
+1995-10;Curitiba;1;0.9698
+1995-10;Florianópolis;1;1.0674
+1995-10;Porto Alegre;1;0.9698
+1995-10;Belém;1;0.8605
+1995-10;Aracaju;1;0.9326
+1995-10;Fortaleza;1;0.9814
+1995-10;João Pessoa;1;1.0209
+1995-10;Natal;1;1.0512
+1995-10;Recife;1;0.9953
+1995-10;Salvador;1;0.9930
+1995-11;Brasília;1;0.9710
+1995-11;Goiânia;1;0.8415
+1995-11;Belo Horizonte;1;0.9710
+1995-11;Rio de Janeiro;1;0.8795
+1995-11;São Paulo;1;1.0000
+1995-11;Vitória;1;0.8973
+1995-11;Curitiba;1;0.8839
+1995-11;Florianópolis;1;0.9955
+1995-11;Porto Alegre;1;0.9442
+1995-11;Belém;1;0.8348
+1995-11;Aracaju;1;0.9129
+1995-11;Fortaleza;1;0.9687
+1995-11;João Pessoa;1;1.0022
+1995-11;Natal;1;1.0067
+1995-11;Recife;1;1.0223
+1995-11;Salvador;1;0.9420
+1995-12;Brasília;1;0.9524
+1995-12;Goiânia;1;0.8095
+1995-12;Belo Horizonte;1;0.9637
+1995-12;Rio de Janeiro;1;0.8617
+1995-12;São Paulo;1;1.0000
+1995-12;Vitória;1;0.8753
+1995-12;Curitiba;1;0.8889
+1995-12;Florianópolis;1;1.0249
+1995-12;Porto Alegre;1;0.9433
+1995-12;Belém;1;0.8413
+1995-12;Aracaju;1;0.9274
+1995-12;Fortaleza;1;0.9932
+1995-12;João Pessoa;1;1.0045
+1995-12;Natal;1;0.9887
+1995-12;Recife;1;1.0068
+1995-12;Salvador;1;0.9569
+1996-01;Brasília;1;0.9583
+1996-01;Goiânia;1;0.7963
+1996-01;Belo Horizonte;1;0.9537
+1996-01;Rio de Janeiro;1;0.8889
+1996-01;São Paulo;1;1.0000
+1996-01;Vitória;1;0.9120
+1996-01;Curitiba;1;0.9676
+1996-01;Florianópolis;1;1.0208
+1996-01;Porto Alegre;1;0.9560
+1996-01;Belém;1;0.8796
+1996-01;Aracaju;1;0.9259
+1996-01;Fortaleza;1;0.9861
+1996-01;João Pessoa;1;0.9653
+1996-01;Natal;1;1.0556
+1996-01;Recife;1;0.9653
+1996-01;Salvador;1;0.9699
+1996-02;Brasília;1;0.9424
+1996-02;Goiânia;1;0.7788
+1996-02;Belo Horizonte;1;0.9078
+1996-02;Rio de Janeiro;1;0.8433
+1996-02;São Paulo;1;1.0000
+1996-02;Vitória;1;0.8180
+1996-02;Curitiba;1;0.9585
+1996-02;Florianópolis;1;1.0023
+1996-02;Porto Alegre;1;0.9516
+1996-02;Belém;1;0.8710
+1996-02;Aracaju;1;0.8940
+1996-02;Fortaleza;1;0.9770
+1996-02;João Pessoa;1;0.9516
+1996-02;Natal;1;1.0392
+1996-02;Recife;1;0.9862
+1996-02;Salvador;1;0.9562
+1996-03;Brasília;1;0.9149
+1996-03;Goiânia;1;0.7801
+1996-03;Belo Horizonte;1;0.8842
+1996-03;Rio de Janeiro;1;0.8747
+1996-03;São Paulo;1;1.0000
+1996-03;Vitória;1;0.9007
+1996-03;Curitiba;1;0.9173
+1996-03;Florianópolis;1;1.0189
+1996-03;Porto Alegre;1;0.9716
+1996-03;Belém;1;0.8818
+1996-03;Aracaju;1;0.9078
+1996-03;Fortaleza;1;0.9622
+1996-03;João Pessoa;1;1.0095
+1996-03;Natal;1;1.0142
+1996-03;Recife;1;0.9787
+1996-03;Salvador;1;0.9716
+1996-04;Brasília;1;0.9260
+1996-04;Goiânia;1;0.7924
+1996-04;Belo Horizonte;1;0.8783
+1996-04;Rio de Janeiro;1;0.8425
+1996-04;São Paulo;1;1.0000
+1996-04;Vitória;1;0.9045
+1996-04;Curitiba;1;0.9069
+1996-04;Florianópolis;1;1.0358
+1996-04;Porto Alegre;1;0.9714
+1996-04;Belém;1;0.8496
+1996-04;Aracaju;1;0.9379
+1996-04;Fortaleza;1;0.9523
+1996-04;João Pessoa;1;1.0072
+1996-04;Natal;1;1.0239
+1996-04;Recife;1;0.9714
+1996-04;Salvador;1;0.9618
+1996-05;Brasília;1;0.9207
+1996-05;Goiânia;1;0.7644
+1996-05;Belo Horizonte;1;0.8894
+1996-05;Rio de Janeiro;1;0.8341
+1996-05;São Paulo;1;1.0000
+1996-05;Vitória;1;0.8870
+1996-05;Curitiba;1;0.8942
+1996-05;Florianópolis;1;1.0481
+1996-05;Porto Alegre;1;0.9519
+1996-05;Belém;1;0.8678
+1996-05;Aracaju;1;0.9423
+1996-05;Fortaleza;1;0.9591
+1996-05;João Pessoa;1;1.0240
+1996-05;Natal;1;1.0481
+1996-05;Recife;1;0.9663
+1996-05;Salvador;1;0.9639
+1996-06;Brasília;1;0.9240
+1996-06;Goiânia;1;0.7941
+1996-06;Belo Horizonte;1;0.8873
+1996-06;Rio de Janeiro;1;0.8431
+1996-06;São Paulo;1;1.0000
+1996-06;Vitória;1;0.9020
+1996-06;Curitiba;1;0.9804
+1996-06;Florianópolis;1;1.0368
+1996-06;Porto Alegre;1;0.9706
+1996-06;Belém;1;0.8554
+1996-06;Aracaju;1;0.9534
+1996-06;Fortaleza;1;0.9534
+1996-06;João Pessoa;1;0.9926
+1996-06;Natal;1;1.0441
+1996-06;Recife;1;0.9779
+1996-06;Salvador;1;0.9828
+1996-07;Brasília;1;0.9183
+1996-07;Goiânia;1;0.8005
+1996-07;Belo Horizonte;1;0.9159
+1996-07;Rio de Janeiro;1;0.8389
+1996-07;São Paulo;1;1.0000
+1996-07;Vitória;1;0.8894
+1996-07;Curitiba;1;0.9279
+1996-07;Florianópolis;1;1.0385
+1996-07;Porto Alegre;1;0.9832
+1996-07;Belém;1;0.8389
+1996-07;Aracaju;1;0.9399
+1996-07;Fortaleza;1;0.9856
+1996-07;João Pessoa;1;1.0120
+1996-07;Natal;1;1.0192
+1996-07;Recife;1;0.9663
+1996-07;Salvador;1;0.9688
+1996-08;Brasília;1;0.9301
+1996-08;Goiânia;1;0.8458
+1996-08;Belo Horizonte;1;0.9446
+1996-08;Rio de Janeiro;1;0.8578
+1996-08;São Paulo;1;1.0000
+1996-08;Vitória;1;0.9060
+1996-08;Curitiba;1;0.9663
+1996-08;Florianópolis;1;1.0530
+1996-08;Porto Alegre;1;0.9590
+1996-08;Belém;1;0.8410
+1996-08;Aracaju;1;0.9373
+1996-08;Fortaleza;1;0.9928
+1996-08;João Pessoa;1;1.0120
+1996-08;Natal;1;1.0506
+1996-08;Recife;1;0.9687
+1996-08;Salvador;1;0.9542
+1996-09;Brasília;1;0.9406
+1996-09;Goiânia;1;0.8409
+1996-09;Belo Horizonte;1;0.9264
+1996-09;Rio de Janeiro;1;0.8694
+1996-09;São Paulo;1;1.0000
+1996-09;Vitória;1;0.9026
+1996-09;Curitiba;1;0.9549
+1996-09;Florianópolis;1;1.0309
+1996-09;Porto Alegre;1;0.9786
+1996-09;Belém;1;0.8052
+1996-09;Aracaju;1;0.9264
+1996-09;Fortaleza;1;0.9786
+1996-09;João Pessoa;1;0.9929
+1996-09;Natal;1;1.0333
+1996-09;Recife;1;0.9644
+1996-09;Salvador;1;0.9644
+1996-10;Brasília;1;0.9726
+1996-10;Goiânia;1;0.8584
+1996-10;Belo Horizonte;1;0.9749
+1996-10;Rio de Janeiro;1;0.8653
+1996-10;São Paulo;1;1.0000
+1996-10;Vitória;1;0.9726
+1996-10;Curitiba;1;0.9475
+1996-10;Florianópolis;1;1.0137
+1996-10;Porto Alegre;1;0.9566
+1996-10;Belém;1;0.8151
+1996-10;Aracaju;1;0.9132
+1996-10;Fortaleza;1;1.0023
+1996-10;João Pessoa;1;0.9954
+1996-10;Natal;1;0.9977
+1996-10;Recife;1;0.9315
+1996-10;Salvador;1;0.9772
+1996-11;Brasília;1;1.0000
+1996-11;Goiânia;1;0.8630
+1996-11;Belo Horizonte;1;0.9749
+1996-11;Rio de Janeiro;1;0.8653
+1996-11;São Paulo;1;1.0000
+1996-11;Vitória;1;0.9338
+1996-11;Curitiba;1;0.9635
+1996-11;Florianópolis;1;1.0297
+1996-11;Porto Alegre;1;0.9749
+1996-11;Belém;1;0.8151
+1996-11;Aracaju;1;0.9178
+1996-11;Fortaleza;1;0.9772
+1996-11;João Pessoa;1;1.0046
+1996-11;Natal;1;1.0023
+1996-11;Recife;1;0.8881
+1996-11;Salvador;1;0.9840
+1996-12;Brasília;1;0.9814
+1996-12;Goiânia;1;0.8469
+1996-12;Belo Horizonte;1;0.9745
+1996-12;Rio de Janeiro;1;0.8770
+1996-12;São Paulo;1;1.0000
+1996-12;Vitória;1;0.9258
+1996-12;Curitiba;1;0.9768
+1996-12;Florianópolis;1;1.0394
+1996-12;Porto Alegre;1;0.9791
+1996-12;Belém;1;0.8144
+1996-12;Aracaju;1;0.9350
+1996-12;Fortaleza;1;0.9745
+1996-12;João Pessoa;1;1.0046
+1996-12;Natal;1;1.0116
+1996-12;Recife;1;0.9327
+1996-12;Salvador;1;0.9606
+1997-01;Brasília;1;0.9016
+1997-01;Goiânia;1;0.8330
+1997-01;Belo Horizonte;1;0.9634
+1997-01;Rio de Janeiro;1;0.8696
+1997-01;São Paulo;1;1.0000
+1997-01;Vitória;1;0.9108
+1997-01;Curitiba;1;0.9542
+1997-01;Florianópolis;1;1.0595
+1997-01;Porto Alegre;1;0.9634
+1997-01;Belém;1;0.8146
+1997-01;Aracaju;1;0.9199
+1997-01;Fortaleza;1;0.9565
+1997-01;João Pessoa;1;0.9703
+1997-01;Natal;1;0.9588
+1997-01;Recife;1;0.9245
+1997-01;Salvador;1;0.9680
+1997-02;Brasília;1;0.9516
+1997-02;Goiânia;1;0.8065
+1997-02;Belo Horizonte;1;0.9401
+1997-02;Rio de Janeiro;1;0.8479
+1997-02;São Paulo;1;1.0000
+1997-02;Vitória;1;0.9055
+1997-02;Curitiba;1;0.9885
+1997-02;Florianópolis;1;1.0415
+1997-02;Porto Alegre;1;0.9862
+1997-02;Belém;1;0.8157
+1997-02;Aracaju;1;0.9424
+1997-02;Fortaleza;1;0.9654
+1997-02;João Pessoa;1;0.9724
+1997-02;Natal;1;0.9839
+1997-02;Recife;1;0.9240
+1997-02;Salvador;1;0.9654
+1997-03;Brasília;1;0.9309
+1997-03;Goiânia;1;0.8249
+1997-03;Belo Horizonte;1;0.9355
+1997-03;Rio de Janeiro;1;0.8502
+1997-03;São Paulo;1;1.0000
+1997-03;Vitória;1;0.9055
+1997-03;Curitiba;1;0.9562
+1997-03;Florianópolis;1;1.0300
+1997-03;Porto Alegre;1;0.9724
+1997-03;Belém;1;0.7834
+1997-03;Aracaju;1;0.9240
+1997-03;Fortaleza;1;0.9424
+1997-03;João Pessoa;1;0.9447
+1997-03;Natal;1;0.9171
+1997-03;Recife;1;0.9286
+1997-03;Salvador;1;0.9770
+1997-04;Brasília;1;0.9543
+1997-04;Goiânia;1;0.8151
+1997-04;Belo Horizonte;1;0.9315
+1997-04;Rio de Janeiro;1;0.8470
+1997-04;São Paulo;1;1.0000
+1997-04;Vitória;1;0.8995
+1997-04;Curitiba;1;0.9224
+1997-04;Florianópolis;1;0.9749
+1997-04;Porto Alegre;1;0.9521
+1997-04;Belém;1;0.7740
+1997-04;Aracaju;1;0.9018
+1997-04;Fortaleza;1;0.9589
+1997-04;João Pessoa;1;0.9589
+1997-04;Natal;1;0.9909
+1997-04;Recife;1;0.9132
+1997-04;Salvador;1;0.9543
+1997-05;Brasília;1;0.9375
+1997-05;Goiânia;1;0.8449
+1997-05;Belo Horizonte;1;0.9306
+1997-05;Rio de Janeiro;1;0.8565
+1997-05;São Paulo;1;1.0000
+1997-05;Vitória;1;0.9051
+1997-05;Curitiba;1;0.9583
+1997-05;Florianópolis;1;1.0162
+1997-05;Porto Alegre;1;0.9792
+1997-05;Belém;1;0.7778
+1997-05;Aracaju;1;0.9120
+1997-05;Fortaleza;1;0.9653
+1997-05;João Pessoa;1;0.9606
+1997-05;Natal;1;1.0046
+1997-05;Recife;1;0.9190
+1997-05;Salvador;1;0.9491
+1997-06;Brasília;1;0.9213
+1997-06;Goiânia;1;0.8519
+1997-06;Belo Horizonte;1;0.9398
+1997-06;Rio de Janeiro;1;0.8704
+1997-06;São Paulo;1;1.0000
+1997-06;Vitória;1;0.8912
+1997-06;Curitiba;1;0.9375
+1997-06;Florianópolis;1;1.0208
+1997-06;Porto Alegre;1;0.9838
+1997-06;Belém;1;0.7431
+1997-06;Aracaju;1;0.9051
+1997-06;Fortaleza;1;0.9375
+1997-06;João Pessoa;1;0.9398
+1997-06;Natal;1;1.0093
+1997-06;Recife;1;0.9213
+1997-06;Salvador;1;0.9190
+1997-07;Brasília;1;0.9564
+1997-07;Goiânia;1;0.8486
+1997-07;Belo Horizonte;1;0.9312
+1997-07;Rio de Janeiro;1;0.8440
+1997-07;São Paulo;1;1.0000
+1997-07;Vitória;1;0.9037
+1997-07;Curitiba;1;0.9518
+1997-07;Florianópolis;1;1.0092
+1997-07;Porto Alegre;1;1.0000
+1997-07;Belém;1;0.7225
+1997-07;Aracaju;1;0.8922
+1997-07;Fortaleza;1;0.9289
+1997-07;João Pessoa;1;0.9518
+1997-07;Natal;1;0.9633
+1997-07;Recife;1;0.9197
+1997-07;Salvador;1;0.9243
+1997-08;Brasília;1;0.9633
+1997-08;Goiânia;1;0.8555
+1997-08;Belo Horizonte;1;0.9472
+1997-08;Rio de Janeiro;1;0.8739
+1997-08;São Paulo;1;1.0000
+1997-08;Vitória;1;0.9106
+1997-08;Curitiba;1;0.9908
+1997-08;Florianópolis;1;1.0459
+1997-08;Porto Alegre;1;1.0206
+1997-08;Belém;1;0.7202
+1997-08;Aracaju;1;0.8876
+1997-08;Fortaleza;1;0.9060
+1997-08;João Pessoa;1;0.9564
+1997-08;Natal;1;0.9679
+1997-08;Recife;1;0.9106
+1997-08;Salvador;1;0.9381
+1997-09;Brasília;1;0.9491
+1997-09;Goiânia;1;0.8750
+1997-09;Belo Horizonte;1;0.9514
+1997-09;Rio de Janeiro;1;0.8681
+1997-09;São Paulo;1;1.0000
+1997-09;Vitória;1;0.9120
+1997-09;Curitiba;1;1.0162
+1997-09;Florianópolis;1;1.0625
+1997-09;Porto Alegre;1;1.0278
+1997-09;Belém;1;0.7523
+1997-09;Aracaju;1;0.9005
+1997-09;Fortaleza;1;0.9144
+1997-09;João Pessoa;1;0.9491
+1997-09;Natal;1;1.0046
+1997-09;Recife;1;0.9329
+1997-09;Salvador;1;0.9444
+1997-10;Brasília;1;0.9862
+1997-10;Goiânia;1;0.8761
+1997-10;Belo Horizonte;1;0.9472
+1997-10;Rio de Janeiro;1;0.8784
+1997-10;São Paulo;1;1.0000
+1997-10;Vitória;1;0.9220
+1997-10;Curitiba;1;0.9977
+1997-10;Florianópolis;1;0.9885
+1997-10;Porto Alegre;1;0.9862
+1997-10;Belém;1;0.7638
+1997-10;Aracaju;1;0.9106
+1997-10;Fortaleza;1;0.9335
+1997-10;João Pessoa;1;0.9495
+1997-10;Natal;1;0.9885
+1997-10;Recife;1;0.9335
+1997-10;Salvador;1;0.9358
+1997-11;Brasília;1;0.9643
+1997-11;Goiânia;1;0.8728
+1997-11;Belo Horizonte;1;0.9241
+1997-11;Rio de Janeiro;1;0.8616
+1997-11;São Paulo;1;1.0000
+1997-11;Vitória;1;0.9308
+1997-11;Curitiba;1;0.9241
+1997-11;Florianópolis;1;0.9844
+1997-11;Porto Alegre;1;0.9621
+1997-11;Belém;1;0.7567
+1997-11;Aracaju;1;0.9196
+1997-11;Fortaleza;1;0.9330
+1997-11;João Pessoa;1;0.9464
+1997-11;Natal;1;0.9598
+1997-11;Recife;1;0.9263
+1997-11;Salvador;1;0.9241
+1997-12;Brasília;1;0.9442
+1997-12;Goiânia;1;0.8415
+1997-12;Belo Horizonte;1;0.9509
+1997-12;Rio de Janeiro;1;0.8683
+1997-12;São Paulo;1;1.0000
+1997-12;Vitória;1;0.9263
+1997-12;Curitiba;1;0.9888
+1997-12;Florianópolis;1;0.9888
+1997-12;Porto Alegre;1;0.9487
+1997-12;Belém;1;0.7790
+1997-12;Aracaju;1;0.9107
+1997-12;Fortaleza;1;0.9174
+1997-12;João Pessoa;1;0.9330
+1997-12;Natal;1;0.9754
+1997-12;Recife;1;0.9219
+1997-12;Salvador;1;0.9219
+1998-01;Brasília;1;0.9620
+1998-01;Goiânia;1;0.8501
+1998-01;Belo Horizonte;1;1.0201
+1998-01;Rio de Janeiro;1;0.8993
+1998-01;São Paulo;1;1.0000
+1998-01;Vitória;1;0.9530
+1998-01;Curitiba;1;0.9709
+1998-01;Florianópolis;1;1.0000
+1998-01;Porto Alegre;1;0.9687
+1998-01;Belém;1;0.7696
+1998-01;Aracaju;1;0.9083
+1998-01;Fortaleza;1;0.9038
+1998-01;João Pessoa;1;0.9620
+1998-01;Natal;1;0.9866
+1998-01;Recife;1;0.9306
+1998-01;Salvador;1;0.9195
+1998-02;Brasília;1;0.9262
+1998-02;Goiânia;1;0.8501
+1998-02;Belo Horizonte;1;0.9642
+1998-02;Rio de Janeiro;1;0.8881
+1998-02;São Paulo;1;1.0000
+1998-02;Vitória;1;0.9463
+1998-02;Curitiba;1;1.0291
+1998-02;Florianópolis;1;0.9732
+1998-02;Porto Alegre;1;0.9843
+1998-02;Belém;1;0.7808
+1998-02;Aracaju;1;0.9038
+1998-02;Fortaleza;1;0.9150
+1998-02;João Pessoa;1;0.9709
+1998-02;Natal;1;0.9799
+1998-02;Recife;1;0.9374
+1998-02;Salvador;1;0.9038
+1998-03;Brasília;1;0.9382
+1998-03;Goiânia;1;0.8521
+1998-03;Belo Horizonte;1;0.9647
+1998-03;Rio de Janeiro;1;0.8742
+1998-03;São Paulo;1;1.0000
+1998-03;Vitória;1;0.9272
+1998-03;Curitiba;1;0.9956
+1998-03;Florianópolis;1;0.9934
+1998-03;Porto Alegre;1;0.9603
+1998-03;Belém;1;0.7660
+1998-03;Aracaju;1;0.9161
+1998-03;Fortaleza;1;0.9183
+1998-03;João Pessoa;1;0.9470
+1998-03;Natal;1;0.9956
+1998-03;Recife;1;0.9183
+1998-03;Salvador;1;0.8852
+1998-04;Brasília;1;0.9135
+1998-04;Goiânia;1;0.8426
+1998-04;Belo Horizonte;1;0.9379
+1998-04;Rio de Janeiro;1;0.8780
+1998-04;São Paulo;1;1.0000
+1998-04;Vitória;1;0.9313
+1998-04;Curitiba;1;0.9690
+1998-04;Florianópolis;1;0.9933
+1998-04;Porto Alegre;1;0.9845
+1998-04;Belém;1;0.7583
+1998-04;Aracaju;1;0.9357
+1998-04;Fortaleza;1;0.9091
+1998-04;João Pessoa;1;0.9379
+1998-04;Natal;1;1.0067
+1998-04;Recife;1;0.9157
+1998-04;Salvador;1;0.8869
+1998-05;Brasília;1;0.9289
+1998-05;Goiânia;1;0.8356
+1998-05;Belo Horizonte;1;0.9089
+1998-05;Rio de Janeiro;1;0.8733
+1998-05;São Paulo;1;1.0000
+1998-05;Vitória;1;0.9178
+1998-05;Curitiba;1;0.9778
+1998-05;Florianópolis;1;1.0044
+1998-05;Porto Alegre;1;0.9711
+1998-05;Belém;1;0.7756
+1998-05;Aracaju;1;0.9267
+1998-05;Fortaleza;1;0.9178
+1998-05;João Pessoa;1;0.9422
+1998-05;Natal;1;1.0133
+1998-05;Recife;1;0.9267
+1998-05;Salvador;1;0.8822
+1998-06;Brasília;1;0.9111
+1998-06;Goiânia;1;0.8533
+1998-06;Belo Horizonte;1;0.9067
+1998-06;Rio de Janeiro;1;0.8511
+1998-06;São Paulo;1;1.0000
+1998-06;Vitória;1;0.8600
+1998-06;Curitiba;1;0.9756
+1998-06;Florianópolis;1;1.0267
+1998-06;Porto Alegre;1;1.0089
+1998-06;Belém;1;0.7556
+1998-06;Aracaju;1;0.9333
+1998-06;Fortaleza;1;0.9000
+1998-06;João Pessoa;1;0.9356
+1998-06;Natal;1;1.0267
+1998-06;Recife;1;0.9222
+1998-06;Salvador;1;0.8778
+1998-07;Brasília;1;0.9187
+1998-07;Goiânia;1;0.8713
+1998-07;Belo Horizonte;1;0.9187
+1998-07;Rio de Janeiro;1;0.8894
+1998-07;São Paulo;1;1.0000
+1998-07;Vitória;1;0.8984
+1998-07;Curitiba;1;1.0068
+1998-07;Florianópolis;1;1.0474
+1998-07;Porto Alegre;1;1.0745
+1998-07;Belém;1;0.7788
+1998-07;Aracaju;1;1.0339
+1998-07;Fortaleza;1;0.9029
+1998-07;João Pessoa;1;0.9684
+1998-07;Natal;1;1.0203
+1998-07;Recife;1;0.9323
+1998-07;Salvador;1;0.8871
+1998-08;Brasília;1;0.9532
+1998-08;Goiânia;1;0.8842
+1998-08;Belo Horizonte;1;0.9421
+1998-08;Rio de Janeiro;1;0.8953
+1998-08;São Paulo;1;1.0000
+1998-08;Vitória;1;0.8886
+1998-08;Curitiba;1;0.9800
+1998-08;Florianópolis;1;1.0401
+1998-08;Porto Alegre;1;1.0646
+1998-08;Belém;1;0.7728
+1998-08;Aracaju;1;0.9688
+1998-08;Fortaleza;1;0.8953
+1998-08;João Pessoa;1;0.9109
+1998-08;Natal;1;1.0267
+1998-08;Recife;1;0.9198
+1998-08;Salvador;1;0.8864
+1998-09;Brasília;1;0.9720
+1998-09;Goiânia;1;0.8879
+1998-09;Belo Horizonte;1;0.9418
+1998-09;Rio de Janeiro;1;0.9009
+1998-09;São Paulo;1;1.0000
+1998-09;Vitória;1;0.8987
+1998-09;Curitiba;1;0.9828
+1998-09;Florianópolis;1;1.0043
+1998-09;Porto Alegre;1;1.0431
+1998-09;Belém;1;0.7457
+1998-09;Aracaju;1;0.9720
+1998-09;Fortaleza;1;0.8966
+1998-09;João Pessoa;1;0.9526
+1998-09;Natal;1;0.9720
+1998-09;Recife;1;0.9181
+1998-09;Salvador;1;0.8599
+1998-10;Brasília;1;0.9170
+1998-10;Goiânia;1;0.8766
+1998-10;Belo Horizonte;1;0.9553
+1998-10;Rio de Janeiro;1;0.8809
+1998-10;São Paulo;1;1.0000
+1998-10;Vitória;1;0.9064
+1998-10;Curitiba;1;1.0021
+1998-10;Florianópolis;1;0.9872
+1998-10;Porto Alegre;1;1.0128
+1998-10;Belém;1;0.7404
+1998-10;Aracaju;1;0.9362
+1998-10;Fortaleza;1;0.9277
+1998-10;João Pessoa;1;0.9383
+1998-10;Natal;1;0.9596
+1998-10;Recife;1;0.8851
+1998-10;Salvador;1;0.8638
+1998-11;Brasília;1;0.9936
+1998-11;Goiânia;1;0.8996
+1998-11;Belo Horizonte;1;0.9402
+1998-11;Rio de Janeiro;1;0.8974
+1998-11;São Paulo;1;1.0000
+1998-11;Vitória;1;0.9103
+1998-11;Curitiba;1;0.9615
+1998-11;Florianópolis;1;0.9786
+1998-11;Porto Alegre;1;1.0321
+1998-11;Belém;1;0.7671
+1998-11;Aracaju;1;0.9829
+1998-11;Fortaleza;1;0.9274
+1998-11;João Pessoa;1;0.9551
+1998-11;Natal;1;0.9850
+1998-11;Recife;1;0.8996
+1998-11;Salvador;1;0.8932
+1998-12;Brasília;1;0.9744
+1998-12;Goiânia;1;0.8934
+1998-12;Belo Horizonte;1;0.9552
+1998-12;Rio de Janeiro;1;0.8934
+1998-12;São Paulo;1;1.0000
+1998-12;Vitória;1;0.9126
+1998-12;Curitiba;1;0.9787
+1998-12;Florianópolis;1;0.9936
+1998-12;Porto Alegre;1;1.0512
+1998-12;Belém;1;0.7804
+1998-12;Aracaju;1;0.9446
+1998-12;Fortaleza;1;0.9147
+1998-12;João Pessoa;1;0.9531
+1998-12;Natal;1;0.9808
+1998-12;Recife;1;0.8977
+1998-12;Salvador;1;0.8934
+1999-01;Brasília;1;0.9939
+1999-01;Goiânia;1;0.8394
+1999-01;Belo Horizonte;1;0.9207
+1999-01;Rio de Janeiro;1;0.8679
+1999-01;São Paulo;1;1.0000
+1999-01;Vitória;1;0.8638
+1999-01;Curitiba;1;0.9411
+1999-01;Florianópolis;1;0.9593
+1999-01;Porto Alegre;1;1.0000
+1999-01;Belém;1;0.7805
+1999-01;Aracaju;1;0.9106
+1999-01;Fortaleza;1;0.9207
+1999-01;João Pessoa;1;0.9248
+1999-01;Natal;1;0.9695
+1999-01;Recife;1;0.8780
+1999-01;Salvador;1;0.8740
+1999-02;Brasília;1;0.8827
+1999-02;Goiânia;1;0.8192
+1999-02;Belo Horizonte;1;0.9192
+1999-02;Rio de Janeiro;1;0.9173
+1999-02;São Paulo;1;1.0000
+1999-02;Vitória;1;0.8115
+1999-02;Curitiba;1;0.9769
+1999-02;Florianópolis;1;0.9558
+1999-02;Porto Alegre;1;0.9769
+1999-02;Belém;1;0.7904
+1999-02;Aracaju;1;1.0500
+1999-02;Fortaleza;1;0.9327
+1999-02;João Pessoa;1;1.0154
+1999-02;Natal;1;1.0038
+1999-02;Recife;1;0.9269
+1999-02;Salvador;1;0.8404
+1999-03;Brasília;1;0.8977
+1999-03;Goiânia;1;0.7784
+1999-03;Belo Horizonte;1;0.8864
+1999-03;Rio de Janeiro;1;0.8996
+1999-03;São Paulo;1;1.0000
+1999-03;Vitória;1;0.8504
+1999-03;Curitiba;1;0.9697
+1999-03;Florianópolis;1;0.9318
+1999-03;Porto Alegre;1;0.9830
+1999-03;Belém;1;0.7708
+1999-03;Aracaju;1;0.9148
+1999-03;Fortaleza;1;0.8996
+1999-03;João Pessoa;1;1.0114
+1999-03;Natal;1;0.9735
+1999-03;Recife;1;0.8769
+1999-03;Salvador;1;0.8333
+1999-04;Brasília;1;0.9251
+1999-04;Goiânia;1;0.7620
+1999-04;Belo Horizonte;1;0.8848
+1999-04;Rio de Janeiro;1;0.8925
+1999-04;São Paulo;1;1.0000
+1999-04;Vitória;1;0.8388
+1999-04;Curitiba;1;0.9597
+1999-04;Florianópolis;1;0.9232
+1999-04;Porto Alegre;1;0.9962
+1999-04;Belém;1;0.7812
+1999-04;Aracaju;1;1.0384
+1999-04;Fortaleza;1;0.8810
+1999-04;João Pessoa;1;0.9942
+1999-04;Natal;1;0.9674
+1999-04;Recife;1;0.8848
+1999-04;Salvador;1;0.8484
+1999-05;Brasília;1;0.8743
+1999-05;Goiânia;1;0.7776
+1999-05;Belo Horizonte;1;0.8762
+1999-05;Rio de Janeiro;1;0.8917
+1999-05;São Paulo;1;1.0000
+1999-05;Vitória;1;0.7950
+1999-05;Curitiba;1;0.9884
+1999-05;Florianópolis;1;0.9168
+1999-05;Porto Alegre;1;1.0000
+1999-05;Belém;1;0.7853
+1999-05;Aracaju;1;0.9555
+1999-05;Fortaleza;1;0.8801
+1999-05;João Pessoa;1;0.9594
+1999-05;Natal;1;0.9439
+1999-05;Recife;1;0.8994
+1999-05;Salvador;1;0.8395
+1999-06;Brasília;1;0.8627
+1999-06;Goiânia;1;0.7608
+1999-06;Belo Horizonte;1;0.8667
+1999-06;Rio de Janeiro;1;0.8804
+1999-06;São Paulo;1;1.0000
+1999-06;Vitória;1;0.8392
+1999-06;Curitiba;1;0.9647
+1999-06;Florianópolis;1;0.9373
+1999-06;Porto Alegre;1;1.0118
+1999-06;Belém;1;0.7765
+1999-06;Aracaju;1;0.9275
+1999-06;Fortaleza;1;0.8824
+1999-06;João Pessoa;1;0.9627
+1999-06;Natal;1;0.9667
+1999-06;Recife;1;0.9333
+1999-06;Salvador;1;0.8294
+1999-07;Brasília;1;0.8707
+1999-07;Goiânia;1;0.7664
+1999-07;Belo Horizonte;1;0.8861
+1999-07;Rio de Janeiro;1;0.8591
+1999-07;São Paulo;1;1.0000
+1999-07;Vitória;1;0.8359
+1999-07;Curitiba;1;0.9266
+1999-07;Florianópolis;1;0.9344
+1999-07;Porto Alegre;1;0.9710
+1999-07;Belém;1;0.7645
+1999-07;Aracaju;1;0.9151
+1999-07;Fortaleza;1;0.8610
+1999-07;João Pessoa;1;0.9981
+1999-07;Natal;1;0.9788
+1999-07;Recife;1;0.8842
+1999-07;Salvador;1;0.8359
+1999-08;Brasília;1;0.8424
+1999-08;Goiânia;1;0.7655
+1999-08;Belo Horizonte;1;0.8874
+1999-08;Rio de Janeiro;1;0.8462
+1999-08;São Paulo;1;1.0000
+1999-08;Vitória;1;0.8293
+1999-08;Curitiba;1;0.9737
+1999-08;Florianópolis;1;0.9137
+1999-08;Porto Alegre;1;0.9606
+1999-08;Belém;1;0.7505
+1999-08;Aracaju;1;0.8968
+1999-08;Fortaleza;1;0.8668
+1999-08;João Pessoa;1;0.9737
+1999-08;Natal;1;0.9456
+1999-08;Recife;1;0.8630
+1999-08;Salvador;1;0.8143
+1999-09;Brasília;1;0.8806
+1999-09;Goiânia;1;0.7724
+1999-09;Belo Horizonte;1;0.9179
+1999-09;Rio de Janeiro;1;0.8937
+1999-09;São Paulo;1;1.0000
+1999-09;Vitória;1;0.8619
+1999-09;Curitiba;1;0.9832
+1999-09;Florianópolis;1;0.9384
+1999-09;Porto Alegre;1;0.9888
+1999-09;Belém;1;0.7612
+1999-09;Aracaju;1;0.8993
+1999-09;Fortaleza;1;0.8787
+1999-09;João Pessoa;1;1.0299
+1999-09;Natal;1;0.9478
+1999-09;Recife;1;0.8657
+1999-09;Salvador;1;0.8209
+1999-10;Brasília;1;0.9151
+1999-10;Goiânia;1;0.8031
+1999-10;Belo Horizonte;1;0.8964
+1999-10;Rio de Janeiro;1;0.9185
+1999-10;São Paulo;1;1.0000
+1999-10;Vitória;1;0.8829
+1999-10;Curitiba;1;0.9864
+1999-10;Florianópolis;1;0.9338
+1999-10;Porto Alegre;1;0.9151
+1999-10;Belém;1;0.7487
+1999-10;Aracaju;1;0.8862
+1999-10;Fortaleza;1;0.8574
+1999-10;João Pessoa;1;0.9864
+1999-10;Natal;1;0.9711
+1999-10;Recife;1;0.8166
+1999-10;Salvador;1;0.8115
+1999-11;Brasília;1;0.8776
+1999-11;Goiânia;1;0.8148
+1999-11;Belo Horizonte;1;0.9082
+1999-11;Rio de Janeiro;1;0.8567
+1999-11;São Paulo;1;1.0000
+1999-11;Vitória;1;0.8551
+1999-11;Curitiba;1;0.9919
+1999-11;Florianópolis;1;0.9356
+1999-11;Porto Alegre;1;0.9114
+1999-11;Belém;1;0.7182
+1999-11;Aracaju;1;0.8422
+1999-11;Fortaleza;1;0.8599
+1999-11;João Pessoa;1;0.9855
+1999-11;Natal;1;0.9694
+1999-11;Recife;1;0.7842
+1999-11;Salvador;1;0.7826
+1999-12;Brasília;1;0.8852
+1999-12;Goiânia;1;0.7719
+1999-12;Belo Horizonte;1;0.8756
+1999-12;Rio de Janeiro;1;0.8644
+1999-12;São Paulo;1;1.0000
+1999-12;Vitória;1;0.8660
+1999-12;Curitiba;1;0.9888
+1999-12;Florianópolis;1;0.9314
+1999-12;Porto Alegre;1;0.9234
+1999-12;Belém;1;0.7289
+1999-12;Aracaju;1;0.8660
+1999-12;Fortaleza;1;0.8469
+1999-12;João Pessoa;1;0.9250
+1999-12;Natal;1;0.9314
+1999-12;Recife;1;0.8038
+1999-12;Salvador;1;0.7847
+2000-01;Brasília;1;0.9034
+2000-01;Goiânia;1;0.7617
+2000-01;Belo Horizonte;1;0.8615
+2000-01;Rio de Janeiro;1;0.8583
+2000-01;São Paulo;1;1.0000
+2000-01;Vitória;1;0.8680
+2000-01;Curitiba;1;0.9308
+2000-01;Florianópolis;1;0.9340
+2000-01;Porto Alegre;1;0.9517
+2000-01;Belém;1;0.7391
+2000-01;Aracaju;1;0.8680
+2000-01;Fortaleza;1;0.8744
+2000-01;João Pessoa;1;0.9597
+2000-01;Natal;1;0.9839
+2000-01;Recife;1;0.8196
+2000-01;Salvador;1;0.8003
+2000-02;Brasília;1;0.9112
+2000-02;Goiânia;1;0.7648
+2000-02;Belo Horizonte;1;0.8684
+2000-02;Rio de Janeiro;1;0.8536
+2000-02;São Paulo;1;1.0000
+2000-02;Vitória;1;0.8158
+2000-02;Curitiba;1;0.9408
+2000-02;Florianópolis;1;0.9852
+2000-02;Porto Alegre;1;1.0082
+2000-02;Belém;1;0.7566
+2000-02;Aracaju;1;0.8914
+2000-02;Fortaleza;1;0.8766
+2000-02;João Pessoa;1;0.9934
+2000-02;Natal;1;1.0164
+2000-02;Recife;1;0.8289
+2000-02;Salvador;1;0.8174
+2000-03;Brasília;1;0.8588
+2000-03;Goiânia;1;0.7513
+2000-03;Belo Horizonte;1;0.8571
+2000-03;Rio de Janeiro;1;0.8723
+2000-03;São Paulo;1;1.0000
+2000-03;Vitória;1;0.8487
+2000-03;Curitiba;1;0.9109
+2000-03;Florianópolis;1;0.9933
+2000-03;Porto Alegre;1;1.0101
+2000-03;Belém;1;0.7697
+2000-03;Aracaju;1;0.9042
+2000-03;Fortaleza;1;0.8555
+2000-03;João Pessoa;1;0.9613
+2000-03;Natal;1;0.9529
+2000-03;Recife;1;0.8790
+2000-03;Salvador;1;0.8050
+2000-04;Brasília;1;0.9120
+2000-04;Goiânia;1;0.7716
+2000-04;Belo Horizonte;1;0.8579
+2000-04;Rio de Janeiro;1;0.8680
+2000-04;São Paulo;1;1.0000
+2000-04;Vitória;1;0.8883
+2000-04;Curitiba;1;1.0355
+2000-04;Florianópolis;1;0.9679
+2000-04;Porto Alegre;1;0.9628
+2000-04;Belém;1;0.7716
+2000-04;Aracaju;1;0.9306
+2000-04;Fortaleza;1;0.8528
+2000-04;João Pessoa;1;0.9526
+2000-04;Natal;1;0.9848
+2000-04;Recife;1;0.8816
+2000-04;Salvador;1;0.8003
+2000-05;Brasília;1;0.9134
+2000-05;Goiânia;1;0.7572
+2000-05;Belo Horizonte;1;0.8421
+2000-05;Rio de Janeiro;1;0.7946
+2000-05;São Paulo;1;1.0000
+2000-05;Vitória;1;0.8676
+2000-05;Curitiba;1;1.0374
+2000-05;Florianópolis;1;0.9542
+2000-05;Porto Alegre;1;0.9813
+2000-05;Belém;1;0.7623
+2000-05;Aracaju;1;0.9270
+2000-05;Fortaleza;1;0.8387
+2000-05;João Pessoa;1;0.9559
+2000-05;Natal;1;0.9966
+2000-05;Recife;1;0.8812
+2000-05;Salvador;1;0.8048
+2000-06;Brasília;1;0.9317
+2000-06;Goiânia;1;0.7850
+2000-06;Belo Horizonte;1;0.8720
+2000-06;Rio de Janeiro;1;0.8925
+2000-06;São Paulo;1;1.0000
+2000-06;Vitória;1;0.8396
+2000-06;Curitiba;1;0.9932
+2000-06;Florianópolis;1;0.9420
+2000-06;Porto Alegre;1;0.9693
+2000-06;Belém;1;0.7696
+2000-06;Aracaju;1;0.9300
+2000-06;Fortaleza;1;0.8259
+2000-06;João Pessoa;1;0.8635
+2000-06;Natal;1;1.0034
+2000-06;Recife;1;0.8993
+2000-06;Salvador;1;0.8123
+2000-07;Brasília;1;0.8815
+2000-07;Goiânia;1;0.7997
+2000-07;Belo Horizonte;1;0.8898
+2000-07;Rio de Janeiro;1;0.8314
+2000-07;São Paulo;1;1.0000
+2000-07;Vitória;1;0.8264
+2000-07;Curitiba;1;1.0117
+2000-07;Florianópolis;1;0.9499
+2000-07;Porto Alegre;1;0.9800
+2000-07;Belém;1;0.7596
+2000-07;Aracaju;1;0.9182
+2000-07;Fortaleza;1;0.8431
+2000-07;João Pessoa;1;0.9199
+2000-07;Natal;1;0.9883
+2000-07;Recife;1;0.8831
+2000-07;Salvador;1;0.8114
+2000-08;Brasília;1;0.9259
+2000-08;Goiânia;1;0.8336
+2000-08;Belo Horizonte;1;0.9209
+2000-08;Rio de Janeiro;1;0.9077
+2000-08;São Paulo;1;1.0000
+2000-08;Vitória;1;0.8682
+2000-08;Curitiba;1;1.0857
+2000-08;Florianópolis;1;0.9407
+2000-08;Porto Alegre;1;1.0082
+2000-08;Belém;1;0.7776
+2000-08;Aracaju;1;0.9572
+2000-08;Fortaleza;1;0.8896
+2000-08;João Pessoa;1;0.9572
+2000-08;Natal;1;0.9901
+2000-08;Recife;1;0.8616
+2000-08;Salvador;1;0.8418
+2000-09;Brasília;1;0.8976
+2000-09;Goiânia;1;0.8000
+2000-09;Belo Horizonte;1;0.8927
+2000-09;Rio de Janeiro;1;0.8780
+2000-09;São Paulo;1;1.0000
+2000-09;Vitória;1;0.8569
+2000-09;Curitiba;1;0.9902
+2000-09;Florianópolis;1;0.9317
+2000-09;Porto Alegre;1;1.0033
+2000-09;Belém;1;0.7642
+2000-09;Aracaju;1;0.9447
+2000-09;Fortaleza;1;0.8927
+2000-09;João Pessoa;1;0.9837
+2000-09;Natal;1;0.9951
+2000-09;Recife;1;0.8618
+2000-09;Salvador;1;0.8260
+2000-10;Brasília;1;0.9207
+2000-10;Goiânia;1;0.8155
+2000-10;Belo Horizonte;1;0.9029
+2000-10;Rio de Janeiro;1;0.8867
+2000-10;São Paulo;1;1.0000
+2000-10;Vitória;1;0.8463
+2000-10;Curitiba;1;0.9968
+2000-10;Florianópolis;1;0.9434
+2000-10;Porto Alegre;1;1.0227
+2000-10;Belém;1;0.7832
+2000-10;Aracaju;1;0.9563
+2000-10;Fortaleza;1;0.8867
+2000-10;João Pessoa;1;0.9676
+2000-10;Natal;1;1.0129
+2000-10;Recife;1;0.8657
+2000-10;Salvador;1;0.8414
+2000-11;Brasília;1;0.9280
+2000-11;Goiânia;1;0.8216
+2000-11;Belo Horizonte;1;0.9231
+2000-11;Rio de Janeiro;1;0.9214
+2000-11;São Paulo;1;1.0000
+2000-11;Vitória;1;0.8511
+2000-11;Curitiba;1;1.0884
+2000-11;Florianópolis;1;0.9656
+2000-11;Porto Alegre;1;1.0376
+2000-11;Belém;1;0.7987
+2000-11;Aracaju;1;0.9574
+2000-11;Fortaleza;1;0.9067
+2000-11;João Pessoa;1;0.9558
+2000-11;Natal;1;1.0311
+2000-11;Recife;1;0.8887
+2000-11;Salvador;1;0.8478
+2000-12;Brasília;1;0.9247
+2000-12;Goiânia;1;0.7997
+2000-12;Belo Horizonte;1;0.9151
+2000-12;Rio de Janeiro;1;0.8846
+2000-12;São Paulo;1;1.0000
+2000-12;Vitória;1;0.7965
+2000-12;Curitiba;1;0.9487
+2000-12;Florianópolis;1;0.9167
+2000-12;Porto Alegre;1;1.0192
+2000-12;Belém;1;0.7676
+2000-12;Aracaju;1;0.9439
+2000-12;Fortaleza;1;0.8974
+2000-12;João Pessoa;1;0.9808
+2000-12;Natal;1;0.9952
+2000-12;Recife;1;0.8558
+2000-12;Salvador;1;0.8253
+2001-01;Brasília;1;0.9029
+2001-01;Goiânia;1;0.8041
+2001-01;Belo Horizonte;1;0.8965
+2001-01;Rio de Janeiro;1;0.9092
+2001-01;São Paulo;1;1.0000
+2001-01;Vitória;1;0.8025
+2001-01;Curitiba;1;0.9873
+2001-01;Florianópolis;1;0.9379
+2001-01;Porto Alegre;1;1.0621
+2001-01;Belém;1;0.7659
+2001-01;Aracaju;1;0.9490
+2001-01;Fortaleza;1;0.8726
+2001-01;João Pessoa;1;0.9697
+2001-01;Natal;1;0.9920
+2001-01;Recife;1;0.8535
+2001-01;Salvador;1;0.8296
+2001-02;Brasília;1;0.8800
+2001-02;Goiânia;1;0.8016
+2001-02;Belo Horizonte;1;0.9264
+2001-02;Rio de Janeiro;1;0.8720
+2001-02;São Paulo;1;1.0000
+2001-02;Vitória;1;0.7984
+2001-02;Curitiba;1;0.9664
+2001-02;Florianópolis;1;0.9424
+2001-02;Porto Alegre;1;1.0416
+2001-02;Belém;1;0.7680
+2001-02;Aracaju;1;0.9456
+2001-02;Fortaleza;1;0.9024
+2001-02;João Pessoa;1;0.9248
+2001-02;Natal;1;0.9968
+2001-02;Recife;1;0.8368
+2001-02;Salvador;1;0.8256
+2001-03;Brasília;1;0.8601
+2001-03;Goiânia;1;0.8006
+2001-03;Belo Horizonte;1;0.9035
+2001-03;Rio de Janeiro;1;0.9196
+2001-03;São Paulo;1;1.0000
+2001-03;Vitória;1;0.9100
+2001-03;Curitiba;1;1.0209
+2001-03;Florianópolis;1;0.9646
+2001-03;Porto Alegre;1;1.0868
+2001-03;Belém;1;0.7685
+2001-03;Aracaju;1;0.9727
+2001-03;Fortaleza;1;0.9260
+2001-03;João Pessoa;1;0.9486
+2001-03;Natal;1;1.0096
+2001-03;Recife;1;0.8473
+2001-03;Salvador;1;0.8392
+2001-04;Brasília;1;0.8941
+2001-04;Goiânia;1;0.7897
+2001-04;Belo Horizonte;1;0.9085
+2001-04;Rio de Janeiro;1;0.8892
+2001-04;São Paulo;1;1.0000
+2001-04;Vitória;1;0.9133
+2001-04;Curitiba;1;1.0514
+2001-04;Florianópolis;1;0.9615
+2001-04;Porto Alegre;1;1.0915
+2001-04;Belém;1;0.7801
+2001-04;Aracaju;1;0.9663
+2001-04;Fortaleza;1;0.9230
+2001-04;João Pessoa;1;0.9518
+2001-04;Natal;1;1.0161
+2001-04;Recife;1;0.8266
+2001-04;Salvador;1;0.8347
+2001-05;Brasília;1;0.8973
+2001-05;Goiânia;1;0.8170
+2001-05;Belo Horizonte;1;0.9197
+2001-05;Rio de Janeiro;1;0.8636
+2001-05;São Paulo;1;1.0000
+2001-05;Vitória;1;0.9149
+2001-05;Curitiba;1;1.0032
+2001-05;Florianópolis;1;0.9567
+2001-05;Porto Alegre;1;1.0353
+2001-05;Belém;1;0.7881
+2001-05;Aracaju;1;0.9583
+2001-05;Fortaleza;1;0.9390
+2001-05;João Pessoa;1;0.9181
+2001-05;Natal;1;1.0177
+2001-05;Recife;1;0.8283
+2001-05;Salvador;1;0.8379
+2001-06;Brasília;1;0.8805
+2001-06;Goiânia;1;0.8029
+2001-06;Belo Horizonte;1;0.8885
+2001-06;Rio de Janeiro;1;0.8885
+2001-06;São Paulo;1;1.0000
+2001-06;Vitória;1;0.8982
+2001-06;Curitiba;1;0.9596
+2001-06;Florianópolis;1;0.9742
+2001-06;Porto Alegre;1;1.0824
+2001-06;Belém;1;0.7981
+2001-06;Aracaju;1;1.0145
+2001-06;Fortaleza;1;0.9370
+2001-06;João Pessoa;1;0.9435
+2001-06;Natal;1;0.9661
+2001-06;Recife;1;0.8433
+2001-06;Salvador;1;0.8352
+2001-07;Brasília;1;0.9530
+2001-07;Goiânia;1;0.8104
+2001-07;Belo Horizonte;1;0.8817
+2001-07;Rio de Janeiro;1;0.9011
+2001-07;São Paulo;1;1.0000
+2001-07;Vitória;1;0.9092
+2001-07;Curitiba;1;0.9708
+2001-07;Florianópolis;1;0.9822
+2001-07;Porto Alegre;1;1.0178
+2001-07;Belém;1;0.7958
+2001-07;Aracaju;1;1.0276
+2001-07;Fortaleza;1;0.9303
+2001-07;João Pessoa;1;0.9238
+2001-07;Natal;1;0.9806
+2001-07;Recife;1;0.8412
+2001-07;Salvador;1;0.8331
+2001-08;Brasília;1;0.8914
+2001-08;Goiânia;1;0.8626
+2001-08;Belo Horizonte;1;0.8818
+2001-08;Rio de Janeiro;1;0.9185
+2001-08;São Paulo;1;1.0000
+2001-08;Vitória;1;0.9026
+2001-08;Curitiba;1;1.0160
+2001-08;Florianópolis;1;0.9696
+2001-08;Porto Alegre;1;1.0383
+2001-08;Belém;1;0.7971
+2001-08;Aracaju;1;1.0016
+2001-08;Fortaleza;1;0.9345
+2001-08;João Pessoa;1;0.9361
+2001-08;Natal;1;0.9537
+2001-08;Recife;1;0.8195
+2001-08;Salvador;1;0.8339
+2001-09;Brasília;1;0.9035
+2001-09;Goiânia;1;0.8307
+2001-09;Belo Horizonte;1;0.9304
+2001-09;Rio de Janeiro;1;0.9177
+2001-09;São Paulo;1;1.0000
+2001-09;Vitória;1;0.9003
+2001-09;Curitiba;1;1.0301
+2001-09;Florianópolis;1;0.9684
+2001-09;Porto Alegre;1;1.0411
+2001-09;Belém;1;0.7991
+2001-09;Aracaju;1;0.9968
+2001-09;Fortaleza;1;0.9209
+2001-09;João Pessoa;1;0.9826
+2001-09;Natal;1;0.9826
+2001-09;Recife;1;0.8180
+2001-09;Salvador;1;0.8418
+2001-10;Brasília;1;0.9463
+2001-10;Goiânia;1;0.8776
+2001-10;Belo Horizonte;1;0.9552
+2001-10;Rio de Janeiro;1;0.8955
+2001-10;São Paulo;1;1.0000
+2001-10;Vitória;1;0.9403
+2001-10;Curitiba;1;1.0851
+2001-10;Florianópolis;1;1.0000
+2001-10;Porto Alegre;1;1.0045
+2001-10;Belém;1;0.7627
+2001-10;Aracaju;1;0.9433
+2001-10;Fortaleza;1;0.8925
+2001-10;João Pessoa;1;0.9090
+2001-10;Natal;1;0.9776
+2001-10;Recife;1;0.8104
+2001-10;Salvador;1;0.8090
+2001-11;Brasília;1;0.9293
+2001-11;Goiânia;1;0.8402
+2001-11;Belo Horizonte;1;0.9279
+2001-11;Rio de Janeiro;1;0.9109
+2001-11;São Paulo;1;1.0000
+2001-11;Vitória;1;0.8784
+2001-11;Curitiba;1;1.0552
+2001-11;Florianópolis;1;0.9661
+2001-11;Porto Alegre;1;0.9632
+2001-11;Belém;1;0.7256
+2001-11;Aracaju;1;0.9364
+2001-11;Fortaleza;1;0.8769
+2001-11;João Pessoa;1;0.9307
+2001-11;Natal;1;0.9533
+2001-11;Recife;1;0.8260
+2001-11;Salvador;1;0.7935
+2001-12;Brasília;1;0.9599
+2001-12;Goiânia;1;0.8653
+2001-12;Belo Horizonte;1;0.9527
+2001-12;Rio de Janeiro;1;0.9155
+2001-12;São Paulo;1;1.0000
+2001-12;Vitória;1;0.9040
+2001-12;Curitiba;1;1.0501
+2001-12;Florianópolis;1;1.0072
+2001-12;Porto Alegre;1;1.0100
+2001-12;Belém;1;0.7421
+2001-12;Aracaju;1;0.9857
+2001-12;Fortaleza;1;0.8739
+2001-12;João Pessoa;1;0.9413
+2001-12;Natal;1;0.9914
+2001-12;Recife;1;0.8309
+2001-12;Salvador;1;0.8582
+2002-01;Brasília;1;0.9556
+2002-01;Goiânia;1;0.8754
+2002-01;Belo Horizonte;1;0.9097
+2002-01;Rio de Janeiro;1;0.9040
+2002-01;São Paulo;1;1.0000
+2002-01;Vitória;1;0.9183
+2002-01;Curitiba;1;0.9885
+2002-01;Florianópolis;1;0.9728
+2002-01;Porto Alegre;1;1.0201
+2002-01;Belém;1;0.7436
+2002-01;Aracaju;1;1.0143
+2002-01;Fortaleza;1;0.8725
+2002-01;João Pessoa;1;0.9513
+2002-01;Natal;1;0.9799
+2002-01;Recife;1;0.8023
+2002-01;Salvador;1;0.8754
+2002-02;Brasília;1;0.9302
+2002-02;Goiânia;1;0.8735
+2002-02;Belo Horizonte;1;0.9099
+2002-02;Rio de Janeiro;1;0.8983
+2002-02;São Paulo;1;1.0000
+2002-02;Vitória;1;0.9244
+2002-02;Curitiba;1;1.0029
+2002-02;Florianópolis;1;0.9855
+2002-02;Porto Alegre;1;1.0203
+2002-02;Belém;1;0.7616
+2002-02;Aracaju;1;0.9985
+2002-02;Fortaleza;1;0.8735
+2002-02;João Pessoa;1;0.9041
+2002-02;Natal;1;0.9593
+2002-02;Recife;1;0.8183
+2002-02;Salvador;1;0.9084
+2002-03;Brasília;1;0.9055
+2002-03;Goiânia;1;0.8648
+2002-03;Belo Horizonte;1;0.8735
+2002-03;Rio de Janeiro;1;0.8823
+2002-03;São Paulo;1;1.0000
+2002-03;Vitória;1;0.9215
+2002-03;Curitiba;1;0.9593
+2002-03;Florianópolis;1;0.9695
+2002-03;Porto Alegre;1;1.0465
+2002-03;Belém;1;0.7674
+2002-03;Aracaju;1;0.9738
+2002-03;Fortaleza;1;0.9201
+2002-03;João Pessoa;1;0.8939
+2002-03;Natal;1;0.9782
+2002-03;Recife;1;0.8081
+2002-03;Salvador;1;0.9157
+2002-04;Brasília;1;0.9172
+2002-04;Goiânia;1;0.8605
+2002-04;Belo Horizonte;1;0.8634
+2002-04;Rio de Janeiro;1;0.8561
+2002-04;São Paulo;1;1.0000
+2002-04;Vitória;1;0.9012
+2002-04;Curitiba;1;0.9797
+2002-04;Florianópolis;1;0.9637
+2002-04;Porto Alegre;1;1.0567
+2002-04;Belém;1;0.7703
+2002-04;Aracaju;1;0.9273
+2002-04;Fortaleza;1;0.9157
+2002-04;João Pessoa;1;0.8968
+2002-04;Natal;1;1.0044
+2002-04;Recife;1;0.8067
+2002-04;Salvador;1;0.8619
+2002-05;Brasília;1;0.9468
+2002-05;Goiânia;1;0.8982
+2002-05;Belo Horizonte;1;0.9012
+2002-05;Rio de Janeiro;1;0.9149
+2002-05;São Paulo;1;1.0000
+2002-05;Vitória;1;0.9422
+2002-05;Curitiba;1;1.0228
+2002-05;Florianópolis;1;1.0061
+2002-05;Porto Alegre;1;1.0821
+2002-05;Belém;1;0.8085
+2002-05;Aracaju;1;0.9666
+2002-05;Fortaleza;1;0.9574
+2002-05;João Pessoa;1;0.9818
+2002-05;Natal;1;1.0410
+2002-05;Recife;1;0.8480
+2002-05;Salvador;1;0.8982
+2002-06;Brasília;1;0.9414
+2002-06;Goiânia;1;0.9059
+2002-06;Belo Horizonte;1;0.9167
+2002-06;Rio de Janeiro;1;0.9059
+2002-06;São Paulo;1;1.0000
+2002-06;Vitória;1;0.9491
+2002-06;Curitiba;1;1.0370
+2002-06;Florianópolis;1;1.0154
+2002-06;Porto Alegre;1;1.0972
+2002-06;Belém;1;0.8117
+2002-06;Aracaju;1;0.9846
+2002-06;Fortaleza;1;0.9969
+2002-06;João Pessoa;1;0.9676
+2002-06;Natal;1;1.0463
+2002-06;Recife;1;0.8642
+2002-06;Salvador;1;0.9136
+2002-07;Brasília;1;0.9673
+2002-07;Goiânia;1;0.9098
+2002-07;Belo Horizonte;1;0.9207
+2002-07;Rio de Janeiro;1;0.8865
+2002-07;São Paulo;1;1.0000
+2002-07;Vitória;1;0.9487
+2002-07;Curitiba;1;1.0420
+2002-07;Florianópolis;1;1.0218
+2002-07;Porto Alegre;1;1.1089
+2002-07;Belém;1;0.8134
+2002-07;Aracaju;1;0.9565
+2002-07;Fortaleza;1;0.9891
+2002-07;João Pessoa;1;0.8616
+2002-07;Natal;1;1.0311
+2002-07;Recife;1;0.8460
+2002-07;Salvador;1;0.8740
+2002-08;Brasília;1;0.9477
+2002-08;Goiânia;1;0.9013
+2002-08;Belo Horizonte;1;0.9686
+2002-08;Rio de Janeiro;1;0.8849
+2002-08;São Paulo;1;1.0000
+2002-08;Vitória;1;0.9268
+2002-08;Curitiba;1;1.0359
+2002-08;Florianópolis;1;1.0149
+2002-08;Porto Alegre;1;1.0927
+2002-08;Belém;1;0.7848
+2002-08;Aracaju;1;0.9522
+2002-08;Fortaleza;1;0.9686
+2002-08;João Pessoa;1;0.9103
+2002-08;Natal;1;1.0568
+2002-08;Recife;1;0.8535
+2002-08;Salvador;1;0.8894
+2002-09;Brasília;1;1.0088
+2002-09;Goiânia;1;0.8978
+2002-09;Belo Horizonte;1;0.9577
+2002-09;Rio de Janeiro;1;0.8672
+2002-09;São Paulo;1;1.0000
+2002-09;Vitória;1;0.9387
+2002-09;Curitiba;1;1.0672
+2002-09;Florianópolis;1;0.9956
+2002-09;Porto Alegre;1;1.1314
+2002-09;Belém;1;0.7723
+2002-09;Aracaju;1;0.9299
+2002-09;Fortaleza;1;0.9489
+2002-09;João Pessoa;1;0.8891
+2002-09;Natal;1;1.0642
+2002-09;Recife;1;0.8394
+2002-09;Salvador;1;0.9095
+2002-10;Brasília;1;1.0086
+2002-10;Goiânia;1;0.8930
+2002-10;Belo Horizonte;1;0.9900
+2002-10;Rio de Janeiro;1;0.9116
+2002-10;São Paulo;1;1.0000
+2002-10;Vitória;1;0.9215
+2002-10;Curitiba;1;1.0300
+2002-10;Florianópolis;1;1.0128
+2002-10;Porto Alegre;1;1.1113
+2002-10;Belém;1;0.7746
+2002-10;Aracaju;1;0.9030
+2002-10;Fortaleza;1;0.9458
+2002-10;João Pessoa;1;0.9529
+2002-10;Natal;1;1.0114
+2002-10;Recife;1;0.8545
+2002-10;Salvador;1;0.8830
+2002-11;Brasília;1;0.9778
+2002-11;Goiânia;1;0.8814
+2002-11;Belo Horizonte;1;0.9570
+2002-11;Rio de Janeiro;1;0.8761
+2002-11;São Paulo;1;1.0000
+2002-11;Vitória;1;0.8866
+2002-11;Curitiba;1;1.0730
+2002-11;Florianópolis;1;0.9922
+2002-11;Porto Alegre;1;1.0222
+2002-11;Belém;1;0.8031
+2002-11;Aracaju;1;0.9218
+2002-11;Fortaleza;1;0.9270
+2002-11;João Pessoa;1;0.9166
+2002-11;Natal;1;1.0156
+2002-11;Recife;1;0.8370
+2002-11;Salvador;1;0.8579
+2002-12;Brasília;1;0.9621
+2002-12;Goiânia;1;0.8571
+2002-12;Belo Horizonte;1;0.9810
+2002-12;Rio de Janeiro;1;0.8963
+2002-12;São Paulo;1;1.0000
+2002-12;Vitória;1;0.8951
+2002-12;Curitiba;1;1.0518
+2002-12;Florianópolis;1;0.9861
+2002-12;Porto Alegre;1;1.0518
+2002-12;Belém;1;0.8154
+2002-12;Aracaju;1;0.8976
+2002-12;Fortaleza;1;0.8951
+2002-12;João Pessoa;1;0.9115
+2002-12;Natal;1;1.0051
+2002-12;Recife;1;0.8432
+2002-12;Salvador;1;0.8407
+2003-01;Brasília;1;0.9809
+2003-01;Goiânia;1;0.8699
+2003-01;Belo Horizonte;1;0.9260
+2003-01;Rio de Janeiro;1;0.8890
+2003-01;São Paulo;1;1.0000
+2003-01;Vitória;1;0.9018
+2003-01;Curitiba;1;1.0306
+2003-01;Florianópolis;1;1.0140
+2003-01;Porto Alegre;1;1.0765
+2003-01;Belém;1;0.8304
+2003-01;Aracaju;1;0.9796
+2003-01;Fortaleza;1;0.9133
+2003-01;João Pessoa;1;0.8597
+2003-01;Natal;1;0.9898
+2003-01;Recife;1;0.8469
+2003-01;Salvador;1;0.8712
+2003-02;Brasília;1;1.0026
+2003-02;Goiânia;1;0.8548
+2003-02;Belo Horizonte;1;0.9100
+2003-02;Rio de Janeiro;1;0.8830
+2003-02;São Paulo;1;1.0000
+2003-02;Vitória;1;0.9203
+2003-02;Curitiba;1;1.0527
+2003-02;Florianópolis;1;0.9820
+2003-02;Porto Alegre;1;1.0861
+2003-02;Belém;1;0.8548
+2003-02;Aracaju;1;0.9447
+2003-02;Fortaleza;1;0.9422
+2003-02;João Pessoa;1;0.9126
+2003-02;Natal;1;1.0039
+2003-02;Recife;1;0.8650
+2003-02;Salvador;1;0.8985
+2003-03;Brasília;1;0.9781
+2003-03;Goiânia;1;0.8413
+2003-03;Belo Horizonte;1;0.9174
+2003-03;Rio de Janeiro;1;0.9032
+2003-03;São Paulo;1;1.0000
+2003-03;Vitória;1;0.9252
+2003-03;Curitiba;1;1.0323
+2003-03;Florianópolis;1;1.0077
+2003-03;Porto Alegre;1;1.0774
+2003-03;Belém;1;0.8439
+2003-03;Aracaju;1;0.9394
+2003-03;Fortaleza;1;0.9161
+2003-03;João Pessoa;1;0.8735
+2003-03;Natal;1;1.0439
+2003-03;Recife;1;0.8606
+2003-03;Salvador;1;0.8877
+2003-04;Brasília;1;0.9675
+2003-04;Goiânia;1;0.8234
+2003-04;Belo Horizonte;1;0.9364
+2003-04;Rio de Janeiro;1;0.9078
+2003-04;São Paulo;1;1.0000
+2003-04;Vitória;1;0.9338
+2003-04;Curitiba;1;0.9883
+2003-04;Florianópolis;1;0.9974
+2003-04;Porto Alegre;1;1.0987
+2003-04;Belém;1;0.8597
+2003-04;Aracaju;1;0.9636
+2003-04;Fortaleza;1;0.9039
+2003-04;João Pessoa;1;0.9740
+2003-04;Natal;1;1.0052
+2003-04;Recife;1;0.8740
+2003-04;Salvador;1;0.8818
+2003-05;Brasília;1;0.9528
+2003-05;Goiânia;1;0.8373
+2003-05;Belo Horizonte;1;0.9344
+2003-05;Rio de Janeiro;1;0.8845
+2003-05;São Paulo;1;1.0000
+2003-05;Vitória;1;0.9449
+2003-05;Curitiba;1;1.0249
+2003-05;Florianópolis;1;1.0236
+2003-05;Porto Alegre;1;1.0472
+2003-05;Belém;1;0.8714
+2003-05;Aracaju;1;0.9449
+2003-05;Fortaleza;1;0.9239
+2003-05;João Pessoa;1;0.8622
+2003-05;Natal;1;1.0092
+2003-05;Recife;1;0.8740
+2003-05;Salvador;1;0.8898
+2003-06;Brasília;1;0.9667
+2003-06;Goiânia;1;0.8573
+2003-06;Belo Horizonte;1;0.9400
+2003-06;Rio de Janeiro;1;0.8973
+2003-06;São Paulo;1;1.0000
+2003-06;Vitória;1;0.9627
+2003-06;Curitiba;1;1.0093
+2003-06;Florianópolis;1;0.9760
+2003-06;Porto Alegre;1;1.0933
+2003-06;Belém;1;0.8733
+2003-06;Aracaju;1;0.9680
+2003-06;Fortaleza;1;0.9173
+2003-06;João Pessoa;1;0.9480
+2003-06;Natal;1;1.0267
+2003-06;Recife;1;0.9000
+2003-06;Salvador;1;0.9027
+2003-07;Brasília;1;1.0309
+2003-07;Goiânia;1;0.8831
+2003-07;Belo Horizonte;1;0.9489
+2003-07;Rio de Janeiro;1;0.9180
+2003-07;São Paulo;1;1.0000
+2003-07;Vitória;1;0.9664
+2003-07;Curitiba;1;1.0081
+2003-07;Florianópolis;1;0.9973
+2003-07;Porto Alegre;1;1.0820
+2003-07;Belém;1;0.8871
+2003-07;Aracaju;1;0.9247
+2003-07;Fortaleza;1;0.9422
+2003-07;João Pessoa;1;0.9503
+2003-07;Natal;1;1.0605
+2003-07;Recife;1;0.9046
+2003-07;Salvador;1;0.9288
+2003-08;Brasília;1;1.0157
+2003-08;Goiânia;1;0.8797
+2003-08;Belo Horizonte;1;0.9739
+2003-08;Rio de Janeiro;1;0.9163
+2003-08;São Paulo;1;1.0000
+2003-08;Vitória;1;0.9438
+2003-08;Curitiba;1;1.0444
+2003-08;Florianópolis;1;0.9987
+2003-08;Porto Alegre;1;1.0928
+2003-08;Belém;1;0.8327
+2003-08;Aracaju;1;0.9542
+2003-08;Fortaleza;1;0.9438
+2003-08;João Pessoa;1;0.9333
+2003-08;Natal;1;1.0497
+2003-08;Recife;1;0.8784
+2003-08;Salvador;1;0.8967
+2003-09;Brasília;1;0.9988
+2003-09;Goiânia;1;0.8683
+2003-09;Belo Horizonte;1;0.9863
+2003-09;Rio de Janeiro;1;0.9217
+2003-09;São Paulo;1;1.0000
+2003-09;Vitória;1;0.9292
+2003-09;Curitiba;1;0.9988
+2003-09;Florianópolis;1;0.9466
+2003-09;Porto Alegre;1;1.0385
+2003-09;Belém;1;0.8000
+2003-09;Aracaju;1;0.9304
+2003-09;Fortaleza;1;0.9180
+2003-09;João Pessoa;1;0.9180
+2003-09;Natal;1;1.0696
+2003-09;Recife;1;0.8509
+2003-09;Salvador;1;0.8981
+2003-10;Brasília;1;1.0049
+2003-10;Goiânia;1;0.8700
+2003-10;Belo Horizonte;1;0.9526
+2003-10;Rio de Janeiro;1;0.9198
+2003-10;São Paulo;1;1.0000
+2003-10;Vitória;1;0.9174
+2003-10;Curitiba;1;1.0122
+2003-10;Florianópolis;1;0.9405
+2003-10;Porto Alegre;1;1.0328
+2003-10;Belém;1;0.8190
+2003-10;Aracaju;1;0.9004
+2003-10;Fortaleza;1;0.9052
+2003-10;João Pessoa;1;0.8979
+2003-10;Natal;1;1.0778
+2003-10;Recife;1;0.8433
+2003-10;Salvador;1;0.8615
+2003-11;Brasília;1;1.0266
+2003-11;Goiânia;1;0.8816
+2003-11;Belo Horizonte;1;0.9638
+2003-11;Rio de Janeiro;1;0.9312
+2003-11;São Paulo;1;1.0000
+2003-11;Vitória;1;0.9143
+2003-11;Curitiba;1;1.0048
+2003-11;Florianópolis;1;0.9143
+2003-11;Porto Alegre;1;1.0048
+2003-11;Belém;1;0.8213
+2003-11;Aracaju;1;0.9312
+2003-11;Fortaleza;1;0.8961
+2003-11;João Pessoa;1;0.8986
+2003-11;Natal;1;0.9783
+2003-11;Recife;1;0.8466
+2003-11;Salvador;1;0.8913
+2003-12;Brasília;1;0.9741
+2003-12;Goiânia;1;0.8656
+2003-12;Belo Horizonte;1;0.9375
+2003-12;Rio de Janeiro;1;0.9434
+2003-12;São Paulo;1;1.0000
+2003-12;Vitória;1;0.8880
+2003-12;Curitiba;1;1.0684
+2003-12;Florianópolis;1;0.9127
+2003-12;Porto Alegre;1;1.0448
+2003-12;Belém;1;0.8113
+2003-12;Aracaju;1;0.9222
+2003-12;Fortaleza;1;0.8526
+2003-12;João Pessoa;1;0.8597
+2003-12;Natal;1;1.0083
+2003-12;Recife;1;0.8290
+2003-12;Salvador;1;0.8302
+2004-01;Brasília;1;0.9758
+2004-01;Goiânia;1;0.8525
+2004-01;Belo Horizonte;1;0.9389
+2004-01;Rio de Janeiro;1;0.9297
+2004-01;São Paulo;1;1.0000
+2004-01;Vitória;1;0.8998
+2004-01;Curitiba;1;0.9689
+2004-01;Florianópolis;1;0.9574
+2004-01;Porto Alegre;1;1.0599
+2004-01;Belém;1;0.7995
+2004-01;Aracaju;1;0.8779
+2004-01;Fortaleza;1;0.8929
+2004-01;João Pessoa;1;0.9309
+2004-01;Natal;1;1.0369
+2004-01;Recife;1;0.8295
+2004-01;Salvador;1;0.8145
+2004-02;Brasília;1;0.9918
+2004-02;Goiânia;1;0.8618
+2004-02;Belo Horizonte;1;0.9297
+2004-02;Rio de Janeiro;1;0.8841
+2004-02;São Paulo;1;1.0000
+2004-02;Vitória;1;0.9204
+2004-02;Curitiba;1;1.0082
+2004-02;Florianópolis;1;0.9403
+2004-02;Porto Alegre;1;1.0562
+2004-02;Belém;1;0.8443
+2004-02;Aracaju;1;0.9110
+2004-02;Fortaleza;1;0.9192
+2004-02;João Pessoa;1;0.9602
+2004-02;Natal;1;1.0117
+2004-02;Recife;1;0.8478
+2004-02;Salvador;1;0.8384
+2004-03;Brasília;1;0.9965
+2004-03;Goiânia;1;0.8585
+2004-03;Belo Horizonte;1;0.9410
+2004-03;Rio de Janeiro;1;0.8844
+2004-03;São Paulo;1;1.0000
+2004-03;Vitória;1;0.9410
+2004-03;Curitiba;1;1.0248
+2004-03;Florianópolis;1;0.9517
+2004-03;Porto Alegre;1;1.0554
+2004-03;Belém;1;0.8550
+2004-03;Aracaju;1;0.8762
+2004-03;Fortaleza;1;0.9163
+2004-03;João Pessoa;1;0.9670
+2004-03;Natal;1;1.0177
+2004-03;Recife;1;0.8467
+2004-03;Salvador;1;0.8408
+2004-04;Brasília;1;0.9855
+2004-04;Goiânia;1;0.8706
+2004-04;Belo Horizonte;1;0.9444
+2004-04;Rio de Janeiro;1;0.8392
+2004-04;São Paulo;1;1.0000
+2004-04;Vitória;1;0.9637
+2004-04;Curitiba;1;1.0556
+2004-04;Florianópolis;1;0.8912
+2004-04;Porto Alegre;1;1.0532
+2004-04;Belém;1;0.8791
+2004-04;Aracaju;1;0.8851
+2004-04;Fortaleza;1;0.9178
+2004-04;João Pessoa;1;1.0024
+2004-04;Natal;1;1.0508
+2004-04;Recife;1;0.8767
+2004-04;Salvador;1;0.8670
+2004-05;Brasília;1;0.9544
+2004-05;Goiânia;1;0.8644
+2004-05;Belo Horizonte;1;0.9630
+2004-05;Rio de Janeiro;1;0.8718
+2004-05;São Paulo;1;1.0000
+2004-05;Vitória;1;0.9260
+2004-05;Curitiba;1;1.0863
+2004-05;Florianópolis;1;0.9556
+2004-05;Porto Alegre;1;1.0900
+2004-05;Belém;1;0.8730
+2004-05;Aracaju;1;0.9051
+2004-05;Fortaleza;1;0.9334
+2004-05;João Pessoa;1;1.0037
+2004-05;Natal;1;1.0875
+2004-05;Recife;1;0.8767
+2004-05;Salvador;1;0.8878
+2004-06;Brasília;1;0.9815
+2004-06;Goiânia;1;0.8855
+2004-06;Belo Horizonte;1;0.9840
+2004-06;Rio de Janeiro;1;0.8916
+2004-06;São Paulo;1;1.0000
+2004-06;Vitória;1;0.9520
+2004-06;Curitiba;1;1.0874
+2004-06;Florianópolis;1;0.9877
+2004-06;Porto Alegre;1;1.1084
+2004-06;Belém;1;0.8756
+2004-06;Aracaju;1;0.9076
+2004-06;Fortaleza;1;0.9495
+2004-06;João Pessoa;1;1.0037
+2004-06;Natal;1;1.0751
+2004-06;Recife;1;0.8768
+2004-06;Salvador;1;0.8732
+2004-07;Brasília;1;0.9741
+2004-07;Goiânia;1;0.8756
+2004-07;Belo Horizonte;1;0.9384
+2004-07;Rio de Janeiro;1;0.8867
+2004-07;São Paulo;1;1.0000
+2004-07;Vitória;1;0.9532
+2004-07;Curitiba;1;1.0517
+2004-07;Florianópolis;1;0.9926
+2004-07;Porto Alegre;1;1.1047
+2004-07;Belém;1;0.8781
+2004-07;Aracaju;1;0.9039
+2004-07;Fortaleza;1;0.9470
+2004-07;João Pessoa;1;1.0037
+2004-07;Natal;1;1.0517
+2004-07;Recife;1;0.8584
+2004-07;Salvador;1;0.8768
+2004-08;Brasília;1;1.0134
+2004-08;Goiânia;1;0.8780
+2004-08;Belo Horizonte;1;0.9561
+2004-08;Rio de Janeiro;1;0.8683
+2004-08;São Paulo;1;1.0000
+2004-08;Vitória;1;0.9354
+2004-08;Curitiba;1;1.0329
+2004-08;Florianópolis;1;0.9915
+2004-08;Porto Alegre;1;1.0915
+2004-08;Belém;1;0.8756
+2004-08;Aracaju;1;0.9085
+2004-08;Fortaleza;1;0.9317
+2004-08;João Pessoa;1;0.9695
+2004-08;Natal;1;1.0890
+2004-08;Recife;1;0.8561
+2004-08;Salvador;1;0.8512
+2004-09;Brasília;1;1.0195
+2004-09;Goiânia;1;0.9050
+2004-09;Belo Horizonte;1;0.9525
+2004-09;Rio de Janeiro;1;0.8904
+2004-09;São Paulo;1;1.0000
+2004-09;Vitória;1;0.9574
+2004-09;Curitiba;1;1.0317
+2004-09;Florianópolis;1;1.0037
+2004-09;Porto Alegre;1;1.0974
+2004-09;Belém;1;0.8758
+2004-09;Aracaju;1;0.9354
+2004-09;Fortaleza;1;0.9281
+2004-09;João Pessoa;1;0.9805
+2004-09;Natal;1;1.0719
+2004-09;Recife;1;0.8526
+2004-09;Salvador;1;0.8490
+2004-10;Brasília;1;0.9988
+2004-10;Goiânia;1;0.8878
+2004-10;Belo Horizonte;1;0.9726
+2004-10;Rio de Janeiro;1;0.8986
+2004-10;São Paulo;1;1.0000
+2004-10;Vitória;1;0.9475
+2004-10;Curitiba;1;1.0227
+2004-10;Florianópolis;1;0.9702
+2004-10;Porto Alegre;1;1.0513
+2004-10;Belém;1;0.8568
+2004-10;Aracaju;1;0.9248
+2004-10;Fortaleza;1;0.9057
+2004-10;João Pessoa;1;0.9690
+2004-10;Natal;1;1.0263
+2004-10;Recife;1;0.8449
+2004-10;Salvador;1;0.8532
+2004-11;Brasília;1;1.0070
+2004-11;Goiânia;1;0.9016
+2004-11;Belo Horizonte;1;0.8841
+2004-11;Rio de Janeiro;1;0.9110
+2004-11;São Paulo;1;1.0000
+2004-11;Vitória;1;0.9379
+2004-11;Curitiba;1;0.9941
+2004-11;Florianópolis;1;0.9321
+2004-11;Porto Alegre;1;1.0492
+2004-11;Belém;1;0.8454
+2004-11;Aracaju;1;0.8841
+2004-11;Fortaleza;1;0.8888
+2004-11;João Pessoa;1;0.9567
+2004-11;Natal;1;1.0468
+2004-11;Recife;1;0.8419
+2004-11;Salvador;1;0.8934
+2004-12;Brasília;1;1.0023
+2004-12;Goiânia;1;0.9077
+2004-12;Belo Horizonte;1;0.8525
+2004-12;Rio de Janeiro;1;0.8941
+2004-12;São Paulo;1;1.0000
+2004-12;Vitória;1;0.9426
+2004-12;Curitiba;1;0.9640
+2004-12;Florianópolis;1;0.9448
+2004-12;Porto Alegre;1;1.0507
+2004-12;Belém;1;0.8153
+2004-12;Aracaju;1;0.8637
+2004-12;Fortaleza;1;0.8682
+2004-12;João Pessoa;1;0.9212
+2004-12;Natal;1;1.0327
+2004-12;Recife;1;0.8187
+2004-12;Salvador;1;0.9009
+2005-01;Brasília;1;1.0011
+2005-01;Goiânia;1;0.8918
+2005-01;Belo Horizonte;1;0.8417
+2005-01;Rio de Janeiro;1;0.8838
+2005-01;São Paulo;1;1.0000
+2005-01;Vitória;1;0.9601
+2005-01;Curitiba;1;1.0103
+2005-01;Florianópolis;1;0.9510
+2005-01;Porto Alegre;1;1.0433
+2005-01;Belém;1;0.8326
+2005-01;Aracaju;1;0.8462
+2005-01;Fortaleza;1;0.8827
+2005-01;João Pessoa;1;0.9169
+2005-01;Natal;1;0.9875
+2005-01;Recife;1;0.8394
+2005-01;Salvador;1;0.9305
+2005-02;Brasília;1;0.9780
+2005-02;Goiânia;1;0.8647
+2005-02;Belo Horizonte;1;0.8324
+2005-02;Rio de Janeiro;1;0.8879
+2005-02;São Paulo;1;1.0000
+2005-02;Vitória;1;0.9653
+2005-02;Curitiba;1;1.0382
+2005-02;Florianópolis;1;0.9225
+2005-02;Porto Alegre;1;1.0832
+2005-02;Belém;1;0.8451
+2005-02;Aracaju;1;0.8636
+2005-02;Fortaleza;1;0.8960
+2005-02;João Pessoa;1;0.9306
+2005-02;Natal;1;1.0243
+2005-02;Recife;1;0.8335
+2005-02;Salvador;1;0.9040
+2005-03;Brasília;1;0.9930
+2005-03;Goiânia;1;0.8460
+2005-03;Belo Horizonte;1;0.8996
+2005-03;Rio de Janeiro;1;0.9020
+2005-03;São Paulo;1;1.0000
+2005-03;Vitória;1;0.9627
+2005-03;Curitiba;1;1.0187
+2005-03;Florianópolis;1;0.9195
+2005-03;Porto Alegre;1;1.0863
+2005-03;Belém;1;0.8541
+2005-03;Aracaju;1;0.8588
+2005-03;Fortaleza;1;0.8938
+2005-03;João Pessoa;1;0.9253
+2005-03;Natal;1;1.0187
+2005-03;Recife;1;0.8366
+2005-03;Salvador;1;0.9207
+2005-04;Brasília;1;0.9569
+2005-04;Goiânia;1;0.8485
+2005-04;Belo Horizonte;1;0.9604
+2005-04;Rio de Janeiro;1;0.8485
+2005-04;São Paulo;1;1.0000
+2005-04;Vitória;1;0.9592
+2005-04;Curitiba;1;1.0175
+2005-04;Florianópolis;1;0.9487
+2005-04;Porto Alegre;1;1.0956
+2005-04;Belém;1;0.8520
+2005-04;Aracaju;1;0.8753
+2005-04;Fortaleza;1;0.9068
+2005-04;João Pessoa;1;0.9207
+2005-04;Natal;1;0.9930
+2005-04;Recife;1;0.8392
+2005-04;Salvador;1;0.9091
+2005-05;Brasília;1;0.9802
+2005-05;Goiânia;1;0.8460
+2005-05;Belo Horizonte;1;0.9032
+2005-05;Rio de Janeiro;1;0.9125
+2005-05;São Paulo;1;1.0000
+2005-05;Vitória;1;0.9767
+2005-05;Curitiba;1;1.0257
+2005-05;Florianópolis;1;0.9370
+2005-05;Porto Alegre;1;1.0852
+2005-05;Belém;1;0.8588
+2005-05;Aracaju;1;0.9102
+2005-05;Fortaleza;1;0.9265
+2005-05;João Pessoa;1;0.9288
+2005-05;Natal;1;1.0292
+2005-05;Recife;1;0.8448
+2005-05;Salvador;1;0.9020
+2005-06;Brasília;1;1.0292
+2005-06;Goiânia;1;0.8526
+2005-06;Belo Horizonte;1;0.9310
+2005-06;Rio de Janeiro;1;0.9006
+2005-06;São Paulo;1;1.0000
+2005-06;Vitória;1;0.9836
+2005-06;Curitiba;1;1.0129
+2005-06;Florianópolis;1;0.9485
+2005-06;Porto Alegre;1;1.1088
+2005-06;Belém;1;0.8304
+2005-06;Aracaju;1;0.9404
+2005-06;Fortaleza;1;0.9392
+2005-06;João Pessoa;1;0.9205
+2005-06;Natal;1;1.0129
+2005-06;Recife;1;0.8468
+2005-06;Salvador;1;0.8994
+2005-07;Brasília;1;0.9929
+2005-07;Goiânia;1;0.8798
+2005-07;Belo Horizonte;1;0.9548
+2005-07;Rio de Janeiro;1;0.9202
+2005-07;São Paulo;1;1.0000
+2005-07;Vitória;1;0.9940
+2005-07;Curitiba;1;1.0179
+2005-07;Florianópolis;1;0.9643
+2005-07;Porto Alegre;1;1.1226
+2005-07;Belém;1;0.8440
+2005-07;Aracaju;1;0.9321
+2005-07;Fortaleza;1;0.9548
+2005-07;João Pessoa;1;0.9202
+2005-07;Natal;1;1.0250
+2005-07;Recife;1;0.8679
+2005-07;Salvador;1;0.9071
+2005-08;Brasília;1;0.9952
+2005-08;Goiânia;1;0.8737
+2005-08;Belo Horizonte;1;0.9631
+2005-08;Rio de Janeiro;1;0.9213
+2005-08;São Paulo;1;1.0000
+2005-08;Vitória;1;0.9821
+2005-08;Curitiba;1;0.9714
+2005-08;Florianópolis;1;0.9166
+2005-08;Porto Alegre;1;1.0965
+2005-08;Belém;1;0.8248
+2005-08;Aracaju;1;0.9142
+2005-08;Fortaleza;1;0.9464
+2005-08;João Pessoa;1;0.9130
+2005-08;Natal;1;1.0441
+2005-08;Recife;1;0.8665
+2005-08;Salvador;1;0.9058
+2005-09;Brasília;1;0.9916
+2005-09;Goiânia;1;0.8551
+2005-09;Belo Horizonte;1;0.9461
+2005-09;Rio de Janeiro;1;0.8970
+2005-09;São Paulo;1;1.0000
+2005-09;Vitória;1;0.9749
+2005-09;Curitiba;1;1.0192
+2005-09;Florianópolis;1;0.9808
+2005-09;Porto Alegre;1;1.1257
+2005-09;Belém;1;0.8287
+2005-09;Aracaju;1;0.9425
+2005-09;Fortaleza;1;0.9485
+2005-09;João Pessoa;1;0.9234
+2005-09;Natal;1;1.0611
+2005-09;Recife;1;0.8719
+2005-09;Salvador;1;0.9210
+2005-10;Brasília;1;0.9899
+2005-10;Goiânia;1;0.8175
+2005-10;Belo Horizonte;1;0.9597
+2005-10;Rio de Janeiro;1;0.8869
+2005-10;São Paulo;1;1.0000
+2005-10;Vitória;1;0.9731
+2005-10;Curitiba;1;1.0157
+2005-10;Florianópolis;1;0.9854
+2005-10;Porto Alegre;1;1.0190
+2005-10;Belém;1;0.7828
+2005-10;Aracaju;1;0.9138
+2005-10;Fortaleza;1;0.8847
+2005-10;João Pessoa;1;0.8802
+2005-10;Natal;1;1.0157
+2005-10;Recife;1;0.8365
+2005-10;Salvador;1;0.8869
+2005-11;Brasília;1;1.0395
+2005-11;Goiânia;1;0.8079
+2005-11;Belo Horizonte;1;0.9517
+2005-11;Rio de Janeiro;1;0.9133
+2005-11;São Paulo;1;1.0000
+2005-11;Vitória;1;0.9374
+2005-11;Curitiba;1;0.9945
+2005-11;Florianópolis;1;0.9759
+2005-11;Porto Alegre;1;0.9956
+2005-11;Belém;1;0.7870
+2005-11;Aracaju;1;0.8551
+2005-11;Fortaleza;1;0.8749
+2005-11;João Pessoa;1;0.8825
+2005-11;Natal;1;1.0088
+2005-11;Recife;1;0.8573
+2005-11;Salvador;1;0.8935
+2005-12;Brasília;1;0.9846
+2005-12;Goiânia;1;0.8121
+2005-12;Belo Horizonte;1;0.9484
+2005-12;Rio de Janeiro;1;0.8813
+2005-12;São Paulo;1;1.0000
+2005-12;Vitória;1;0.9505
+2005-12;Curitiba;1;1.0297
+2005-12;Florianópolis;1;0.9615
+2005-12;Porto Alegre;1;1.0560
+2005-12;Belém;1;0.7868
+2005-12;Aracaju;1;0.9022
+2005-12;Fortaleza;1;0.8824
+2005-12;João Pessoa;1;0.9385
+2005-12;Natal;1;1.0088
+2005-12;Recife;1;0.8242
+2005-12;Salvador;1;0.9077
+2006-01;Brasília;1;1.0436
+2006-01;Goiânia;1;0.8509
+2006-01;Belo Horizonte;1;0.9862
+2006-01;Rio de Janeiro;1;0.8773
+2006-01;São Paulo;1;1.0000
+2006-01;Vitória;1;0.9748
+2006-01;Curitiba;1;1.0505
+2006-01;Florianópolis;1;0.9071
+2006-01;Porto Alegre;1;1.0872
+2006-01;Belém;1;0.8314
+2006-01;Aracaju;1;0.8899
+2006-01;Fortaleza;1;0.9197
+2006-01;João Pessoa;1;0.9369
+2006-01;Natal;1;1.0034
+2006-01;Recife;1;0.8521
+2006-01;Salvador;1;0.9438
+2006-02;Brasília;1;1.0259
+2006-02;Goiânia;1;0.8600
+2006-02;Belo Horizonte;1;0.9694
+2006-02;Rio de Janeiro;1;0.9035
+2006-02;São Paulo;1;1.0000
+2006-02;Vitória;1;0.9859
+2006-02;Curitiba;1;1.0188
+2006-02;Florianópolis;1;0.9788
+2006-02;Porto Alegre;1;1.0718
+2006-02;Belém;1;0.8576
+2006-02;Aracaju;1;0.9400
+2006-02;Fortaleza;1;0.9212
+2006-02;João Pessoa;1;0.9306
+2006-02;Natal;1;1.0859
+2006-02;Recife;1;0.8906
+2006-02;Salvador;1;0.9553
+2006-03;Brasília;1;1.0623
+2006-03;Goiânia;1;0.8623
+2006-03;Belo Horizonte;1;0.9760
+2006-03;Rio de Janeiro;1;0.9497
+2006-03;São Paulo;1;1.0000
+2006-03;Vitória;1;0.9964
+2006-03;Curitiba;1;1.0395
+2006-03;Florianópolis;1;1.0192
+2006-03;Porto Alegre;1;1.0922
+2006-03;Belém;1;0.8778
+2006-03;Aracaju;1;0.9473
+2006-03;Fortaleza;1;0.9461
+2006-03;João Pessoa;1;0.9892
+2006-03;Natal;1;1.0563
+2006-03;Recife;1;0.9222
+2006-03;Salvador;1;0.9449
+2006-04;Brasília;1;0.9547
+2006-04;Goiânia;1;0.8947
+2006-04;Belo Horizonte;1;0.9829
+2006-04;Rio de Janeiro;1;0.9143
+2006-04;São Paulo;1;1.0000
+2006-04;Vitória;1;0.9841
+2006-04;Curitiba;1;1.0918
+2006-04;Florianópolis;1;1.0306
+2006-04;Porto Alegre;1;1.1053
+2006-04;Belém;1;0.9106
+2006-04;Aracaju;1;0.9498
+2006-04;Fortaleza;1;0.9645
+2006-04;João Pessoa;1;0.9706
+2006-04;Natal;1;1.0783
+2006-04;Recife;1;0.8923
+2006-04;Salvador;1;0.9755
+2006-05;Brasília;1;1.0205
+2006-05;Goiânia;1;0.8688
+2006-05;Belo Horizonte;1;0.9639
+2006-05;Rio de Janeiro;1;0.9194
+2006-05;São Paulo;1;1.0000
+2006-05;Vitória;1;0.9567
+2006-05;Curitiba;1;1.0878
+2006-05;Florianópolis;1;1.0265
+2006-05;Porto Alegre;1;1.1432
+2006-05;Belém;1;0.8965
+2006-05;Aracaju;1;0.9170
+2006-05;Fortaleza;1;0.9194
+2006-05;João Pessoa;1;0.9471
+2006-05;Natal;1;1.0578
+2006-05;Recife;1;0.8977
+2006-05;Salvador;1;0.9759
+2006-06;Brasília;1;1.0406
+2006-06;Goiânia;1;0.8686
+2006-06;Belo Horizonte;1;0.9594
+2006-06;Rio de Janeiro;1;0.9223
+2006-06;São Paulo;1;1.0000
+2006-06;Vitória;1;0.9403
+2006-06;Curitiba;1;1.1087
+2006-06;Florianópolis;1;0.9988
+2006-06;Porto Alegre;1;1.0932
+2006-06;Belém;1;0.8829
+2006-06;Aracaju;1;0.9032
+2006-06;Fortaleza;1;0.9116
+2006-06;João Pessoa;1;0.9283
+2006-06;Natal;1;1.0275
+2006-06;Recife;1;0.8841
+2006-06;Salvador;1;0.9558
+2006-07;Brasília;1;1.0073
+2006-07;Goiânia;1;0.8489
+2006-07;Belo Horizonte;1;0.9480
+2006-07;Rio de Janeiro;1;0.8694
+2006-07;São Paulo;1;1.0000
+2006-07;Vitória;1;0.9565
+2006-07;Curitiba;1;1.0701
+2006-07;Florianópolis;1;1.0423
+2006-07;Porto Alegre;1;1.1814
+2006-07;Belém;1;0.8803
+2006-07;Aracaju;1;0.9311
+2006-07;Fortaleza;1;0.8984
+2006-07;João Pessoa;1;0.9323
+2006-07;Natal;1;1.1088
+2006-07;Recife;1;0.9069
+2006-07;Salvador;1;0.9710
+2006-08;Brasília;1;1.0293
+2006-08;Goiânia;1;0.8419
+2006-08;Belo Horizonte;1;0.9918
+2006-08;Rio de Janeiro;1;0.8677
+2006-08;São Paulo;1;1.0000
+2006-08;Vitória;1;0.9696
+2006-08;Curitiba;1;1.0527
+2006-08;Florianópolis;1;1.0141
+2006-08;Porto Alegre;1;1.2049
+2006-08;Belém;1;0.7963
+2006-08;Aracaju;1;0.9251
+2006-08;Fortaleza;1;0.8841
+2006-08;João Pessoa;1;0.9426
+2006-08;Natal;1;1.0562
+2006-08;Recife;1;0.8958
+2006-08;Salvador;1;0.9614
+2006-09;Brasília;1;1.0224
+2006-09;Goiânia;1;0.8229
+2006-09;Belo Horizonte;1;0.9720
+2006-09;Rio de Janeiro;1;0.8890
+2006-09;São Paulo;1;1.0000
+2006-09;Vitória;1;0.9249
+2006-09;Curitiba;1;1.0370
+2006-09;Florianópolis;1;1.0269
+2006-09;Porto Alegre;1;1.1401
+2006-09;Belém;1;0.7747
+2006-09;Aracaju;1;0.9103
+2006-09;Fortaleza;1;0.8543
+2006-09;João Pessoa;1;0.9036
+2006-09;Natal;1;1.0269
+2006-09;Recife;1;0.9126
+2006-09;Salvador;1;0.9092
+2006-10;Brasília;1;0.9690
+2006-10;Goiânia;1;0.8056
+2006-10;Belo Horizonte;1;0.9776
+2006-10;Rio de Janeiro;1;0.8665
+2006-10;São Paulo;1;1.0000
+2006-10;Vitória;1;0.9519
+2006-10;Curitiba;1;1.0064
+2006-10;Florianópolis;1;1.0395
+2006-10;Porto Alegre;1;1.0919
+2006-10;Belém;1;0.7810
+2006-10;Aracaju;1;0.9498
+2006-10;Fortaleza;1;0.8269
+2006-10;João Pessoa;1;0.9156
+2006-10;Natal;1;0.9637
+2006-10;Recife;1;0.8761
+2006-10;Salvador;1;0.8900
+2006-11;Brasília;1;1.0021
+2006-11;Goiânia;1;0.8046
+2006-11;Belo Horizonte;1;0.9592
+2006-11;Rio de Janeiro;1;0.8600
+2006-11;São Paulo;1;1.0000
+2006-11;Vitória;1;0.9342
+2006-11;Curitiba;1;1.0094
+2006-11;Florianópolis;1;0.9728
+2006-11;Porto Alegre;1;1.0585
+2006-11;Belém;1;0.7900
+2006-11;Aracaju;1;1.0021
+2006-11;Fortaleza;1;0.8276
+2006-11;João Pessoa;1;0.9185
+2006-11;Natal;1;1.0021
+2006-11;Recife;1;0.8380
+2006-11;Salvador;1;0.8871
+2006-12;Brasília;1;0.9862
+2006-12;Goiânia;1;0.8197
+2006-12;Belo Horizonte;1;0.9682
+2006-12;Rio de Janeiro;1;0.8568
+2006-12;São Paulo;1;1.0000
+2006-12;Vitória;1;0.9152
+2006-12;Curitiba;1;1.0456
+2006-12;Florianópolis;1;0.9427
+2006-12;Porto Alegre;1;1.1569
+2006-12;Belém;1;0.8070
+2006-12;Aracaju;1;0.8706
+2006-12;Fortaleza;1;0.8547
+2006-12;João Pessoa;1;0.9109
+2006-12;Natal;1;1.0127
+2006-12;Recife;1;0.8547
+2006-12;Salvador;1;0.8940
+2007-01;Brasília;1;0.9924
+2007-01;Goiânia;1;0.8397
+2007-01;Belo Horizonte;1;0.9455
+2007-01;Rio de Janeiro;1;0.8713
+2007-01;São Paulo;1;1.0000
+2007-01;Vitória;1;0.9804
+2007-01;Curitiba;1;1.0436
+2007-01;Florianópolis;1;0.9400
+2007-01;Porto Alegre;1;1.1963
+2007-01;Belém;1;0.8353
+2007-01;Aracaju;1;0.9160
+2007-01;Fortaleza;1;0.8800
+2007-01;João Pessoa;1;0.8800
+2007-01;Natal;1;1.0338
+2007-01;Recife;1;0.8866
+2007-01;Salvador;1;0.9117
+2007-02;Brasília;1;0.9790
+2007-02;Goiânia;1;0.8320
+2007-02;Belo Horizonte;1;0.9713
+2007-02;Rio de Janeiro;1;0.8829
+2007-02;São Paulo;1;1.0000
+2007-02;Vitória;1;0.9845
+2007-02;Curitiba;1;1.0420
+2007-02;Florianópolis;1;0.9525
+2007-02;Porto Alegre;1;1.1923
+2007-02;Belém;1;0.8530
+2007-02;Aracaju;1;0.9204
+2007-02;Fortaleza;1;0.9569
+2007-02;João Pessoa;1;0.9017
+2007-02;Natal;1;1.0155
+2007-02;Recife;1;0.8674
+2007-02;Salvador;1;0.9083
+2007-03;Brasília;1;0.9825
+2007-03;Goiânia;1;0.8033
+2007-03;Belo Horizonte;1;0.9344
+2007-03;Rio de Janeiro;1;0.8929
+2007-03;São Paulo;1;1.0000
+2007-03;Vitória;1;0.9880
+2007-03;Curitiba;1;1.0251
+2007-03;Florianópolis;1;0.9388
+2007-03;Porto Alegre;1;1.1803
+2007-03;Belém;1;0.8579
+2007-03;Aracaju;1;0.8973
+2007-03;Fortaleza;1;0.9355
+2007-03;João Pessoa;1;0.8536
+2007-03;Natal;1;1.0000
+2007-03;Recife;1;0.8699
+2007-03;Salvador;1;0.9213
+2007-04;Brasília;1;1.0111
+2007-04;Goiânia;1;0.8294
+2007-04;Belo Horizonte;1;0.8963
+2007-04;Rio de Janeiro;1;0.8428
+2007-04;São Paulo;1;1.0000
+2007-04;Vitória;1;0.9978
+2007-04;Curitiba;1;0.9755
+2007-04;Florianópolis;1;0.9833
+2007-04;Porto Alegre;1;1.2352
+2007-04;Belém;1;0.8841
+2007-04;Aracaju;1;0.9465
+2007-04;Fortaleza;1;0.9298
+2007-04;João Pessoa;1;0.8829
+2007-04;Natal;1;1.0245
+2007-04;Recife;1;0.8662
+2007-04;Salvador;1;0.9342
+2007-05;Brasília;1;0.9331
+2007-05;Goiânia;1;0.8279
+2007-05;Belo Horizonte;1;0.9386
+2007-05;Rio de Janeiro;1;0.8235
+2007-05;São Paulo;1;1.0000
+2007-05;Vitória;1;0.9748
+2007-05;Curitiba;1;1.0121
+2007-05;Florianópolis;1;0.9572
+2007-05;Porto Alegre;1;1.2314
+2007-05;Belém;1;0.8607
+2007-05;Aracaju;1;0.9375
+2007-05;Fortaleza;1;0.8695
+2007-05;João Pessoa;1;0.8761
+2007-05;Natal;1;1.0066
+2007-05;Recife;1;0.8399
+2007-05;Salvador;1;0.9112
+2007-06;Brasília;1;0.9912
+2007-06;Goiânia;1;0.8350
+2007-06;Belo Horizonte;1;0.8449
+2007-06;Rio de Janeiro;1;0.8504
+2007-06;São Paulo;1;1.0000
+2007-06;Vitória;1;0.9835
+2007-06;Curitiba;1;0.9989
+2007-06;Florianópolis;1;0.9505
+2007-06;Porto Alegre;1;1.2409
+2007-06;Belém;1;0.8702
+2007-06;Aracaju;1;0.9241
+2007-06;Fortaleza;1;0.8603
+2007-06;João Pessoa;1;0.8724
+2007-06;Natal;1;0.9956
+2007-06;Recife;1;0.8493
+2007-06;Salvador;1;0.8977
+2007-07;Brasília;1;0.9767
+2007-07;Goiânia;1;0.8296
+2007-07;Belo Horizonte;1;0.7704
+2007-07;Rio de Janeiro;1;0.8783
+2007-07;São Paulo;1;1.0000
+2007-07;Vitória;1;0.9471
+2007-07;Curitiba;1;0.9640
+2007-07;Florianópolis;1;1.0265
+2007-07;Porto Alegre;1;1.3090
+2007-07;Belém;1;0.8413
+2007-07;Aracaju;1;0.9365
+2007-07;Fortaleza;1;0.8434
+2007-07;João Pessoa;1;0.8783
+2007-07;Natal;1;0.9873
+2007-07;Recife;1;0.8614
+2007-07;Salvador;1;0.8921
+2007-08;Brasília;1;0.9499
+2007-08;Goiânia;1;0.8355
+2007-08;Belo Horizonte;1;0.8202
+2007-08;Rio de Janeiro;1;0.8437
+2007-08;São Paulo;1;1.0000
+2007-08;Vitória;1;0.9356
+2007-08;Curitiba;1;0.9642
+2007-08;Florianópolis;1;0.9959
+2007-08;Porto Alegre;1;1.3003
+2007-08;Belém;1;0.8754
+2007-08;Aracaju;1;0.8836
+2007-08;Fortaleza;1;0.8529
+2007-08;João Pessoa;1;0.8550
+2007-08;Natal;1;1.0215
+2007-08;Recife;1;0.8223
+2007-08;Salvador;1;0.8897
+2007-09;Brasília;1;0.9858
+2007-09;Goiânia;1;0.8531
+2007-09;Belo Horizonte;1;0.8845
+2007-09;Rio de Janeiro;1;0.8875
+2007-09;São Paulo;1;1.0000
+2007-09;Vitória;1;0.9635
+2007-09;Curitiba;1;0.9818
+2007-09;Florianópolis;1;1.0071
+2007-09;Porto Alegre;1;1.2806
+2007-09;Belém;1;0.9078
+2007-09;Aracaju;1;0.9696
+2007-09;Fortaleza;1;0.8460
+2007-09;João Pessoa;1;0.8419
+2007-09;Natal;1;1.0496
+2007-09;Recife;1;0.8227
+2007-09;Salvador;1;0.8835
+2007-10;Brasília;1;0.9530
+2007-10;Goiânia;1;0.8620
+2007-10;Belo Horizonte;1;0.8990
+2007-10;Rio de Janeiro;1;0.8990
+2007-10;São Paulo;1;1.0000
+2007-10;Vitória;1;0.9570
+2007-10;Curitiba;1;0.9530
+2007-10;Florianópolis;1;0.9990
+2007-10;Porto Alegre;1;1.2740
+2007-10;Belém;1;0.9130
+2007-10;Aracaju;1;0.9790
+2007-10;Fortaleza;1;0.8660
+2007-10;João Pessoa;1;0.8550
+2007-10;Natal;1;1.0040
+2007-10;Recife;1;0.8440
+2007-10;Salvador;1;0.8880
+2007-11;Brasília;1;1.0287
+2007-11;Goiânia;1;0.8395
+2007-11;Belo Horizonte;1;0.8997
+2007-11;Rio de Janeiro;1;0.8816
+2007-11;São Paulo;1;1.0000
+2007-11;Vitória;1;0.9417
+2007-11;Curitiba;1;0.9819
+2007-11;Florianópolis;1;1.0181
+2007-11;Porto Alegre;1;1.2101
+2007-11;Belém;1;0.9007
+2007-11;Aracaju;1;0.9417
+2007-11;Fortaleza;1;0.8787
+2007-11;João Pessoa;1;0.8567
+2007-11;Natal;1;1.0430
+2007-11;Recife;1;0.8787
+2007-11;Salvador;1;0.9284
+2007-12;Brasília;1;0.9982
+2007-12;Goiânia;1;0.8967
+2007-12;Belo Horizonte;1;0.9891
+2007-12;Rio de Janeiro;1;0.8605
+2007-12;São Paulo;1;1.0000
+2007-12;Vitória;1;1.0208
+2007-12;Curitiba;1;1.0063
+2007-12;Florianópolis;1;1.0190
+2007-12;Porto Alegre;1;1.2264
+2007-12;Belém;1;0.9420
+2007-12;Aracaju;1;0.9955
+2007-12;Fortaleza;1;0.8361
+2007-12;João Pessoa;1;0.8723
+2007-12;Natal;1;0.9810
+2007-12;Recife;1;0.8478
+2007-12;Salvador;1;0.9357
+2008-01;Brasília;1;1.0463
+2008-01;Goiânia;1;0.8612
+2008-01;Belo Horizonte;1;0.9456
+2008-01;Rio de Janeiro;1;0.8430
+2008-01;São Paulo;1;1.0000
+2008-01;Vitória;1;1.0009
+2008-01;Curitiba;1;0.9628
+2008-01;Florianópolis;1;0.9682
+2008-01;Porto Alegre;1;1.2196
+2008-01;Belém;1;0.9510
+2008-01;Aracaju;1;0.9292
+2008-01;Fortaleza;1;0.8730
+2008-01;João Pessoa;1;0.8693
+2008-01;Natal;1;0.9855
+2008-01;Recife;1;0.8521
+2008-01;Salvador;1;0.9201
+2008-02;Brasília;1;1.0251
+2008-02;Goiânia;1;0.8717
+2008-02;Belo Horizonte;1;0.8764
+2008-02;Rio de Janeiro;1;0.8615
+2008-02;São Paulo;1;1.0000
+2008-02;Vitória;1;1.0009
+2008-02;Curitiba;1;1.0074
+2008-02;Florianópolis;1;1.0260
+2008-02;Porto Alegre;1;1.2035
+2008-02;Belém;1;0.9647
+2008-02;Aracaju;1;0.8820
+2008-02;Fortaleza;1;0.9461
+2008-02;João Pessoa;1;0.8894
+2008-02;Natal;1;1.0158
+2008-02;Recife;1;0.8690
+2008-02;Salvador;1;0.8913
+2008-03;Brasília;1;0.9821
+2008-03;Goiânia;1;0.9011
+2008-03;Belo Horizonte;1;0.9181
+2008-03;Rio de Janeiro;1;0.8409
+2008-03;São Paulo;1;1.0000
+2008-03;Vitória;1;0.9718
+2008-03;Curitiba;1;0.9746
+2008-03;Florianópolis;1;1.0207
+2008-03;Porto Alegre;1;1.1930
+2008-03;Belém;1;0.9680
+2008-03;Aracaju;1;0.9407
+2008-03;Fortaleza;1;0.9595
+2008-03;João Pessoa;1;0.9181
+2008-03;Natal;1;1.0217
+2008-03;Recife;1;0.8964
+2008-03;Salvador;1;0.9049
+2008-04;Brasília;1;1.0349
+2008-04;Goiânia;1;0.8529
+2008-04;Belo Horizonte;1;0.9476
+2008-04;Rio de Janeiro;1;0.8318
+2008-04;São Paulo;1;1.0000
+2008-04;Vitória;1;0.9605
+2008-04;Curitiba;1;0.9642
+2008-04;Florianópolis;1;0.9642
+2008-04;Porto Alegre;1;1.1903
+2008-04;Belém;1;0.9678
+2008-04;Aracaju;1;1.0028
+2008-04;Fortaleza;1;0.9779
+2008-04;João Pessoa;1;0.9504
+2008-04;Natal;1;1.0184
+2008-04;Recife;1;0.8998
+2008-04;Salvador;1;0.8842
+2008-05;Brasília;1;0.9928
+2008-05;Goiânia;1;0.8539
+2008-05;Belo Horizonte;1;0.9378
+2008-05;Rio de Janeiro;1;0.8332
+2008-05;São Paulo;1;1.0000
+2008-05;Vitória;1;0.9630
+2008-05;Curitiba;1;1.0045
+2008-05;Florianópolis;1;1.0397
+2008-05;Porto Alegre;1;1.1821
+2008-05;Belém;1;0.9522
+2008-05;Aracaju;1;1.0225
+2008-05;Fortaleza;1;0.9946
+2008-05;João Pessoa;1;0.9369
+2008-05;Natal;1;1.0307
+2008-05;Recife;1;0.9143
+2008-05;Salvador;1;0.9008
+2008-06;Brasília;1;0.9827
+2008-06;Goiânia;1;0.8978
+2008-06;Belo Horizonte;1;0.9110
+2008-06;Rio de Janeiro;1;0.8359
+2008-06;São Paulo;1;1.0000
+2008-06;Vitória;1;0.9143
+2008-06;Curitiba;1;1.0148
+2008-06;Florianópolis;1;1.0198
+2008-06;Porto Alegre;1;1.1459
+2008-06;Belém;1;0.8871
+2008-06;Aracaju;1;0.9984
+2008-06;Fortaleza;1;0.8912
+2008-06;João Pessoa;1;0.9085
+2008-06;Natal;1;0.9744
+2008-06;Recife;1;0.8821
+2008-06;Salvador;1;0.8508
+2008-07;Brasília;1;1.0587
+2008-07;Goiânia;1;0.8256
+2008-07;Belo Horizonte;1;0.9381
+2008-07;Rio de Janeiro;1;0.8416
+2008-07;São Paulo;1;1.0000
+2008-07;Vitória;1;0.9180
+2008-07;Curitiba;1;1.0426
+2008-07;Florianópolis;1;0.9952
+2008-07;Porto Alegre;1;1.1744
+2008-07;Belém;1;0.8730
+2008-07;Aracaju;1;0.9968
+2008-07;Fortaleza;1;0.8907
+2008-07;João Pessoa;1;0.9051
+2008-07;Natal;1;0.9887
+2008-07;Recife;1;0.8489
+2008-07;Salvador;1;0.8955
+2008-08;Brasília;1;1.0024
+2008-08;Goiânia;1;0.8863
+2008-08;Belo Horizonte;1;0.9626
+2008-08;Rio de Janeiro;1;0.8115
+2008-08;São Paulo;1;1.0000
+2008-08;Vitória;1;0.9253
+2008-08;Curitiba;1;1.0398
+2008-08;Florianópolis;1;0.9634
+2008-08;Porto Alegre;1;1.1828
+2008-08;Belém;1;0.9098
+2008-08;Aracaju;1;0.9334
+2008-08;Fortaleza;1;0.9115
+2008-08;João Pessoa;1;0.9115
+2008-08;Natal;1;1.0130
+2008-08;Recife;1;0.8432
+2008-08;Salvador;1;0.9009
+2008-09;Brasília;1;1.0130
+2008-09;Goiânia;1;0.8634
+2008-09;Belo Horizonte;1;0.9699
+2008-09;Rio de Janeiro;1;0.8642
+2008-09;São Paulo;1;1.0000
+2008-09;Vitória;1;0.9146
+2008-09;Curitiba;1;1.0374
+2008-09;Florianópolis;1;1.0496
+2008-09;Porto Alegre;1;1.1846
+2008-09;Belém;1;0.8642
+2008-09;Manaus;1;1.0098
+2008-09;Aracaju;1;0.9984
+2008-09;Fortaleza;1;0.9138
+2008-09;João Pessoa;1;0.9163
+2008-09;Natal;1;1.0187
+2008-09;Recife;1;0.8423
+2008-09;Salvador;1;0.8748
+2008-10;Brasília;1;0.9693
+2008-10;Goiânia;1;0.8758
+2008-10;Belo Horizonte;1;0.9505
+2008-10;Rio de Janeiro;1;0.9041
+2008-10;São Paulo;1;1.0000
+2008-10;Vitória;1;0.9796
+2008-10;Curitiba;1;1.0244
+2008-10;Florianópolis;1;1.0456
+2008-10;Porto Alegre;1;1.1698
+2008-10;Belém;1;0.8341
+2008-10;Manaus;1;0.9992
+2008-10;Aracaju;1;0.9945
+2008-10;Fortaleza;1;0.9127
+2008-10;João Pessoa;1;0.8844
+2008-10;Natal;1;1.0920
+2008-10;Recife;1;0.8648
+2008-10;Salvador;1;0.8608
+2008-11;Brasília;1;1.0249
+2008-11;Goiânia;1;0.8582
+2008-11;Belo Horizonte;1;0.9615
+2008-11;Rio de Janeiro;1;0.8944
+2008-11;São Paulo;1;1.0000
+2008-11;Vitória;1;1.0430
+2008-11;Curitiba;1;1.0143
+2008-11;Florianópolis;1;0.9698
+2008-11;Porto Alegre;1;1.0860
+2008-11;Belém;1;0.8205
+2008-11;Manaus;1;0.9992
+2008-11;Aracaju;1;0.9910
+2008-11;Fortaleza;1;0.9744
+2008-11;João Pessoa;1;0.8597
+2008-11;Natal;1;1.0166
+2008-11;Recife;1;0.8658
+2008-11;Salvador;1;0.8786
+2008-12;Brasília;1;1.0249
+2008-12;Goiânia;1;0.8831
+2008-12;Belo Horizonte;1;0.9661
+2008-12;Rio de Janeiro;1;0.8869
+2008-12;São Paulo;1;1.0000
+2008-12;Vitória;1;1.0143
+2008-12;Curitiba;1;0.9917
+2008-12;Florianópolis;1;1.0090
+2008-12;Porto Alegre;1;1.1305
+2008-12;Belém;1;0.8371
+2008-12;Manaus;1;1.0053
+2008-12;Aracaju;1;0.9231
+2008-12;Fortaleza;1;0.9623
+2008-12;João Pessoa;1;0.8906
+2008-12;Natal;1;1.0151
+2008-12;Recife;1;0.8635
+2008-12;Salvador;1;0.9012
+2009-01;Brasília;1;1.0291
+2009-01;Goiânia;1;0.9238
+2009-01;Belo Horizonte;1;0.9664
+2009-01;Rio de Janeiro;1;0.8311
+2009-01;São Paulo;1;1.0000
+2009-01;Vitória;1;1.0135
+2009-01;Curitiba;1;0.9686
+2009-01;Florianópolis;1;0.9477
+2009-01;Porto Alegre;1;1.1024
+2009-01;Belém;1;0.8341
+2009-01;Manaus;1;1.0037
+2009-01;Aracaju;1;0.9036
+2009-01;Fortaleza;1;0.9410
+2009-01;João Pessoa;1;0.8707
+2009-01;Natal;1;1.0366
+2009-01;Recife;1;0.8535
+2009-01;Salvador;1;0.9081
+2009-02;Brasília;1;1.0715
+2009-02;Goiânia;1;0.9324
+2009-02;Belo Horizonte;1;0.9685
+2009-02;Rio de Janeiro;1;0.8616
+2009-02;São Paulo;1;1.0000
+2009-02;Vitória;1;1.0315
+2009-02;Curitiba;1;1.0077
+2009-02;Florianópolis;1;0.9746
+2009-02;Porto Alegre;1;1.1337
+2009-02;Belém;1;0.8255
+2009-02;Manaus;1;1.0461
+2009-02;Aracaju;1;0.9093
+2009-02;Fortaleza;1;0.9554
+2009-02;João Pessoa;1;0.9869
+2009-02;Natal;1;1.0776
+2009-02;Recife;1;0.9185
+2009-02;Salvador;1;0.9416
+2009-03;Brasília;1;1.0255
+2009-03;Goiânia;1;0.9136
+2009-03;Belo Horizonte;1;0.9218
+2009-03;Rio de Janeiro;1;0.8675
+2009-03;São Paulo;1;1.0000
+2009-03;Vitória;1;0.9144
+2009-03;Curitiba;1;0.9992
+2009-03;Florianópolis;1;0.9136
+2009-03;Porto Alegre;1;1.1325
+2009-03;Belém;1;0.8905
+2009-03;Manaus;1;1.0494
+2009-03;Aracaju;1;0.9284
+2009-03;Fortaleza;1;0.9786
+2009-03;João Pessoa;1;1.0255
+2009-03;Natal;1;1.0757
+2009-03;Recife;1;0.9243
+2009-03;Salvador;1;0.9416
+2009-04;Brasília;1;0.9918
+2009-04;Goiânia;1;0.9140
+2009-04;Belo Horizonte;1;0.9247
+2009-04;Rio de Janeiro;1;0.8731
+2009-04;São Paulo;1;1.0000
+2009-04;Vitória;1;0.9091
+2009-04;Curitiba;1;0.9926
+2009-04;Florianópolis;1;0.9017
+2009-04;Porto Alegre;1;1.1335
+2009-04;Belém;1;0.8837
+2009-04;Manaus;1;1.0180
+2009-04;Aracaju;1;0.8993
+2009-04;Fortaleza;1;0.9713
+2009-04;João Pessoa;1;1.0254
+2009-04;Natal;1;1.0500
+2009-04;Recife;1;0.9214
+2009-04;Salvador;1;0.9230
+2009-05;Brasília;1;0.9886
+2009-05;Goiânia;1;0.8993
+2009-05;Belo Horizonte;1;0.9236
+2009-05;Rio de Janeiro;1;0.8635
+2009-05;São Paulo;1;1.0000
+2009-05;Vitória;1;0.9504
+2009-05;Curitiba;1;0.9797
+2009-05;Florianópolis;1;0.9245
+2009-05;Porto Alegre;1;1.1251
+2009-05;Belém;1;0.8692
+2009-05;Manaus;1;1.0122
+2009-05;Aracaju;1;0.8993
+2009-05;Fortaleza;1;0.9578
+2009-05;João Pessoa;1;1.0244
+2009-05;Natal;1;1.0268
+2009-05;Recife;1;0.9529
+2009-05;Salvador;1;0.9228
+2009-06;Brasília;1;0.9790
+2009-06;Goiânia;1;0.9370
+2009-06;Belo Horizonte;1;0.9322
+2009-06;Rio de Janeiro;1;0.8450
+2009-06;São Paulo;1;1.0000
+2009-06;Vitória;1;0.9241
+2009-06;Curitiba;1;0.9621
+2009-06;Florianópolis;1;0.9241
+2009-06;Porto Alegre;1;1.1025
+2009-06;Belém;1;0.8571
+2009-06;Manaus;1;1.0186
+2009-06;Aracaju;1;0.9193
+2009-06;Fortaleza;1;0.9629
+2009-06;João Pessoa;1;1.0169
+2009-06;Natal;1;1.0549
+2009-06;Recife;1;0.9193
+2009-06;Salvador;1;0.9023
+2009-07;Brasília;1;0.9944
+2009-07;Goiânia;1;0.8765
+2009-07;Belo Horizonte;1;0.9206
+2009-07;Rio de Janeiro;1;0.8236
+2009-07;São Paulo;1;1.0000
+2009-07;Vitória;1;0.9326
+2009-07;Curitiba;1;0.9423
+2009-07;Florianópolis;1;0.9142
+2009-07;Porto Alegre;1;1.1026
+2009-07;Belém;1;0.8540
+2009-07;Manaus;1;1.0008
+2009-07;Aracaju;1;0.9543
+2009-07;Fortaleza;1;0.9631
+2009-07;João Pessoa;1;0.9952
+2009-07;Natal;1;1.0225
+2009-07;Recife;1;0.9286
+2009-07;Salvador;1;0.8909
+2009-08;Brasília;1;1.0171
+2009-08;Goiânia;1;0.9079
+2009-08;Belo Horizonte;1;0.9267
+2009-08;Rio de Janeiro;1;0.8378
+2009-08;São Paulo;1;1.0000
+2009-08;Vitória;1;0.9568
+2009-08;Curitiba;1;0.9707
+2009-08;Florianópolis;1;0.9405
+2009-08;Porto Alegre;1;1.0970
+2009-08;Belém;1;0.8590
+2009-08;Manaus;1;0.9976
+2009-08;Aracaju;1;0.9593
+2009-08;Fortaleza;1;0.9690
+2009-08;João Pessoa;1;1.0179
+2009-08;Natal;1;1.0187
+2009-08;Recife;1;0.9267
+2009-08;Salvador;1;0.9104
+2009-09;Brasília;1;0.9643
+2009-09;Goiânia;1;0.7839
+2009-09;Belo Horizonte;1;0.9269
+2009-09;Rio de Janeiro;1;0.8530
+2009-09;São Paulo;1;1.0000
+2009-09;Vitória;1;0.9683
+2009-09;Curitiba;1;0.9675
+2009-09;Florianópolis;1;0.9415
+2009-09;Porto Alegre;1;1.0999
+2009-09;Belém;1;0.8432
+2009-09;Manaus;1;0.9959
+2009-09;Aracaju;1;0.9594
+2009-09;Fortaleza;1;0.9504
+2009-09;João Pessoa;1;1.0000
+2009-09;Natal;1;0.9919
+2009-09;Recife;1;0.9326
+2009-09;Salvador;1;0.8895
+2009-10;Brasília;1;0.9879
+2009-10;Goiânia;1;0.8642
+2009-10;Belo Horizonte;1;0.9491
+2009-10;Rio de Janeiro;1;0.8771
+2009-10;São Paulo;1;1.0000
+2009-10;Vitória;1;0.9693
+2009-10;Curitiba;1;0.9846
+2009-10;Florianópolis;1;0.9507
+2009-10;Porto Alegre;1;1.0986
+2009-10;Belém;1;0.8496
+2009-10;Manaus;1;1.0113
+2009-10;Aracaju;1;0.9725
+2009-10;Fortaleza;1;0.9547
+2009-10;João Pessoa;1;1.0089
+2009-10;Natal;1;1.0057
+2009-10;Recife;1;0.9475
+2009-10;Salvador;1;0.9135
+2009-11;Brasília;1;0.9698
+2009-11;Goiânia;1;0.8777
+2009-11;Belo Horizonte;1;0.9237
+2009-11;Rio de Janeiro;1;0.8674
+2009-11;São Paulo;1;1.0000
+2009-11;Vitória;1;0.9635
+2009-11;Curitiba;1;0.9547
+2009-11;Florianópolis;1;0.9110
+2009-11;Porto Alegre;1;1.0675
+2009-11;Belém;1;0.8388
+2009-11;Manaus;1;0.9825
+2009-11;Aracaju;1;0.9500
+2009-11;Fortaleza;1;0.9452
+2009-11;João Pessoa;1;0.9897
+2009-11;Natal;1;1.0040
+2009-11;Recife;1;0.8936
+2009-11;Salvador;1;0.8912
+2009-12;Brasília;1;0.9786
+2009-12;Goiânia;1;0.8087
+2009-12;Belo Horizonte;1;0.9159
+2009-12;Rio de Janeiro;1;0.8262
+2009-12;São Paulo;1;1.0000
+2009-12;Vitória;1;0.9556
+2009-12;Curitiba;1;0.9516
+2009-12;Florianópolis;1;0.8929
+2009-12;Porto Alegre;1;1.0770
+2009-12;Belém;1;0.8484
+2009-12;Manaus;1;0.9817
+2009-12;Aracaju;1;0.9667
+2009-12;Fortaleza;1;0.9349
+2009-12;João Pessoa;1;0.9802
+2009-12;Natal;1;1.0024
+2009-12;Recife;1;0.8913
+2009-12;Salvador;1;0.9000
+2010-01;Brasília;1;0.9746
+2010-01;Goiânia;1;0.8627
+2010-01;Belo Horizonte;1;0.8968
+2010-01;Rio de Janeiro;1;0.8381
+2010-01;São Paulo;1;1.0000
+2010-01;Vitória;1;0.9365
+2010-01;Curitiba;1;0.9603
+2010-01;Florianópolis;1;0.8913
+2010-01;Porto Alegre;1;1.0944
+2010-01;Belém;1;0.8659
+2010-01;Manaus;1;0.9738
+2010-01;Aracaju;1;0.9913
+2010-01;Fortaleza;1;0.9437
+2010-01;João Pessoa;1;0.9738
+2010-01;Natal;1;1.0373
+2010-01;Recife;1;0.9087
+2010-01;Salvador;1;0.9135
+2010-02;Brasília;1;0.9566
+2010-02;Goiânia;1;0.8049
+2010-02;Belo Horizonte;1;0.9052
+2010-02;Rio de Janeiro;1;0.8389
+2010-02;São Paulo;1;1.0000
+2010-02;Vitória;1;0.9321
+2010-02;Curitiba;1;0.9597
+2010-02;Florianópolis;1;0.8791
+2010-02;Porto Alegre;1;1.0932
+2010-02;Belém;1;0.8594
+2010-02;Manaus;1;0.9842
+2010-02;Aracaju;1;0.9716
+2010-02;Fortaleza;1;0.9344
+2010-02;João Pessoa;1;0.9874
+2010-02;Natal;1;1.0490
+2010-02;Recife;1;0.9044
+2010-02;Salvador;1;0.8965
+2010-03;Brasília;1;0.9819
+2010-03;Goiânia;1;0.8217
+2010-03;Belo Horizonte;1;0.8908
+2010-03;Rio de Janeiro;1;0.8366
+2010-03;São Paulo;1;1.0000
+2010-03;Vitória;1;0.8908
+2010-03;Curitiba;1;0.9984
+2010-03;Florianópolis;1;0.9120
+2010-03;Porto Alegre;1;1.1005
+2010-03;Belém;1;0.8680
+2010-03;Manaus;1;0.9623
+2010-03;Aracaju;1;1.0016
+2010-03;Fortaleza;1;0.9214
+2010-03;João Pessoa;1;0.9749
+2010-03;Natal;1;1.0424
+2010-03;Recife;1;0.9269
+2010-03;Salvador;1;0.9144
+2010-04;Brasília;1;0.9708
+2010-04;Goiânia;1;0.7823
+2010-04;Belo Horizonte;1;0.8831
+2010-04;Rio de Janeiro;1;0.8408
+2010-04;São Paulo;1;1.0000
+2010-04;Vitória;1;0.9238
+2010-04;Curitiba;1;0.9577
+2010-04;Florianópolis;1;0.8777
+2010-04;Porto Alegre;1;1.0854
+2010-04;Belém;1;0.8485
+2010-04;Manaus;1;0.9746
+2010-04;Aracaju;1;0.9638
+2010-04;Fortaleza;1;0.8931
+2010-04;João Pessoa;1;0.9592
+2010-04;Natal;1;1.0785
+2010-04;Recife;1;0.9123
+2010-04;Salvador;1;0.9069
+2010-05;Brasília;1;0.9546
+2010-05;Goiânia;1;0.8403
+2010-05;Belo Horizonte;1;0.8796
+2010-05;Rio de Janeiro;1;0.8425
+2010-05;São Paulo;1;1.0000
+2010-05;Vitória;1;0.9046
+2010-05;Curitiba;1;0.9743
+2010-05;Florianópolis;1;0.9061
+2010-05;Porto Alegre;1;1.0666
+2010-05;Belém;1;0.8282
+2010-05;Manaus;1;0.9591
+2010-05;Aracaju;1;0.9606
+2010-05;Fortaleza;1;0.8834
+2010-05;João Pessoa;1;0.9470
+2010-05;Natal;1;1.0606
+2010-05;Recife;1;0.9046
+2010-05;Salvador;1;0.9054
+2010-06;Brasília;1;0.9401
+2010-06;Goiânia;1;0.9052
+2010-06;Belo Horizonte;1;0.8825
+2010-06;Rio de Janeiro;1;0.8249
+2010-06;São Paulo;1;1.0000
+2010-06;Vitória;1;0.9174
+2010-06;Curitiba;1;0.9818
+2010-06;Florianópolis;1;0.9113
+2010-06;Porto Alegre;1;1.0697
+2010-06;Belém;1;0.8089
+2010-06;Manaus;1;0.9727
+2010-06;Aracaju;1;0.9530
+2010-06;Fortaleza;1;0.8696
+2010-06;João Pessoa;1;0.9500
+2010-06;Natal;1;1.0212
+2010-06;Recife;1;0.8976
+2010-06;Salvador;1;0.8802
+2010-07;Brasília;1;0.9711
+2010-07;Goiânia;1;0.9262
+2010-07;Belo Horizonte;1;0.8851
+2010-07;Rio de Janeiro;1;0.8143
+2010-07;São Paulo;1;1.0000
+2010-07;Vitória;1;0.9178
+2010-07;Curitiba;1;0.9726
+2010-07;Florianópolis;1;0.9110
+2010-07;Porto Alegre;1;1.0974
+2010-07;Belém;1;0.8151
+2010-07;Manaus;1;0.9711
+2010-07;Aracaju;1;0.9361
+2010-07;Fortaleza;1;0.8676
+2010-07;João Pessoa;1;0.9673
+2010-07;Natal;1;1.0289
+2010-07;Recife;1;0.9079
+2010-07;Salvador;1;0.8973
+2010-08;Brasília;1;0.9481
+2010-08;Goiânia;1;0.9281
+2010-08;Belo Horizonte;1;0.8874
+2010-08;Rio de Janeiro;1;0.8200
+2010-08;São Paulo;1;1.0000
+2010-08;Vitória;1;0.9252
+2010-08;Curitiba;1;0.9585
+2010-08;Florianópolis;1;0.8896
+2010-08;Porto Alegre;1;1.0904
+2010-08;Belém;1;0.8119
+2010-08;Manaus;1;0.9533
+2010-08;Aracaju;1;0.9000
+2010-08;Fortaleza;1;0.8881
+2010-08;João Pessoa;1;0.9393
+2010-08;Natal;1;1.0200
+2010-08;Recife;1;0.8696
+2010-08;Salvador;1;0.8896
+2010-09;Brasília;1;0.9523
+2010-09;Goiânia;1;0.9075
+2010-09;Belo Horizonte;1;0.8977
+2010-09;Rio de Janeiro;1;0.8402
+2010-09;São Paulo;1;1.0000
+2010-09;Vitória;1;0.9383
+2010-09;Curitiba;1;0.9671
+2010-09;Florianópolis;1;0.8521
+2010-09;Porto Alegre;1;1.0308
+2010-09;Belém;1;0.8045
+2010-09;Manaus;1;0.9341
+2010-09;Aracaju;1;0.8605
+2010-09;Fortaleza;1;0.8956
+2010-09;João Pessoa;1;0.8991
+2010-09;Natal;1;0.9566
+2010-09;Recife;1;0.8879
+2010-09;Salvador;1;0.8437
+2010-10;Brasília;1;0.9330
+2010-10;Goiânia;1;0.8914
+2010-10;Belo Horizonte;1;0.8767
+2010-10;Rio de Janeiro;1;0.8546
+2010-10;São Paulo;1;1.0000
+2010-10;Vitória;1;0.9055
+2010-10;Curitiba;1;0.9471
+2010-10;Florianópolis;1;0.8807
+2010-10;Porto Alegre;1;0.9906
+2010-10;Belém;1;0.8043
+2010-10;Manaus;1;0.8814
+2010-10;Aracaju;1;0.8271
+2010-10;Fortaleza;1;0.8941
+2010-10;João Pessoa;1;0.8820
+2010-10;Natal;1;0.9471
+2010-10;Recife;1;0.8861
+2010-10;Salvador;1;0.8371
+2010-11;Brasília;1;0.9278
+2010-11;Goiânia;1;0.8813
+2010-11;Belo Horizonte;1;0.8568
+2010-11;Rio de Janeiro;1;0.8574
+2010-11;São Paulo;1;1.0000
+2010-11;Vitória;1;0.9296
+2010-11;Curitiba;1;0.9183
+2010-11;Florianópolis;1;0.8222
+2010-11;Porto Alegre;1;0.9045
+2010-11;Belém;1;0.7894
+2010-11;Manaus;1;0.8854
+2010-11;Aracaju;1;0.7655
+2010-11;Fortaleza;1;0.9481
+2010-11;João Pessoa;1;0.8634
+2010-11;Natal;1;0.8407
+2010-11;Recife;1;0.8998
+2010-11;Salvador;1;0.8091
+2010-12;Brasília;1;0.8821
+2010-12;Goiânia;1;0.8645
+2010-12;Belo Horizonte;1;0.8874
+2010-12;Rio de Janeiro;1;0.8487
+2010-12;São Paulo;1;1.0000
+2010-12;Vitória;1;0.8997
+2010-12;Curitiba;1;0.9302
+2010-12;Florianópolis;1;0.8147
+2010-12;Porto Alegre;1;0.9114
+2010-12;Belém;1;0.8229
+2010-12;Manaus;1;0.8974
+2010-12;Aracaju;1;0.7625
+2010-12;Fortaleza;1;0.9460
+2010-12;João Pessoa;1;0.8833
+2010-12;Natal;1;0.9654
+2010-12;Recife;1;0.8868
+2010-12;Salvador;1;0.7889
+2011-01;Brasília;1;0.9731
+2011-01;Goiânia;1;0.8654
+2011-01;Belo Horizonte;1;0.9242
+2011-01;Rio de Janeiro;1;0.8740
+2011-01;São Paulo;1;1.0000
+2011-01;Vitória;1;0.8966
+2011-01;Curitiba;1;0.9046
+2011-01;Florianópolis;1;0.8642
+2011-01;Porto Alegre;1;0.9645
+2011-01;Belém;1;0.8526
+2011-01;Manaus;1;0.9199
+2011-01;Aracaju;1;0.8037
+2011-01;Fortaleza;1;0.9817
+2011-01;João Pessoa;1;0.9083
+2011-01;Natal;1;1.0165
+2011-01;Recife;1;0.8905
+2011-01;Salvador;1;0.8287
+2011-02;Brasília;1;0.9728
+2011-02;Goiânia;1;0.8650
+2011-02;Belo Horizonte;1;0.9208
+2011-02;Rio de Janeiro;1;0.8574
+2011-02;São Paulo;1;1.0000
+2011-02;Vitória;1;0.9037
+2011-02;Curitiba;1;0.9632
+2011-02;Florianópolis;1;0.8726
+2011-02;Porto Alegre;1;1.0311
+2011-02;Belém;1;0.8657
+2011-02;Manaus;1;0.9430
+2011-02;Aracaju;1;0.8612
+2011-02;Fortaleza;1;0.9734
+2011-02;João Pessoa;1;0.9290
+2011-02;Natal;1;0.9804
+2011-02;Recife;1;0.8885
+2011-02;Salvador;1;0.8327
+2011-03;Brasília;1;0.9697
+2011-03;Goiânia;1;0.8586
+2011-03;Belo Horizonte;1;0.9167
+2011-03;Rio de Janeiro;1;0.8999
+2011-03;São Paulo;1;1.0000
+2011-03;Vitória;1;0.9303
+2011-03;Curitiba;1;0.9942
+2011-03;Florianópolis;1;0.9064
+2011-03;Porto Alegre;1;1.0523
+2011-03;Belém;1;0.8657
+2011-03;Manaus;1;0.9722
+2011-03;Aracaju;1;0.8980
+2011-03;Fortaleza;1;0.9923
+2011-03;João Pessoa;1;0.9471
+2011-03;Natal;1;1.0549
+2011-03;Recife;1;0.8890
+2011-03;Salvador;1;0.8651
+2011-04;Brasília;1;0.9683
+2011-04;Goiânia;1;0.8359
+2011-04;Belo Horizonte;1;0.9062
+2011-04;Rio de Janeiro;1;0.8714
+2011-04;São Paulo;1;1.0000
+2011-04;Vitória;1;0.9208
+2011-04;Curitiba;1;0.9715
+2011-04;Florianópolis;1;0.8999
+2011-04;Porto Alegre;1;1.0158
+2011-04;Belém;1;0.8473
+2011-04;Manaus;1;0.9499
+2011-04;Aracaju;1;0.8802
+2011-04;Fortaleza;1;0.9778
+2011-04;João Pessoa;1;0.9335
+2011-04;Natal;1;1.0646
+2011-04;Recife;1;0.8771
+2011-04;Salvador;1;0.8428
+2011-05;Brasília;1;0.9667
+2011-05;Goiânia;1;0.8496
+2011-05;Belo Horizonte;1;0.9181
+2011-05;Rio de Janeiro;1;0.8547
+2011-05;São Paulo;1;1.0000
+2011-05;Vitória;1;0.9129
+2011-05;Curitiba;1;0.9616
+2011-05;Florianópolis;1;0.9008
+2011-05;Porto Alegre;1;1.0134
+2011-05;Belém;1;0.8547
+2011-05;Manaus;1;0.9558
+2011-05;Aracaju;1;0.8950
+2011-05;Fortaleza;1;0.9597
+2011-05;João Pessoa;1;0.9392
+2011-05;Natal;1;1.0487
+2011-05;Recife;1;0.8848
+2011-05;Salvador;1;0.8444
+2011-06;Brasília;1;0.9529
+2011-06;Goiânia;1;0.8227
+2011-06;Belo Horizonte;1;0.9149
+2011-06;Rio de Janeiro;1;0.8324
+2011-06;São Paulo;1;1.0000
+2011-06;Vitória;1;0.9104
+2011-06;Curitiba;1;0.9568
+2011-06;Florianópolis;1;0.9484
+2011-06;Porto Alegre;1;1.0284
+2011-06;Belém;1;0.8556
+2011-06;Manaus;1;0.9516
+2011-06;Aracaju;1;0.8569
+2011-06;Fortaleza;1;0.9684
+2011-06;João Pessoa;1;0.9510
+2011-06;Natal;1;1.0916
+2011-06;Recife;1;0.8930
+2011-06;Salvador;1;0.8407
+2011-07;Brasília;1;0.9558
+2011-07;Goiânia;1;0.8325
+2011-07;Belo Horizonte;1;0.9292
+2011-07;Rio de Janeiro;1;0.8377
+2011-07;São Paulo;1;1.0000
+2011-07;Vitória;1;0.9045
+2011-07;Curitiba;1;0.9506
+2011-07;Florianópolis;1;0.9377
+2011-07;Porto Alegre;1;1.0331
+2011-07;Belém;1;0.8630
+2011-07;Manaus;1;0.9682
+2011-07;Aracaju;1;0.8786
+2011-07;Fortaleza;1;0.9831
+2011-07;João Pessoa;1;0.9422
+2011-07;Natal;1;1.0591
+2011-07;Recife;1;0.8779
+2011-07;Salvador;1;0.8636
+2011-08;Brasília;1;0.9770
+2011-08;Goiânia;1;0.8457
+2011-08;Belo Horizonte;1;0.9401
+2011-08;Rio de Janeiro;1;0.8699
+2011-08;São Paulo;1;1.0000
+2011-08;Vitória;1;0.9305
+2011-08;Curitiba;1;0.9503
+2011-08;Florianópolis;1;0.9579
+2011-08;Porto Alegre;1;1.0147
+2011-08;Belém;1;0.8603
+2011-08;Manaus;1;0.9694
+2011-08;Aracaju;1;0.8705
+2011-08;Fortaleza;1;0.9554
+2011-08;João Pessoa;1;0.9464
+2011-08;Natal;1;1.0236
+2011-08;Recife;1;0.8718
+2011-08;Salvador;1;0.8386
+2011-09;Brasília;1;0.9829
+2011-09;Goiânia;1;0.8923
+2011-09;Belo Horizonte;1;0.9354
+2011-09;Rio de Janeiro;1;0.8707
+2011-09;São Paulo;1;1.0000
+2011-09;Vitória;1;0.9309
+2011-09;Curitiba;1;0.9461
+2011-09;Florianópolis;1;0.9461
+2011-09;Porto Alegre;1;1.0184
+2011-09;Belém;1;0.8542
+2011-09;Manaus;1;0.9778
+2011-09;Aracaju;1;0.8657
+2011-09;Fortaleza;1;0.9651
+2011-09;João Pessoa;1;0.9455
+2011-09;Natal;1;0.9861
+2011-09;Recife;1;0.8802
+2011-09;Salvador;1;0.8162
+2011-10;Brasília;1;0.9768
+2011-10;Goiânia;1;0.8846
+2011-10;Belo Horizonte;1;0.9335
+2011-10;Rio de Janeiro;1;0.8526
+2011-10;São Paulo;1;1.0000
+2011-10;Vitória;1;0.9366
+2011-10;Curitiba;1;0.9555
+2011-10;Florianópolis;1;0.9573
+2011-10;Porto Alegre;1;1.0427
+2011-10;Belém;1;0.8595
+2011-10;Manaus;1;0.9661
+2011-10;Aracaju;1;0.8645
+2011-10;Fortaleza;1;0.9573
+2011-10;João Pessoa;1;0.9322
+2011-10;Natal;1;0.9680
+2011-10;Recife;1;0.8795
+2011-10;Salvador;1;0.8300
+2011-11;Brasília;1;0.9628
+2011-11;Goiânia;1;0.8609
+2011-11;Belo Horizonte;1;0.9433
+2011-11;Rio de Janeiro;1;0.8633
+2011-11;São Paulo;1;1.0000
+2011-11;Vitória;1;0.9744
+2011-11;Curitiba;1;0.9426
+2011-11;Florianópolis;1;0.9750
+2011-11;Porto Alegre;1;0.9927
+2011-11;Belém;1;0.8542
+2011-11;Manaus;1;0.9585
+2011-11;Aracaju;1;0.8511
+2011-11;Fortaleza;1;0.9750
+2011-11;João Pessoa;1;0.9243
+2011-11;Natal;1;0.9823
+2011-11;Recife;1;0.8951
+2011-11;Salvador;1;0.7871
+2011-12;Brasília;1;0.9190
+2011-12;Goiânia;1;0.9114
+2011-12;Belo Horizonte;1;0.9435
+2011-12;Rio de Janeiro;1;0.8642
+2011-12;São Paulo;1;1.0000
+2011-12;Vitória;1;0.9965
+2011-12;Curitiba;1;0.9196
+2011-12;Florianópolis;1;0.9108
+2011-12;Porto Alegre;1;0.9831
+2011-12;Belém;1;0.8473
+2011-12;Manaus;1;0.9347
+2011-12;Aracaju;1;0.8141
+2011-12;Fortaleza;1;0.9732
+2011-12;João Pessoa;1;0.9359
+2011-12;Natal;1;0.9639
+2011-12;Recife;1;0.8887
+2011-12;Salvador;1;0.7640
+2012-01;Brasília;1;0.9795
+2012-01;Goiânia;1;0.8971
+2012-01;Belo Horizonte;1;0.9374
+2012-01;Rio de Janeiro;1;0.8643
+2012-01;São Paulo;1;1.0000
+2012-01;Vitória;1;0.9363
+2012-01;Curitiba;1;0.9029
+2012-01;Florianópolis;1;0.9228
+2012-01;Porto Alegre;1;1.0064
+2012-01;Belém;1;0.8573
+2012-01;Manaus;1;0.9550
+2012-01;Aracaju;1;0.8345
+2012-01;Fortaleza;1;0.9503
+2012-01;João Pessoa;1;0.9608
+2012-01;Natal;1;0.9550
+2012-01;Recife;1;0.8930
+2012-01;Salvador;1;0.7883
+2012-02;Brasília;1;0.9964
+2012-02;Goiânia;1;0.9036
+2012-02;Belo Horizonte;1;0.9478
+2012-02;Rio de Janeiro;1;0.8896
+2012-02;São Paulo;1;1.0000
+2012-02;Vitória;1;0.9503
+2012-02;Curitiba;1;0.9151
+2012-02;Florianópolis;1;0.9236
+2012-02;Porto Alegre;1;1.0230
+2012-02;Belém;1;0.8642
+2012-02;Manaus;1;0.9715
+2012-02;Aracaju;1;0.8739
+2012-02;Fortaleza;1;0.9642
+2012-02;João Pessoa;1;0.9782
+2012-02;Natal;1;0.9788
+2012-02;Recife;1;0.8890
+2012-02;Salvador;1;0.8302
+2012-03;Brasília;1;1.0050
+2012-03;Goiânia;1;0.8356
+2012-03;Belo Horizonte;1;0.9600
+2012-03;Rio de Janeiro;1;0.8756
+2012-03;São Paulo;1;1.0000
+2012-03;Vitória;1;0.9569
+2012-03;Curitiba;1;0.9444
+2012-03;Florianópolis;1;0.9456
+2012-03;Porto Alegre;1;1.0681
+2012-03;Belém;1;0.8938
+2012-03;Manaus;1;0.9925
+2012-03;Aracaju;1;0.9250
+2012-03;Fortaleza;1;1.0031
+2012-03;João Pessoa;1;1.0012
+2012-03;Natal;1;0.9675
+2012-03;Recife;1;0.9200
+2012-03;Salvador;1;0.8444
+2012-04;Brasília;1;1.0082
+2012-04;Goiânia;1;0.8147
+2012-04;Belo Horizonte;1;0.9543
+2012-04;Rio de Janeiro;1;0.8706
+2012-04;São Paulo;1;1.0000
+2012-04;Vitória;1;0.9924
+2012-04;Curitiba;1;0.9695
+2012-04;Florianópolis;1;0.9645
+2012-04;Porto Alegre;1;1.0704
+2012-04;Belém;1;0.9074
+2012-04;Manaus;1;1.0006
+2012-04;Aracaju;1;0.9397
+2012-04;Fortaleza;1;1.0273
+2012-04;João Pessoa;1;1.0095
+2012-04;Natal;1;1.0140
+2012-04;Recife;1;0.9213
+2012-04;Salvador;1;0.9112
+2012-05;Brasília;1;1.0038
+2012-05;Goiânia;1;0.8177
+2012-05;Belo Horizonte;1;0.9481
+2012-05;Rio de Janeiro;1;0.8690
+2012-05;São Paulo;1;1.0000
+2012-05;Vitória;1;1.0057
+2012-05;Curitiba;1;0.9513
+2012-05;Florianópolis;1;0.9367
+2012-05;Porto Alegre;1;1.0456
+2012-05;Belém;1;0.8949
+2012-05;Manaus;1;1.0133
+2012-05;Aracaju;1;0.9430
+2012-05;Fortaleza;1;1.0430
+2012-05;João Pessoa;1;1.0165
+2012-05;Natal;1;1.0120
+2012-05;Recife;1;0.9228
+2012-05;Salvador;1;0.9127
+2012-06;Brasília;1;1.0082
+2012-06;Goiânia;1;0.8185
+2012-06;Belo Horizonte;1;0.9597
+2012-06;Rio de Janeiro;1;0.8702
+2012-06;São Paulo;1;1.0000
+2012-06;Vitória;1;1.0107
+2012-06;Curitiba;1;0.9609
+2012-06;Florianópolis;1;0.9704
+2012-06;Porto Alegre;1;1.0391
+2012-06;Belém;1;0.8746
+2012-06;Manaus;1;0.9987
+2012-06;Aracaju;1;0.9357
+2012-06;Fortaleza;1;1.0510
+2012-06;João Pessoa;1;0.9987
+2012-06;Natal;1;0.9849
+2012-06;Recife;1;0.8891
+2012-06;Salvador;1;0.8948
+2012-07;Brasília;1;1.0000
+2012-07;Goiânia;1;0.8096
+2012-07;Belo Horizonte;1;0.9571
+2012-07;Rio de Janeiro;1;0.8644
+2012-07;São Paulo;1;1.0000
+2012-07;Vitória;1;0.9704
+2012-07;Curitiba;1;0.9174
+2012-07;Florianópolis;1;0.9697
+2012-07;Porto Alegre;1;1.0435
+2012-07;Belém;1;0.8676
+2012-07;Manaus;1;0.9861
+2012-07;Aracaju;1;0.9281
+2012-07;Fortaleza;1;0.9792
+2012-07;João Pessoa;1;1.0013
+2012-07;Natal;1;0.9603
+2012-07;Recife;1;0.8770
+2012-07;Salvador;1;0.8789
+2012-07;Macaé;0;0.8361
+2012-08;Brasília;1;1.0165
+2012-08;Goiânia;1;0.8323
+2012-08;Belo Horizonte;1;0.9582
+2012-08;Rio de Janeiro;1;0.8551
+2012-08;São Paulo;1;1.0000
+2012-08;Vitória;1;0.9589
+2012-08;Curitiba;1;0.9316
+2012-08;Florianópolis;1;1.0259
+2012-08;Porto Alegre;1;1.0658
+2012-08;Belém;1;0.8589
+2012-08;Manaus;1;0.9892
+2012-08;Aracaju;1;0.9475
+2012-08;Fortaleza;1;0.9994
+2012-08;João Pessoa;1;1.0051
+2012-08;Natal;1;0.9880
+2012-08;Recife;1;0.8791
+2012-08;Salvador;1;0.8899
+2012-08;Macaé;0;0.8335
+2012-09;Brasília;1;0.9932
+2012-09;Goiânia;1;0.8190
+2012-09;Belo Horizonte;1;0.9994
+2012-09;Rio de Janeiro;1;0.8760
+2012-09;São Paulo;1;1.0000
+2012-09;Vitória;1;1.0130
+2012-09;Curitiba;1;0.9188
+2012-09;Florianópolis;1;1.0198
+2012-09;Porto Alegre;1;1.0242
+2012-09;Belém;1;0.8295
+2012-09;Manaus;1;1.0093
+2012-09;Aracaju;1;0.9268
+2012-09;Fortaleza;1;1.0174
+2012-09;João Pessoa;1;0.9994
+2012-09;Natal;1;0.9981
+2012-09;Recife;1;0.8965
+2012-09;Salvador;1;0.8903
+2012-09;Macaé;0;0.8407
+2012-10;Brasília;1;0.9495
+2012-10;Campo Grande;1;0.8354
+2012-10;Goiânia;1;0.8045
+2012-10;Belo Horizonte;1;0.9881
+2012-10;Rio de Janeiro;1;0.8645
+2012-10;São Paulo;1;1.0000
+2012-10;Vitória;1;0.9578
+2012-10;Curitiba;1;0.9305
+2012-10;Florianópolis;1;0.9525
+2012-10;Porto Alegre;1;1.0089
+2012-10;Belém;1;0.8206
+2012-10;Manaus;1;1.0077
+2012-10;Aracaju;1;0.8972
+2012-10;Fortaleza;1;0.9774
+2012-10;João Pessoa;1;0.9632
+2012-10;Natal;1;0.9566
+2012-10;Recife;1;0.9055
+2012-10;Salvador;1;0.8776
+2012-10;Macaé;0;0.8283
+2012-11;Brasília;1;0.9609
+2012-11;Campo Grande;1;0.8395
+2012-11;Goiânia;1;0.7808
+2012-11;Belo Horizonte;1;0.9775
+2012-11;Rio de Janeiro;1;0.8294
+2012-11;São Paulo;1;1.0000
+2012-11;Vitória;1;0.9882
+2012-11;Curitiba;1;0.9070
+2012-11;Florianópolis;1;0.9402
+2012-11;Porto Alegre;1;1.0024
+2012-11;Belém;1;0.8199
+2012-11;Manaus;1;0.9828
+2012-11;Aracaju;1;0.8993
+2012-11;Fortaleza;1;0.9710
+2012-11;João Pessoa;1;0.9686
+2012-11;Natal;1;0.9573
+2012-11;Recife;1;0.9046
+2012-11;Salvador;1;0.8626
+2012-11;Macaé;0;0.8169
+2012-12;Brasília;1;0.9649
+2012-12;Campo Grande;1;0.8079
+2012-12;Goiânia;1;0.8566
+2012-12;Belo Horizonte;1;0.9929
+2012-12;Rio de Janeiro;1;0.8435
+2012-12;São Paulo;1;1.0000
+2012-12;Vitória;1;0.9750
+2012-12;Curitiba;1;0.8864
+2012-12;Florianópolis;1;1.0232
+2012-12;Porto Alegre;1;1.0173
+2012-12;Belém;1;0.8299
+2012-12;Manaus;1;0.9792
+2012-12;Aracaju;1;0.9030
+2012-12;Fortaleza;1;0.9590
+2012-12;João Pessoa;1;0.9827
+2012-12;Natal;1;0.9744
+2012-12;Recife;1;0.9036
+2012-12;Salvador;1;0.8656
+2012-12;Macaé;0;0.8227
+2013-01;Brasília;1;0.9870
+2013-01;Campo Grande;1;0.8432
+2013-01;Goiânia;1;0.8396
+2013-01;Belo Horizonte;1;0.9817
+2013-01;Rio de Janeiro;1;0.8591
+2013-01;São Paulo;1;1.0000
+2013-01;Vitória;1;0.9770
+2013-01;Curitiba;1;0.8856
+2013-01;Florianópolis;1;0.9587
+2013-01;Porto Alegre;1;1.0277
+2013-01;Belém;1;0.8320
+2013-01;Manaus;1;0.9900
+2013-01;Aracaju;1;0.9045
+2013-01;Fortaleza;1;0.9587
+2013-01;João Pessoa;1;0.9817
+2013-01;Natal;1;0.9605
+2013-01;Recife;1;0.8874
+2013-01;Salvador;1;0.9575
+2013-01;Macaé;0;0.8367
+2013-02;Brasília;1;0.9895
+2013-02;Campo Grande;1;0.8284
+2013-02;Goiânia;1;0.8219
+2013-02;Belo Horizonte;1;0.9719
+2013-02;Rio de Janeiro;1;0.8149
+2013-02;São Paulo;1;1.0000
+2013-02;Vitória;1;0.9895
+2013-02;Curitiba;1;0.8969
+2013-02;Florianópolis;1;0.9719
+2013-02;Porto Alegre;1;1.0012
+2013-02;Belém;1;0.8225
+2013-02;Manaus;1;0.9848
+2013-02;Aracaju;1;0.9028
+2013-02;Fortaleza;1;0.9543
+2013-02;João Pessoa;1;1.0000
+2013-02;Natal;1;0.9602
+2013-02;Recife;1;0.8887
+2013-02;Salvador;1;0.9473
+2013-02;Macaé;0;0.8301
+2013-03;Brasília;1;0.9581
+2013-03;Campo Grande;1;0.8311
+2013-03;Goiânia;1;0.8027
+2013-03;Belo Horizonte;1;0.9563
+2013-03;Rio de Janeiro;1;0.8387
+2013-03;São Paulo;1;1.0000
+2013-03;Vitória;1;0.9716
+2013-03;Curitiba;1;0.8854
+2013-03;Florianópolis;1;1.0224
+2013-03;Porto Alegre;1;0.9994
+2013-03;Belém;1;0.8187
+2013-03;Manaus;1;0.9994
+2013-03;Aracaju;1;0.8984
+2013-03;Fortaleza;1;0.9563
+2013-03;João Pessoa;1;1.0041
+2013-03;Natal;1;0.9368
+2013-03;Recife;1;0.8931
+2013-03;Salvador;1;0.9338
+2013-03;Macaé;0;0.8228
+2013-04;Brasília;1;0.9548
+2013-04;Campo Grande;1;0.8547
+2013-04;Goiânia;1;0.8101
+2013-04;Belo Horizonte;1;0.9518
+2013-04;Rio de Janeiro;1;0.8620
+2013-04;São Paulo;1;1.0000
+2013-04;Vitória;1;0.9717
+2013-04;Curitiba;1;0.8849
+2013-04;Florianópolis;1;1.0428
+2013-04;Porto Alegre;1;1.0066
+2013-04;Belém;1;0.8246
+2013-04;Manaus;1;1.0006
+2013-04;Aracaju;1;0.9156
+2013-04;Fortaleza;1;0.9705
+2013-04;João Pessoa;1;1.0084
+2013-04;Natal;1;0.9675
+2013-04;Recife;1;0.8867
+2013-04;Salvador;1;0.9476
+2013-04;Macaé;0;0.8523
+2013-05;Brasília;1;0.9474
+2013-05;Campo Grande;1;0.8695
+2013-05;Goiânia;1;0.8387
+2013-05;Belo Horizonte;1;0.9462
+2013-05;Rio de Janeiro;1;0.8538
+2013-05;São Paulo;1;1.0000
+2013-05;Vitória;1;0.9752
+2013-05;Curitiba;1;0.8731
+2013-05;Florianópolis;1;1.0163
+2013-05;Porto Alegre;1;1.0103
+2013-05;Belém;1;0.8121
+2013-05;Manaus;1;1.0224
+2013-05;Aracaju;1;0.9619
+2013-05;Fortaleza;1;0.9462
+2013-05;João Pessoa;1;1.0066
+2013-05;Natal;1;0.9559
+2013-05;Recife;1;0.8918
+2013-05;Salvador;1;0.8411
+2013-05;Macaé;0;0.8520
+2013-06;Brasília;1;0.9205
+2013-06;Campo Grande;1;0.8561
+2013-06;Goiânia;1;0.8182
+2013-06;Belo Horizonte;1;0.9392
+2013-06;Rio de Janeiro;1;0.8513
+2013-06;São Paulo;1;1.0000
+2013-06;Vitória;1;0.9434
+2013-06;Curitiba;1;0.8820
+2013-06;Florianópolis;1;0.9862
+2013-06;Porto Alegre;1;1.0054
+2013-06;Belém;1;0.8025
+2013-06;Manaus;1;1.0361
+2013-06;Aracaju;1;0.9657
+2013-06;Fortaleza;1;0.9928
+2013-06;João Pessoa;1;0.9976
+2013-06;Natal;1;0.9266
+2013-06;Recife;1;0.8880
+2013-06;Salvador;1;0.8886
+2013-06;Macaé;0;0.8519
+2013-07;Brasília;1;0.9493
+2013-07;Campo Grande;1;0.8448
+2013-07;Goiânia;1;0.7952
+2013-07;Belo Horizonte;1;0.9278
+2013-07;Rio de Janeiro;1;0.8531
+2013-07;São Paulo;1;1.0000
+2013-07;Vitória;1;0.9851
+2013-07;Curitiba;1;0.8967
+2013-07;Florianópolis;1;0.9224
+2013-07;Porto Alegre;1;1.0030
+2013-07;Belém;1;0.7904
+2013-07;Manaus;1;1.0066
+2013-07;Aracaju;1;0.9403
+2013-07;Fortaleza;1;0.9791
+2013-07;João Pessoa;1;0.9976
+2013-07;Natal;1;0.9516
+2013-07;Recife;1;0.8776
+2013-07;Salvador;1;0.9116
+2013-07;Macaé;0;0.8430
+2013-08;Brasília;1;0.9250
+2013-08;Campo Grande;1;0.8696
+2013-08;Goiânia;1;0.7857
+2013-08;Belo Horizonte;1;0.9298
+2013-08;Rio de Janeiro;1;0.8690
+2013-08;São Paulo;1;1.0000
+2013-08;Vitória;1;0.9768
+2013-08;Curitiba;1;0.9107
+2013-08;Florianópolis;1;0.9101
+2013-08;Porto Alegre;1;1.0089
+2013-08;Belém;1;0.8083
+2013-08;Manaus;1;0.9762
+2013-08;Aracaju;1;0.9304
+2013-08;Fortaleza;1;0.9810
+2013-08;João Pessoa;1;1.0000
+2013-08;Natal;1;0.9333
+2013-08;Recife;1;0.8935
+2013-08;Salvador;1;0.9488
+2013-08;Macaé;0;0.8488
+2013-09;Brasília;1;0.9384
+2013-09;Campo Grande;1;0.8780
+2013-09;Goiânia;1;0.8075
+2013-09;Belo Horizonte;1;0.9846
+2013-09;Rio de Janeiro;1;0.8590
+2013-09;São Paulo;1;1.0000
+2013-09;Vitória;1;0.9733
+2013-09;Curitiba;1;0.9366
+2013-09;Florianópolis;1;0.9094
+2013-09;Porto Alegre;1;1.0136
+2013-09;Belém;1;0.8229
+2013-09;Manaus;1;0.9988
+2013-09;Aracaju;1;0.9177
+2013-09;Fortaleza;1;0.9787
+2013-09;João Pessoa;1;0.9970
+2013-09;Natal;1;0.9455
+2013-09;Recife;1;0.9046
+2013-09;Salvador;1;0.9425
+2013-09;Macaé;0;0.8430
+2013-10;Brasília;1;0.8934
+2013-10;Campo Grande;1;0.8401
+2013-10;Goiânia;1;0.7884
+2013-10;Belo Horizonte;1;0.9444
+2013-10;Rio de Janeiro;1;0.8423
+2013-10;São Paulo;1;1.0000
+2013-10;Vitória;1;0.9461
+2013-10;Curitiba;1;0.9085
+2013-10;Florianópolis;1;0.8591
+2013-10;Porto Alegre;1;0.9725
+2013-10;Belém;1;0.8036
+2013-10;Manaus;1;0.9400
+2013-10;Aracaju;1;0.8749
+2013-10;Fortaleza;1;0.9680
+2013-10;João Pessoa;1;0.9652
+2013-10;Natal;1;0.9310
+2013-10;Recife;1;0.9130
+2013-10;Salvador;1;0.8979
+2013-10;Macaé;0;0.8109
+2013-11;Brasília;1;0.9028
+2013-11;Campo Grande;1;0.8310
+2013-11;Goiânia;1;0.7902
+2013-11;Belo Horizonte;1;0.9486
+2013-11;Rio de Janeiro;1;0.8487
+2013-11;São Paulo;1;1.0000
+2013-11;Vitória;1;0.9901
+2013-11;Curitiba;1;0.9100
+2013-11;Florianópolis;1;0.8846
+2013-11;Porto Alegre;1;0.9702
+2013-11;Belém;1;0.7863
+2013-11;Manaus;1;0.9525
+2013-11;Aracaju;1;0.8564
+2013-11;Fortaleza;1;0.9514
+2013-11;João Pessoa;1;0.9696
+2013-11;Natal;1;0.9525
+2013-11;Recife;1;0.9139
+2013-11;Salvador;1;0.8879
+2013-11;Macaé;0;0.7896
+2013-12;Brasília;1;0.8839
+2013-12;Campo Grande;1;0.8264
+2013-12;Goiânia;1;0.8138
+2013-12;Belo Horizonte;1;0.9529
+2013-12;Rio de Janeiro;1;0.8571
+2013-12;São Paulo;1;1.0000
+2013-12;Vitória;1;0.9589
+2013-12;Curitiba;1;0.9184
+2013-12;Florianópolis;1;0.9737
+2013-12;Porto Alegre;1;0.9890
+2013-12;Belém;1;0.7826
+2013-12;Manaus;1;0.9266
+2013-12;Aracaju;1;0.8669
+2013-12;Fortaleza;1;0.9513
+2013-12;João Pessoa;1;0.9529
+2013-12;Natal;1;0.9748
+2013-12;Recife;1;0.9096
+2013-12;Salvador;1;0.9140
+2013-12;Macaé;0;0.7881
+2014-01;Brasília;1;0.9300
+2014-01;Campo Grande;1;0.8265
+2014-01;Goiânia;1;0.8044
+2014-01;Belo Horizonte;1;0.9434
+2014-01;Rio de Janeiro;1;0.8836
+2014-01;São Paulo;1;1.0000
+2014-01;Vitória;1;0.9984
+2014-01;Curitiba;1;0.9111
+2014-01;Florianópolis;1;1.0059
+2014-01;Porto Alegre;1;0.9957
+2014-01;Belém;1;0.7683
+2014-01;Manaus;1;0.8847
+2014-01;Aracaju;1;0.8524
+2014-01;Fortaleza;1;0.9655
+2014-01;João Pessoa;1;0.9472
+2014-01;Natal;1;0.9515
+2014-01;Recife;1;0.9203
+2014-01;Salvador;1;0.9014
+2014-01;Macaé;0;0.7872
+2014-02;Brasília;1;0.8911
+2014-02;Campo Grande;1;0.8067
+2014-02;Goiânia;1;0.7859
+2014-02;Belo Horizonte;1;0.9365
+2014-02;Rio de Janeiro;1;0.8841
+2014-02;São Paulo;1;1.0000
+2014-02;Vitória;1;0.9824
+2014-02;Curitiba;1;0.9135
+2014-02;Florianópolis;1;1.0192
+2014-02;Porto Alegre;1;0.9957
+2014-02;Belém;1;0.7656
+2014-02;Manaus;1;0.8943
+2014-02;Aracaju;1;0.8590
+2014-02;Fortaleza;1;0.9536
+2014-02;João Pessoa;1;0.9466
+2014-02;Natal;1;0.9413
+2014-02;Recife;1;0.8911
+2014-02;Salvador;1;0.8922
+2014-02;Macaé;0;0.7800
+2014-03;Brasília;1;0.8897
+2014-03;Campo Grande;1;0.8482
+2014-03;Goiânia;1;0.8109
+2014-03;Belo Horizonte;1;0.9291
+2014-03;Rio de Janeiro;1;0.8388
+2014-03;São Paulo;1;1.0000
+2014-03;Vitória;1;0.9643
+2014-03;Curitiba;1;0.9007
+2014-03;Florianópolis;1;0.9863
+2014-03;Porto Alegre;1;0.9932
+2014-03;Belém;1;0.7868
+2014-03;Manaus;1;0.8708
+2014-03;Aracaju;1;0.8377
+2014-03;Fortaleza;1;0.9727
+2014-03;João Pessoa;1;0.9648
+2014-03;Natal;1;0.9601
+2014-03;Recife;1;0.9170
+2014-03;Salvador;1;0.8960
+2014-03;Macaé;0;0.7663
+2014-04;Brasília;1;0.8824
+2014-04;Campo Grande;1;0.8225
+2014-04;Goiânia;1;0.8050
+2014-04;Belo Horizonte;1;0.9138
+2014-04;Rio de Janeiro;1;0.8385
+2014-04;São Paulo;1;1.0000
+2014-04;Vitória;1;0.9923
+2014-04;Curitiba;1;0.9345
+2014-04;Florianópolis;1;1.0026
+2014-04;Porto Alegre;1;0.9788
+2014-04;Belém;1;0.7962
+2014-04;Manaus;1;0.8612
+2014-04;Aracaju;1;0.8922
+2014-04;Fortaleza;1;0.9499
+2014-04;João Pessoa;1;0.9685
+2014-04;Natal;1;0.9716
+2014-04;Recife;1;0.9350
+2014-04;Salvador;1;0.8844
+2014-04;Macaé;0;0.7575
+2014-05;Brasília;1;0.8643
+2014-05;Campo Grande;1;0.8131
+2014-05;Goiânia;1;0.7916
+2014-05;Belo Horizonte;1;0.8884
+2014-05;Rio de Janeiro;1;0.8280
+2014-05;São Paulo;1;1.0000
+2014-05;Vitória;1;0.9611
+2014-05;Curitiba;1;0.9447
+2014-05;Florianópolis;1;0.9944
+2014-05;Porto Alegre;1;0.9636
+2014-05;Belém;1;0.7988
+2014-05;Manaus;1;0.8889
+2014-05;Aracaju;1;0.8991
+2014-05;Fortaleza;1;0.9355
+2014-05;João Pessoa;1;0.9616
+2014-05;Natal;1;0.9764
+2014-05;Recife;1;0.9176
+2014-05;Salvador;1;0.8694
+2014-05;Macaé;0;0.7491
+2014-06;Brasília;1;0.8873
+2014-06;Campo Grande;1;0.8185
+2014-06;Goiânia;1;0.8246
+2014-06;Belo Horizonte;1;0.8756
+2014-06;Rio de Janeiro;1;0.8526
+2014-06;São Paulo;1;1.0000
+2014-06;Vitória;1;0.9572
+2014-06;Curitiba;1;0.9255
+2014-06;Florianópolis;1;1.0138
+2014-06;Porto Alegre;1;0.9822
+2014-06;Belém;1;0.8108
+2014-06;Manaus;1;0.9067
+2014-06;Aracaju;1;0.9470
+2014-06;Fortaleza;1;0.9373
+2014-06;João Pessoa;1;0.9735
+2014-06;Natal;1;0.9602
+2014-06;Recife;1;0.9148
+2014-06;Salvador;1;0.8695
+2014-06;Macaé;0;0.7430
+2014-07;Brasília;1;0.8954
+2014-07;Campo Grande;1;0.8129
+2014-07;Goiânia;1;0.8257
+2014-07;Belo Horizonte;1;0.8795
+2014-07;Rio de Janeiro;1;0.8585
+2014-07;São Paulo;1;1.0000
+2014-07;Vitória;1;0.9421
+2014-07;Curitiba;1;0.9026
+2014-07;Florianópolis;1;1.0226
+2014-07;Porto Alegre;1;0.9851
+2014-07;Belém;1;0.8206
+2014-07;Manaus;1;0.8857
+2014-07;Aracaju;1;0.9134
+2014-07;Fortaleza;1;0.9318
+2014-07;João Pessoa;1;0.9626
+2014-07;Natal;1;0.9462
+2014-07;Recife;1;0.9134
+2014-07;Salvador;1;0.8678
+2014-07;Macaé;0;0.7488
+2014-08;Brasília;1;0.8874
+2014-08;Campo Grande;1;0.8206
+2014-08;Goiânia;1;0.8283
+2014-08;Belo Horizonte;1;0.8900
+2014-08;Rio de Janeiro;1;0.8627
+2014-08;São Paulo;1;1.0000
+2014-08;Vitória;1;0.9697
+2014-08;Curitiba;1;0.9064
+2014-08;Florianópolis;1;1.0005
+2014-08;Porto Alegre;1;0.9959
+2014-08;Belém;1;0.8252
+2014-08;Manaus;1;0.8853
+2014-08;Aracaju;1;0.8797
+2014-08;Fortaleza;1;0.9414
+2014-08;João Pessoa;1;0.9835
+2014-08;Natal;1;0.9676
+2014-08;Recife;1;0.9249
+2014-08;Salvador;1;0.8740
+2014-08;Macaé;0;0.7501
+2014-09;Brasília;1;0.9034
+2014-09;Campo Grande;1;0.8258
+2014-09;Goiânia;1;0.8594
+2014-09;Belo Horizonte;1;0.9179
+2014-09;Rio de Janeiro;1;0.8488
+2014-09;São Paulo;1;1.0000
+2014-09;Vitória;1;0.9620
+2014-09;Curitiba;1;0.8964
+2014-09;Florianópolis;1;1.0255
+2014-09;Porto Alegre;1;0.9860
+2014-09;Belém;1;0.8278
+2014-09;Manaus;1;0.8674
+2014-09;Aracaju;1;0.8684
+2014-09;Fortaleza;1;0.9540
+2014-09;João Pessoa;1;0.9875
+2014-09;Natal;1;0.9875
+2014-09;Recife;1;0.9394
+2014-09;Salvador;1;0.8539
+2014-09;Macaé;0;0.7297
+2014-10;Brasília;1;0.8829
+2014-10;Campo Grande;1;0.8364
+2014-10;Goiânia;1;0.8368
+2014-10;Belo Horizonte;1;0.9054
+2014-10;Rio de Janeiro;1;0.8564
+2014-10;São Paulo;1;1.0000
+2014-10;Vitória;1;0.9368
+2014-10;Curitiba;1;0.9069
+2014-10;Florianópolis;1;1.0318
+2014-10;Porto Alegre;1;0.9755
+2014-10;Belém;1;0.8109
+2014-10;Manaus;1;0.8839
+2014-10;Aracaju;1;0.8721
+2014-10;Fortaleza;1;0.9383
+2014-10;João Pessoa;1;1.0083
+2014-10;Natal;1;0.9716
+2014-10;Recife;1;0.9500
+2014-10;Salvador;1;0.8388
+2014-10;Macaé;0;0.7359
+2014-11;Brasília;1;0.8968
+2014-11;Campo Grande;1;0.8388
+2014-11;Goiânia;1;0.8117
+2014-11;Belo Horizonte;1;0.8640
+2014-11;Rio de Janeiro;1;0.8193
+2014-11;São Paulo;1;1.0000
+2014-11;Vitória;1;0.9515
+2014-11;Curitiba;1;0.8897
+2014-11;Florianópolis;1;1.0000
+2014-11;Porto Alegre;1;0.9700
+2014-11;Belém;1;0.8203
+2014-11;Manaus;1;0.8821
+2014-11;Aracaju;1;0.8592
+2014-11;Fortaleza;1;0.9244
+2014-11;João Pessoa;1;0.9938
+2014-11;Natal;1;0.9425
+2014-11;Recife;1;0.9106
+2014-11;Salvador;1;0.8188
+2014-11;Macaé;0;0.7247
+2014-12;Brasília;1;0.9007
+2014-12;Campo Grande;1;0.8369
+2014-12;Goiânia;1;0.8113
+2014-12;Belo Horizonte;1;0.8989
+2014-12;Rio de Janeiro;1;0.8602
+2014-12;São Paulo;1;1.0000
+2014-12;Vitória;1;0.9492
+2014-12;Curitiba;1;0.8858
+2014-12;Florianópolis;1;1.0135
+2014-12;Porto Alegre;1;0.9860
+2014-12;Belém;1;0.8504
+2014-12;Manaus;1;0.8821
+2014-12;Aracaju;1;0.9096
+2014-12;Fortaleza;1;0.9497
+2014-12;João Pessoa;1;1.0065
+2014-12;Natal;1;0.9385
+2014-12;Recife;1;0.9292
+2014-12;Salvador;1;0.8518
+2014-12;Macaé;0;0.8127
+2015-01;Brasília;1;0.9683
+2015-01;Campo Grande;1;0.8379
+2015-01;Goiânia;1;0.8415
+2015-01;Belo Horizonte;1;0.8861
+2015-01;Rio de Janeiro;1;0.8695
+2015-01;São Paulo;1;1.0000
+2015-01;Vitória;1;0.9417
+2015-01;Curitiba;1;0.8870
+2015-01;Florianópolis;1;0.9674
+2015-01;Porto Alegre;1;1.0138
+2015-01;Belém;1;0.8429
+2015-01;Manaus;1;0.8861
+2015-01;Aracaju;1;1.0542
+2015-01;Fortaleza;1;0.9678
+2015-01;João Pessoa;1;0.9940
+2015-01;Natal;1;0.9839
+2015-01;Recife;1;0.9178
+2015-01;Salvador;1;0.9316
+2015-01;Macaé;0;0.8103
+2015-02;Brasília;1;0.9576
+2015-02;Campo Grande;1;0.8451
+2015-02;Goiânia;1;0.8342
+2015-02;Belo Horizonte;1;0.8729
+2015-02;Rio de Janeiro;1;0.8665
+2015-02;São Paulo;1;1.0000
+2015-02;Vitória;1;0.9280
+2015-02;Curitiba;1;0.9166
+2015-02;Florianópolis;1;1.0073
+2015-02;Porto Alegre;1;1.0118
+2015-02;Belém;1;0.8387
+2015-02;Manaus;1;0.9103
+2015-02;Aracaju;1;0.9950
+2015-02;Fortaleza;1;0.9321
+2015-02;João Pessoa;1;0.9945
+2015-02;Natal;1;0.9667
+2015-02;Recife;1;0.9052
+2015-02;Salvador;1;0.8592
+2015-02;Macaé;0;0.8123
+2015-03;Brasília;1;0.9399
+2015-03;Campo Grande;1;0.8522
+2015-03;Goiânia;1;0.8036
+2015-03;Belo Horizonte;1;0.8816
+2015-03;Rio de Janeiro;1;0.8463
+2015-03;São Paulo;1;1.0000
+2015-03;Vitória;1;0.9564
+2015-03;Curitiba;1;0.9270
+2015-03;Florianópolis;1;0.9844
+2015-03;Porto Alegre;1;1.0248
+2015-03;Belém;1;0.8472
+2015-03;Manaus;1;0.9096
+2015-03;Aracaju;1;1.0363
+2015-03;Fortaleza;1;0.9293
+2015-03;João Pessoa;1;0.9927
+2015-03;Natal;1;0.9789
+2015-03;Recife;1;0.8894
+2015-03;Salvador;1;0.8834
+2015-03;Macaé;0;0.8164
+2015-04;Brasília;1;0.9251
+2015-04;Campo Grande;1;0.8582
+2015-04;Goiânia;1;0.8153
+2015-04;Belo Horizonte;1;0.8767
+2015-04;Rio de Janeiro;1;0.8411
+2015-04;São Paulo;1;1.0000
+2015-04;Vitória;1;0.9521
+2015-04;Curitiba;1;0.9485
+2015-04;Florianópolis;1;0.9869
+2015-04;Porto Alegre;1;1.0126
+2015-04;Belém;1;0.8221
+2015-04;Manaus;1;0.8930
+2015-04;Aracaju;1;1.0348
+2015-04;Fortaleza;1;0.9205
+2015-04;João Pessoa;1;0.9828
+2015-04;Natal;1;1.0077
+2015-04;Recife;1;0.9079
+2015-04;Salvador;1;0.8790
+2015-04;Macaé;0;0.7928
+2015-05;Brasília;1;0.9105
+2015-05;Campo Grande;1;0.8690
+2015-05;Goiânia;1;0.8153
+2015-05;Belo Horizonte;1;0.8581
+2015-05;Rio de Janeiro;1;0.8498
+2015-05;São Paulo;1;1.0000
+2015-05;Vitória;1;0.9122
+2015-05;Curitiba;1;0.9218
+2015-05;Florianópolis;1;0.9786
+2015-05;Porto Alegre;1;1.0057
+2015-05;Belém;1;0.8122
+2015-05;Manaus;1;0.8686
+2015-05;Aracaju;1;0.9725
+2015-05;Fortaleza;1;0.9624
+2015-05;João Pessoa;1;0.9546
+2015-05;Natal;1;1.0009
+2015-05;Recife;1;0.8969
+2015-05;Salvador;1;0.8721
+2015-05;Macaé;0;0.7882
+2015-06;Brasília;1;0.9015
+2015-06;Campo Grande;1;0.8621
+2015-06;Goiânia;1;0.8189
+2015-06;Belo Horizonte;1;0.8652
+2015-06;Rio de Janeiro;1;0.8548
+2015-06;São Paulo;1;1.0000
+2015-06;Vitória;1;0.8967
+2015-06;Curitiba;1;0.9330
+2015-06;Florianópolis;1;1.0138
+2015-06;Porto Alegre;1;1.0246
+2015-06;Belém;1;0.8328
+2015-06;Manaus;1;0.8639
+2015-06;Aracaju;1;0.9754
+2015-06;Fortaleza;1;0.9430
+2015-06;João Pessoa;1;0.9767
+2015-06;Natal;1;1.0039
+2015-06;Recife;1;0.8881
+2015-06;Salvador;1;0.8643
+2015-06;Macaé;0;0.7787
+2015-07;Brasília;1;0.9011
+2015-07;Campo Grande;1;0.8691
+2015-07;Goiânia;1;0.8315
+2015-07;Belo Horizonte;1;0.8778
+2015-07;Rio de Janeiro;1;0.8492
+2015-07;São Paulo;1;1.0000
+2015-07;Vitória;1;0.9192
+2015-07;Curitiba;1;0.9317
+2015-07;Florianópolis;1;0.9883
+2015-07;Porto Alegre;1;1.0138
+2015-07;Belém;1;0.8207
+2015-07;Manaus;1;0.8687
+2015-07;Aracaju;1;1.0017
+2015-07;Fortaleza;1;0.9654
+2015-07;João Pessoa;1;0.9788
+2015-07;Natal;1;1.0177
+2015-07;Recife;1;0.8994
+2015-07;Salvador;1;0.8808
+2015-07;Macaé;0;0.7970
+2015-08;Brasília;1;0.9223
+2015-08;Campo Grande;1;0.8740
+2015-08;Goiânia;1;0.8382
+2015-08;Belo Horizonte;1;0.8589
+2015-08;Rio de Janeiro;1;0.8610
+2015-08;São Paulo;1;1.0000
+2015-08;Vitória;1;0.9266
+2015-08;Curitiba;1;0.9590
+2015-08;Florianópolis;1;0.9948
+2015-08;Porto Alegre;1;1.0652
+2015-08;Belém;1;0.8321
+2015-08;Manaus;1;0.8753
+2015-08;Aracaju;1;0.9927
+2015-08;Fortaleza;1;0.9646
+2015-08;João Pessoa;1;0.9832
+2015-08;Natal;1;0.9672
+2015-08;Recife;1;0.9063
+2015-08;Salvador;1;0.8839
+2015-08;Macaé;0;0.8015
+2015-09;Brasília;1;0.8888
+2015-09;Campo Grande;1;0.8642
+2015-09;Goiânia;1;0.8290
+2015-09;Belo Horizonte;1;0.8668
+2015-09;Rio de Janeiro;1;0.8507
+2015-09;São Paulo;1;1.0000
+2015-09;Vitória;1;0.9431
+2015-09;Curitiba;1;0.9347
+2015-09;Florianópolis;1;1.0339
+2015-09;Porto Alegre;1;1.0424
+2015-09;Belém;1;0.8205
+2015-09;Manaus;1;0.8613
+2015-09;Aracaju;1;0.9788
+2015-09;Fortaleza;1;0.9448
+2015-09;João Pessoa;1;0.9720
+2015-09;Natal;1;0.9610
+2015-09;Recife;1;0.8956
+2015-09;Salvador;1;0.8587
+2015-09;Macaé;0;0.7790
+2015-10;Brasília;1;0.9233
+2015-10;Campo Grande;1;0.8618
+2015-10;Goiânia;1;0.8286
+2015-10;Belo Horizonte;1;0.8766
+2015-10;Rio de Janeiro;1;0.8627
+2015-10;São Paulo;1;1.0000
+2015-10;Vitória;1;0.9440
+2015-10;Curitiba;1;0.9061
+2015-10;Florianópolis;1;1.0063
+2015-10;Porto Alegre;1;1.0219
+2015-10;Belém;1;0.8155
+2015-10;Manaus;1;0.8644
+2015-10;Aracaju;1;0.9810
+2015-10;Fortaleza;1;0.9570
+2015-10;João Pessoa;1;0.9625
+2015-10;Natal;1;0.9528
+2015-10;Recife;1;0.9158
+2015-10;Salvador;1;0.8547
+2015-10;Macaé;0;0.7658
+2015-11;Brasília;1;0.9142
+2015-11;Campo Grande;1;0.8507
+2015-11;Goiânia;1;0.7963
+2015-11;Belo Horizonte;1;0.8482
+2015-11;Rio de Janeiro;1;0.8503
+2015-11;São Paulo;1;1.0000
+2015-11;Vitória;1;0.9344
+2015-11;Curitiba;1;0.9163
+2015-11;Florianópolis;1;1.0371
+2015-11;Porto Alegre;1;1.0144
+2015-11;Belém;1;0.7864
+2015-11;Manaus;1;0.8548
+2015-11;Aracaju;1;0.9790
+2015-11;Fortaleza;1;0.9596
+2015-11;João Pessoa;1;0.9381
+2015-11;Natal;1;0.9324
+2015-11;Recife;1;0.9118
+2015-11;Salvador;1;0.8520
+2015-11;Macaé;0;0.7678
+2015-12;Brasília;1;0.9166
+2015-12;Campo Grande;1;0.8405
+2015-12;Goiânia;1;0.7928
+2015-12;Belo Horizonte;1;0.8706
+2015-12;Rio de Janeiro;1;0.8649
+2015-12;São Paulo;1;1.0000
+2015-12;Vitória;1;0.9479
+2015-12;Curitiba;1;0.9296
+2015-12;Florianópolis;1;1.0582
+2015-12;Porto Alegre;1;0.9943
+2015-12;Belém;1;0.8217
+2015-12;Manaus;1;0.8657
+2015-12;Aracaju;1;0.9817
+2015-12;Fortaleza;1;0.9735
+2015-12;João Pessoa;1;0.9536
+2015-12;Natal;1;0.9422
+2015-12;Recife;1;0.9186
+2015-12;Salvador;1;0.8612
+2015-12;Macaé;0;0.7774
+2016-01;Brasília;1;0.9774
+2016-01;Campo Grande;1;0.8337
+2016-01;Cuiabá;1;0.7530
+2016-01;Goiânia;1;0.8354
+2016-01;Belo Horizonte;1;0.8898
+2016-01;Rio de Janeiro;1;0.9003
+2016-01;São Paulo;1;1.0000
+2016-01;Vitória;1;0.9661
+2016-01;Curitiba;1;0.9011
+2016-01;Florianópolis;1;1.0823
+2016-01;Porto Alegre;1;1.0069
+2016-01;Belém;1;0.8390
+2016-01;Boa Vista;1;0.8632
+2016-01;Macapá;1;0.8551
+2016-01;Manaus;1;0.8826
+2016-01;Palmas;1;0.8648
+2016-01;Porto Velho;1;0.7534
+2016-01;Rio Branco;1;0.6860
+2016-01;Aracaju;1;1.0799
+2016-01;Fortaleza;1;0.9782
+2016-01;João Pessoa;1;0.9657
+2016-01;Maceió;1;0.9076
+2016-01;Natal;1;0.9423
+2016-01;Recife;1;0.9149
+2016-01;Salvador;1;0.8914
+2016-01;São Luís;1;0.8410
+2016-01;Teresina;1;0.9076
+2016-01;Macaé;0;0.7853
+2016-02;Brasília;1;0.9847
+2016-02;Campo Grande;1;0.8253
+2016-02;Cuiabá;1;0.7522
+2016-02;Goiânia;1;0.7877
+2016-02;Belo Horizonte;1;0.8761
+2016-02;Rio de Janeiro;1;0.9031
+2016-02;São Paulo;1;1.0000
+2016-02;Vitória;1;0.9423
+2016-02;Curitiba;1;0.9262
+2016-02;Florianópolis;1;1.0993
+2016-02;Porto Alegre;1;0.9964
+2016-02;Belém;1;0.8475
+2016-02;Boa Vista;1;0.8668
+2016-02;Macapá;1;0.8890
+2016-02;Manaus;1;0.8672
+2016-02;Palmas;1;0.8705
+2016-02;Porto Velho;1;0.7538
+2016-02;Rio Branco;1;0.6905
+2016-02;Aracaju;1;1.0363
+2016-02;Fortaleza;1;0.9883
+2016-02;João Pessoa;1;0.9855
+2016-02;Maceió;1;0.9193
+2016-02;Natal;1;0.9451
+2016-02;Recife;1;0.9124
+2016-02;Salvador;1;0.9007
+2016-02;São Luís;1;0.8471
+2016-02;Teresina;1;0.9100
+2016-02;Macaé;0;0.7978
+2016-03;Brasília;1;0.9770
+2016-03;Campo Grande;1;0.8232
+2016-03;Cuiabá;1;0.7510
+2016-03;Goiânia;1;0.7688
+2016-03;Belo Horizonte;1;0.8757
+2016-03;Rio de Janeiro;1;0.9023
+2016-03;São Paulo;1;1.0000
+2016-03;Vitória;1;0.9443
+2016-03;Curitiba;1;0.9278
+2016-03;Florianópolis;1;1.0847
+2016-03;Porto Alegre;1;1.0214
+2016-03;Belém;1;0.8563
+2016-03;Boa Vista;1;0.8676
+2016-03;Macapá;1;0.8773
+2016-03;Manaus;1;0.8902
+2016-03;Palmas;1;0.8684
+2016-03;Porto Velho;1;0.7534
+2016-03;Rio Branco;1;0.6937
+2016-03;Aracaju;1;1.0145
+2016-03;Fortaleza;1;0.9907
+2016-03;João Pessoa;1;0.9956
+2016-03;Maceió;1;0.9286
+2016-03;Natal;1;0.9443
+2016-03;Recife;1;0.8943
+2016-03;Salvador;1;0.9003
+2016-03;São Luís;1;0.8487
+2016-03;Teresina;1;0.9072
+2016-03;Macaé;0;0.7881
+2016-04;Brasília;1;0.9896
+2016-04;Campo Grande;1;0.8545
+2016-04;Cuiabá;1;0.7703
+2016-04;Goiânia;1;0.7968
+2016-04;Belo Horizonte;1;0.9046
+2016-04;Rio de Janeiro;1;0.9241
+2016-04;São Paulo;1;1.0000
+2016-04;Vitória;1;0.9502
+2016-04;Curitiba;1;0.9606
+2016-04;Florianópolis;1;1.0597
+2016-04;Porto Alegre;1;1.0381
+2016-04;Belém;1;0.8922
+2016-04;Boa Vista;1;0.8889
+2016-04;Macapá;1;0.9088
+2016-04;Manaus;1;0.8959
+2016-04;Palmas;1;0.8980
+2016-04;Porto Velho;1;0.7749
+2016-04;Rio Branco;1;0.7177
+2016-04;Aracaju;1;1.0257
+2016-04;Fortaleza;1;1.0191
+2016-04;João Pessoa;1;1.0249
+2016-04;Maceió;1;0.9648
+2016-04;Natal;1;0.9643
+2016-04;Recife;1;0.9225
+2016-04;Salvador;1;0.9283
+2016-04;São Luís;1;0.8727
+2016-04;Teresina;1;0.9316
+2016-04;Macaé;0;0.7956
+2016-05;Brasília;1;0.9726
+2016-05;Campo Grande;1;0.8546
+2016-05;Cuiabá;1;0.7673
+2016-05;Goiânia;1;0.8002
+2016-05;Belo Horizonte;1;0.9136
+2016-05;Rio de Janeiro;1;0.9065
+2016-05;São Paulo;1;1.0000
+2016-05;Vitória;1;0.9668
+2016-05;Curitiba;1;0.9506
+2016-05;Florianópolis;1;1.0008
+2016-05;Porto Alegre;1;1.0553
+2016-05;Belém;1;0.9040
+2016-05;Boa Vista;1;0.9281
+2016-05;Macapá;1;0.9040
+2016-05;Manaus;1;0.8729
+2016-05;Palmas;1;0.8957
+2016-05;Porto Velho;1;0.7694
+2016-05;Rio Branco;1;0.7208
+2016-05;Aracaju;1;1.0262
+2016-05;Fortaleza;1;1.0125
+2016-05;João Pessoa;1;1.0166
+2016-05;Maceió;1;0.9659
+2016-05;Natal;1;0.9717
+2016-05;Recife;1;0.9198
+2016-05;Salvador;1;0.9090
+2016-05;São Luís;1;0.8725
+2016-05;Teresina;1;0.9339
+2016-05;Macaé;0;0.8110
+2016-06;Brasília;1;0.9642
+2016-06;Campo Grande;1;0.8429
+2016-06;Cuiabá;1;0.7797
+2016-06;Goiânia;1;0.8201
+2016-06;Belo Horizonte;1;0.9136
+2016-06;Rio de Janeiro;1;0.8888
+2016-06;São Paulo;1;1.0000
+2016-06;Vitória;1;0.9516
+2016-06;Curitiba;1;0.9284
+2016-06;Florianópolis;1;1.0581
+2016-06;Porto Alegre;1;1.0834
+2016-06;Belém;1;0.9238
+2016-06;Boa Vista;1;0.9507
+2016-06;Macapá;1;0.9191
+2016-06;Manaus;1;0.8934
+2016-06;Palmas;1;0.9031
+2016-06;Porto Velho;1;0.7793
+2016-06;Rio Branco;1;0.7372
+2016-06;Aracaju;1;1.0602
+2016-06;Fortaleza;1;0.9726
+2016-06;João Pessoa;1;1.0227
+2016-06;Maceió;1;0.9562
+2016-06;Natal;1;0.9537
+2016-06;Recife;1;0.9229
+2016-06;Salvador;1;0.9242
+2016-06;São Luís;1;0.8753
+2016-06;Teresina;1;0.9398
+2016-06;Macaé;0;0.8016
+2016-07;Brasília;1;0.9200
+2016-07;Campo Grande;1;0.8594
+2016-07;Cuiabá;1;0.7915
+2016-07;Goiânia;1;0.8460
+2016-07;Belo Horizonte;1;0.9221
+2016-07;Rio de Janeiro;1;0.9018
+2016-07;São Paulo;1;1.0000
+2016-07;Vitória;1;0.9758
+2016-07;Curitiba;1;0.9429
+2016-07;Florianópolis;1;0.9066
+2016-07;Porto Alegre;1;1.0917
+2016-07;Belém;1;0.9503
+2016-07;Boa Vista;1;0.9736
+2016-07;Macapá;1;0.9273
+2016-07;Manaus;1;0.8958
+2016-07;Palmas;1;0.9221
+2016-07;Porto Velho;1;0.7924
+2016-07;Rio Branco;1;0.7587
+2016-07;Aracaju;1;1.0826
+2016-07;Fortaleza;1;1.0078
+2016-07;João Pessoa;1;1.0541
+2016-07;Maceió;1;1.0290
+2016-07;Natal;1;0.9732
+2016-07;Recife;1;0.9369
+2016-07;Salvador;1;0.9580
+2016-07;São Luís;1;0.8858
+2016-07;Teresina;1;0.9524
+2016-07;Macaé;0;0.7807
+2016-08;Brasília;1;0.9724
+2016-08;Campo Grande;1;0.8737
+2016-08;Cuiabá;1;0.8014
+2016-08;Goiânia;1;0.8575
+2016-08;Belo Horizonte;1;0.9351
+2016-08;Rio de Janeiro;1;0.9119
+2016-08;São Paulo;1;1.0000
+2016-08;Vitória;1;0.9391
+2016-08;Curitiba;1;0.9527
+2016-08;Florianópolis;1;0.9601
+2016-08;Porto Alegre;1;1.1021
+2016-08;Belém;1;0.9654
+2016-08;Boa Vista;1;0.9877
+2016-08;Macapá;1;0.9518
+2016-08;Manaus;1;0.9036
+2016-08;Palmas;1;0.9325
+2016-08;Porto Velho;1;0.7966
+2016-08;Rio Branco;1;0.7690
+2016-08;Aracaju;1;1.0680
+2016-08;Fortaleza;1;1.0381
+2016-08;João Pessoa;1;1.0526
+2016-08;Maceió;1;1.0684
+2016-08;Natal;1;1.0066
+2016-08;Recife;1;0.9386
+2016-08;Salvador;1;0.9522
+2016-08;São Luís;1;0.8952
+2016-08;Teresina;1;0.9623
+2016-08;Macaé;0;0.8343
+2016-09;Brasília;1;0.9794
+2016-09;Campo Grande;1;0.8672
+2016-09;Cuiabá;1;0.8030
+2016-09;Goiânia;1;0.8321
+2016-09;Belo Horizonte;1;0.9379
+2016-09;Rio de Janeiro;1;0.9088
+2016-09;São Paulo;1;1.0000
+2016-09;Vitória;1;0.9846
+2016-09;Curitiba;1;0.9182
+2016-09;Florianópolis;1;0.9709
+2016-09;Porto Alegre;1;1.0685
+2016-09;Belém;1;0.9448
+2016-09;Boa Vista;1;0.9692
+2016-09;Macapá;1;0.8792
+2016-09;Manaus;1;0.9036
+2016-09;Palmas;1;0.9156
+2016-09;Porto Velho;1;0.8103
+2016-09;Rio Branco;1;0.7520
+2016-09;Aracaju;1;1.0642
+2016-09;Fortaleza;1;1.0111
+2016-09;João Pessoa;1;1.0334
+2016-09;Maceió;1;1.0630
+2016-09;Natal;1;1.0017
+2016-09;Recife;1;0.9028
+2016-09;Salvador;1;0.9465
+2016-09;São Luís;1;0.8664
+2016-09;Teresina;1;0.9456
+2016-09;Macaé;0;0.8201
+2016-10;Brasília;1;0.9444
+2016-10;Campo Grande;1;0.8624
+2016-10;Cuiabá;1;0.7992
+2016-10;Goiânia;1;0.8093
+2016-10;Belo Horizonte;1;0.9448
+2016-10;Rio de Janeiro;1;0.9193
+2016-10;São Paulo;1;1.0000
+2016-10;Vitória;1;0.9962
+2016-10;Curitiba;1;0.9565
+2016-10;Florianópolis;1;1.0100
+2016-10;Porto Alegre;1;1.0765
+2016-10;Belém;1;0.9210
+2016-10;Boa Vista;1;0.9368
+2016-10;Macapá;1;0.8611
+2016-10;Manaus;1;0.8716
+2016-10;Palmas;1;0.8992
+2016-10;Porto Velho;1;0.8130
+2016-10;Rio Branco;1;0.7641
+2016-10;Aracaju;1;1.0448
+2016-10;Fortaleza;1;0.9912
+2016-10;João Pessoa;1;1.0309
+2016-10;Maceió;1;1.0820
+2016-10;Natal;1;1.0000
+2016-10;Recife;1;0.9172
+2016-10;Salvador;1;0.9218
+2016-10;São Luís;1;0.8662
+2016-10;Teresina;1;0.9398
+2016-10;Macaé;0;0.8130
+2016-11;Brasília;1;0.9702
+2016-11;Campo Grande;1;0.8805
+2016-11;Cuiabá;1;0.8067
+2016-11;Goiânia;1;0.8184
+2016-11;Belo Horizonte;1;0.9463
+2016-11;Rio de Janeiro;1;0.9505
+2016-11;São Paulo;1;1.0000
+2016-11;Vitória;1;1.0415
+2016-11;Curitiba;1;0.9623
+2016-11;Florianópolis;1;1.0323
+2016-11;Porto Alegre;1;1.0759
+2016-11;Belém;1;0.9279
+2016-11;Boa Vista;1;0.9447
+2016-11;Macapá;1;0.8625
+2016-11;Manaus;1;0.8658
+2016-11;Palmas;1;0.8985
+2016-11;Porto Velho;1;0.8067
+2016-11;Rio Branco;1;0.7778
+2016-11;Aracaju;1;1.0482
+2016-11;Fortaleza;1;1.0252
+2016-11;João Pessoa;1;1.0340
+2016-11;Maceió;1;1.0797
+2016-11;Natal;1;1.0159
+2016-11;Recife;1;0.9266
+2016-11;Salvador;1;0.9132
+2016-11;São Luís;1;0.8725
+2016-11;Teresina;1;0.9581
+2016-11;Macaé;0;0.8239
+2016-12;Brasília;1;0.9924
+2016-12;Campo Grande;1;0.8878
+2016-12;Cuiabá;1;0.8051
+2016-12;Goiânia;1;0.8245
+2016-12;Belo Horizonte;1;0.9511
+2016-12;Rio de Janeiro;1;0.9477
+2016-12;São Paulo;1;1.0000
+2016-12;Vitória;1;1.0430
+2016-12;Curitiba;1;0.9591
+2016-12;Florianópolis;1;1.0371
+2016-12;Porto Alegre;1;1.0772
+2016-12;Belém;1;0.9342
+2016-12;Boa Vista;1;0.9507
+2016-12;Macapá;1;0.8667
+2016-12;Manaus;1;0.8802
+2016-12;Palmas;1;0.9043
+2016-12;Porto Velho;1;0.8064
+2016-12;Rio Branco;1;0.7862
+2016-12;Aracaju;1;1.0565
+2016-12;Fortaleza;1;1.0316
+2016-12;João Pessoa;1;1.0578
+2016-12;Maceió;1;1.1438
+2016-12;Natal;1;1.0181
+2016-12;Recife;1;0.9540
+2016-12;Salvador;1;0.8988
+2016-12;São Luís;1;0.8718
+2016-12;Teresina;1;0.9705
+2016-12;Macaé;0;0.8292
+2017-01;Brasília;1;0.9717
+2017-01;Campo Grande;1;0.8484
+2017-01;Cuiabá;1;0.7880
+2017-01;Goiânia;1;0.8417
+2017-01;Belo Horizonte;1;0.9346
+2017-01;Rio de Janeiro;1;0.9329
+2017-01;São Paulo;1;1.0000
+2017-01;Vitória;1;1.0225
+2017-01;Curitiba;1;0.9500
+2017-01;Florianópolis;1;0.9938
+2017-01;Porto Alegre;1;1.0704
+2017-01;Belém;1;0.9100
+2017-01;Boa Vista;1;0.9346
+2017-01;Macapá;1;0.8530
+2017-01;Manaus;1;0.8730
+2017-01;Palmas;1;0.8950
+2017-01;Porto Velho;1;0.7938
+2017-01;Rio Branco;1;0.6980
+2017-01;Aracaju;1;1.0050
+2017-01;Fortaleza;1;1.0387
+2017-01;João Pessoa;1;1.0637
+2017-01;Maceió;1;1.1166
+2017-01;Natal;1;1.0192
+2017-01;Recife;1;0.9342
+2017-01;Salvador;1;0.9196
+2017-01;São Luís;1;0.8796
+2017-01;Teresina;1;0.9500
+2017-01;Macaé;0;0.8122
+2017-02;Brasília;1;0.9659
+2017-02;Campo Grande;1;0.8447
+2017-02;Cuiabá;1;0.7794
+2017-02;Goiânia;1;0.8018
+2017-02;Belo Horizonte;1;0.9271
+2017-02;Rio de Janeiro;1;0.9026
+2017-02;São Paulo;1;1.0000
+2017-02;Vitória;1;0.9938
+2017-02;Curitiba;1;0.9430
+2017-02;Florianópolis;1;0.9788
+2017-02;Porto Alegre;1;1.0708
+2017-02;Belém;1;0.9263
+2017-02;Boa Vista;1;0.9346
+2017-02;Macapá;1;0.8460
+2017-02;Manaus;1;0.8364
+2017-02;Palmas;1;0.8676
+2017-02;Porto Velho;1;0.7814
+2017-02;Rio Branco;1;0.6923
+2017-02;Aracaju;1;0.9933
+2017-02;Fortaleza;1;1.0337
+2017-02;João Pessoa;1;1.0450
+2017-02;Maceió;1;1.0125
+2017-02;Natal;1;1.0108
+2017-02;Recife;1;0.9047
+2017-02;Salvador;1;0.9030
+2017-02;São Luís;1;0.8655
+2017-02;Teresina;1;0.9371
+2017-02;Macaé;0;0.8064
+2017-03;Brasília;1;0.9626
+2017-03;Campo Grande;1;0.8349
+2017-03;Cuiabá;1;0.7714
+2017-03;Goiânia;1;0.8391
+2017-03;Belo Horizonte;1;0.9189
+2017-03;Rio de Janeiro;1;0.9126
+2017-03;São Paulo;1;1.0000
+2017-03;Vitória;1;0.9908
+2017-03;Curitiba;1;0.9319
+2017-03;Florianópolis;1;1.0017
+2017-03;Porto Alegre;1;1.0807
+2017-03;Belém;1;0.9097
+2017-03;Boa Vista;1;0.9508
+2017-03;Macapá;1;0.8525
+2017-03;Manaus;1;0.8508
+2017-03;Palmas;1;0.8685
+2017-03;Porto Velho;1;0.7836
+2017-03;Rio Branco;1;0.6954
+2017-03;Aracaju;1;0.9966
+2017-03;Fortaleza;1;1.0286
+2017-03;João Pessoa;1;1.0609
+2017-03;Maceió;1;1.0164
+2017-03;Natal;1;1.0248
+2017-03;Recife;1;0.9399
+2017-03;Salvador;1;0.8882
+2017-03;São Luís;1;0.8794
+2017-03;Teresina;1;0.9466
+2017-03;Macaé;0;0.8126
+2017-04;Brasília;1;0.9526
+2017-04;Campo Grande;1;0.8470
+2017-04;Cuiabá;1;0.7672
+2017-04;Goiânia;1;0.8241
+2017-04;Belo Horizonte;1;0.9114
+2017-04;Rio de Janeiro;1;0.9048
+2017-04;São Paulo;1;1.0000
+2017-04;Vitória;1;0.9888
+2017-04;Curitiba;1;0.9114
+2017-04;Florianópolis;1;0.9900
+2017-04;Porto Alegre;1;1.0931
+2017-04;Belém;1;0.8798
+2017-04;Boa Vista;1;0.9451
+2017-04;Macapá;1;0.8462
+2017-04;Manaus;1;0.8565
+2017-04;Palmas;1;0.8561
+2017-04;Porto Velho;1;0.7871
+2017-04;Rio Branco;1;0.6923
+2017-04;Aracaju;1;1.0046
+2017-04;Fortaleza;1;1.0270
+2017-04;João Pessoa;1;1.0428
+2017-04;Maceió;1;0.9954
+2017-04;Natal;1;0.9900
+2017-04;Recife;1;0.9301
+2017-04;Salvador;1;0.8595
+2017-04;São Luís;1;0.8524
+2017-04;Teresina;1;0.9356
+2017-04;Macaé;0;0.7859
+2017-05;Brasília;1;0.9262
+2017-05;Campo Grande;1;0.8102
+2017-05;Cuiabá;1;0.7388
+2017-05;Goiânia;1;0.7960
+2017-05;Belo Horizonte;1;0.8787
+2017-05;Rio de Janeiro;1;0.8779
+2017-05;São Paulo;1;1.0000
+2017-05;Vitória;1;0.9597
+2017-05;Curitiba;1;0.8884
+2017-05;Florianópolis;1;0.9597
+2017-05;Porto Alegre;1;1.0524
+2017-05;Belém;1;0.8634
+2017-05;Boa Vista;1;0.9206
+2017-05;Macapá;1;0.8206
+2017-05;Manaus;1;0.8206
+2017-05;Palmas;1;0.8174
+2017-05;Porto Velho;1;0.7674
+2017-05;Rio Branco;1;0.6727
+2017-05;Aracaju;1;1.0032
+2017-05;Fortaleza;1;0.9686
+2017-05;João Pessoa;1;1.0077
+2017-05;Maceió;1;0.9770
+2017-05;Natal;1;0.9549
+2017-05;Recife;1;0.8916
+2017-05;Salvador;1;0.8460
+2017-05;São Luís;1;0.8299
+2017-05;Teresina;1;0.9069
+2017-05;Macaé;0;0.7630
+2017-06;Brasília;1;0.9391
+2017-06;Campo Grande;1;0.8269
+2017-06;Cuiabá;1;0.7619
+2017-06;Goiânia;1;0.8186
+2017-06;Belo Horizonte;1;0.8949
+2017-06;Rio de Janeiro;1;0.8932
+2017-06;São Paulo;1;1.0000
+2017-06;Vitória;1;0.9842
+2017-06;Curitiba;1;0.9116
+2017-06;Florianópolis;1;0.9462
+2017-06;Porto Alegre;1;1.0771
+2017-06;Belém;1;0.8536
+2017-06;Boa Vista;1;0.9508
+2017-06;Macapá;1;0.8461
+2017-06;Manaus;1;0.8349
+2017-06;Palmas;1;0.8482
+2017-06;Porto Velho;1;0.7919
+2017-06;Rio Branco;1;0.6893
+2017-06;Aracaju;1;1.0229
+2017-06;Fortaleza;1;1.0175
+2017-06;João Pessoa;1;1.0013
+2017-06;Maceió;1;1.0004
+2017-06;Natal;1;0.9654
+2017-06;Recife;1;0.9183
+2017-06;Salvador;1;0.8837
+2017-06;São Luís;1;0.8470
+2017-06;Teresina;1;0.9304
+2017-06;Macaé;0;0.7936
+2017-07;Brasília;1;0.9302
+2017-07;Campo Grande;1;0.8243
+2017-07;Cuiabá;1;0.7478
+2017-07;Goiânia;1;0.8068
+2017-07;Belo Horizonte;1;0.9105
+2017-07;Rio de Janeiro;1;0.8900
+2017-07;São Paulo;1;1.0000
+2017-07;Vitória;1;0.9615
+2017-07;Curitiba;1;0.9130
+2017-07;Florianópolis;1;0.9695
+2017-07;Porto Alegre;1;1.0770
+2017-07;Belém;1;0.8616
+2017-07;Boa Vista;1;0.9523
+2017-07;Macapá;1;0.8511
+2017-07;Manaus;1;0.8227
+2017-07;Palmas;1;0.8348
+2017-07;Porto Velho;1;0.7783
+2017-07;Rio Branco;1;0.6884
+2017-07;Aracaju;1;1.0213
+2017-07;Fortaleza;1;0.9481
+2017-07;João Pessoa;1;0.9674
+2017-07;Maceió;1;0.9941
+2017-07;Natal;1;0.9900
+2017-07;Recife;1;0.8996
+2017-07;Salvador;1;0.8841
+2017-07;São Luís;1;0.8331
+2017-07;Teresina;1;0.9101
+2017-07;Macaé;0;0.7808
+2017-08;Brasília;1;0.9457
+2017-08;Campo Grande;1;0.7991
+2017-08;Cuiabá;1;0.7567
+2017-08;Goiânia;1;0.8139
+2017-08;Belo Horizonte;1;0.9106
+2017-08;Rio de Janeiro;1;0.8915
+2017-08;São Paulo;1;1.0000
+2017-08;Vitória;1;0.9606
+2017-08;Curitiba;1;0.8953
+2017-08;Florianópolis;1;0.9797
+2017-08;Porto Alegre;1;1.1005
+2017-08;Belém;1;0.8402
+2017-08;Boa Vista;1;0.9640
+2017-08;Macapá;1;0.8622
+2017-08;Manaus;1;0.8211
+2017-08;Porto Velho;1;0.7830
+2017-08;Aracaju;1;1.0237
+2017-08;Fortaleza;1;0.9678
+2017-08;João Pessoa;1;0.9741
+2017-08;Maceió;1;1.0314
+2017-08;Natal;1;0.9695
+2017-08;Recife;1;0.8940
+2017-08;Salvador;1;0.8737
+2017-08;São Luís;1;0.8410
+2017-08;Macaé;0;0.7783
+2017-09;Brasília;1;0.9403
+2017-09;Campo Grande;1;0.8014
+2017-09;Cuiabá;1;0.7686
+2017-09;Goiânia;1;0.8010
+2017-09;Belo Horizonte;1;0.9150
+2017-09;Rio de Janeiro;1;0.9053
+2017-09;São Paulo;1;1.0000
+2017-09;Vitória;1;0.9554
+2017-09;Curitiba;1;0.8923
+2017-09;Florianópolis;1;0.9575
+2017-09;Porto Alegre;1;1.0808
+2017-09;Belém;1;0.8485
+2017-09;Manaus;1;0.8237
+2017-09;Aracaju;1;1.0004
+2017-09;Fortaleza;1;0.9428
+2017-09;João Pessoa;1;0.9373
+2017-09;Maceió;1;0.9714
+2017-09;Natal;1;0.9672
+2017-09;Recife;1;0.8919
+2017-09;Salvador;1;0.8595
+2017-09;São Luís;1;0.8414
+2017-09;Macaé;0;0.7703
+2017-10;Brasília;1;0.9084
+2017-10;Campo Grande;1;0.7875
+2017-10;Cuiabá;1;0.7622
+2017-10;Goiânia;1;0.7740
+2017-10;Belo Horizonte;1;0.8852
+2017-10;Rio de Janeiro;1;0.8730
+2017-10;São Paulo;1;1.0000
+2017-10;Vitória;1;0.9096
+2017-10;Curitiba;1;0.8795
+2017-10;Florianópolis;1;0.9536
+2017-10;Porto Alegre;1;1.0436
+2017-10;Belém;1;0.8086
+2017-10;Manaus;1;0.8062
+2017-10;Aracaju;1;1.0020
+2017-10;Fortaleza;1;0.9369
+2017-10;João Pessoa;1;0.9328
+2017-10;Maceió;1;0.9092
+2017-10;Natal;1;0.9385
+2017-10;Recife;1;0.8693
+2017-10;Salvador;1;0.8371
+2017-10;São Luís;1;0.8306
+2017-10;Macaé;0;0.7345
+2017-11;Brasília;1;0.9107
+2017-11;Campo Grande;1;0.7866
+2017-11;Cuiabá;1;0.7676
+2017-11;Goiânia;1;0.7837
+2017-11;Belo Horizonte;1;0.9041
+2017-11;Rio de Janeiro;1;0.8933
+2017-11;São Paulo;1;1.0000
+2017-11;Vitória;1;0.9086
+2017-11;Curitiba;1;0.9024
+2017-11;Florianópolis;1;0.9677
+2017-11;Porto Alegre;1;1.0542
+2017-11;Belém;1;0.8238
+2017-11;Manaus;1;0.8292
+2017-11;Aracaju;1;1.0178
+2017-11;Fortaleza;1;0.9396
+2017-11;João Pessoa;1;0.9479
+2017-11;Maceió;1;0.9227
+2017-11;Natal;1;0.9739
+2017-11;Recife;1;0.8966
+2017-11;Salvador;1;0.8495
+2017-11;São Luís;1;0.8424
+2017-11;Macaé;0;0.7605
+2017-12;Brasília;1;0.8944
+2017-12;Campo Grande;1;0.8031
+2017-12;Cuiabá;1;0.7599
+2017-12;Goiânia;1;0.7693
+2017-12;Belo Horizonte;1;0.8932
+2017-12;Rio de Janeiro;1;0.9022
+2017-12;São Paulo;1;1.0000
+2017-12;Vitória;1;0.9185
+2017-12;Curitiba;1;0.8956
+2017-12;Florianópolis;1;0.9784
+2017-12;Porto Alegre;1;1.0126
+2017-12;Belém;1;0.8080
+2017-12;Manaus;1;0.8117
+2017-12;Aracaju;1;0.9971
+2017-12;Fortaleza;1;0.9494
+2017-12;João Pessoa;1;0.9531
+2017-12;Maceió;1;0.9062
+2017-12;Natal;1;0.9605
+2017-12;Recife;1;0.8940
+2017-12;Salvador;1;0.8651
+2017-12;São Luís;1;0.8483
+2017-12;Macaé;0;0.7322
+2018-01;Brasília;1;0.9372
+2018-01;Campo Grande;1;0.8197
+2018-01;Cuiabá;1;0.7659
+2018-01;Goiânia;1;0.7647
+2018-01;Belo Horizonte;1;0.8952
+2018-01;Rio de Janeiro;1;0.9107
+2018-01;São Paulo;1;1.0000
+2018-01;Vitória;1;0.9580
+2018-01;Curitiba;1;0.9139
+2018-01;Florianópolis;1;0.9588
+2018-01;Porto Alegre;1;1.0575
+2018-01;Belém;1;0.8295
+2018-01;Manaus;1;0.7977
+2018-01;Aracaju;1;1.0000
+2018-01;Fortaleza;1;0.9458
+2018-01;João Pessoa;1;0.9564
+2018-01;Natal;1;0.9637
+2018-01;Recife;1;0.8923
+2018-01;Salvador;1;0.8646
+2018-01;São Luís;1;0.8520
+2018-02;Brasília;1;0.9254
+2018-02;Campo Grande;1;0.8114
+2018-02;Cuiabá;1;0.7732
+2018-02;Goiânia;1;0.7745
+2018-02;Belo Horizonte;1;0.9051
+2018-02;Rio de Janeiro;1;0.9208
+2018-02;São Paulo;1;1.0000
+2018-02;Vitória;1;0.9627
+2018-02;Curitiba;1;0.9216
+2018-02;Florianópolis;1;0.9834
+2018-02;Porto Alegre;1;1.0597
+2018-02;Belém;1;0.8072
+2018-02;Manaus;1;0.7927
+2018-02;Aracaju;1;1.0037
+2018-02;Fortaleza;1;0.9614
+2018-02;João Pessoa;1;0.9805
+2018-02;Natal;1;0.9668
+2018-02;Recife;1;0.9071
+2018-02;Salvador;1;0.8653
+2018-02;São Luís;1;0.8491
+2018-02;Macaé;0;0.7612
+2018-03;Brasília;1;0.9466
+2018-03;Campo Grande;1;0.8108
+2018-03;Cuiabá;1;0.7852
+2018-03;Goiânia;1;0.7835
+2018-03;Belo Horizonte;1;0.9155
+2018-03;Rio de Janeiro;1;0.9189
+2018-03;São Paulo;1;1.0000
+2018-03;Vitória;1;0.9693
+2018-03;Curitiba;1;0.9433
+2018-03;Florianópolis;1;0.9992
+2018-03;Porto Alegre;1;1.0748
+2018-03;Belém;1;0.8411
+2018-03;Manaus;1;0.8188
+2018-03;Aracaju;1;1.0446
+2018-03;Fortaleza;1;0.9386
+2018-03;João Pessoa;1;0.9752
+2018-03;Natal;1;0.9832
+2018-03;Recife;1;0.9092
+2018-03;Salvador;1;0.8676
+2018-03;São Luís;1;0.8693
+2018-04;Brasília;1;0.9608
+2018-04;Campo Grande;1;0.8284
+2018-04;Cuiabá;1;0.7948
+2018-04;Goiânia;1;0.7969
+2018-04;Belo Horizonte;1;0.9251
+2018-04;Rio de Janeiro;1;0.9238
+2018-04;São Paulo;1;1.0000
+2018-04;Vitória;1;0.9877
+2018-04;Curitiba;1;0.9195
+2018-04;Florianópolis;1;0.9583
+2018-04;Porto Alegre;1;1.0834
+2018-04;Belém;1;0.8599
+2018-04;Manaus;1;0.8306
+2018-04;Aracaju;1;1.0660
+2018-04;Fortaleza;1;0.9566
+2018-04;João Pessoa;1;0.9953
+2018-04;Natal;1;1.0026
+2018-04;Recife;1;0.9153
+2018-04;Salvador;1;0.8944
+2018-04;São Luís;1;0.8778
+2018-05;Brasília;1;0.9201
+2018-05;Campo Grande;1;0.8176
+2018-05;Cuiabá;1;0.7800
+2018-05;Goiânia;1;0.7804
+2018-05;Belo Horizonte;1;0.8921
+2018-05;Rio de Janeiro;1;0.9122
+2018-05;São Paulo;1;1.0000
+2018-05;Vitória;1;0.9674
+2018-05;Curitiba;1;0.9201
+2018-05;Florianópolis;1;0.9540
+2018-05;Porto Alegre;1;1.0598
+2018-05;Belém;1;0.8448
+2018-05;Manaus;1;0.8252
+2018-05;Aracaju;1;1.0657
+2018-05;Fortaleza;1;0.9691
+2018-05;João Pessoa;1;0.9737
+2018-05;Natal;1;0.9745
+2018-05;Recife;1;0.8925
+2018-05;Salvador;1;0.9030
+2018-05;São Luís;1;0.8683
+2018-06;Brasília;1;0.9228
+2018-06;Campo Grande;1;0.7950
+2018-06;Cuiabá;1;0.7761
+2018-06;Goiânia;1;0.7520
+2018-06;Belo Horizonte;1;0.8746
+2018-06;Rio de Janeiro;1;0.9473
+2018-06;São Paulo;1;1.0000
+2018-06;Vitória;1;0.9743
+2018-06;Curitiba;1;0.9413
+2018-06;Florianópolis;1;0.9124
+2018-06;Porto Alegre;1;1.0595
+2018-06;Belém;1;0.8505
+2018-06;Manaus;1;0.7986
+2018-06;Aracaju;1;1.0181
+2018-06;Fortaleza;1;0.9582
+2018-06;João Pessoa;1;0.9417
+2018-06;Natal;1;0.9578
+2018-06;Recife;1;0.9132
+2018-06;Salvador;1;0.9064
+2018-06;São Luís;1;0.8601
+2018-06;Macaé;0;0.7685
+2018-07;Brasília;1;0.9294
+2018-07;Campo Grande;1;0.8126
+2018-07;Cuiabá;1;0.7919
+2018-07;Goiânia;1;0.7823
+2018-07;Belo Horizonte;1;0.9144
+2018-07;Rio de Janeiro;1;0.9314
+2018-07;São Paulo;1;1.0000
+2018-07;Vitória;1;0.9942
+2018-07;Curitiba;1;0.9501
+2018-07;Florianópolis;1;0.9373
+2018-07;Porto Alegre;1;1.0777
+2018-07;Belém;1;0.8504
+2018-07;Manaus;1;0.8268
+2018-07;Aracaju;1;1.0619
+2018-07;Fortaleza;1;0.9859
+2018-07;João Pessoa;1;0.9929
+2018-07;Natal;1;0.9859
+2018-07;Recife;1;0.9294
+2018-07;Salvador;1;0.8970
+2018-07;São Luís;1;0.8563
+2018-07;Macaé;0;0.7948
+2018-08;Brasília;1;0.9395
+2018-08;Campo Grande;1;0.8343
+2018-08;Cuiabá;1;0.7880
+2018-08;Goiânia;1;0.7926
+2018-08;Belo Horizonte;1;0.9144
+2018-08;Rio de Janeiro;1;0.9299
+2018-08;São Paulo;1;1.0000
+2018-08;Vitória;1;0.9879
+2018-08;Curitiba;1;0.9412
+2018-08;Florianópolis;1;0.9654
+2018-08;Porto Alegre;1;1.0351
+2018-08;Belém;1;0.8510
+2018-08;Manaus;1;0.8260
+2018-08;Aracaju;1;1.0785
+2018-08;Fortaleza;1;0.9858
+2018-08;João Pessoa;1;0.9862
+2018-08;Natal;1;1.0021
+2018-08;Recife;1;0.9107
+2018-08;Salvador;1;0.8902
+2018-08;São Luís;1;0.8598
+2018-09;Brasília;1;0.9212
+2018-09;Campo Grande;1;0.8716
+2018-09;Goiânia;1;0.7821
+2018-09;Belo Horizonte;1;0.8913
+2018-09;Rio de Janeiro;1;0.9126
+2018-09;São Paulo;1;1.0000
+2018-09;Vitória;1;0.9943
+2018-09;Curitiba;1;0.9212
+2018-09;Florianópolis;1;0.9762
+2018-09;Porto Alegre;1;1.0521
+2018-09;Belém;1;0.8285
+2018-09;Aracaju;1;1.0603
+2018-09;Fortaleza;1;0.9471
+2018-09;João Pessoa;1;0.9590
+2018-09;Natal;1;0.9807
+2018-09;Recife;1;0.9052
+2018-09;Salvador;1;0.8872
+2018-09;São Luís;1;0.8502
+2018-10;Brasília;1;0.9376
+2018-10;Campo Grande;1;0.8752
+2018-10;Goiânia;1;0.7780
+2018-10;Belo Horizonte;1;0.8772
+2018-10;Rio de Janeiro;1;0.9245
+2018-10;São Paulo;1;1.0000
+2018-10;Vitória;1;0.9829
+2018-10;Curitiba;1;0.9245
+2018-10;Florianópolis;1;0.9421
+2018-10;Porto Alegre;1;1.0575
+2018-10;Belém;1;0.8127
+2018-10;Aracaju;1;1.0612
+2018-10;Fortaleza;1;0.9767
+2018-10;João Pessoa;1;0.9547
+2018-10;Natal;1;0.9735
+2018-10;Recife;1;0.8878
+2018-10;Salvador;1;0.8911
+2018-10;São Luís;1;0.8352
+2018-11;Brasília;1;0.9222
+2018-11;Campo Grande;1;0.8673
+2018-11;Goiânia;1;0.7940
+2018-11;Belo Horizonte;1;0.9065
+2018-11;Rio de Janeiro;1;0.9238
+2018-11;São Paulo;1;1.0000
+2018-11;Vitória;1;0.9585
+2018-11;Curitiba;1;0.9250
+2018-11;Florianópolis;1;0.9109
+2018-11;Porto Alegre;1;1.0298
+2018-11;Belém;1;0.7895
+2018-11;Aracaju;1;1.0460
+2018-11;Fortaleza;1;0.9657
+2018-11;João Pessoa;1;0.9573
+2018-11;Natal;1;0.9657
+2018-11;Recife;1;0.9024
+2018-11;Salvador;1;0.8766
+2018-11;São Luís;1;0.8323
+2018-12;Brasília;1;0.9198
+2018-12;Campo Grande;1;0.8649
+2018-12;Goiânia;1;0.8212
+2018-12;Belo Horizonte;1;0.9174
+2018-12;Rio de Janeiro;1;0.9214
+2018-12;São Paulo;1;1.0000
+2018-12;Vitória;1;0.9367
+2018-12;Curitiba;1;0.9347
+2018-12;Florianópolis;1;0.9447
+2018-12;Porto Alegre;1;1.0257
+2018-12;Belém;1;0.7824
+2018-12;Aracaju;1;1.0445
+2018-12;Fortaleza;1;0.9583
+2018-12;João Pessoa;1;0.9651
+2018-12;Natal;1;0.9760
+2018-12;Recife;1;0.9130
+2018-12;Salvador;1;0.9126
+2018-12;São Luís;1;0.8297
+2019-01;Brasília;1;0.9226
+2019-01;Campo Grande;1;0.8292
+2019-01;Goiânia;1;0.8276
+2019-01;Belo Horizonte;1;0.8974
+2019-01;Rio de Janeiro;1;0.9262
+2019-01;São Paulo;1;1.0000
+2019-01;Vitória;1;0.9685
+2019-01;Curitiba;1;0.9286
+2019-01;Florianópolis;1;0.9557
+2019-01;Porto Alegre;1;1.0531
+2019-01;Belém;1;0.7893
+2019-01;Aracaju;1;1.0471
+2019-01;Fortaleza;1;0.9421
+2019-01;João Pessoa;1;0.9733
+2019-01;Natal;1;0.9725
+2019-01;Recife;1;0.9018
+2019-01;Salvador;1;0.9457
+2019-01;São Luís;1;0.8651
+2019-02;Brasília;1;0.9332
+2019-02;Campo Grande;1;0.8395
+2019-02;Goiânia;1;0.8154
+2019-02;Belo Horizonte;1;0.8818
+2019-02;Rio de Janeiro;1;0.9028
+2019-02;São Paulo;1;1.0000
+2019-02;Vitória;1;0.9700
+2019-02;Curitiba;1;0.9190
+2019-02;Florianópolis;1;0.9348
+2019-02;Porto Alegre;1;1.0545
+2019-02;Belém;1;0.7901
+2019-02;Aracaju;1;1.0415
+2019-02;Fortaleza;1;0.9387
+2019-02;João Pessoa;1;0.9569
+2019-02;Natal;1;0.9711
+2019-02;Recife;1;0.8838
+2019-02;Salvador;1;0.9170
+2019-02;São Luís;1;0.8530
+2019-03;Brasília;1;0.9199
+2019-03;Campo Grande;1;0.8358
+2019-03;Goiânia;1;0.8342
+2019-03;Belo Horizonte;1;0.8847
+2019-03;Rio de Janeiro;1;0.9059
+2019-03;São Paulo;1;1.0000
+2019-03;Vitória;1;0.9964
+2019-03;Curitiba;1;0.9291
+2019-03;Florianópolis;1;0.9367
+2019-03;Porto Alegre;1;1.0461
+2019-03;Belém;1;0.8114
+2019-03;Aracaju;1;1.0449
+2019-03;Fortaleza;1;0.9547
+2019-03;João Pessoa;1;0.9744
+2019-03;Natal;1;0.9888
+2019-03;Recife;1;0.8979
+2019-03;Salvador;1;0.9223
+2019-03;São Luís;1;0.8474
+2019-04;Brasília;1;0.9281
+2019-04;Campo Grande;1;0.8240
+2019-04;Goiânia;1;0.8417
+2019-04;Belo Horizonte;1;0.8992
+2019-04;Rio de Janeiro;1;0.9245
+2019-04;São Paulo;1;1.0000
+2019-04;Vitória;1;1.0104
+2019-04;Curitiba;1;0.9417
+2019-04;Florianópolis;1;0.9425
+2019-04;Porto Alegre;1;1.0378
+2019-04;Belém;1;0.8212
+2019-04;Aracaju;1;1.0434
+2019-04;Fortaleza;1;0.9763
+2019-04;João Pessoa;1;0.9663
+2019-04;Natal;1;0.9972
+2019-04;Recife;1;0.9100
+2019-04;Salvador;1;0.9120
+2019-04;São Luís;1;0.8734
+2019-05;Brasília;1;0.9190
+2019-05;Campo Grande;1;0.7925
+2019-05;Goiânia;1;0.8388
+2019-05;Belo Horizonte;1;0.8813
+2019-05;Rio de Janeiro;1;0.9186
+2019-05;São Paulo;1;1.0000
+2019-05;Vitória;1;0.9803
+2019-05;Curitiba;1;0.9285
+2019-05;Florianópolis;1;0.9123
+2019-05;Porto Alegre;1;1.0322
+2019-05;Belém;1;0.8133
+2019-05;Aracaju;1;1.0220
+2019-05;Fortaleza;1;0.9646
+2019-05;João Pessoa;1;0.9646
+2019-05;Natal;1;0.9686
+2019-05;Recife;1;0.9155
+2019-05;Salvador;1;0.9009
+2019-06;Brasília;1;0.8771
+2019-06;Campo Grande;1;0.8030
+2019-06;Goiânia;1;0.8377
+2019-06;Belo Horizonte;1;0.8976
+2019-06;Rio de Janeiro;1;0.9070
+2019-06;São Paulo;1;1.0000
+2019-06;Vitória;1;0.9823
+2019-06;Curitiba;1;0.9224
+2019-06;Florianópolis;1;0.9212
+2019-06;Porto Alegre;1;1.0181
+2019-06;Belém;1;0.8180
+2019-06;Aracaju;1;0.9831
+2019-06;Fortaleza;1;0.9704
+2019-06;João Pessoa;1;0.9724
+2019-06;Natal;1;0.9716
+2019-06;Recife;1;0.9125
+2019-06;Salvador;1;0.9180
+2019-07;Brasília;1;0.9112
+2019-07;Campo Grande;1;0.7828
+2019-07;Goiânia;1;0.8317
+2019-07;Belo Horizonte;1;0.8892
+2019-07;Rio de Janeiro;1;0.8900
+2019-07;São Paulo;1;1.0000
+2019-07;Vitória;1;0.9730
+2019-07;Curitiba;1;0.9143
+2019-07;Florianópolis;1;0.9198
+2019-07;Porto Alegre;1;0.9980
+2019-07;Belém;1;0.8098
+2019-07;Aracaju;1;0.9299
+2019-07;Fortaleza;1;0.9695
+2019-07;João Pessoa;1;0.9789
+2019-07;Natal;1;0.9777
+2019-07;Recife;1;0.9119
+2019-07;Salvador;1;0.8971
+2019-08;Brasília;1;0.9196
+2019-08;Campo Grande;1;0.8059
+2019-08;Goiânia;1;0.8496
+2019-08;Belo Horizonte;1;0.9073
+2019-08;Rio de Janeiro;1;0.9272
+2019-08;São Paulo;1;1.0000
+2019-08;Vitória;1;0.9737
+2019-08;Curitiba;1;0.9344
+2019-08;Florianópolis;1;0.9467
+2019-08;Porto Alegre;1;1.0255
+2019-08;Belém;1;0.8262
+2019-08;Aracaju;1;0.9276
+2019-08;Fortaleza;1;0.9570
+2019-08;João Pessoa;1;0.9972
+2019-08;Natal;1;0.9805
+2019-08;Recife;1;0.9300
+2019-08;Salvador;1;0.8942
+2019-09;Brasília;1;0.9161
+2019-09;Campo Grande;1;0.7866
+2019-09;Goiânia;1;0.8445
+2019-09;Belo Horizonte;1;0.8996
+2019-09;Rio de Janeiro;1;0.9311
+2019-09;São Paulo;1;1.0000
+2019-09;Vitória;1;0.9744
+2019-09;Curitiba;1;0.9398
+2019-09;Florianópolis;1;0.9331
+2019-09;Porto Alegre;1;1.0110
+2019-09;Belém;1;0.8173
+2019-09;Aracaju;1;0.9114
+2019-09;Fortaleza;1;0.9406
+2019-09;João Pessoa;1;0.9720
+2019-09;Natal;1;0.9646
+2019-09;Recife;1;0.9209
+2019-09;Salvador;1;0.9004
+2019-10;Brasília;1;0.9107
+2019-10;Campo Grande;1;0.7840
+2019-10;Goiânia;1;0.8213
+2019-10;Belo Horizonte;1;0.8933
+2019-10;Rio de Janeiro;1;0.9280
+2019-10;São Paulo;1;1.0000
+2019-10;Vitória;1;0.9761
+2019-10;Curitiba;1;0.8983
+2019-10;Florianópolis;1;0.9688
+2019-10;Porto Alegre;1;1.0019
+2019-10;Belém;1;0.8044
+2019-10;Aracaju;1;0.9122
+2019-10;Fortaleza;1;0.9503
+2019-10;João Pessoa;1;0.9576
+2019-10;Natal;1;0.9484
+2019-10;Recife;1;0.9057
+2019-10;Salvador;1;0.8764
+2019-11;Campo Grande;1;0.8195
+2019-11;Goiânia;1;0.8530
+2019-11;Belo Horizonte;1;0.9586
+2019-11;Rio de Janeiro;1;0.9744
+2019-11;São Paulo;1;1.0000
+2019-11;Vitória;1;1.1380
+2019-11;Curitiba;1;0.9146
+2019-11;Florianópolis;1;1.1113
+2019-11;Porto Alegre;1;1.0406
+2019-11;Belém;1;0.8605
+2019-11;Aracaju;1;0.9199
+2019-11;Fortaleza;1;0.9989
+2019-11;João Pessoa;1;0.9624
+2019-11;Natal;1;0.9970
+2019-11;Recife;1;0.8947
+2019-11;Salvador;1;0.8800
+2019-12;Brasília;1;0.9473
+2019-12;Campo Grande;1;0.8655
+2019-12;Goiânia;1;0.9188
+2019-12;Belo Horizonte;1;0.9860
+2019-12;Rio de Janeiro;1;1.0508
+2019-12;São Paulo;1;1.0000
+2019-12;Vitória;1;1.0933
+2019-12;Curitiba;1;0.9724
+2019-12;Florianópolis;1;1.0663
+2019-12;Porto Alegre;1;1.0688
+2019-12;Belém;1;0.8953
+2019-12;Aracaju;1;0.9264
+2019-12;Fortaleza;1;1.0276
+2019-12;João Pessoa;1;0.9302
+2019-12;Natal;1;0.9851
+2019-12;Recife;1;0.9067
+2019-12;Salvador;1;0.8395
+2020-01;Brasília;1;0.9613
+2020-01;Campo Grande;1;0.8525
+2020-01;Goiânia;1;0.8836
+2020-01;Belo Horizonte;1;0.9279
+2020-01;Rio de Janeiro;1;0.9256
+2020-01;São Paulo;1;1.0000
+2020-01;Vitória;1;0.9980
+2020-01;Curitiba;1;0.9521
+2020-01;Florianópolis;1;0.9757
+2020-01;Porto Alegre;1;1.0954
+2020-01;Belém;1;0.8675
+2020-01;Aracaju;1;0.9584
+2020-01;Fortaleza;1;0.9666
+2020-01;João Pessoa;1;0.9207
+2020-01;Natal;1;0.9439
+2020-01;Recife;1;0.9603
+2020-01;Salvador;1;0.9049
+2020-02;Brasília;1;0.9266
+2020-02;Campo Grande;1;0.8383
+2020-02;Goiânia;1;0.8662
+2020-02;Belo Horizonte;1;0.9279
+2020-02;Rio de Janeiro;1;0.9352
+2020-02;São Paulo;1;1.0000
+2020-02;Vitória;1;0.9668
+2020-02;Curitiba;1;0.9203
+2020-02;Florianópolis;1;0.9874
+2020-02;Porto Alegre;1;1.0641
+2020-02;Belém;1;0.8419
+2020-02;Aracaju;1;0.9220
+2020-02;Fortaleza;1;0.9542
+2020-02;João Pessoa;1;0.9053
+2020-02;Natal;1;0.9402
+2020-02;Recife;1;0.9668
+2020-02;Salvador;1;0.8990
+2020-03;Brasília;1;0.9477
+2020-03;Campo Grande;1;0.8539
+2020-03;Goiânia;1;0.8734
+2020-03;Belo Horizonte;1;0.9247
+2020-03;Rio de Janeiro;1;0.9663
+2020-03;São Paulo;1;1.0000
+2020-03;Vitória;1;0.9895
+2020-03;Curitiba;1;0.9602
+2020-03;Florianópolis;1;1.0817
+2020-03;Porto Alegre;1;1.0729
+2020-03;Belém;1;0.8464
+2020-03;Aracaju;1;0.9183
+2020-03;Fortaleza;1;0.9561
+2020-03;João Pessoa;1;0.9389
+2020-03;Natal;1;0.9534
+2020-03;Recife;1;0.9534
+2020-03;Salvador;1;0.9062
+2020-04;Brasília;1;0.8648
+2020-04;Campo Grande;1;0.8249
+2020-04;Goiânia;1;0.8448
+2020-04;Belo Horizonte;1;0.9017
+2020-04;Rio de Janeiro;1;0.9473
+2020-04;São Paulo;1;1.0000
+2020-04;Vitória;1;0.9521
+2020-04;Curitiba;1;0.9846
+2020-04;Florianópolis;1;0.9737
+2020-04;Porto Alegre;1;1.0080
+2020-04;Belém;1;0.8236
+2020-04;Aracaju;1;0.9364
+2020-04;Fortaleza;1;0.9807
+2020-04;João Pessoa;1;0.9216
+2020-04;Natal;1;0.9162
+2020-04;Recife;1;0.9036
+2020-04;Salvador;1;0.9181
+2020-05;Brasília;1;0.8040
+2020-05;Campo Grande;1;0.7833
+2020-05;Goiânia;1;0.8576
+2020-05;Belo Horizonte;1;0.9152
+2020-05;Rio de Janeiro;1;0.9669
+2020-05;São Paulo;1;1.0000
+2020-05;Vitória;1;0.9130
+2020-05;Curitiba;1;0.9879
+2020-05;Florianópolis;1;0.9630
+2020-05;Porto Alegre;1;1.0025
+2020-05;Belém;1;0.8563
+2020-05;Aracaju;1;0.9264
+2020-05;Fortaleza;1;1.0274
+2020-05;João Pessoa;1;0.9101
+2020-05;Natal;1;0.9197
+2020-05;Recife;1;0.9257
+2020-05;Salvador;1;0.8384
+2020-06;Brasília;1;0.8088
+2020-06;Campo Grande;1;0.8006
+2020-06;Goiânia;1;0.8785
+2020-06;Belo Horizonte;1;0.9218
+2020-06;Rio de Janeiro;1;0.9454
+2020-06;São Paulo;1;1.0000
+2020-06;Vitória;1;0.9438
+2020-06;Curitiba;1;0.9461
+2020-06;Florianópolis;1;0.9868
+2020-06;Porto Alegre;1;1.0101
+2020-06;Belém;1;0.8514
+2020-06;Aracaju;1;0.9350
+2020-06;Fortaleza;1;1.0142
+2020-06;João Pessoa;1;0.9183
+2020-06;Natal;1;0.9782
+2020-06;Recife;1;0.9309
+2020-06;Salvador;1;0.9315
+2020-07;Brasília;1;0.8107
+2020-07;Campo Grande;1;0.7933
+2020-07;Goiânia;1;0.8968
+2020-07;Belo Horizonte;1;0.9482
+2020-07;Rio de Janeiro;1;0.9320
+2020-07;São Paulo;1;1.0000
+2020-07;Vitória;1;0.9467
+2020-07;Curitiba;1;0.9645
+2020-07;Florianópolis;1;1.0359
+2020-07;Porto Alegre;1;1.0262
+2020-07;Belém;1;0.8372
+2020-07;Aracaju;1;0.9529
+2020-07;Fortaleza;1;0.9944
+2020-07;João Pessoa;1;0.8921
+2020-07;Natal;1;0.9788
+2020-07;Recife;1;0.9114
+2020-07;Salvador;1;0.9139
+2020-08;Brasília;1;0.7738
+2020-08;Campo Grande;1;0.8356
+2020-08;Goiânia;1;0.8965
+2020-08;Belo Horizonte;1;0.9300
+2020-08;Rio de Janeiro;1;0.9192
+2020-08;São Paulo;1;1.0000
+2020-08;Vitória;1;0.9104
+2020-08;Curitiba;1;0.9511
+2020-08;Florianópolis;1;0.9931
+2020-08;Porto Alegre;1;0.9873
+2020-08;Belém;1;0.8332
+2020-08;Aracaju;1;0.9273
+2020-08;Fortaleza;1;1.0063
+2020-08;João Pessoa;1;0.8848
+2020-08;Natal;1;0.9469
+2020-08;Recife;1;0.9179
+2020-08;Salvador;1;0.9496
+2020-09;Brasília;1;0.7469
+2020-09;Campo Grande;1;0.8279
+2020-09;Goiânia;1;0.8976
+2020-09;Belo Horizonte;1;0.9176
+2020-09;Rio de Janeiro;1;0.9349
+2020-09;São Paulo;1;1.0000
+2020-09;Vitória;1;0.9387
+2020-09;Curitiba;1;0.9806
+2020-09;Florianópolis;1;1.0940
+2020-09;Porto Alegre;1;0.9421
+2020-09;Belém;1;0.8583
+2020-09;Aracaju;1;0.9609
+2020-09;Fortaleza;1;1.0107
+2020-09;João Pessoa;1;0.8956
+2020-09;Natal;1;0.9670
+2020-09;Recife;1;0.9222
+2020-09;Salvador;1;0.9682
+2020-10;Brasília;1;0.7922
+2020-10;Campo Grande;1;0.8528
+2020-10;Goiânia;1;0.8971
+2020-10;Belo Horizonte;1;0.8910
+2020-10;Rio de Janeiro;1;0.9340
+2020-10;São Paulo;1;1.0000
+2020-10;Vitória;1;0.9042
+2020-10;Curitiba;1;0.9375
+2020-10;Florianópolis;1;0.9279
+2020-10;Porto Alegre;1;0.9111
+2020-10;Belém;1;0.8332
+2020-10;Aracaju;1;0.9540
+2020-10;Fortaleza;1;0.9915
+2020-10;João Pessoa;1;0.9056
+2020-10;Natal;1;0.9249
+2020-10;Recife;1;0.9007
+2020-10;Salvador;1;0.9337
+2020-11;Brasília;1;0.8871
+2020-11;Campo Grande;1;0.9022
+2020-11;Goiânia;1;0.8842
+2020-11;Belo Horizonte;1;0.8746
+2020-11;Rio de Janeiro;1;0.9412
+2020-11;São Paulo;1;1.0000
+2020-11;Vitória;1;0.9256
+2020-11;Curitiba;1;0.9625
+2020-11;Florianópolis;1;0.9230
+2020-11;Porto Alegre;1;0.9422
+2020-11;Belém;1;0.8353
+2020-11;Aracaju;1;0.9638
+2020-11;Fortaleza;1;0.9943
+2020-11;João Pessoa;1;0.8704
+2020-11;Natal;1;0.9381
+2020-11;Recife;1;0.8865
+2020-11;Salvador;1;0.9032
+2020-12;Brasília;1;0.9255
+2020-12;Campo Grande;1;0.8701
+2020-12;Goiânia;1;0.8983
+2020-12;Belo Horizonte;1;0.9067
+2020-12;Rio de Janeiro;1;0.9136
+2020-12;São Paulo;1;1.0000
+2020-12;Vitória;1;0.9568
+2020-12;Curitiba;1;0.9065
+2020-12;Florianópolis;1;0.9624
+2020-12;Porto Alegre;1;0.9601
+2020-12;Belém;1;0.8445
+2020-12;Aracaju;1;0.9705
+2020-12;Fortaleza;1;0.9962
+2020-12;João Pessoa;1;0.9062
+2020-12;Natal;1;0.9377
+2020-12;Recife;1;0.8930
+2020-12;Salvador;1;0.8877
+2020-12;Macaé;0;0.8963
+2021-01;Brasília;1;0.9414
+2021-01;Campo Grande;1;0.8619
+2021-01;Goiânia;1;0.8889
+2021-01;Belo Horizonte;1;0.9294
+2021-01;Rio de Janeiro;1;0.9394
+2021-01;São Paulo;1;1.0000
+2021-01;Vitória;1;0.9502
+2021-01;Curitiba;1;0.9462
+2021-01;Florianópolis;1;0.9710
+2021-01;Porto Alegre;1;0.9492
+2021-01;Belém;1;0.8413
+2021-01;Aracaju;1;0.9342
+2021-01;Fortaleza;1;0.9732
+2021-01;João Pessoa;1;0.8939
+2021-01;Natal;1;0.9012
+2021-01;Recife;1;0.9077
+2021-01;Salvador;1;0.9184
+2021-02;Brasília;1;0.9322
+2021-02;Campo Grande;1;0.8400
+2021-02;Goiânia;1;0.8897
+2021-02;Belo Horizonte;1;0.9165
+2021-02;Rio de Janeiro;1;0.9246
+2021-02;São Paulo;1;1.0000
+2021-02;Vitória;1;0.9256
+2021-02;Curitiba;1;0.9607
+2021-02;Florianópolis;1;0.9966
+2021-02;Porto Alegre;1;0.9730
+2021-02;Belém;1;0.8425
+2021-02;Aracaju;1;0.8966
+2021-02;Fortaleza;1;0.9693
+2021-02;João Pessoa;1;0.9091
+2021-02;Natal;1;0.9123
+2021-02;Recife;1;0.8823
+2021-02;Salvador;1;0.8889
+2021-03;Brasília;1;0.9425
+2021-03;Campo Grande;1;0.8664
+2021-03;Goiânia;1;0.8900
+2021-03;Belo Horizonte;1;0.9237
+2021-03;Rio de Janeiro;1;0.9363
+2021-03;São Paulo;1;1.0000
+2021-03;Vitória;1;0.9487
+2021-03;Curitiba;1;0.9849
+2021-03;Florianópolis;1;1.0045
+2021-03;Porto Alegre;1;1.0010
+2021-03;Belém;1;0.8634
+2021-03;Aracaju;1;0.9879
+2021-03;Fortaleza;1;0.9881
+2021-03;João Pessoa;1;0.9110
+2021-03;Natal;1;0.9430
+2021-03;Recife;1;0.8937
+2021-03;Salvador;1;0.8783
+2021-04;Brasília;1;0.9296
+2021-04;Campo Grande;1;0.8686
+2021-04;Goiânia;1;0.8630
+2021-04;Belo Horizonte;1;0.8984
+2021-04;Rio de Janeiro;1;0.9050
+2021-04;São Paulo;1;1.0000
+2021-04;Vitória;1;0.9146
+2021-04;Curitiba;1;0.9503
+2021-04;Florianópolis;1;0.9360
+2021-04;Porto Alegre;1;0.9500
+2021-04;Belém;1;0.8231
+2021-04;Aracaju;1;0.9266
+2021-04;Fortaleza;1;0.9636
+2021-04;João Pessoa;1;0.8811
+2021-04;Natal;1;0.9050
+2021-04;Recife;1;0.8665
+2021-04;Salvador;1;0.8391
+2021-05;Brasília;1;0.9348
+2021-05;Campo Grande;1;0.8563
+2021-05;Goiânia;1;0.8676
+2021-05;Rio de Janeiro;1;0.9055
+2021-05;São Paulo;1;1.0000
+2021-05;Vitória;1;0.9420
+2021-05;Curitiba;1;0.9894
+2021-05;Florianópolis;1;0.9658
+2021-05;Porto Alegre;1;0.9598
+2021-05;Belém;1;0.8269
+2021-05;Aracaju;1;0.9506
+2021-05;Fortaleza;1;0.9718
+2021-05;João Pessoa;1;0.8808
+2021-05;Natal;1;0.9140
+2021-05;Recife;1;0.8787
+2021-05;Salvador;1;0.8768
+2021-06;Brasília;1;0.9301
+2021-06;Campo Grande;1;0.8595
+2021-06;Goiânia;1;0.8605
+2021-06;Belo Horizonte;1;0.8794
+2021-06;Rio de Janeiro;1;0.8919
+2021-06;São Paulo;1;1.0000
+2021-06;Vitória;1;0.9399
+2021-06;Curitiba;1;0.9918
+2021-06;Florianópolis;1;1.0009
+2021-06;Porto Alegre;1;1.0066
+2021-06;Belém;1;0.8259
+2021-06;Aracaju;1;0.9297
+2021-06;Fortaleza;1;0.9879
+2021-06;João Pessoa;1;0.8873
+2021-06;Natal;1;0.9226
+2021-06;Recife;1;0.9001
+2021-06;Salvador;1;0.8470
+2021-07;Brasília;1;0.9305
+2021-07;Campo Grande;1;0.8878
+2021-07;Goiânia;1;0.8683
+2021-07;Belo Horizonte;1;0.8896
+2021-07;Rio de Janeiro;1;0.9136
+2021-07;São Paulo;1;1.0000
+2021-07;Vitória;1;0.9454
+2021-07;Curitiba;1;0.9954
+2021-07;Florianópolis;1;0.9993
+2021-07;Porto Alegre;1;1.0171
+2021-07;Belém;1;0.8306
+2021-07;Aracaju;1;0.9486
+2021-07;Fortaleza;1;0.9835
+2021-07;João Pessoa;1;0.8882
+2021-07;Natal;1;0.9467
+2021-07;Recife;1;0.9157
+2021-07;Salvador;1;0.8562
+2021-08;Brasília;1;0.9097
+2021-08;Campo Grande;1;0.8970
+2021-08;Goiânia;1;0.8777
+2021-08;Belo Horizonte;1;0.8966
+2021-08;Rio de Janeiro;1;0.9074
+2021-08;São Paulo;1;1.0000
+2021-08;Vitória;1;0.9438
+2021-08;Curitiba;1;0.9498
+2021-08;Florianópolis;1;0.9896
+2021-08;Porto Alegre;1;1.0246
+2021-08;Belém;1;0.8401
+2021-08;Aracaju;1;0.8977
+2021-08;Fortaleza;1;0.9592
+2021-08;João Pessoa;1;0.8915
+2021-08;Natal;1;0.9330
+2021-08;Recife;1;0.9194
+2021-08;Salvador;1;0.8712
+2021-09;Brasília;1;0.9217
+2021-09;Campo Grande;1;0.9171
+2021-09;Goiânia;1;0.8733
+2021-09;Belo Horizonte;1;0.8941
+2021-09;Rio de Janeiro;1;0.8929
+2021-09;São Paulo;1;1.0000
+2021-09;Vitória;1;0.9785
+2021-09;Curitiba;1;0.9322
+2021-09;Florianópolis;1;0.9582
+2021-09;Porto Alegre;1;1.0073
+2021-09;Belém;1;0.8338
+2021-09;Aracaju;1;0.9048
+2021-09;Fortaleza;1;0.9445
+2021-09;João Pessoa;1;0.8852
+2021-09;Natal;1;0.9445
+2021-09;Recife;1;0.9199
+2021-09;Salvador;1;0.8576
+2021-10;Brasília;1;0.9203
+2021-10;Campo Grande;1;0.9148
+2021-10;Goiânia;1;0.8626
+2021-10;Belo Horizonte;1;0.8853
+2021-10;Rio de Janeiro;1;0.9089
+2021-10;São Paulo;1;1.0000
+2021-10;Vitória;1;0.9625
+2021-10;Curitiba;1;0.9400
+2021-10;Florianópolis;1;0.9884
+2021-10;Porto Alegre;1;1.0016
+2021-10;Belém;1;0.8312
+2021-10;Aracaju;1;0.8982
+2021-10;Fortaleza;1;0.9341
+2021-10;João Pessoa;1;0.8780
+2021-10;Natal;1;0.9400
+2021-10;Recife;1;0.9153
+2021-10;Salvador;1;0.8485
+2021-11;Brasília;1;0.9069
+2021-11;Campo Grande;1;0.8969
+2021-11;Goiânia;1;0.8538
+2021-11;Belo Horizonte;1;0.8891
+2021-11;Rio de Janeiro;1;0.8868
+2021-11;São Paulo;1;1.0000
+2021-11;Vitória;1;0.9633
+2021-11;Curitiba;1;0.9431
+2021-11;Florianópolis;1;1.0253
+2021-11;Porto Alegre;1;1.0055
+2021-11;Belém;1;0.8340
+2021-11;Aracaju;1;0.8998
+2021-11;Fortaleza;1;0.9287
+2021-11;João Pessoa;1;0.8793
+2021-11;Natal;1;0.9162
+2021-11;Recife;1;0.9117
+2021-11;Salvador;1;0.8566
+2021-12;Brasília;1;0.8781
+2021-12;Campo Grande;1;0.8925
+2021-12;Goiânia;1;0.8691
+2021-12;Belo Horizonte;1;0.8862
+2021-12;Rio de Janeiro;1;0.8959
+2021-12;São Paulo;1;1.0000
+2021-12;Vitória;1;0.9608
+2021-12;Curitiba;1;0.9491
+2021-12;Florianópolis;1;1.0054
+2021-12;Porto Alegre;1;1.0113
+2021-12;Belém;1;0.8298
+2021-12;Aracaju;1;0.9038
+2021-12;Fortaleza;1;0.9443
+2021-12;João Pessoa;1;0.8706
+2021-12;Natal;1;0.9166
+2021-12;Recife;1;0.9053
+2021-12;Salvador;1;0.8659
+2022-01;Brasília;1;0.9131
+2022-01;Campo Grande;1;0.8985
+2022-01;Goiânia;1;0.8724
+2022-01;Belo Horizonte;1;0.9061
+2022-01;Rio de Janeiro;1;0.8940
+2022-01;São Paulo;1;1.0000
+2022-01;Vitória;1;0.9591
+2022-01;Curitiba;1;0.9306
+2022-01;Florianópolis;1;0.9971
+2022-01;Porto Alegre;1;1.0040
+2022-01;Belém;1;0.8349
+2022-01;Aracaju;1;0.8664
+2022-01;Fortaleza;1;0.9519
+2022-01;João Pessoa;1;0.8814
+2022-01;Natal;1;0.9254
+2022-01;Recife;1;0.9014
+2022-01;Salvador;1;0.8610
+2022-02;Brasília;1;0.9523
+2022-02;Campo Grande;1;0.9151
+2022-02;Goiânia;1;0.8810
+2022-02;Belo Horizonte;1;0.9176
+2022-02;Rio de Janeiro;1;0.9092
+2022-02;São Paulo;1;1.0000
+2022-02;Vitória;1;0.9510
+2022-02;Curitiba;1;0.9627
+2022-02;Florianópolis;1;1.0129
+2022-02;Porto Alegre;1;1.0334
+2022-02;Belém;1;0.8667
+2022-02;Aracaju;1;0.9128
+2022-02;Fortaleza;1;0.9794
+2022-02;João Pessoa;1;0.8898
+2022-02;Natal;1;0.9415
+2022-02;Recife;1;0.8719
+2022-02;Salvador;1;0.8952
+2022-03;Brasília;1;0.9209
+2022-03;Campo Grande;1;0.8870
+2022-03;Goiânia;1;0.8494
+2022-03;Belo Horizonte;1;0.8835
+2022-03;Rio de Janeiro;1;0.9060
+2022-03;São Paulo;1;1.0000
+2022-03;Vitória;1;0.9449
+2022-03;Curitiba;1;0.9335
+2022-03;Florianópolis;1;1.0004
+2022-03;Porto Alegre;1;1.0236
+2022-03;Belém;1;0.8437
+2022-03;Aracaju;1;0.8868
+2022-03;Fortaleza;1;0.9547
+2022-03;João Pessoa;1;0.8747
+2022-03;Natal;1;0.9239
+2022-03;Recife;1;0.8376
+2022-03;Salvador;1;0.8502
+2022-04;Brasília;1;0.9243
+2022-04;Campo Grande;1;0.8721
+2022-04;Goiânia;1;0.8283
+2022-04;Belo Horizonte;1;0.8820
+2022-04;Rio de Janeiro;1;0.8849
+2022-04;São Paulo;1;1.0000
+2022-04;Vitória;1;0.9482
+2022-04;Curitiba;1;0.9296
+2022-04;Florianópolis;1;0.9876
+2022-04;Porto Alegre;1;1.0314
+2022-04;Belém;1;0.8439
+2022-04;Aracaju;1;0.8738
+2022-04;Fortaleza;1;0.9350
+2022-04;João Pessoa;1;0.8524
+2022-04;Natal;1;0.9224
+2022-04;Recife;1;0.8420
+2022-04;Salvador;1;0.8199
+2022-05;Brasília;1;0.8915
+2022-05;Campo Grande;1;0.8576
+2022-05;Goiânia;1;0.8153
+2022-05;Belo Horizonte;1;0.8672
+2022-05;Rio de Janeiro;1;0.8839
+2022-05;São Paulo;1;1.0000
+2022-05;Vitória;1;0.9002
+2022-05;Curitiba;1;0.9214
+2022-05;Florianópolis;1;0.9850
+2022-05;Porto Alegre;1;1.0155
+2022-05;Belém;1;0.8460
+2022-05;Aracaju;1;0.8648
+2022-05;Fortaleza;1;0.9426
+2022-05;João Pessoa;1;0.8494
+2022-05;Natal;1;0.9441
+2022-05;Recife;1;0.8553
+2022-05;Salvador;1;0.8343
+2022-06;Brasília;1;0.8857
+2022-06;Campo Grande;1;0.8613
+2022-06;Goiânia;1;0.8243
+2022-06;Belo Horizonte;1;0.8572
+2022-06;Rio de Janeiro;1;0.8813
+2022-06;São Paulo;1;1.0000
+2022-06;Vitória;1;0.8934
+2022-06;Curitiba;1;0.9015
+2022-06;Florianópolis;1;1.0119
+2022-06;Porto Alegre;1;0.9928
+2022-06;Belém;1;0.8511
+2022-06;Aracaju;1;0.8623
+2022-06;Fortaleza;1;0.9413
+2022-06;João Pessoa;1;0.8517
+2022-06;Natal;1;0.9443
+2022-06;Recife;1;0.8696
+2022-06;Salvador;1;0.8221
+2022-07;Brasília;1;0.9199
+2022-07;Campo Grande;1;0.8730
+2022-07;Goiânia;1;0.8522
+2022-07;Belo Horizonte;1;0.8938
+2022-07;Rio de Janeiro;1;0.9151
+2022-07;São Paulo;1;1.0000
+2022-07;Vitória;1;0.9551
+2022-07;Curitiba;1;0.9221
+2022-07;Florianópolis;1;1.0245
+2022-07;Porto Alegre;1;1.0291
+2022-07;Belém;1;0.8776
+2022-07;Aracaju;1;0.8724
+2022-07;Fortaleza;1;0.9619
+2022-07;João Pessoa;1;0.8676
+2022-07;Natal;1;0.9518
+2022-07;Recife;1;0.8903
+2022-07;Salvador;1;0.8308
+2022-08;Brasília;1;0.9207
+2022-08;Campo Grande;1;0.8705
+2022-08;Goiânia;1;0.8660
+2022-08;Belo Horizonte;1;0.8977
+2022-08;Rio de Janeiro;1;0.9337
+2022-08;São Paulo;1;1.0000
+2022-08;Vitória;1;0.9582
+2022-08;Curitiba;1;0.9634
+2022-08;Florianópolis;1;1.0328
+2022-08;Porto Alegre;1;1.0531
+2022-08;Belém;1;0.8964
+2022-08;Aracaju;1;0.9183
+2022-08;Fortaleza;1;0.9730
+2022-08;João Pessoa;1;0.8801
+2022-08;Natal;1;0.9634
+2022-08;Recife;1;0.8928
+2022-08;Salvador;1;0.8439
+2022-09;Brasília;1;0.9004
+2022-09;Campo Grande;1;0.8737
+2022-09;Goiânia;1;0.8500
+2022-09;Belo Horizonte;1;0.8913
+2022-09;Rio de Janeiro;1;0.9075
+2022-09;São Paulo;1;1.0000
+2022-09;Vitória;1;0.9407
+2022-09;Curitiba;1;0.9429
+2022-09;Florianópolis;1;1.0385
+2022-09;Porto Alegre;1;1.0396
+2022-09;Belém;1;0.8858
+2022-09;Aracaju;1;0.8569
+2022-09;Fortaleza;1;0.9698
+2022-09;João Pessoa;1;0.8737
+2022-09;Natal;1;0.9469
+2022-09;Recife;1;0.8822
+2022-09;Salvador;1;0.8173
+2022-10;Brasília;1;0.9106
+2022-10;Campo Grande;1;0.8944
+2022-10;Goiânia;1;0.8628
+2022-10;Belo Horizonte;1;0.8890
+2022-10;Rio de Janeiro;1;0.9142
+2022-10;São Paulo;1;1.0000
+2022-10;Vitória;1;0.9754
+2022-10;Curitiba;1;0.9571
+2022-10;Florianópolis;1;1.0129
+2022-10;Porto Alegre;1;1.0582
+2022-10;Belém;1;0.8953
+2022-10;Aracaju;1;0.8829
+2022-10;Fortaleza;1;0.9849
+2022-10;João Pessoa;1;0.8824
+2022-10;Natal;1;0.9682
+2022-10;Recife;1;0.8975
+2022-10;Salvador;1;0.8459
+2022-11;Brasília;1;0.8879
+2022-11;Campo Grande;1;0.8823
+2022-11;Goiânia;1;0.8574
+2022-11;Belo Horizonte;1;0.8857
+2022-11;Rio de Janeiro;1;0.9111
+2022-11;São Paulo;1;1.0000
+2022-11;Vitória;1;0.9438
+2022-11;Curitiba;1;0.9521
+2022-11;Florianópolis;1;1.0189
+2022-11;Porto Alegre;1;1.0470
+2022-11;Belém;1;0.8810
+2022-11;Aracaju;1;0.8763
+2022-11;Fortaleza;1;0.9710
+2022-11;João Pessoa;1;0.8652
+2022-11;Natal;1;0.9345
+2022-11;Recife;1;0.8812
+2022-11;Salvador;1;0.8204
+2022-12;Brasília;1;0.9109
+2022-12;Campo Grande;1;0.8942
+2022-12;Goiânia;1;0.8633
+2022-12;Belo Horizonte;1;0.9181
+2022-12;Rio de Janeiro;1;0.9233
+2022-12;São Paulo;1;1.0000
+2022-12;Vitória;1;0.9592
+2022-12;Curitiba;1;0.9411
+2022-12;Florianópolis;1;1.0305
+2022-12;Porto Alegre;1;1.0395
+2022-12;Belém;1;0.8831
+2022-12;Aracaju;1;0.8938
+2022-12;Fortaleza;1;0.9921
+2022-12;João Pessoa;1;0.8689
+2022-12;Natal;1;0.9515
+2022-12;Recife;1;0.8928
+2022-12;Salvador;1;0.8493
+2023-01;Brasília;1;0.9140
+2023-01;Campo Grande;1;0.9026
+2023-01;Goiânia;1;0.8716
+2023-01;Belo Horizonte;1;0.9149
+2023-01;Rio de Janeiro;1;0.9263
+2023-01;São Paulo;1;1.0000
+2023-01;Vitória;1;0.9685
+2023-01;Curitiba;1;0.9439
+2023-01;Florianópolis;1;1.0034
+2023-01;Porto Alegre;1;1.0588
+2023-01;Belém;1;0.8748
+2023-01;Aracaju;1;0.9049
+2023-01;Fortaleza;1;0.9909
+2023-01;João Pessoa;1;0.8946
+2023-01;Natal;1;0.9505
+2023-01;Recife;1;0.8971
+2023-01;Salvador;1;0.8753
+2023-02;Brasília;1;0.9144
+2023-02;Campo Grande;1;0.8977
+2023-02;Goiânia;1;0.8803
+2023-02;Belo Horizonte;1;0.9116
+2023-02;Rio de Janeiro;1;0.9236
+2023-02;São Paulo;1;1.0000
+2023-02;Vitória;1;0.9875
+2023-02;Curitiba;1;0.9509
+2023-02;Florianópolis;1;1.0322
+2023-02;Porto Alegre;1;1.0836
+2023-02;Belém;1;0.8926
+2023-02;Aracaju;1;0.9213
+2023-02;Fortaleza;1;0.9882
+2023-02;João Pessoa;1;0.8981
+2023-02;Natal;1;0.9532
+2023-02;Recife;1;0.8970
+2023-02;Salvador;1;0.8900
+2023-03;Brasília;1;0.8901
+2023-03;Campo Grande;1;0.8924
+2023-03;Goiânia;1;0.8490
+2023-03;Belo Horizonte;1;0.9077
+2023-03;Rio de Janeiro;1;0.9199
+2023-03;São Paulo;1;1.0000
+2023-03;Vitória;1;0.9638
+2023-03;Curitiba;1;0.9481
+2023-03;Florianópolis;1;1.0386
+2023-03;Porto Alegre;1;1.0803
+2023-03;Belém;1;0.8929
+2023-03;Aracaju;1;0.9220
+2023-03;Fortaleza;1;0.9633
+2023-03;João Pessoa;1;0.8860
+2023-03;Natal;1;0.9536
+2023-03;Recife;1;0.8892
+2023-03;Salvador;1;0.8864
+2023-04;Brasília;1;0.9213
+2023-04;Campo Grande;1;0.8882
+2023-04;Goiânia;1;0.8599
+2023-04;Belo Horizonte;1;0.9069
+2023-04;Rio de Janeiro;1;0.9353
+2023-04;São Paulo;1;1.0000
+2023-04;Vitória;1;0.9692
+2023-04;Curitiba;1;0.9496
+2023-04;Florianópolis;1;1.0759
+2023-04;Porto Alegre;1;1.1144
+2023-04;Belém;1;0.9013
+2023-04;Aracaju;1;0.9386
+2023-04;Fortaleza;1;0.9785
+2023-04;João Pessoa;1;0.9031
+2023-04;Natal;1;0.9820
+2023-04;Recife;1;0.8957
+2023-04;Salvador;1;0.8632
+2023-05;Brasília;1;0.9085
+2023-05;Campo Grande;1;0.9069
+2023-05;Goiânia;1;0.8584
+2023-05;Belo Horizonte;1;0.9026
+2023-05;Rio de Janeiro;1;0.9368
+2023-05;São Paulo;1;1.0000
+2023-05;Vitória;1;0.9696
+2023-05;Curitiba;1;0.9649
+2023-05;Florianópolis;1;1.0634
+2023-05;Porto Alegre;1;1.1105
+2023-05;Belém;1;0.8938
+2023-05;Aracaju;1;0.9349
+2023-05;Fortaleza;1;0.9794
+2023-05;João Pessoa;1;0.9188
+2023-05;Natal;1;0.9541
+2023-05;Recife;1;0.8919
+2023-05;Salvador;1;0.8523
+2023-06;Brasília;1;0.8989
+2023-06;Campo Grande;1;0.9335
+2023-06;Goiânia;1;0.8305
+2023-06;Belo Horizonte;1;0.8896
+2023-06;Rio de Janeiro;1;0.9450
+2023-06;São Paulo;1;1.0000
+2023-06;Vitória;1;0.9513
+2023-06;Curitiba;1;0.9832
+2023-06;Florianópolis;1;1.0936
+2023-06;Porto Alegre;1;1.1196
+2023-06;Belém;1;0.9112
+2023-06;Aracaju;1;0.9580
+2023-06;Fortaleza;1;0.9657
+2023-06;João Pessoa;1;0.9150
+2023-06;Natal;1;0.9551
+2023-06;Recife;1;0.8989
+2023-06;Salvador;1;0.8497
+2023-07;Brasília;1;0.9027
+2023-07;Campo Grande;1;0.9182
+2023-07;Goiânia;1;0.8311
+2023-07;Belo Horizonte;1;0.8932
+2023-07;Rio de Janeiro;1;0.9399
+2023-07;São Paulo;1;1.0000
+2023-07;Vitória;1;0.9557
+2023-07;Curitiba;1;0.9830
+2023-07;Florianópolis;1;1.0290
+2023-07;Porto Alegre;1;1.1229
+2023-07;Belém;1;0.9080
+2023-07;Aracaju;1;0.9290
+2023-07;Fortaleza;1;0.9577
+2023-07;João Pessoa;1;0.9046
+2023-07;Natal;1;0.9538
+2023-07;Recife;1;0.8956
+2023-07;Salvador;1;0.8411
+2023-08;Brasília;1;0.9165
+2023-08;Campo Grande;1;0.9070
+2023-08;Goiânia;1;0.8436
+2023-08;Belo Horizonte;1;0.9115
+2023-08;Rio de Janeiro;1;0.9180
+2023-08;São Paulo;1;1.0000
+2023-08;Vitória;1;0.9321
+2023-08;Curitiba;1;1.0115
+2023-08;Florianópolis;1;1.0787
+2023-08;Porto Alegre;1;1.1645
+2023-08;Belém;1;0.9095
+2023-08;Aracaju;1;0.9629
+2023-08;Fortaleza;1;0.9687
+2023-08;João Pessoa;1;0.8962
+2023-08;Natal;1;0.9413
+2023-08;Recife;1;0.9098
+2023-08;Salvador;1;0.8260
+2023-09;Brasília;1;0.8940
+2023-09;Campo Grande;1;0.8906
+2023-09;Goiânia;1;0.8480
+2023-09;Belo Horizonte;1;0.9205
+2023-09;Rio de Janeiro;1;0.9426
+2023-09;São Paulo;1;1.0000
+2023-09;Vitória;1;0.9940
+2023-09;Curitiba;1;1.0158
+2023-09;Florianópolis;1;1.1057
+2023-09;Porto Alegre;1;1.1777
+2023-09;Belém;1;0.9335
+2023-09;Aracaju;1;0.9667
+2023-09;Fortaleza;1;0.9899
+2023-09;João Pessoa;1;0.9184
+2023-09;Natal;1;1.0078
+2023-09;Recife;1;0.9179
+2023-09;Salvador;1;0.8402
+2023-10;Brasília;1;0.8892
+2023-10;Campo Grande;1;0.9085
+2023-10;Goiânia;1;0.8594
+2023-10;Belo Horizonte;1;0.9485
+2023-10;Rio de Janeiro;1;0.9603
+2023-10;São Paulo;1;1.0000
+2023-10;Vitória;1;1.0086
+2023-10;Curitiba;1;1.0230
+2023-10;Florianópolis;1;1.0922
+2023-10;Porto Alegre;1;1.1672
+2023-10;Belém;1;0.9386
+2023-10;Aracaju;1;0.9705
+2023-10;Fortaleza;1;1.0010
+2023-10;João Pessoa;1;0.9587
+2023-10;Natal;1;1.0261
+2023-10;Recife;1;0.9245
+2023-10;Salvador;1;0.8375
+2023-11;Brasília;1;0.8934
+2023-11;Campo Grande;1;0.8757
+2023-11;Goiânia;1;0.8519
+2023-11;Belo Horizonte;1;0.9420
+2023-11;Rio de Janeiro;1;0.9587
+2023-11;São Paulo;1;1.0000
+2023-11;Vitória;1;0.9742
+2023-11;Curitiba;1;1.0099
+2023-11;Florianópolis;1;1.0775
+2023-11;Porto Alegre;1;1.1324
+2023-11;Belém;1;0.9215
+2023-11;Aracaju;1;0.9334
+2023-11;Fortaleza;1;0.9701
+2023-11;João Pessoa;1;0.9382
+2023-11;Natal;1;0.9954
+2023-11;Recife;1;0.9180
+2023-11;Salvador;1;0.8174
+2023-12;Brasília;1;0.9290
+2023-12;Campo Grande;1;0.8825
+2023-12;Goiânia;1;0.8561
+2023-12;Belo Horizonte;1;0.9556
+2023-12;Rio de Janeiro;1;0.9685
+2023-12;São Paulo;1;1.0000
+2023-12;Vitória;1;1.0127
+2023-12;Curitiba;1;1.0142
+2023-12;Florianópolis;1;1.0716
+2023-12;Porto Alegre;1;1.1396
+2023-12;Belém;1;0.9264
+2023-12;Aracaju;1;0.9310
+2023-12;Fortaleza;1;0.9820
+2023-12;João Pessoa;1;0.9383
+2023-12;Natal;1;0.9680
+2023-12;Recife;1;0.9147
+2023-12;Salvador;1;0.8315
+2024-01;Brasília;1;0.9076
+2024-01;Campo Grande;1;0.8878
+2024-01;Goiânia;1;0.8567
+2024-01;Belo Horizonte;1;0.9486
+2024-01;Rio de Janeiro;1;0.9562
+2024-01;São Paulo;1;1.0000
+2024-01;Vitória;1;0.9749
+2024-01;Curitiba;1;1.0095
+2024-01;Florianópolis;1;1.0576
+2024-01;Porto Alegre;1;1.1152
+2024-01;Belém;1;0.9299
+2024-01;Aracaju;1;0.9141
+2024-01;Fortaleza;1;0.9702
+2024-01;João Pessoa;1;0.9306
+2024-01;Natal;1;0.9436
+2024-01;Recife;1;0.9073
+2024-01;Salvador;1;0.8823
+2024-02;Brasília;1;0.8858
+2024-02;Campo Grande;1;0.8712
+2024-02;Goiânia;1;0.8291
+2024-02;Belo Horizonte;1;0.9280
+2024-02;Rio de Janeiro;1;0.9471
+2024-02;São Paulo;1;1.0000
+2024-02;Vitória;1;0.9547
+2024-02;Curitiba;1;0.9948
+2024-02;Florianópolis;1;1.0171
+2024-02;Porto Alegre;1;1.1105
+2024-02;Belém;1;0.9182
+2024-02;Aracaju;1;0.8927
+2024-02;Fortaleza;1;0.9570
+2024-02;João Pessoa;1;0.9253
+2024-02;Natal;1;0.9013
+2024-02;Recife;1;0.8956
+2024-02;Salvador;1;0.8806
+2024-03;Brasília;1;0.8983
+2024-03;Campo Grande;1;0.8878
+2024-03;Goiânia;1;0.8300
+2024-03;Belo Horizonte;1;0.9237
+2024-03;Rio de Janeiro;1;0.9438
+2024-03;São Paulo;1;1.0000
+2024-03;Vitória;1;0.9490
+2024-03;Curitiba;1;1.0038
+2024-03;Florianópolis;1;1.0741
+2024-03;Porto Alegre;1;1.1188
+2024-03;Belém;1;0.9234
+2024-03;Aracaju;1;0.9274
+2024-03;Fortaleza;1;0.9551
+2024-03;João Pessoa;1;0.8853
+2024-03;Natal;1;0.9292
+2024-03;Recife;1;0.9026
+2024-03;Salvador;1;0.8817
+2024-04;Brasília;1;0.8758
+2024-04;Campo Grande;1;0.8851
+2024-04;Goiânia;1;0.8270
+2024-04;Belo Horizonte;1;0.9300
+2024-04;Rio de Janeiro;1;0.9295
+2024-04;São Paulo;1;1.0000
+2024-04;Vitória;1;0.9652
+2024-04;Curitiba;1;0.9914
+2024-04;Florianópolis;1;1.0758
+2024-04;Porto Alegre;1;1.1134
+2024-04;Belém;1;0.9282
+2024-04;Aracaju;1;0.9511
+2024-04;Fortaleza;1;0.9650
+2024-04;João Pessoa;1;0.9003
+2024-04;Natal;1;0.9083
+2024-04;Recife;1;0.8967
+2024-04;Salvador;1;0.8710
+2024-05;Brasília;1;0.8797
+2024-05;Campo Grande;1;0.8911
+2024-05;Goiânia;1;0.8205
+2024-05;Belo Horizonte;1;0.9043
+2024-05;Rio de Janeiro;1;0.9368
+2024-05;São Paulo;1;1.0000
+2024-05;Vitória;1;0.9353
+2024-05;Curitiba;1;0.9819
+2024-05;Florianópolis;1;1.0585
+2024-05;Porto Alegre;1;1.0806
+2024-05;Belém;1;0.9112
+2024-05;Aracaju;1;0.9313
+2024-05;Fortaleza;1;0.9702
+2024-05;João Pessoa;1;0.8825
+2024-05;Natal;1;0.9278
+2024-05;Recife;1;0.8830
+2024-05;Salvador;1;0.8297
+2024-06;Brasília;1;0.8772
+2024-06;Campo Grande;1;0.8872
+2024-06;Goiânia;1;0.8230
+2024-06;Belo Horizonte;1;0.9027
+2024-06;Rio de Janeiro;1;0.9410
+2024-06;São Paulo;1;1.0000
+2024-06;Vitória;1;0.9417
+2024-06;Curitiba;1;0.9900
+2024-06;Florianópolis;1;1.0470
+2024-06;Porto Alegre;1;1.0695
+2024-06;Belém;1;0.9210
+2024-06;Aracaju;1;0.9182
+2024-06;Fortaleza;1;0.9567
+2024-06;João Pessoa;1;0.8935
+2024-06;Natal;1;0.9180
+2024-06;Recife;1;0.8837
+2024-06;Salvador;1;0.8310
+2024-07;Brasília;1;0.8844
+2024-07;Campo Grande;1;0.9014
+2024-07;Goiânia;1;0.8300
+2024-07;Belo Horizonte;1;0.8964
+2024-07;Rio de Janeiro;1;0.9304
+2024-07;São Paulo;1;1.0000
+2024-07;Vitória;1;0.9423
+2024-07;Curitiba;1;0.9855
+2024-07;Florianópolis;1;1.0469
+2024-07;Porto Alegre;1;1.0711
+2024-07;Belém;1;0.9029
+2024-07;Aracaju;1;0.8827
+2024-07;Fortaleza;1;0.9651
+2024-07;João Pessoa;1;0.8879
+2024-07;Natal;1;0.9181
+2024-07;Recife;1;0.8752
+2024-07;Salvador;1;0.8235
+2024-08;Brasília;1;0.8762
+2024-08;Campo Grande;1;0.8759
+2024-08;Goiânia;1;0.8401
+2024-08;Belo Horizonte;1;0.8960
+2024-08;Rio de Janeiro;1;0.9239
+2024-08;São Paulo;1;1.0000
+2024-08;Vitória;1;0.9515
+2024-08;Curitiba;1;0.9813
+2024-08;Florianópolis;1;1.0423
+2024-08;Porto Alegre;1;1.0482
+2024-08;Belém;1;0.8983
+2024-08;Aracaju;1;0.9018
+2024-08;Fortaleza;1;0.9716
+2024-08;João Pessoa;1;0.8871
+2024-08;Natal;1;0.9249
+2024-08;Recife;1;0.8672
+2024-08;Salvador;1;0.8008
+2024-09;Brasília;1;0.8619
+2024-09;Campo Grande;1;0.8636
+2024-09;Goiânia;1;0.8385
+2024-09;Belo Horizonte;1;0.8917
+2024-09;Rio de Janeiro;1;0.9345
+2024-09;São Paulo;1;1.0000
+2024-09;Vitória;1;0.9354
+2024-09;Curitiba;1;0.9744
+2024-09;Florianópolis;1;1.0426
+2024-09;Porto Alegre;1;1.0336
+2024-09;Belém;1;0.8748
+2024-09;Aracaju;1;0.8605
+2024-09;Fortaleza;1;0.9671
+2024-09;João Pessoa;1;0.8885
+2024-09;Natal;1;0.9064
+2024-09;Recife;1;0.8574
+2024-09;Salvador;1;0.7998
+2024-10;Brasília;1;0.8886
+2024-10;Campo Grande;1;0.8952
+2024-10;Goiânia;1;0.8514
+2024-10;Belo Horizonte;1;0.9045
+2024-10;Rio de Janeiro;1;0.9462
+2024-10;São Paulo;1;1.0000
+2024-10;Vitória;1;0.9518
+2024-10;Curitiba;1;0.9836
+2024-10;Florianópolis;1;1.0397
+2024-10;Porto Alegre;1;1.0383
+2024-10;Belém;1;0.8468
+2024-10;Aracaju;1;0.8500
+2024-10;Fortaleza;1;1.0148
+2024-10;João Pessoa;1;0.8899
+2024-10;Natal;1;0.9315
+2024-10;Recife;1;0.8549
+2024-10;Salvador;1;0.8066
+2024-11;Brasília;1;0.9166
+2024-11;Campo Grande;1;0.9110
+2024-11;Goiânia;1;0.8690
+2024-11;Belo Horizonte;1;0.8673
+2024-11;Rio de Janeiro;1;0.9227
+2024-11;São Paulo;1;1.0000
+2024-11;Vitória;1;0.9191
+2024-11;Curitiba;1;0.9545
+2024-11;Florianópolis;1;1.0248
+2024-11;Porto Alegre;1;0.9799
+2024-11;Belém;1;0.8346
+2024-11;Aracaju;1;0.8265
+2024-11;Fortaleza;1;1.0006
+2024-11;João Pessoa;1;0.8959
+2024-11;Natal;1;0.8984
+2024-11;Recife;1;0.8698
+2024-11;Salvador;1;0.8064
+2024-12;Brasília;1;0.9069
+2024-12;Campo Grande;1;0.9023
+2024-12;Goiânia;1;0.8696
+2024-12;Belo Horizonte;1;0.8983
+2024-12;Rio de Janeiro;1;0.9125
+2024-12;São Paulo;1;1.0000
+2024-12;Vitória;1;0.9001
+2024-12;Curitiba;1;0.9569
+2024-12;Florianópolis;1;1.0601
+2024-12;Porto Alegre;1;0.9906
+2024-12;Belém;1;0.8115
+2024-12;Aracaju;1;0.8322
+2024-12;Fortaleza;1;0.9898
+2024-12;João Pessoa;1;0.8670
+2024-12;Natal;1;0.8969
+2024-12;Recife;1;0.8584
+2024-12;Salvador;1;0.8023
+2025-01;Brasília;1;0.9055
+2025-01;Campo Grande;1;0.8680
+2025-01;Goiânia;1;0.8584
+2025-01;Belo Horizonte;1;0.8643
+2025-01;Rio de Janeiro;1;0.9032
+2025-01;São Paulo;1;1.0000
+2025-01;Vitória;1;0.8870
+2025-01;Curitiba;1;0.9521
+2025-01;Florianópolis;1;1.0162
+2025-01;Porto Alegre;1;0.9957
+2025-01;Belém;1;0.8720
+2025-01;Aracaju;1;0.8152
+2025-01;Fortaleza;1;0.9598
+2025-01;João Pessoa;1;0.8550
+2025-01;Natal;1;0.8842
+2025-01;Recife;1;0.8422
+2025-01;Salvador;1;0.8091
+2025-02;Brasília;1;0.9050
+2025-02;Campo Grande;1;0.8664
+2025-02;Goiânia;1;0.8150
+2025-02;Belo Horizonte;1;0.8468
+2025-02;Rio de Janeiro;1;0.8988
+2025-02;São Paulo;1;1.0000
+2025-02;Vitória;1;0.8964
+2025-02;Curitiba;1;0.9396
+2025-02;Florianópolis;1;1.0080
+2025-02;Porto Alegre;1;0.9959
+2025-02;Belém;1;0.8376
+2025-02;Aracaju;1;0.8139
+2025-02;Fortaleza;1;0.9692
+2025-02;João Pessoa;1;0.8396
+2025-02;Natal;1;0.8764
+2025-02;Recife;1;0.8240
+2025-02;Salvador;1;0.8069
+2025-03;Brasília;1;0.8923
+2025-03;Campo Grande;1;0.8654
+2025-03;Goiânia;1;0.8031
+2025-03;Belo Horizonte;1;0.8441
+2025-03;Rio de Janeiro;1;0.8964
+2025-03;São Paulo;1;1.0000
+2025-03;Vitória;1;0.8782
+2025-03;Curitiba;1;0.9367
+2025-03;Florianópolis;1;0.9967
+2025-03;Porto Alegre;1;0.9926
+2025-03;Belém;1;0.8282
+2025-03;Aracaju;1;0.7845
+2025-03;Fortaleza;1;0.9645
+2025-03;João Pessoa;1;0.8623
+2025-03;Natal;1;0.8705
+2025-03;Recife;1;0.8300
+2025-03;Salvador;1;0.7796
+2025-04;Brasília;1;0.8782
+2025-04;Campo Grande;1;0.8604
+2025-04;Cuiabá;1;0.7999
+2025-04;Goiânia;1;0.8089
+2025-04;Belo Horizonte;1;0.8453
+2025-04;Rio de Janeiro;1;0.8976
+2025-04;São Paulo;1;1.0000
+2025-04;Vitória;1;0.8808
+2025-04;Curitiba;1;0.9313
+2025-04;Florianópolis;1;1.0069
+2025-04;Porto Alegre;1;0.9971
+2025-04;Belém;1;0.8201
+2025-04;Boa Vista;1;0.8193
+2025-04;Macapá;1;0.8072
+2025-04;Manaus;1;0.7670
+2025-04;Palmas;1;0.8538
+2025-04;Porto Velho;1;0.6860
+2025-04;Rio Branco;1;0.6740
+2025-04;Aracaju;1;0.7886
+2025-04;Fortaleza;1;0.9695
+2025-04;João Pessoa;1;0.8463
+2025-04;Maceió;1;0.8571
+2025-04;Natal;1;0.8780
+2025-04;Recife;1;0.8371
+2025-04;Salvador;1;0.7572
+2025-04;São Luís;1;0.8044
+2025-04;Teresina;1;0.8023
+2025-05;Brasília;1;0.9025
+2025-05;Campo Grande;1;0.8681
+2025-05;Cuiabá;1;0.8267
+2025-05;Goiânia;1;0.8221
+2025-05;Belo Horizonte;1;0.8630
+2025-05;Rio de Janeiro;1;0.9210
+2025-05;São Paulo;1;1.0000
+2025-05;Vitória;1;0.9102
+2025-05;Curitiba;1;0.9757
+2025-05;Florianópolis;1;1.0424
+2025-05;Porto Alegre;1;1.0049
+2025-05;Belém;1;0.8381
+2025-05;Boa Vista;1;0.8318
+2025-05;Macapá;1;0.8387
+2025-05;Manaus;1;0.7917
+2025-05;Palmas;1;0.8608
+2025-05;Porto Velho;1;0.7053
+2025-05;Rio Branco;1;0.6784
+2025-05;Aracaju;1;0.7965
+2025-05;Fortaleza;1;0.9712
+2025-05;João Pessoa;1;0.8754
+2025-05;Maceió;1;0.8741
+2025-05;Natal;1;0.9007
+2025-05;Recife;1;0.8547
+2025-05;Salvador;1;0.7831
+2025-05;São Luís;1;0.8139
+2025-05;Teresina;1;0.8152
+2025-06;Brasília;1;0.8927
+2025-06;Campo Grande;1;0.8631
+2025-06;Cuiabá;1;0.8190
+2025-06;Goiânia;1;0.8173
+2025-06;Belo Horizonte;1;0.8586
+2025-06;Rio de Janeiro;1;0.9258
+2025-06;São Paulo;1;1.0000
+2025-06;Vitória;1;0.9049
+2025-06;Curitiba;1;0.9697
+2025-06;Florianópolis;1;1.0410
+2025-06;Porto Alegre;1;1.0128
+2025-06;Belém;1;0.8125
+2025-06;Boa Vista;1;0.8336
+2025-06;Macapá;1;0.8367
+2025-06;Manaus;1;0.7952
+2025-06;Palmas;1;0.8598
+2025-06;Porto Velho;1;0.6855
+2025-06;Rio Branco;1;0.6658
+2025-06;Aracaju;1;0.7918
+2025-06;Fortaleza;1;0.9744
+2025-06;João Pessoa;1;0.8814
+2025-06;Maceió;1;0.8842
+2025-06;Natal;1;0.9033
+2025-06;Recife;1;0.8448
+2025-06;Salvador;1;0.7779
+2025-06;São Luís;1;0.7869
+2025-06;Teresina;1;0.8139
+2025-07;Brasília;1;0.8970
+2025-07;Campo Grande;1;0.8638
+2025-07;Cuiabá;1;0.8223
+2025-07;Goiânia;1;0.8183
+2025-07;Belo Horizonte;1;0.8628
+2025-07;Rio de Janeiro;1;0.9236
+2025-07;São Paulo;1;1.0000
+2025-07;Vitória;1;0.9033
+2025-07;Curitiba;1;0.9792
+2025-07;Florianópolis;1;1.0429
+2025-07;Porto Alegre;1;1.0220
+2025-07;Belém;1;0.7953
+2025-07;Boa Vista;1;0.8579
+2025-07;Macapá;1;0.8303
+2025-07;Manaus;1;0.8066
+2025-07;Palmas;1;0.8664
+2025-07;Porto Velho;1;0.6893
+2025-07;Rio Branco;1;0.6593
+2025-07;Aracaju;1;0.8041
+2025-07;Fortaleza;1;0.9827
+2025-07;João Pessoa;1;0.8896
+2025-07;Maceió;1;0.8900
+2025-07;Natal;1;0.8914
+2025-07;Recife;1;0.8547
+2025-07;Salvador;1;0.7983
+2025-07;São Luís;1;0.7937
+2025-07;Teresina;1;0.8249
+2025-08;Brasília;1;0.9029
+2025-08;Campo Grande;1;0.8911
+2025-08;Cuiabá;1;0.8235
+2025-08;Goiânia;1;0.8221
+2025-08;Belo Horizonte;1;0.8761
+2025-08;Rio de Janeiro;1;0.9220
+2025-08;São Paulo;1;1.0000
+2025-08;Vitória;1;0.8773
+2025-08;Curitiba;1;0.9767
+2025-08;Florianópolis;1;1.0523
+2025-08;Porto Alegre;1;1.0405
+2025-08;Belém;1;0.7940
+2025-08;Boa Vista;1;0.8564
+2025-08;Macapá;1;0.8400
+2025-08;Manaus;1;0.8205
+2025-08;Palmas;1;0.8759
+2025-08;Porto Velho;1;0.6949
+2025-08;Rio Branco;1;0.6811
+2025-08;Aracaju;1;0.8111
+2025-08;Fortaleza;1;0.9872
+2025-08;João Pessoa;1;0.8895
+2025-08;Maceió;1;0.8720
+2025-08;Natal;1;0.9013
+2025-08;Recife;1;0.8572
+2025-08;Salvador;1;0.7964
+2025-08;São Luís;1;0.8018
+2025-08;Teresina;1;0.8211
+2025-09;Brasília;1;0.8975
+2025-09;Campo Grande;1;0.8981
+2025-09;Cuiabá;1;0.8243
+2025-09;Goiânia;1;0.8243
+2025-09;Belo Horizonte;1;0.8697
+2025-09;Rio de Janeiro;1;0.9266
+2025-09;São Paulo;1;1.0000
+2025-09;Vitória;1;0.9124
+2025-09;Curitiba;1;0.9842
+2025-09;Florianópolis;1;1.0427
+2025-09;Porto Alegre;1;1.0439
+2025-09;Belém;1;0.8023
+2025-09;Boa Vista;1;0.8558
+2025-09;Macapá;1;0.8153
+2025-09;Manaus;1;0.8089
+2025-09;Palmas;1;0.8809
+2025-09;Porto Velho;1;0.6956
+2025-09;Rio Branco;1;0.6754
+2025-09;Aracaju;1;0.8255
+2025-09;Fortaleza;1;0.9767
+2025-09;João Pessoa;1;0.8769
+2025-09;Maceió;1;0.8713
+2025-09;Natal;1;0.8863
+2025-09;Recife;1;0.8608
+2025-09;Salvador;1;0.7868
+2025-09;São Luís;1;0.7893
+2025-09;Teresina;1;0.8243
+2025-10;Brasília;1;0.8831
+2025-10;Campo Grande;1;0.9071
+2025-10;Cuiabá;1;0.8328
+2025-10;Goiânia;1;0.8342
+2025-10;Belo Horizonte;1;0.8815
+2025-10;Rio de Janeiro;1;0.9360
+2025-10;São Paulo;1;1.0000
+2025-10;Vitória;1;0.9348
+2025-10;Curitiba;1;0.9883
+2025-10;Florianópolis;1;1.0577
+2025-10;Porto Alegre;1;1.0489
+2025-10;Belém;1;0.8131
+2025-10;Boa Vista;1;0.8694
+2025-10;Macapá;1;0.8254
+2025-10;Manaus;1;0.8029
+2025-10;Palmas;1;0.8884
+2025-10;Porto Velho;1;0.7043
+2025-10;Rio Branco;1;0.6890
+2025-10;Aracaju;1;0.8336
+2025-10;Fortaleza;1;0.9809
+2025-10;João Pessoa;1;0.8849
+2025-10;Maceió;1;0.8871
+2025-10;Natal;1;0.8978
+2025-10;Recife;1;0.8634
+2025-10;Salvador;1;0.7962
+2025-10;São Luís;1;0.8083
+2025-10;Teresina;1;0.8332
+2025-11;Brasília;1;0.8675
+2025-11;Campo Grande;1;0.9013
+2025-11;Cuiabá;1;0.8205
+2025-11;Goiânia;1;0.8313
+2025-11;Belo Horizonte;1;0.8783
+2025-11;Rio de Janeiro;1;0.9249
+2025-11;São Paulo;1;1.0000
+2025-11;Vitória;1;0.9206
+2025-11;Curitiba;1;0.9748
+2025-11;Florianópolis;1;1.0212
+2025-11;Porto Alegre;1;1.0146
+2025-11;Belém;1;0.8206
+2025-11;Boa Vista;1;0.8643
+2025-11;Macapá;1;0.8039
+2025-11;Manaus;1;0.7972
+2025-11;Palmas;1;0.8684
+2025-11;Porto Velho;1;0.6877
+2025-11;Rio Branco;1;0.6901
+2025-11;Aracaju;1;0.8140
+2025-11;Fortaleza;1;0.9664
+2025-11;João Pessoa;1;0.8673
+2025-11;Maceió;1;0.8478
+2025-11;Natal;1;0.8779
+2025-11;Recife;1;0.8549
+2025-11;Salvador;1;0.8051
+2025-11;São Luís;1;0.8004
+2025-11;Teresina;1;0.8232
+2025-12;Brasília;1;0.8604
+2025-12;Campo Grande;1;0.8831
+2025-12;Cuiabá;1;0.8207
+2025-12;Goiânia;1;0.8257
+2025-12;Belo Horizonte;1;0.8902
+2025-12;Rio de Janeiro;1;0.9162
+2025-12;São Paulo;1;1.0000
+2025-12;Vitória;1;0.9153
+2025-12;Curitiba;1;0.9542
+2025-12;Florianópolis;1;1.0239
+2025-12;Porto Alegre;1;1.0079
+2025-12;Belém;1;0.8136
+2025-12;Boa Vista;1;0.8415
+2025-12;Macapá;1;0.7958
+2025-12;Manaus;1;0.8047
+2025-12;Palmas;1;0.8758
+2025-12;Porto Velho;1;0.6891
+2025-12;Rio Branco;1;0.6882
+2025-12;Aracaju;1;0.8122
+2025-12;Fortaleza;1;0.9703
+2025-12;João Pessoa;1;0.8644
+2025-12;Maceió;1;0.8677
+2025-12;Natal;1;0.8738
+2025-12;Recife;1;0.8399
+2025-12;Salvador;1;0.8082
+2025-12;São Luís;1;0.7955
+2025-12;Teresina;1;0.8305
+2026-01;Brasília;1;0.8510
+2026-01;Campo Grande;1;0.8839
+2026-01;Cuiabá;1;0.8062
+2026-01;Goiânia;1;0.8420
+2026-01;Belo Horizonte;1;0.9048
+2026-01;Rio de Janeiro;1;0.9463
+2026-01;São Paulo;1;1.0000
+2026-01;Vitória;1;0.9001
+2026-01;Curitiba;1;0.9617
+2026-01;Florianópolis;1;1.0145
+2026-01;Porto Alegre;1;1.0247
+2026-01;Belém;1;0.8273
+2026-01;Boa Vista;1;0.8402
+2026-01;Macapá;1;0.8149
+2026-01;Manaus;1;0.8252
+2026-01;Palmas;1;0.8800
+2026-01;Porto Velho;1;0.6868
+2026-01;Rio Branco;1;0.7048
+2026-01;Aracaju;1;0.8153
+2026-01;Fortaleza;1;0.9654
+2026-01;João Pessoa;1;0.8566
+2026-01;Maceió;1;0.8634
+2026-01;Natal;1;0.8611
+2026-01;Recife;1;0.8686
+2026-01;Salvador;1;0.8317
+2026-01;São Luís;1;0.8163
+2026-01;Teresina;1;0.8238
+2026-02;Brasília;1;0.8434
+2026-02;Campo Grande;1;0.8803
+2026-02;Cuiabá;1;0.8193
+2026-02;Goiânia;1;0.8310
+2026-02;Belo Horizonte;1;0.9002
+2026-02;Rio de Janeiro;1;0.9432
+2026-02;São Paulo;1;1.0000
+2026-02;Vitória;1;0.9124
+2026-02;Curitiba;1;0.9606
+2026-02;Florianópolis;1;1.0061
+2026-02;Porto Alegre;1;1.0076
+2026-02;Belém;1;0.8233
+2026-02;Boa Vista;1;0.8394
+2026-02;Macapá;1;0.8040
+2026-02;Manaus;1;0.8057
+2026-02;Palmas;1;0.8673
+2026-02;Porto Velho;1;0.6950
+2026-02;Rio Branco;1;0.7180
+2026-02;Aracaju;1;0.8207
+2026-02;Fortaleza;1;0.9583
+2026-02;João Pessoa;1;0.8669
+2026-02;Maceió;1;0.8679
+2026-02;Natal;1;0.8614
+2026-02;Recife;1;0.8692
+2026-02;Salvador;1;0.8189
+2026-02;São Luís;1;0.8023
+2026-02;Teresina;1;0.8241
+2026-03;Brasília;1;0.8408
+2026-03;Campo Grande;1;0.8839
+2026-03;Cuiabá;1;0.8186
+2026-03;Goiânia;1;0.8164
+2026-03;Belo Horizonte;1;0.8874
+2026-03;Rio de Janeiro;1;0.9387
+2026-03;São Paulo;1;1.0000
+2026-03;Vitória;1;0.9038
+2026-03;Curitiba;1;0.9581
+2026-03;Florianópolis;1;0.9977
+2026-03;Porto Alegre;1;0.9855
+2026-03;Belém;1;0.8217
+2026-03;Boa Vista;1;0.8207
+2026-03;Macapá;1;0.7942
+2026-03;Manaus;1;0.8367
+2026-03;Palmas;1;0.8940
+2026-03;Porto Velho;1;0.6867
+2026-03;Rio Branco;1;0.7190
+2026-03;Aracaju;1;0.8277
+2026-03;Fortaleza;1;0.9598
+2026-03;João Pessoa;1;0.8653
+2026-03;Maceió;1;0.8863
+2026-03;Natal;1;0.8425
+2026-03;Recife;1;0.8637
+2026-03;Salvador;1;0.8427
+2026-03;São Luís;1;0.7903
+2026-03;Teresina;1;0.8226
+2026-04;Brasília;1;0.8407
+2026-04;Campo Grande;1;0.8829
+2026-04;Cuiabá;1;0.8457
+2026-04;Goiânia;1;0.8203
+2026-04;Belo Horizonte;1;0.8909
+2026-04;Rio de Janeiro;1;0.9474
+2026-04;São Paulo;1;1.0000
+2026-04;Vitória;1;0.8999
+2026-04;Curitiba;1;0.9650
+2026-04;Florianópolis;1;1.0004
+2026-04;Porto Alegre;1;0.9767
+2026-04;Belém;1;0.8253
+2026-04;Boa Vista;1;0.8186
+2026-04;Macapá;1;0.7991
+2026-04;Manaus;1;0.8327
+2026-04;Palmas;1;0.8738
+2026-04;Porto Velho;1;0.6858
+2026-04;Rio Branco;1;0.7247
+2026-04;Aracaju;1;0.8156
+2026-04;Fortaleza;1;0.9867
+2026-04;João Pessoa;1;0.8779
+2026-04;Maceió;1;0.8716
+2026-04;Natal;1;0.8607
+2026-04;Recife;1;0.8614
+2026-04;Salvador;1;0.8199
+2026-04;São Luís;1;0.7712
+2026-04;Teresina;1;0.8449
+2026-05;Brasília;1;0.8248
+2026-05;Campo Grande;1;0.8529
+2026-05;Cuiabá;1;0.8527
+2026-05;Goiânia;1;0.8148
+2026-05;Belo Horizonte;1;0.8733
+2026-05;Rio de Janeiro;1;0.9524
+2026-05;São Paulo;1;1.0000
+2026-05;Vitória;1;0.8887
+2026-05;Curitiba;1;0.9600
+2026-05;Florianópolis;1;0.9929
+2026-05;Porto Alegre;1;0.9736
+2026-05;Belém;1;0.8156
+2026-05;Boa Vista;1;0.8288
+2026-05;Macapá;1;0.7960
+2026-05;Manaus;1;0.8328
+2026-05;Palmas;1;0.8793
+2026-05;Porto Velho;1;0.7191
+2026-05;Rio Branco;1;0.7195
+2026-05;Aracaju;1;0.8141
+2026-05;Fortaleza;1;1.0116
+2026-05;João Pessoa;1;0.8726
+2026-05;Maceió;1;0.8818
+2026-05;Natal;1;0.8807
+2026-05;Recife;1;0.8507
+2026-05;Salvador;1;0.8098
+2026-05;São Luís;1;0.7631
+2026-05;Teresina;1;0.8418
+2026-06;Brasília;1;0.8162
+2026-06;Campo Grande;1;0.8263
+2026-06;Cuiabá;1;0.8411
+2026-06;Goiânia;1;0.8051
+2026-06;Belo Horizonte;1;0.8630
+2026-06;Rio de Janeiro;1;0.9464
+2026-06;São Paulo;1;1.0000
+2026-06;Vitória;1;0.8744
+2026-06;Curitiba;1;0.9470
+2026-06;Florianópolis;1;0.9938
+2026-06;Porto Alegre;1;0.9658
+2026-06;Belém;1;0.8048
+2026-06;Boa Vista;1;0.8402
+2026-06;Macapá;1;0.7649
+2026-06;Manaus;1;0.8308
+2026-06;Palmas;1;0.8715
+2026-06;Porto Velho;1;0.7019
+2026-06;Rio Branco;1;0.7096
+2026-06;Aracaju;1;0.7950
+2026-06;Fortaleza;1;1.0000
+2026-06;João Pessoa;1;0.8626
+2026-06;Maceió;1;0.8612
+2026-06;Natal;1;0.8678
+2026-06;Recife;1;0.8197
+2026-06;Salvador;1;0.7911
+2026-06;São Luís;1;0.7558
+2026-06;Teresina;1;0.8251
+2026-07;Brasília;1;0.8277
+2026-07;Campo Grande;1;0.8443
+2026-07;Cuiabá;1;0.8403
+2026-07;Goiânia;1;0.8174
+2026-07;Belo Horizonte;1;0.8764
+2026-07;Rio de Janeiro;1;0.9530
+2026-07;São Paulo;1;1.0000
+2026-07;Vitória;1;0.8878
+2026-07;Curitiba;1;0.9659
+2026-07;Florianópolis;1;0.9790
+2026-07;Porto Alegre;1;0.9803
+2026-07;Belém;1;0.8177
+2026-07;Boa Vista;1;0.8707
+2026-07;Macapá;1;0.7720
+2026-07;Manaus;1;0.8396
+2026-07;Palmas;1;0.8777
+2026-07;Porto Velho;1;0.7188
+2026-07;Rio Branco;1;0.7144
+2026-07;Aracaju;1;0.8242
+2026-07;Fortaleza;1;1.0060
+2026-07;João Pessoa;1;0.8629
+2026-07;Maceió;1;0.8750
+2026-07;Natal;1;0.8699
+2026-07;Recife;1;0.8329
+2026-07;Salvador;1;0.8083
+2026-07;São Luís;1;0.7598
+2026-07;Teresina;1;0.8331
+2026-08;Brasília;1;0.8174
+2026-08;Campo Grande;1;0.8838
+2026-08;Cuiabá;1;0.8292
+2026-08;Goiânia;1;0.8293
+2026-08;Belo Horizonte;1;0.8717
+2026-08;Rio de Janeiro;1;0.9574
+2026-08;São Paulo;1;1.0000
+2026-08;Vitória;1;0.9042
+2026-08;Curitiba;1;0.9679
+2026-08;Florianópolis;1;0.9863
+2026-08;Porto Alegre;1;0.9845
+2026-08;Belém;1;0.8378
+2026-08;Boa Vista;1;0.8394
+2026-08;Macapá;1;0.7624
+2026-08;Manaus;1;0.8571
+2026-08;Palmas;1;0.8681
+2026-08;Porto Velho;1;0.7204
+2026-08;Rio Branco;1;0.7159
+2026-08;Aracaju;1;0.7938
+2026-08;Fortaleza;1;1.0134
+2026-08;João Pessoa;1;0.8667
+2026-08;Maceió;1;0.8990
+2026-08;Natal;1;0.8667
+2026-08;Recife;1;0.8299
+2026-08;Salvador;1;0.8070
+2026-08;São Luís;1;0.7326
+2026-08;Teresina;1;0.8384
+2026-09;Brasília;1;0.8327
+2026-09;Campo Grande;1;0.8521
+2026-09;Cuiabá;1;0.8304
+2026-09;Goiânia;1;0.8379
+2026-09;Belo Horizonte;1;0.8809
+2026-09;Rio de Janeiro;1;0.9695
+2026-09;São Paulo;1;1.0000
+2026-09;Vitória;1;0.9057
+2026-09;Curitiba;1;0.9597
+2026-09;Florianópolis;1;1.0020
+2026-09;Porto Alegre;1;0.9822
+2026-09;Belém;1;0.8340
+2026-09;Boa Vista;1;0.8316
+2026-09;Macapá;1;0.8104
+2026-09;Manaus;1;0.8350
+2026-09;Palmas;1;0.8605
+2026-09;Porto Velho;1;0.7191
+2026-09;Rio Branco;1;0.7312
+2026-09;Aracaju;1;0.7965
+2026-09;Fortaleza;1;1.0045
+2026-09;João Pessoa;1;0.8830
+2026-09;Maceió;1;0.8682
+2026-09;Natal;1;0.8509
+2026-09;Recife;1;0.8443
+2026-09;Salvador;1;0.7979
+2026-09;São Luís;1;0.8090
+2026-09;Teresina;1;0.8320

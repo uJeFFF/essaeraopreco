@@ -9,3 +9,6 @@ bundle/
 # web/dados/ é gerado por src/compilar-web.js, mas versionado de propósito:
 # é o artefato estático publicado na Vercel.
 pureref
+
+# Arquivo histórico do INPC por subitem (~130 MB, regenerável com scripts/baixar-inpc.py)
+assetsexternos/inpc_subitens_completo.csv

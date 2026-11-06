@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ESSE ERA O PREÇO · Heatmap capitais × ano</title>
+    <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="../menu.css" />
+  </head>
+  <body>
+    <div class="pagina">
+      <header class="topo">
+        <h1>ESSE ERA O PREÇO DE <span class="produto">1KG DE CARNE</span></h1>
+        <p class="sub">Capitais × ano · R$/kg de setembro de 2026 e % do salário mínimo · dezembro (2026: último mês disponível)</p>
+      </header>
+
+      <main>
+        <p id="carregando" class="aviso">Carregando dados…</p>
+        <p id="erro" class="aviso erro oculto" role="alert"></p>
+
+        <section class="bloco" aria-labelledby="titulo-carne">
+          <div class="bloco-topo">
+            <h2 id="titulo-carne">Carne bovina de primeira <span class="tag">DIEESE</span></h2>
+            <p class="sub2">27 capitais · 1994–2026 · preço observado · dezembro (2026: set/2026)</p>
+          </div>
+          <div id="heatmap-carne" class="heatmap"></div>
+          <p id="legenda-carne" class="legenda">
+            <span class="leg-ext">MAIS BARATO</span>
+            <span class="leg-barra" aria-hidden="true"></span>
+            <span class="leg-ext">MAIS CARO</span>
+            <span class="leg-valores"><span class="leg-min"></span> a <span class="leg-max"></span></span>
+            <span class="leg-vazio"><i class="amostra-missing"></i> sem dados</span>
+          </p>
+        </section>
+
+        <section class="bloco" aria-labelledby="titulo-cortes">
+          <div class="bloco-topo">
+            <h2 id="titulo-cortes">Cortes</h2>
+            <p class="sub2" id="sub-cortes">12 cortes · SP: 2007–2026; demais: 2008–2026 · preço estimado · dezembro (2026: SP ago/2026; demais set/2026)</p>
+          </div>
+          <div id="abas-cortes" class="abas" role="tablist" aria-label="Escolher corte"></div>
+          <div id="heatmap-cortes" class="heatmap"></div>
+          <p id="legenda-cortes" class="legenda">
+            <span class="leg-ext">MAIS BARATO</span>
+            <span class="leg-barra" aria-hidden="true"></span>
+            <span class="leg-ext">MAIS CARO</span>
+            <span class="leg-valores"><span class="leg-min"></span> a <span class="leg-max"></span></span>
+            <span class="leg-vazio"><i class="amostra-missing"></i> sem dados</span>
+          </p>
+        </section>
+
+        <section class="bloco" aria-labelledby="titulo-carne-pct">
+          <div class="bloco-topo">
+            <h2 id="titulo-carne-pct">Carne bovina de primeira <span class="tag">DIEESE</span></h2>
+            <p class="sub2">27 capitais · 1994–2026 · preço observado · % do salário mínimo</p>
+          </div>
+          <div id="heatmap-carne-pct" class="heatmap"></div>
+          <p id="legenda-carne-pct" class="legenda">
+            <span class="leg-ext">MENOR %</span>
+            <span class="leg-barra" aria-hidden="true"></span>
+            <span class="leg-ext">MAIOR %</span>
+            <span class="leg-valores"><span class="leg-min"></span> a <span class="leg-max"></span></span>
+            <span class="leg-vazio"><i class="amostra-missing"></i> sem dados</span>
+          </p>
+        </section>
+
+        <section class="bloco" aria-labelledby="titulo-cortes-pct">
+          <div class="bloco-topo">
+            <h2 id="titulo-cortes-pct">Cortes</h2>
+            <p class="sub2" id="sub-cortes-pct">12 cortes · SP: 2007–2026; demais: 2008–2026 · % do salário mínimo · dezembro (2026: SP ago/2026; demais set/2026)</p>
+          </div>
+          <div id="abas-cortes-pct" class="abas" role="tablist" aria-label="Escolher corte para o percentual"></div>
+          <div id="heatmap-cortes-pct" class="heatmap"></div>
+          <p id="legenda-cortes-pct" class="legenda">
+            <span class="leg-ext">MENOR %</span>
+            <span class="leg-barra" aria-hidden="true"></span>
+            <span class="leg-ext">MAIOR %</span>
+            <span class="leg-valores"><span class="leg-min"></span> a <span class="leg-max"></span></span>
+            <span class="leg-vazio"><i class="amostra-missing"></i> sem dados</span>
+          </p>
+        </section>
+
+        <p class="nota">O % do salário mínimo é o preço nominal do mês dividido pelo salário mínimo nominal em vigor no mês. O salário mínimo é nacional; a diferença entre cidades vem do preço.</p>
+        <p class="nota">Salário mínimo: DIEESE, valor nominal em vigor no mês (jul/1994 a set/2026).</p>
+        <p class="nota">Coxão duro: SP tem IEA 2025–2026; sem INPC. Nas demais capitais, sem série.</p>
+        <p class="nota">As faixas hachuradas no DIEESE são os anos sem pesquisa em 10 capitais: Boa Vista, Cuiabá, Macapá, Maceió, Manaus, Palmas, Porto Velho, Rio Branco, São Luís e Teresina.</p>
+        <p class="nota">Cada célula é dezembro do ano; 2026 = último mês disponível: set/2026, exceto SP (ago/2026, IEA). No DIEESE, 1994 tem julho a dezembro. Não há média anual. Valores reais, corrigidos pelo IPCA para set/2026.</p>
+<p class="nota">IEA 2025–2026 (varejo, SP): os 7 cortes com INPC regional usam o regional; picanha, capa, filé e músculo usam o INPC nacional — exceção só para São Paulo. Capa: regional até 2011, nacional depois. Músculo: nacional (o regional tem falhas). As demais capitais seguem só com o INPC regional.</p>
+<p class="nota">Margens: nível = validação de 34 comparações cidade × corte; caminho = INPC contra o IEA 2025–2026, corte por corte; total = quadratura (a soma é o limite superior). IEA e DIEESE não publicam dispersão; o % do salário mínimo herda a margem do preço.</p>
+      </main>
+    </div>
+
+    <div id="tooltip" class="tooltip oculto" role="tooltip"></div>
+    <script type="module" src="app.js"></script>
+    <script type="module" src="../menu.js"></script>
+  </body>
+</html>

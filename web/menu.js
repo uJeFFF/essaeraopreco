@@ -13,6 +13,7 @@ const ITENS = [
   { id: "06", rotulo: "Regiões", href: new URL("06/", import.meta.url) },
   { id: "07", rotulo: "Bolhas por UF", href: new URL("07/", import.meta.url) },
   { id: "08", rotulo: "Radial UF × ano", href: new URL("08/", import.meta.url) },
+  { id: "09", rotulo: "Heatmap capitais × ano", href: new URL("09/", import.meta.url) },
 ];
 
 /** Normaliza a URL para comparar a pagina atual com os itens do menu. */

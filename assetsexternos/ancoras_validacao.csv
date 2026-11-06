@@ -1,0 +1,35 @@
+﻿cidade;corte;ano_mes_observado;preco_observado_rs_kg;preco_derivado_rs_kg;erro_pct
+Belo Horizonte;acém;2026-10;39.19;36.37;-7.2
+Belo Horizonte;alcatra;2026-10;57.70;55.04;-4.6
+Belo Horizonte;contrafilé;2026-10;59.92;56.15;-6.3
+Belo Horizonte;coxão duro;2026-10;49.48;45.09;-8.9
+Belo Horizonte;coxão mole;2026-10;54.20;47.94;-11.5
+Belo Horizonte;filé-mignon;2026-10;83.59;83.39;-0.2
+Belo Horizonte;músculo;2026-10;40.01;36.60;-8.5
+Belo Horizonte;patinho;2026-10;50.26;47.41;-5.7
+Belo Horizonte;picanha;2026-10;78.57;78.82;0.3
+Fortaleza;coxão duro;2026-10;52.08;52.04;-0.1
+Fortaleza;coxão mole;2026-10;58.44;55.33;-5.3
+João Pessoa;acém;2026-08;38.90;36.00;-7.5
+João Pessoa;alcatra;2026-08;49.90;54.48;9.2
+João Pessoa;contrafilé;2026-08;49.90;55.59;11.4
+João Pessoa;costela;2026-08;29.50;28.23;-4.3
+João Pessoa;coxão duro;2026-08;45.00;44.64;-0.8
+João Pessoa;coxão mole;2026-08;46.90;47.46;1.2
+João Pessoa;músculo;2026-08;40.00;36.23;-9.4
+João Pessoa;patinho;2026-08;45.90;46.93;2.3
+João Pessoa;picanha;2026-08;65.90;78.02;18.4
+Palmas;acém;2026-09;39.95;36.36;-9.0
+Palmas;alcatra;2026-09;54.49;55.03;1.0
+Palmas;contrafilé;2026-09;53.99;56.14;4.0
+Palmas;costela;2026-09;26.99;28.51;5.6
+Palmas;coxão duro;2026-09;47.99;45.08;-6.1
+Palmas;coxão mole;2026-09;51.99;47.93;-7.8
+Palmas;filé-mignon;2026-09;74.99;83.37;11.2
+Palmas;lagarto;2026-09;47.49;46.25;-2.6
+Palmas;músculo;2026-09;38.99;36.59;-6.1
+Palmas;patinho;2026-09;49.45;47.40;-4.1
+Palmas;picanha;2026-09;77.49;78.80;1.7
+Rio Branco;patinho;2026-04;36.40;38.86;6.7
+Rio Branco;picanha;2026-04;71.38;64.60;-9.5
+Vitória;acém;2026-08;35.98;37.04;2.9
