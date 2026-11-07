@@ -77,6 +77,18 @@ body {
   font-size: 0.88rem;
 }
 
+.subtitulo {
+  margin: 1.25rem 0 0;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.subtitulo .mini {
+  font-weight: 400;
+  color: var(--texto-suave);
+  font-size: 0.78rem;
+}
+
 .heatmap {
   margin-top: 0.8rem;
   overflow-x: auto;

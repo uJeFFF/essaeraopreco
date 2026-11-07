@@ -1,4 +1,4 @@
-# Dados externos: INPC, DIEESE, IPCA e séries de preço
+# Dados externos: INPC, DIEESE, IPCA, séries de preço e diesel
 
 Arquivos de apoio do site, gerados pelos scripts em `scripts/`. Cada seção indica o script e a fonte.
 
@@ -163,26 +163,50 @@ Geradas por `scripts/gerar-series.py` e `scripts/gerar-series-sp.py`.
 - 15 de coxão duro nas capitais com INPC regional; em São Paulo, o coxão duro tem série IEA.
 - Aracaju: 10 cortes observados em set/2025 e 2 derivados; 8/12 com série. Palmas: 11 observados em set/2026 e 1 derivado; 0/12 com série (sem INPC regional), mas os 11 pontos observados aparecem no heatmap de 2026.
 
-## Heatmap da página 09
+## Heatmaps da página 09 (carne e diesel)
 
-Gerado por `scripts/gerar-heatmap.py`.
+Gerados por `scripts/gerar-heatmap.py` (carne) e `scripts/gerar-combustiveis.py` (diesel).
 
 | Arquivo | Conteúdo |
 |---|---|
 | `web/dados/heatmap.json` | Preço real (R$/kg de set/2026) e % do salário mínimo por capital × ano, com as margens, para a página `web/09/` |
+| `web/dados/combustiveis.json` | Diesel S10 e comum: preço real (R$/L) e litros por salário mínimo por capital × ano, com n, desvio, CV e margem por célula |
 
-- Quatro blocos: preço e % do salário mínimo, para a carne do DIEESE e para os 12 cortes.
-- Preço: R$/kg de set/2026 (real, corrigido pelo IPCA).
-- %: preço nominal do mês / salário mínimo nominal do mês × 100.
-- Cada célula é **dezembro** do ano; 2026 = último mês disponível (set/2026; São Paulo: ago/2026, o último IEA). Não há média anual.
+- Quatro blocos de carne: preço e % do salário mínimo para a carne do DIEESE e para os 12 cortes. A seção de diesel acrescenta preço real e litros por salário.
+- Preço: R$/kg de set/2026 (real, corrigido pelo IPCA); no diesel, R$/L.
+- %: preço nominal do mês / salário mínimo nominal do mês × 100; no diesel, litros = salário mínimo nominal / preço nominal.
+- Cada célula é **dezembro** do ano; 2026 = último mês disponível (set/2026; São Paulo, na carne: ago/2026, o último IEA). Não há média anual.
 - Células sem dado viram `null` e aparecem hachuradas na página.
 - Palmas não tem série, mas os 11 cortes observados em set/2026 entram como ponto único no ano de 2026; os anos anteriores ficam vazios.
-- `margens`: nível (34 comparações de 2026 cidade × corte), caminho (INPC contra o IEA 2025-2026, corte por corte), total (quadratura) e soma (limite superior).
+- `margens` da carne: nível (34 comparações de 2026 cidade × corte), caminho (INPC contra o IEA 2025-2026, corte por corte), total (quadratura) e soma (limite superior). No diesel, a margem é amostral e vem por célula, junto com n e CV.
+
+## Diesel (ANP)
+
+Gerado por `scripts/baixar-anp-combustiveis.py` (download das planilhas) e
+`scripts/gerar-serie-diesel.py` (série); o JSON da página é gerado por
+`scripts/gerar-combustiveis.py`.
+
+| Arquivo | Linhas | Conteúdo |
+|---|---|---|
+| `diesel_municipal.csv` | 12.068 | Diesel S10 e comum, 27 capitais, mensal: preço nominal e real, n, desvio, CV, margem e litros por salário |
+| `diesel_cobertura.csv` | 54 | Cobertura por capital × produto, com primeiro/último mês, lacunas e status |
+| `fontes_diesel.csv` | 6 | Planilhas da ANP usadas, com período e URL |
+| `web/dados/combustiveis.json` | — | Heatmaps de diesel da página 09 |
+
+- **Fonte:** ANP, Levantamento de Preços, planilhas mensais por município, preço de **revenda**.
+- **Produtos:** Diesel S10 (2013–2026) e diesel comum (2001–2026). São produtos diferentes; não são uma continuação um do outro.
+- **Capitais:** 27; **2026** vai até setembro. O S10 tem os 27 capitais em todos os dezembros; o comum tem 24 a 27 em 2013–2025 e 20 em set/2026. **2020-09** não teve pesquisa nos dois. Onde falta, fica vazio; não há interpolação.
+- **Fórmulas:** `preço real = nominal × IPCA(set/2026) / IPCA(mês)`; `litros = salário mínimo nominal / preço nominal`; `margem = 1,96 × desvio / √n / média`; `CV = desvio / média`.
+- **Margem e CV:** a margem é a amostral da média municipal; o CV mede a dispersão entre postos. O preço de revenda inclui ICMS/PIS/COFINS e margem do posto.
+- **Relação com alimentos:** diesel é custo de frete e de produção agropecuária; a relação com o preço dos alimentos é indireta e defasada, não causal. Há quebras por política de preços (greve de 2018, ICMS em 2022 e subvenções).
+- **Arquivos brutos:** `data/fontes/anp/` (ignorado no git). O importador precisa de `pandas`, `openpyxl` e `pyxlsb` (`pip install pandas openpyxl pyxlsb`).
+- **Atualização:** o arquivo de 2026 muda mensalmente; rode `python scripts/baixar-anp-combustiveis.py` e depois a série/JSON.
 
 ## O que isto não é
 
 - A série de cortes é **estimada**, não observada. As âncoras de pesquisa (IEA/SP, Procons, Mercado Mineiro, UFAC) são observadas no mês da coleta; a série entre elas é estimada pelo INPC. Aracaju usa a âncora de set/2025; Palmas não tem série e aparece só no ponto de 2026.
 - Aracaju/2025 é a única âncora fora de 2026; ela não entra na validação de nível de 2026.
+- Diesel é **custo de frete e de produção agropecuária**, não causa automática do preço dos alimentos; o preço de revenda inclui tributos e margem do posto. S10 e comum são produtos diferentes.
 - O INPC nacional é uma **exceção só de São Paulo** (picanha, capa, filé e músculo); as outras capitais usam só o regional.
 - A série completa do IEA desde 1970 é **paga**; a consulta gratuita cobre 2025-2026.
 - O heatmap usa um **ponto** (dezembro; 2026 = último mês), não uma média anual.

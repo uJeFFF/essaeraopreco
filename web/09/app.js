@@ -2,9 +2,11 @@
 // percentual do salário mínimo.
 // Cima: carne bovina de primeira (DIEESE), 27 capitais x 1994-2026.
 // Baixo: cortes, 27 capitais x 2008-2026, com aba por corte.
-// Dados: web/dados/heatmap.json (gerado por scripts/gerar-heatmap.py).
+// No fim: diesel S10 e comum (ANP), 27 capitais x 2001-2026.
+// Dados: web/dados/heatmap.json e web/dados/combustiveis.json.
 
 const URL_DADOS = "../dados/heatmap.json";
+const URL_DIESEL = "../dados/combustiveis.json";
 const SVG_NS = "http://www.w3.org/2000/svg";
 
 const LARGURA = 1220;
@@ -59,6 +61,13 @@ function fmtPct(valor) {
   })}%`;
 }
 
+function fmtLitros(valor) {
+  return `${Number(valor).toLocaleString("pt-BR", {
+    minimumFractionDigits: 1,
+    maximumFractionDigits: 1,
+  })} L`;
+}
+
 function mes(ym) {
   if (!ym) return "";
   const nomes = ["jan", "fev", "mar", "abr", "mai", "jun",
@@ -93,7 +102,8 @@ function esconderTooltip() {
 
 function atualizarLegenda(id, painel, formato) {
   const legenda = document.getElementById(id);
-  const f = formato === "pct" ? fmtPct : fmt;
+  const f =
+    formato === "pct" ? fmtPct : formato === "litros" ? fmtLitros : fmt;
   legenda.querySelector(".leg-min").textContent = f(painel.min);
   legenda.querySelector(".leg-max").textContent = f(painel.max);
 }
@@ -185,20 +195,29 @@ function render(container, painel, anos, capitais, opcoes) {
     for (let i = 0; i < anos.length; i += 1) {
       const valor = painel.valores[j][i];
       const referencia = painel.referencia?.[j]?.[i] || "";
-      const fonte = painel.fonte?.[j]?.[i] || "";
+      const fonte = painel.fonte?.[j]?.[i] || opcoes.fonte || "";
       const natureza =
         painel.natureza_celula?.[j]?.[i] || opcoes.natureza || "";
       const margem = painel.margem;
+      const margemCel = painel.margem_celula?.[j]?.[i];
+      const cv = painel.cv_celula?.[j]?.[i];
+      const n = painel.n_celula?.[j]?.[i];
       const margemTexto =
-        natureza === "observado"
-          ? fonte.startsWith("IEA") || fonte.startsWith("DIEESE")
-            ? "dispersão não publicada pela fonte"
-            : "amostra da fonte; dispersão não calculada"
-          : margem && margem.total != null
-            ? `margem ±${fmtPct(margem.total)} (nível ${fmtPct(margem.nivel)} + caminho ${fmtPct(margem.caminho)})`
-            : margem && margem.caminho == null
-              ? "sem INPC; dispersão não publicada"
-              : "dispersão não publicada";
+        margemCel != null
+          ? `margem da média ±${fmtPct(margemCel)}` +
+            (cv != null ? ` · CV entre postos ${fmtPct(cv)}` : "") +
+            (n != null ? ` · n=${n}` : "")
+          : n != null && n <= 1
+            ? "n=1; sem dispersão"
+            : natureza === "observado"
+              ? fonte.startsWith("IEA") || fonte.startsWith("DIEESE")
+                ? "dispersão não publicada pela fonte"
+                : "amostra da fonte; dispersão não calculada"
+              : margem && margem.total != null
+                ? `margem ±${fmtPct(margem.total)} (nível ${fmtPct(margem.nivel)} + caminho ${fmtPct(margem.caminho)})`
+                : margem && margem.caminho == null
+                  ? "sem INPC; dispersão não publicada"
+                  : "dispersão não publicada";
       const x = MARGEM.left + i * larguraCelula + 0.5;
       const y = MARGEM.top + j * ALTURA_LINHA + 0.5;
       const largura = larguraCelula - 1;
@@ -225,7 +244,9 @@ function render(container, painel, anos, capitais, opcoes) {
         const valorTexto =
           formato === "pct"
             ? `${fmtPct(valor)} do salário mínimo`
-            : `${fmt(valor)}/kg`;
+            : formato === "litros"
+              ? `${fmtLitros(valor)} por salário mínimo`
+              : `${fmt(valor)}/${opcoes.unidade || "kg"}`;
         conteudo =
           `<strong>${cidade}</strong><br>${mes(referencia)} · ${valorTexto}<br>` +
           `${fonte} · ${natureza}<br>${margemTexto}`;
@@ -241,6 +262,78 @@ function render(container, painel, anos, capitais, opcoes) {
   }
 
   container.appendChild(svg);
+}
+
+async function iniciarDiesel() {
+  const carregando = document.getElementById("carregando-diesel");
+  const erro = document.getElementById("erro-diesel");
+  try {
+    const resposta = await fetch(URL_DIESEL, { cache: "no-store" });
+    if (!resposta.ok) {
+      throw new Error(`${resposta.status} ao buscar ${URL_DIESEL}`);
+    }
+    const dados = await resposta.json();
+    if (carregando) carregando.classList.add("oculto");
+
+    const produtos = Object.keys(dados.produtos);
+    let ativo = produtos[0];
+
+    const botoes = criarAbas(
+      document.getElementById("abas-diesel"),
+      produtos,
+      (produto) => {
+        ativo = produto;
+        atualizarDiesel();
+      },
+    );
+
+    function atualizarDiesel() {
+      const painel = dados.produtos[ativo];
+      render(
+        document.getElementById("heatmap-diesel"),
+        painel.preco,
+        dados.anos,
+        dados.capitais,
+        {
+          id: "diesel",
+          formato: "preco",
+          unidade: "L",
+          natureza: "observado",
+          fonte: "ANP · revenda",
+          aria: `Heatmap do preço do ${ativo} por capital e ano`,
+        },
+      );
+      render(
+        document.getElementById("heatmap-diesel-litros"),
+        painel.litros,
+        dados.anos,
+        dados.capitais,
+        {
+          id: "diesel-litros",
+          formato: "litros",
+          natureza: "observado",
+          fonte: "ANP · revenda",
+          aria: `Heatmap de litros de ${ativo} que 1 salário mínimo compra por capital e ano`,
+        },
+      );
+      atualizarLegenda("legenda-diesel", painel.preco, "preco");
+      atualizarLegenda("legenda-diesel-litros", painel.litros, "litros");
+      const [inicio, fim] = painel.periodo.split(" a ");
+      const periodo = `${inicio.slice(0, 4)}–${fim.slice(0, 4)}`;
+      document.getElementById("sub-diesel").textContent =
+        `${painel.nome} · ${periodo} · ${painel.cidades_com_dado} capitais · ` +
+        "preço observado · revenda · dezembro (2026: set/2026)";
+      for (const [produto, botao] of botoes) {
+        botao.setAttribute("aria-selected", String(produto === ativo));
+      }
+    }
+
+    atualizarDiesel();
+  } catch (falha) {
+    if (carregando) carregando.classList.add("oculto");
+    erro.textContent = `Não foi possível carregar o diesel: ${falha.message}`;
+    erro.classList.remove("oculto");
+  }
 }
 
 async function iniciar() {
@@ -348,6 +441,7 @@ async function iniciar() {
     erro.textContent = `Não foi possível carregar os dados: ${falha.message}`;
     erro.classList.remove("oculto");
   }
+  iniciarDiesel();
 }
 
 iniciar();

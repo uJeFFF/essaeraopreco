@@ -9,6 +9,8 @@ Entradas (assetsexternos/):
   cobertura_cortes.csv      status da série histórica de cada corte
   serie_carne_dieese.csv    carne bovina de primeira (DIEESE), mensal, nominal e real
   serie_cortes.csv          série estimada dos cortes, mensal, nominal e real
+  diesel_municipal.csv      diesel S10 e comum (ANP), mensal, por capital
+  diesel_cobertura.csv      cobertura dos produtos por capital
 
 Saída:
   web/metodologia.html
@@ -35,6 +37,9 @@ MESES = {"01": "jan", "02": "fev", "03": "mar", "04": "abr", "05": "mai", "06": 
 ANOS = [2008, 2012, 2016, 2020, 2024, 2026]
 URL_IEA = "https://infoiea.agricultura.sp.gov.br/nia1/Precos_Medios.aspx?cod_sis=4"
 URL_DIEESE = "https://www.dieese.org.br/cesta/produto"
+URL_ANP = ("https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/"
+           "precos/precos-revenda-e-de-distribuicao-combustiveis/"
+           "serie-historica-do-levantamento-de-precos")
 FONTE_CURTA = {
     "IEA/SP - Preços médios no varejo": "IEA/SP",
     "Mercado Mineiro + comOferta (BH, 5-7/10/2026)": "Mercado Mineiro/ComOferta",
@@ -225,6 +230,8 @@ def main():
     carne = ler("serie_carne_dieese.csv")
     cortes = ler("serie_cortes.csv")
     heatmap = json.loads((RAIZ / "web" / "dados" / "heatmap.json").read_text(encoding="utf-8"))
+    combustiveis = json.loads((RAIZ / "web" / "dados" / "combustiveis.json").read_text(encoding="utf-8"))
+    diesel_cob = ler("diesel_cobertura.csv")
     margens = heatmap["margens"]["cortes"]
     inpc = ler("inpc_carne_cesta.csv")
     var_sp_alcatra = {x["ano_mes"]: float(x["variacao_mensal_pct"]) for x in inpc
@@ -275,14 +282,14 @@ def main():
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Metodologia dos preços de carne por capital · ESSE ERA O PREÇO</title>
+<title>Metodologia dos preços de carne e diesel por capital · ESSE ERA O PREÇO</title>
 <style>{css()}</style>
 </head>
 <body>
 <header>
-<h1>Metodologia dos preços de carne por capital</h1>
+<h1>Metodologia dos preços de carne e diesel por capital</h1>
 <p>De onde vem cada preço, qual conta foi feita e qual erro esperar.</p>
-<p>Dados de {e(DATA)} · 27 capitais · série principal: carne bovina de primeira (DIEESE)</p>
+<p>Dados de {e(DATA)} · 27 capitais · série principal: carne bovina de primeira (DIEESE) e diesel (ANP)</p>
 </header>
 <div class="layout">
 <nav class="toc" aria-label="Sumário">
@@ -292,6 +299,7 @@ def main():
 <li><a href="#carne">Carne (DIEESE)</a></li>
 <li><a href="#cortes">Cortes</a></li>
 <li><a href="#salario-minimo">Salário mínimo</a></li>
+<li><a href="#diesel">Diesel</a></li>
 <li><a href="#fontes">Fontes</a></li>
 <li><a href="#metodo">Metodologia</a></li>
 <li><a href="#erro">Margem de erro</a></li>
@@ -474,6 +482,72 @@ se os dois valores forem corrigidos pelo mesmo índice de inflação.</p>
 <p>A página <a href="09/">09</a> mostra esse percentual para a carne do DIEESE e para os cortes.</p>
 </section>""")
 
+    # ---- diesel ----
+    partes.append('<section id="diesel"><h2>Diesel</h2>')
+    partes.append(
+        '<p>A página <a href="09/#diesel">09</a> também traz <strong>diesel S10</strong> e '
+        '<strong>diesel comum</strong>, com preço de revenda e litros por salário mínimo. A fonte é a '
+        f'{link(URL_ANP, "ANP")}, Levantamento de Preços, planilhas mensais por município. '
+        'O preço é o de revenda (bomba), em R$/L; não usamos mínimo nem máximo como âncora.</p>')
+    partes.append(
+        '<p><strong>Produtos.</strong> O S10 é o diesel rodoviário moderno e existe na série a partir de '
+        '2013. O comum cobre 2001–2026 e ainda é usado em agricultura e veículos antigos. São produtos '
+        'diferentes: não são uma continuação um do outro. A página mostra os dois em abas separadas.</p>')
+    partes.append(
+        '<p><strong>Preço real e litros.</strong> O preço real é o nominal corrigido pelo IPCA até '
+        'setembro de 2026: <code>preço real = preço nominal × IPCA(set/2026) / IPCA(mês)</code>. '
+        'Os litros por salário mínimo são <code>salário mínimo nominal do mês / preço nominal</code>. '
+        'Cada célula é dezembro; 2026 é setembro, o último mês mensal consolidado. Não há média anual '
+        'nem interpolação.</p>')
+    partes.append(
+        '<p><strong>Margem.</strong> A margem de cada célula é a amostral da média municipal: '
+        '<code>1,96 × desvio-padrão / √n / média</code>. O CV é <code>desvio / média</code>; n é o '
+        'número de postos pesquisados. O CV mede a dispersão entre postos; a margem mede a precisão '
+        'da média. O preço de revenda inclui ICMS/PIS/COFINS e margem do posto.</p>')
+    partes.append(
+        '<p><strong>Cobertura.</strong> 27 capitais. O S10 tem os 27 capitais em todos os dezembros; '
+        'o comum tem 24 a 27 em 2013–2025 e 20 em set/2026. Setembro de 2020 não teve pesquisa nos '
+        'dois produtos. O comum também tem buracos em alguns anos/capitais. O vazio fica vazio.</p>')
+    partes.append(
+        '<div class="wrap"><table><caption>Diesel: cobertura e faixas (preço real de set/2026)</caption>'
+        '<thead><tr><th>Produto</th><th>Período</th><th class="num">Capitais</th>'
+        '<th class="num">Meses</th><th class="num">Faixa histórica</th><th class="num">Faixa 2026</th>'
+        '<th class="num">Margem da média</th><th class="num">CV entre postos</th>'
+        '<th class="num">n</th></tr></thead><tbody>')
+    for produto, p in combustiveis["produtos"].items():
+        valores = [v for linha in p["preco"]["valores"] for v in linha if v is not None]
+        margens_p = [v for linha in p["preco"]["margem_celula"] for v in linha if v is not None]
+        cvs_p = [v for linha in p["preco"]["cv_celula"] for v in linha if v is not None]
+        ns_p = [v for linha in p["preco"]["n_celula"] for v in linha if v is not None]
+        j26 = combustiveis["anos"].index(2026)
+        v26 = [linha[j26] for linha in p["preco"]["valores"] if linha[j26] is not None]
+        ini, fim = p["periodo"].split(" a ")
+        periodo = f"{mes(ini)} a {mes(fim)}"
+        partes.append(
+            f'<tr><td>{e(produto)}</td><td>{e(periodo)}</td>'
+            f'<td class="num">{p["cidades_com_dado"]}</td><td class="num">{p["meses_com_dado"]}</td>'
+            f'<td class="num">R$ {br(min(valores))} a R$ {br(max(valores))}</td>'
+            f'<td class="num">R$ {br(min(v26))} a R$ {br(max(v26))}</td>'
+            f'<td class="num">{pct(min(margens_p))} a {pct(max(margens_p))}</td>'
+            f'<td class="num">{pct(min(cvs_p))} a {pct(max(cvs_p))}</td>'
+            f'<td class="num">{min(ns_p)} a {max(ns_p)}</td></tr>')
+    partes.append("</tbody></table></div>")
+    capitais_diesel = [c["nome"] for c in combustiveis["capitais"]]
+    for produto, p in combustiveis["produtos"].items():
+        j26 = combustiveis["anos"].index(2026)
+        faltam = [capitais_diesel[i] for i, linha in enumerate(p["preco"]["valores"])
+                  if linha[j26] is None]
+        if faltam:
+            partes.append(
+                f'<p class="nota">Em set/2026, {e(produto)} não tem dado para: '
+                f'{", ".join(e(c) for c in faltam)}. A célula fica vazia.</p>')
+    partes.append(
+        '<p><strong>Cuidados.</strong> Diesel é custo de frete e de produção agropecuária; a relação '
+        'com o preço dos alimentos é indireta e defasada, não causal. O preço de revenda inclui '
+        'tributos e margem do posto, e a política de preços cria quebras (greve de 2018, mudanças de '
+        'ICMS em 2022, subvenções). A média municipal da ANP é simples, não ponderada. O S10 e o comum '
+        'são produtos diferentes.</p></section>')
+
     # ---- fontes ----
     fontes = [
         ("IEA/SP · preço médio mensal no varejo", "Instituto de Economia Agrícola (Secretaria de Agricultura de SP)",
@@ -500,6 +574,10 @@ se os dois valores forem corrigidos pelo mesmo índice de inflação.</p>
          "Picanha (supermercado) e patinho (açougue), divulgados em reportagem.",
          "https://agazetadoacre.com/2026/06/noticias/geral/preco-da-carne-dispara-em-rio-branco-alcatra-sobe-quase-23-e-picanha-passa-de-r-70-o-quilo/",
          "Dois cortes e dois canais."),
+        ("ANP · Levantamento de Preços (revenda)", "ANP",
+         "Planilhas mensais municipais; diesel S10 (2013–2026) e diesel comum (2001–2026); "
+         "27 capitais; média, desvio-padrão, nº de postos e CV.",
+         URL_ANP, "Preço de revenda; inclui impostos e margem do posto; média municipal simples."),
         ("Procon Tocantins · pesquisa de carnes em Palmas, 03/09/2026", "Procon Tocantins",
          "Tabela por ponto de venda (10 pontos), 34 itens, sendo 16 cortes bovinos "
          "(11 da lista de 12 e 5 extras). Usamos a mediana por corte.",
@@ -711,6 +789,9 @@ o % do salário mínimo herda a margem do preço.</p>""")
 <li><code>python scripts/baixar-salario-minimo.py</code> · baixa o salário mínimo nominal do DIEESE.</li>
 <li><code>python scripts/baixar-iea-varejo.py</code> · baixa os 12 cortes do IEA/SP em 2025–2026.</li>
 <li><code>python scripts/importar-fontes-cortes.py</code> · lê os PDFs de Palmas (2026) e Aracaju (2025), calcula a mediana por loja e monta o registro de fontes.</li>
+<li><code>python scripts/baixar-anp-combustiveis.py</code> · baixa as planilhas mensais municipais de diesel da ANP.</li>
+<li><code>python scripts/gerar-serie-diesel.py</code> · gera a série de diesel S10 e comum por capital.</li>
+<li><code>python scripts/gerar-combustiveis.py</code> · gera o JSON dos heatmaps de diesel.</li>
 <li><code>python scripts/derivar-ancoras.py</code> · monta as âncoras e a validação.</li>
 <li><code>python scripts/gerar-series.py</code> · gera as séries de carne e de cortes.</li>
 <li><code>python scripts/gerar-series-sp.py</code> · estende São Paulo com IEA e INPC nacional.</li>
@@ -739,9 +820,9 @@ Aracaju/2026 também não: o PDF está com link quebrado e o release só tem mí
 
     # ---- licenças ----
     partes.append(f"""<section id="licencas"><h2>Licenças e citação</h2>
-<p>Os dados são de instituições públicas (IBGE, DIEESE, Procons, IEA, UFAC) e de uma pesquisa do Mercado Mineiro.
+<p>Os dados são de instituições públicas (IBGE, DIEESE, ANP, Procons, IEA, UFAC) e de uma pesquisa do Mercado Mineiro.
 Cada tabela indica a fonte. Ao reutilizar os números, cite a fonte original e esta página.</p>
-<p>Citação sugerida: <em>ESSE ERA O PREÇO. Metodologia dos preços de carne por capital. Dados de {e(DATA)}.</em></p>
+<p>Citação sugerida: <em>ESSE ERA O PREÇO. Metodologia dos preços de carne e diesel por capital. Dados de {e(DATA)}.</em></p>
 </section>""")
 
     # ---- changelog ----
@@ -753,6 +834,8 @@ margens de nível, caminho e total; 119 séries de corte; 27 capitais.</td></tr>
 <tr><td>{e(DATA)}</td><td>Palmas (Procon Tocantins, 03/09/2026) e Aracaju (Procon Aracaju, 01–05/09/2025)
 entram como âncoras observadas; Goiânia fica pendente porque a tabela publicada só tem mínimo/máximo;
 a validação de nível passa a usar as comparações de 2026 (Aracaju/2025 não entra por defasagem).</td></tr>
+<tr><td>{e(DATA)}</td><td>Diesel S10 e diesel comum (ANP, revenda) entram na página 09, abaixo dos
+gráficos de carne: preço real em R$/L e litros por salário mínimo, com margem amostral e CV por célula.</td></tr>
 </tbody></table></section>
 </main>
 </div>

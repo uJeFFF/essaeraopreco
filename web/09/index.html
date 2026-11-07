@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>ESSE ERA O PREÇO · Heatmap capitais × ano</title>
+    <title>ESSE ERA O PREÇO · Carne e diesel por capital</title>
     <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="../menu.css" />
@@ -11,12 +11,12 @@
   <body>
     <div class="pagina">
       <header class="topo">
-        <h1>ESSE ERA O PREÇO DE <span class="produto">1KG DE CARNE</span></h1>
-        <p class="sub">Capitais × ano · R$/kg de setembro de 2026 e % do salário mínimo · dezembro (2026: último mês disponível)</p>
+        <h1>ESSE ERA O PREÇO DE <span class="produto">1KG DE CARNE</span> E <span class="produto">1L DE DIESEL</span></h1>
+        <p class="sub">Capitais × ano · R$/kg e R$/L de setembro de 2026 · % do salário e litros por salário · dezembro (2026: último mês disponível)</p>
       </header>
 
       <main>
-        <p id="carregando" class="aviso">Carregando dados…</p>
+        <p id="carregando" class="aviso">Carregando dados de carne…</p>
         <p id="erro" class="aviso erro oculto" role="alert"></p>
 
         <section class="bloco" aria-labelledby="titulo-carne">
@@ -88,6 +88,40 @@
         <p class="nota">Cada célula é dezembro do ano; 2026 = último mês disponível: set/2026, exceto SP (ago/2026, IEA). No DIEESE, 1994 tem julho a dezembro. Não há média anual. Valores reais, corrigidos pelo IPCA para set/2026.</p>
 <p class="nota">IEA 2025–2026 (varejo, SP): os 7 cortes com INPC regional usam o regional; picanha, capa, filé e músculo usam o INPC nacional — exceção só para São Paulo. Capa: regional até 2011, nacional depois. Músculo: nacional (o regional tem falhas). As demais capitais seguem só com o INPC regional.</p>
 <p class="nota">Margens: nível = validação de 34 comparações cidade × corte; caminho = INPC contra o IEA 2025–2026, corte por corte; total = quadratura (a soma é o limite superior). IEA e DIEESE não publicam dispersão; o % do salário mínimo herda a margem do preço.</p>
+
+        <section class="bloco" id="diesel" aria-labelledby="titulo-diesel">
+          <div class="bloco-topo">
+            <h2 id="titulo-diesel">Diesel <span class="tag">ANP</span></h2>
+            <p class="sub2" id="sub-diesel">Diesel S10 e comum · 27 capitais · preço observado · revenda · dezembro (2026: set/2026)</p>
+          </div>
+          <div id="abas-diesel" class="abas" role="tablist" aria-label="Escolher tipo de diesel"></div>
+          <p id="carregando-diesel" class="aviso">Carregando diesel…</p>
+          <p id="erro-diesel" class="aviso erro oculto" role="alert"></p>
+
+          <h3 class="subtitulo">Preço real <span class="mini">R$/L de set/2026</span></h3>
+          <div id="heatmap-diesel" class="heatmap"></div>
+          <p id="legenda-diesel" class="legenda">
+            <span class="leg-ext">MAIS BARATO</span>
+            <span class="leg-barra" aria-hidden="true"></span>
+            <span class="leg-ext">MAIS CARO</span>
+            <span class="leg-valores"><span class="leg-min"></span> a <span class="leg-max"></span></span>
+            <span class="leg-vazio"><i class="amostra-missing"></i> sem dados</span>
+          </p>
+
+          <h3 class="subtitulo">Litros por salário mínimo <span class="mini">quanto 1 salário compra</span></h3>
+          <div id="heatmap-diesel-litros" class="heatmap"></div>
+          <p id="legenda-diesel-litros" class="legenda">
+            <span class="leg-ext">MENOS LITROS</span>
+            <span class="leg-barra" aria-hidden="true"></span>
+            <span class="leg-ext">MAIS LITROS</span>
+            <span class="leg-valores"><span class="leg-min"></span> a <span class="leg-max"></span></span>
+            <span class="leg-vazio"><i class="amostra-missing"></i> sem dados</span>
+          </p>
+
+          <p class="nota">Fonte: ANP · Levantamento de Preços (revenda), planilhas mensais por município. Diesel S10 desde 2013; diesel comum desde 2001; 27 capitais. Cada célula é dezembro; 2026 = set/2026. Não há interpolação: 2020-09 não teve pesquisa e o comum tem buracos em alguns anos/capitais.</p>
+          <p class="nota">Margem da média = 1,96 × desvio-padrão / √n; CV = desvio / média; n = postos pesquisados. S10 e comum são produtos diferentes; o comum não é uma continuação do S10.</p>
+          <p class="nota">Diesel é custo de frete e de produção agropecuária; a relação com o preço dos alimentos é indireta e defasada. O preço de revenda inclui ICMS/PIS/COFINS e margem do posto; não é causa automática do preço do alimento.</p>
+        </section>
       </main>
     </div>
 

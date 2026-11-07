@@ -1,0 +1,55 @@
+﻿cidade;uf;produto;primeiro_mes;ultimo_mes;meses_com_valor;lacunas;status;observacao
+Aracaju;SE;Diesel S10;2013-01;2026-09;164;1;com_lacunas;1 lacunas entre 2013-01 e 2026-09
+Belo Horizonte;MG;Diesel S10;2013-01;2026-09;164;1;com_lacunas;1 lacunas entre 2013-01 e 2026-09
+Belém;PA;Diesel S10;2013-01;2026-09;164;1;com_lacunas;1 lacunas entre 2013-01 e 2026-09
+Boa Vista;RR;Diesel S10;2013-01;2026-09;164;1;com_lacunas;1 lacunas entre 2013-01 e 2026-09
+Brasília;DF;Diesel S10;2013-01;2026-09;164;1;com_lacunas;1 lacunas entre 2013-01 e 2026-09
+Campo Grande;MS;Diesel S10;2013-01;2026-09;164;1;com_lacunas;1 lacunas entre 2013-01 e 2026-09
+Cuiabá;MT;Diesel S10;2013-01;2026-09;164;1;com_lacunas;1 lacunas entre 2013-01 e 2026-09
+Curitiba;PR;Diesel S10;2013-01;2026-09;164;1;com_lacunas;1 lacunas entre 2013-01 e 2026-09
+Florianópolis;SC;Diesel S10;2013-01;2026-09;164;1;com_lacunas;1 lacunas entre 2013-01 e 2026-09
+Fortaleza;CE;Diesel S10;2013-01;2026-09;164;1;com_lacunas;1 lacunas entre 2013-01 e 2026-09
+Goiânia;GO;Diesel S10;2013-01;2026-09;164;1;com_lacunas;1 lacunas entre 2013-01 e 2026-09
+João Pessoa;PB;Diesel S10;2013-01;2026-09;164;1;com_lacunas;1 lacunas entre 2013-01 e 2026-09
+Macapá;AP;Diesel S10;2013-01;2026-09;164;1;com_lacunas;1 lacunas entre 2013-01 e 2026-09
+Maceió;AL;Diesel S10;2013-01;2026-09;164;1;com_lacunas;1 lacunas entre 2013-01 e 2026-09
+Manaus;AM;Diesel S10;2013-01;2026-09;164;1;com_lacunas;1 lacunas entre 2013-01 e 2026-09
+Natal;RN;Diesel S10;2013-01;2026-09;164;1;com_lacunas;1 lacunas entre 2013-01 e 2026-09
+Palmas;TO;Diesel S10;2013-02;2026-09;163;1;com_lacunas;"sem dado de 2013-01 a 2013-01; 1 lacunas entre 2013-02 e 2026-09"
+Porto Alegre;RS;Diesel S10;2013-01;2026-09;164;1;com_lacunas;1 lacunas entre 2013-01 e 2026-09
+Porto Velho;RO;Diesel S10;2013-01;2026-09;164;1;com_lacunas;1 lacunas entre 2013-01 e 2026-09
+Recife;PE;Diesel S10;2013-01;2026-09;164;1;com_lacunas;1 lacunas entre 2013-01 e 2026-09
+Rio Branco;AC;Diesel S10;2013-01;2026-09;164;1;com_lacunas;1 lacunas entre 2013-01 e 2026-09
+Rio de Janeiro;RJ;Diesel S10;2013-01;2026-09;164;1;com_lacunas;1 lacunas entre 2013-01 e 2026-09
+Salvador;BA;Diesel S10;2013-01;2026-09;164;1;com_lacunas;1 lacunas entre 2013-01 e 2026-09
+São Luís;MA;Diesel S10;2013-01;2026-09;164;1;com_lacunas;1 lacunas entre 2013-01 e 2026-09
+São Paulo;SP;Diesel S10;2013-01;2026-09;164;1;com_lacunas;1 lacunas entre 2013-01 e 2026-09
+Teresina;PI;Diesel S10;2013-01;2026-09;164;1;com_lacunas;1 lacunas entre 2013-01 e 2026-09
+Vitória;ES;Diesel S10;2013-04;2026-09;161;1;com_lacunas;"sem dado de 2013-01 a 2013-03; 1 lacunas entre 2013-04 e 2026-09"
+Aracaju;SE;Diesel comum;2001-07;2026-09;277;26;com_lacunas;26 lacunas entre 2001-07 e 2026-09
+Belo Horizonte;MG;Diesel comum;2001-07;2026-09;302;1;com_lacunas;1 lacunas entre 2001-07 e 2026-09
+Belém;PA;Diesel comum;2001-07;2025-10;156;136;com_lacunas;"sem dado de 2025-11 a 2026-09; 136 lacunas entre 2001-07 e 2025-10"
+Boa Vista;RR;Diesel comum;2001-07;2026-09;302;1;com_lacunas;1 lacunas entre 2001-07 e 2026-09
+Brasília;DF;Diesel comum;2001-07;2026-09;302;1;com_lacunas;1 lacunas entre 2001-07 e 2026-09
+Campo Grande;MS;Diesel comum;2001-07;2026-09;302;1;com_lacunas;1 lacunas entre 2001-07 e 2026-09
+Cuiabá;MT;Diesel comum;2001-07;2026-09;302;1;com_lacunas;1 lacunas entre 2001-07 e 2026-09
+Curitiba;PR;Diesel comum;2001-07;2026-09;302;1;com_lacunas;1 lacunas entre 2001-07 e 2026-09
+Florianópolis;SC;Diesel comum;2001-07;2026-08;276;26;com_lacunas;"sem dado de 2026-09 a 2026-09; 26 lacunas entre 2001-07 e 2026-08"
+Fortaleza;CE;Diesel comum;2001-07;2026-01;183;112;com_lacunas;"sem dado de 2026-02 a 2026-09; 112 lacunas entre 2001-07 e 2026-01"
+Goiânia;GO;Diesel comum;2001-07;2026-09;302;1;com_lacunas;1 lacunas entre 2001-07 e 2026-09
+João Pessoa;PB;Diesel comum;2001-07;2026-09;302;1;com_lacunas;1 lacunas entre 2001-07 e 2026-09
+Macapá;AP;Diesel comum;2001-07;2026-03;296;1;com_lacunas;"sem dado de 2026-04 a 2026-09; 1 lacunas entre 2001-07 e 2026-03"
+Maceió;AL;Diesel comum;2001-07;2026-03;296;1;com_lacunas;"sem dado de 2026-04 a 2026-09; 1 lacunas entre 2001-07 e 2026-03"
+Manaus;AM;Diesel comum;2001-07;2026-09;302;1;com_lacunas;1 lacunas entre 2001-07 e 2026-09
+Natal;RN;Diesel comum;2001-07;2026-09;302;1;com_lacunas;1 lacunas entre 2001-07 e 2026-09
+Palmas;TO;Diesel comum;2001-07;2026-09;302;1;com_lacunas;1 lacunas entre 2001-07 e 2026-09
+Porto Alegre;RS;Diesel comum;2001-07;2026-09;302;1;com_lacunas;1 lacunas entre 2001-07 e 2026-09
+Porto Velho;RO;Diesel comum;2001-07;2026-09;302;1;com_lacunas;1 lacunas entre 2001-07 e 2026-09
+Recife;PE;Diesel comum;2001-07;2025-10;158;134;com_lacunas;"sem dado de 2025-11 a 2026-09; 134 lacunas entre 2001-07 e 2025-10"
+Rio Branco;AC;Diesel comum;2001-07;2026-09;302;1;com_lacunas;1 lacunas entre 2001-07 e 2026-09
+Rio de Janeiro;RJ;Diesel comum;2001-07;2026-09;302;1;com_lacunas;1 lacunas entre 2001-07 e 2026-09
+Salvador;BA;Diesel comum;2001-07;2026-09;300;3;com_lacunas;3 lacunas entre 2001-07 e 2026-09
+São Luís;MA;Diesel comum;2001-07;2026-09;302;1;com_lacunas;1 lacunas entre 2001-07 e 2026-09
+São Paulo;SP;Diesel comum;2001-07;2026-09;302;1;com_lacunas;1 lacunas entre 2001-07 e 2026-09
+Teresina;PI;Diesel comum;2001-07;2026-09;302;1;com_lacunas;1 lacunas entre 2001-07 e 2026-09
+Vitória;ES;Diesel comum;2001-07;2025-08;266;24;com_lacunas;"sem dado de 2025-09 a 2026-09; 24 lacunas entre 2001-07 e 2025-08"
