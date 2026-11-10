@@ -58,6 +58,14 @@ def deslocar(ym, n):
     return f"{idx // 12:04d}-{idx % 12 + 1:02d}"
 
 
+def salario_do_ano(salario, ano):
+    for mes in range(12, 0, -1):
+        chave = f"{ano}-{mes:02d}"
+        if chave in salario:
+            return salario[chave]
+    return None
+
+
 def cadeia(var, ancora):
     fator = {ancora: 1.0}
     f, m = 1.0, ancora
@@ -278,6 +286,9 @@ def main():
         "salario_minimo": {
             "fonte": "DIEESE", "url": URL_SALARIO,
             "primeiro": min(salario), "ultimo": max(salario),
+            "valores": {
+                str(ano): salario_do_ano(salario, ano) for ano in ANOS_CARNE
+            },
         },
         "coxao_duro": {
             "nota": "SP: IEA 2025-2026; sem INPC. Nas demais capitais, sem série."

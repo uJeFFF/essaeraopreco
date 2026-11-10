@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="menu.css" />
   </head>
-  <body>
+  <body class="home">
     <div class="pagina">
       <main class="home-grade">
         <article class="card card-comparacao">
@@ -101,6 +101,30 @@
             </details>
           </div>
 
+          <template id="modelo-gov">
+            <details class="gov-dropdown">
+              <summary class="gov-resumo" aria-label="Selecionar governo">
+                <span class="gov-nome">—</span>
+                <svg
+                  class="gov-seta"
+                  viewBox="0 0 16 16"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <path
+                    d="M3 6l5 5 5-5"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </summary>
+              <div class="gov-opcoes" role="listbox" aria-label="Governos"></div>
+            </details>
+          </template>
+
           <div
             class="grafico-svg"
             role="img"
@@ -109,15 +133,26 @@
             <p class="aviso">Carregando…</p>
           </div>
 
-          <div class="comparacao-legenda" aria-label="Legenda do gráfico">
-            <span class="leg-ext">MAIS BARATO</span>
-            <div class="leg-blocos" aria-hidden="true">
-              <i></i><i></i><i></i><i></i><i></i>
+          <div class="comparacao-rodape">
+            <button
+              type="button"
+              class="botao-adicionar-governo"
+              id="adicionar-governo"
+              disabled
+            >
+              Adicionar governo
+            </button>
+
+            <div class="comparacao-legenda" aria-label="Legenda do gráfico">
+              <span class="leg-ext">MAIS BARATO</span>
+              <div class="leg-blocos" aria-hidden="true">
+                <i></i><i></i><i></i><i></i><i></i>
+              </div>
+              <span class="leg-ext">MAIS CARO</span>
+              <span class="leg-vazio">
+                <i class="amostra-missing"></i> sem dados
+              </span>
             </div>
-            <span class="leg-ext">MAIS CARO</span>
-            <span class="leg-vazio">
-              <i class="amostra-missing"></i> sem dados
-            </span>
           </div>
         </article>
 

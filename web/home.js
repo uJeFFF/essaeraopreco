@@ -63,6 +63,13 @@ function formatarBRL(centavos) {
   });
 }
 
+function formatarMoeda(valor) {
+  return Number(valor).toLocaleString("pt-BR", {
+    style: "currency",
+    currency: "BRL",
+  });
+}
+
 function formatarPct(valor) {
   return `${Number(valor).toLocaleString("pt-BR", {
     minimumFractionDigits: 1,
@@ -124,14 +131,20 @@ function urlSefaz(chave) {
   return `https://www.nfce.fazenda.gov.br/portal/consulta?chave=${encodeURIComponent(chave)}`;
 }
 
-function prepararSerie(anos, percentual, reais, indiceCapital) {
+function prepararSerie(anos, percentual, reais, indiceCapital, salarioMinimo) {
   const valoresPct = {};
   const valoresReais = {};
+  const valoresSalario = {};
   anos.forEach((ano, j) => {
     valoresPct[ano] = percentual[indiceCapital]?.[j] ?? null;
     valoresReais[ano] = reais[indiceCapital]?.[j] ?? null;
+    valoresSalario[ano] = salarioMinimo[ano] ?? null;
   });
-  return { percentual: valoresPct, reais: valoresReais };
+  return {
+    percentual: valoresPct,
+    reais: valoresReais,
+    salario: valoresSalario,
+  };
 }
 
 function prepararDados(heatmap) {
@@ -140,6 +153,7 @@ function prepararDados(heatmap) {
   const capitais = heatmap.capitais;
   const percentual = heatmap.carne?.percentual?.valores;
   const reais = heatmap.carne?.valores;
+  const salarioMinimo = heatmap.salario_minimo?.valores ?? {};
 
   if (
     !Array.isArray(anos) ||
@@ -166,11 +180,12 @@ function prepararDados(heatmap) {
         corte.percentual,
         corte.reais,
         i,
+        salarioMinimo,
       );
     }
     porCapital.set(capital.nome, {
       ...capital,
-      carne: prepararSerie(anos, percentual, reais, i),
+      carne: prepararSerie(anos, percentual, reais, i, salarioMinimo),
       cortes: seriesCortes,
     });
   });
@@ -210,6 +225,7 @@ function valoresDoGoverno(capital, nomeGoverno) {
       ano,
       valor: serie.percentual[ano] ?? null,
       real: serie.reais[ano] ?? null,
+      salario: serie.salario[ano] ?? null,
     });
   }
   return anos;
@@ -226,6 +242,9 @@ function escolherGovernoPadrao(id, disponiveis) {
   if (!disponiveis.length) return null;
   if (id === "a") {
     return disponiveis[Math.max(0, disponiveis.length - 2)].nome;
+  }
+  if (id === "c") {
+    return disponiveis[Math.max(0, disponiveis.length - 3)].nome;
   }
   return disponiveis[disponiveis.length - 1].nome;
 }
@@ -349,7 +368,15 @@ function atualizarResumo(id) {
   }
 }
 
+function ultimoValorDoGrupo(grupo) {
+  for (let i = grupo.anos.length - 1; i >= 0; i -= 1) {
+    if (grupo.anos[i].valor != null) return grupo.anos[i];
+  }
+  return null;
+}
+
 function renderizarComparacao() {
+  esconderTooltip();
   const container = document.querySelector(".grafico-svg");
   const ids = idsGovernosAtivos();
   const grupos = ids.map((id) => ({
@@ -404,6 +431,7 @@ function renderizarComparacao() {
       grupo.anos.length > 0 &&
       grupo.anos.every((item) => item.valor != null),
   );
+  const ultimos = grupos.map(ultimoValorDoGrupo);
   const etiquetas = [];
 
   const svg = criarSVG("svg", {
@@ -477,6 +505,10 @@ function renderizarComparacao() {
       return;
     }
 
+    const outroIndice =
+      grupos.length > 1 ? (indice > 0 ? indice - 1 : 1) : -1;
+    const outroGrupo = outroIndice >= 0 ? grupos[outroIndice] : null;
+    const referencia = outroIndice >= 0 ? ultimos[outroIndice] : null;
     const banda = larguraGrupo / grupo.anos.length;
     const larguraBarra = Math.max(
       minimoBarra,
@@ -517,8 +549,12 @@ function renderizarComparacao() {
           corMax === corMin
             ? corCorte(0.5)
             : corCorte((item.valor - corMin) / intervaloCor);
+        const classeBarra =
+          CORES_CORTES.indexOf(corBarra) >= 4
+            ? "barra barra-muito-escura"
+            : "barra";
         const retangulo = criarSVG("rect", {
-          class: "barra",
+          class: classeBarra,
           x,
           y,
           width: larguraBarra,
@@ -526,15 +562,112 @@ function renderizarComparacao() {
           rx: 3,
           fill: corBarra,
         });
-        retangulo.appendChild(
-          criarSVG(
-            "title",
-            {},
-            `${grupo.governo} • ${item.ano} • ${formatarPct(item.valor)}${
-              item.real != null ? ` • ${formatarBRL(item.real * 100)}` : ""
-            }`,
-          ),
+
+        let destaque = "";
+        let complemento = "";
+        if (outroGrupo?.governo && referencia && referencia.valor) {
+          const variacao =
+            ((item.valor - referencia.valor) / referencia.valor) * 100;
+          const diferenca = Math.abs(variacao);
+          destaque =
+            diferenca < 0.05
+              ? "Mesmo valor"
+              : `${formatarPct(diferenca)} mais ${
+                  variacao < 0 ? "barato" : "caro"
+                }`;
+          complemento = `que ao fim do governo ${outroGrupo.governo}`;
+        }
+
+        const colunaAtual = {
+          governo: grupo.governo,
+          ano: item.ano,
+          valor: item.valor,
+          real: item.real,
+          salario: item.salario,
+          emFoco: true,
+        };
+        const colunaOutra =
+          outroGrupo?.governo && referencia
+            ? {
+                governo: outroGrupo.governo,
+                ano: referencia.ano,
+                valor: referencia.valor,
+                real: referencia.real,
+                salario: referencia.salario,
+                emFoco: false,
+              }
+            : null;
+        const indiceAtual = GOVERNOS.findIndex(
+          (governo) => governo.nome === grupo.governo,
         );
+        const indiceOutro = GOVERNOS.findIndex(
+          (governo) => governo.nome === outroGrupo?.governo,
+        );
+        const atualAntes =
+          indiceAtual >= 0 && indiceOutro >= 0
+            ? indiceAtual <= indiceOutro
+            : true;
+        const colunas = colunaOutra
+          ? atualAntes
+            ? [colunaAtual, colunaOutra]
+            : [colunaOutra, colunaAtual]
+          : [colunaAtual];
+
+        const colunasHtml = colunas
+          .map((coluna) => {
+            const nome = coluna.emFoco
+              ? `<strong>${coluna.governo}</strong>`
+              : coluna.governo;
+            const itens = [
+              `<div class="popup-barra-governo">${nome} • ${coluna.ano}</div>`,
+              `<div class="popup-barra-valor">${formatarPct(
+                coluna.valor,
+              )} do salário mínimo</div>`,
+            ];
+            if (coluna.real != null) {
+              itens.push(
+                `<div class="popup-barra-valor">${formatarMoeda(
+                  coluna.real,
+                )}/kg</div>`,
+              );
+            }
+            if (coluna.salario != null) {
+              itens.push(
+                `<div class="popup-barra-salario">Salário mínimo: ${formatarMoeda(
+                  coluna.salario,
+                )}</div>`,
+              );
+            }
+            return `<div class="popup-barra-coluna">${itens.join("")}</div>`;
+          })
+          .join("");
+
+        const classesColunas =
+          colunas.length > 1
+            ? "popup-barra-colunas"
+            : "popup-barra-colunas popup-barra-colunas-unica";
+
+        const linhasPopup = [];
+        if (destaque) {
+          linhasPopup.push(
+            `<strong class="popup-barra-destaque">${destaque}</strong>`,
+          );
+          linhasPopup.push(
+            `<div class="popup-barra-destaque-sub">${complemento}</div>`,
+          );
+          linhasPopup.push('<div class="popup-barra-divisor"></div>');
+        }
+        linhasPopup.push(
+          `<div class="${classesColunas}">${colunasHtml}</div>`,
+        );
+        const conteudoPopup = linhasPopup.join("");
+
+        retangulo.addEventListener("mouseenter", (evento) =>
+          mostrarTooltip(evento, conteudoPopup, "popup-barra"),
+        );
+        retangulo.addEventListener("mousemove", moverTooltip);
+        retangulo.addEventListener("mouseleave", esconderTooltip);
+
         svg.appendChild(retangulo);
         svg.appendChild(
           criarSVG(
@@ -937,6 +1070,43 @@ function ligarDropdown(dropdown) {
   });
 }
 
+function alternarGoverno() {
+  if (!dados) return;
+
+  const botao = document.getElementById("adicionar-governo");
+  const topo = document.querySelector(".comparacao-topo");
+  const existente = document.querySelector('.gov-dropdown[data-grafico="c"]');
+
+  if (existente) {
+    existente.remove();
+    topo.classList.remove("tres-governos");
+    delete estado.governos.c;
+    botao.textContent = "Adicionar governo";
+    renderizarTudo();
+    return;
+  }
+
+  const modelo = document.getElementById("modelo-gov");
+  const dropdown = modelo.content.firstElementChild.cloneNode(true);
+  dropdown.dataset.grafico = "c";
+  dropdown
+    .querySelector(".gov-resumo")
+    .setAttribute("aria-label", "Selecionar governo do terceiro bloco");
+  dropdown
+    .querySelector(".gov-opcoes")
+    .setAttribute("aria-label", "Governos do terceiro bloco");
+
+  topo.insertBefore(
+    dropdown,
+    topo.querySelector('.gov-dropdown[data-grafico="a"]'),
+  );
+  topo.classList.add("tres-governos");
+  botao.textContent = "Remover";
+
+  ligarDropdown(dropdown);
+  renderizarTudo();
+}
+
 function ligarInteracoes() {
   document.getElementById("capital").addEventListener("change", (evento) => {
     estado.capital = evento.target.value;
@@ -960,6 +1130,10 @@ function ligarInteracoes() {
   )) {
     ligarDropdown(dropdown);
   }
+
+  document
+    .getElementById("adicionar-governo")
+    .addEventListener("click", alternarGoverno);
 
   const infoCarne = document.getElementById("info-carne");
   const mostrarInfoCarne = (evento) => {
@@ -1008,6 +1182,7 @@ async function carregar() {
     montarSeletorCapital();
     montarSeletorCorte();
     montarSeletorCidadeHeatmap();
+    document.getElementById("adicionar-governo").disabled = false;
     renderizarTudo();
     atualizarHeatmapCortes();
   } catch (erro) {
