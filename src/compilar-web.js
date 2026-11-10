@@ -254,8 +254,22 @@ async function main() {
     estabelecimentos: Object.fromEntries(estabelecimentos.map((estab) => [estab.id, estab.nome])),
   };
 
+  // heatmap.json e combustiveis.json vem de fontes externas (scripts Python),
+  // nao deste compilador. Preservamos os dois ao limpar a pasta.
+  const preservar = new Map();
+  for (const arquivo of ['heatmap.json', 'combustiveis.json']) {
+    try {
+      preservar.set(arquivo, await readFile(path.join(SAIDA, arquivo)));
+    } catch {
+      // Arquivo ainda nao gerado; segue sem ele.
+    }
+  }
+
   await rm(SAIDA, { recursive: true, force: true });
   await mkdir(path.join(SAIDA, 'estados'), { recursive: true });
+  for (const [arquivo, conteudo] of preservar) {
+    await writeFile(path.join(SAIDA, arquivo), conteudo);
+  }
 
   let totalAmostras = 0;
   let bytesEstados = 0;

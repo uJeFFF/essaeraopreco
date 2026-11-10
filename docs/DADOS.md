@@ -37,7 +37,33 @@ essas médias; é o `web/dados/` que o frontend consome com medianas.
 
 ## Frontend
 
-O heatmap mostra **estado × ano** da **mediana real** da carne, com linhas para
+### Home (`/`)
+
+A home em `web/` tem um único gráfico de barras com **dois blocos**, um por
+governo, mostrando o custo de 1 kg de carne em **% do salário mínimo**. Os dois
+blocos compartilham a mesma escala vertical e a mesma capital; o seletor de
+capital fica abaixo do gráfico, dentro do módulo, e começa em São Paulo.
+
+- Cada bloco tem seu próprio dropdown de governo e mostra os anos do mandato.
+- Os valores vêm de `web/dados/heatmap.json` (`carne.percentual`), a mesma base
+  do gráfico 09.
+- O dropdown lista apenas os governos com dado para a capital escolhida; o
+  padrão é BOLSONARO × LULA 3.
+- As barras dos dois governos usam o mesmo espaçamento quando ambos têm 4 anos;
+  governos com menos anos ficam com espaçamento maior na sua metade.
+- As etiquetas **MAIS BARATO** e **MAIS CARO** marcam o centro vertical das
+  barras de menor e maior valor e só aparecem quando os dois governos têm todos
+  os anos preenchidos.
+- A coluna da direita mostra as **5 últimas notas** de
+  `web/dados/notas-recentes.json`, uma amostra dos dados sintéticos.
+- Abaixo dos módulos, a home mostra um heatmap dos **12 cortes** para **São
+  Paulo** (2008–2026) em % do salário mínimo. A escala é global entre os cortes
+  da capital e usa cinco faixas de cinza; os dados vêm de
+  `cortes.*.percentual` de `web/dados/heatmap.json`.
+
+### Heatmap estado × ano (`/01/`)
+
+O heatmap em `web/01/` mostra **estado × ano** da **mediana real** da carne, com linhas para
 os 27 estados e colunas de 1980 a 2026. As colunas são agrupadas por governo
 federal (FIGUEIREDO, SARNEY, COLLOR, ITAMAR, FHC 1/2, LULA 1/2/3, DILMA 1/2,
 TEMER, BOLSONARO). A cor vai de **ciano (mais barato)** a **preto (mais caro)**;
@@ -95,7 +121,7 @@ streamgraph por um **heatmap de quadrados**, uma linha por UF (ordem
 alfabética) e uma coluna por ano:
 
 - a cor de cada célula vem da mediana real do ano, na mesma rampa ciano
-  (mais barato) → azul escuro → preto (mais caro) do heatmap da home;
+  (mais barato) → azul escuro → preto (mais caro) do heatmap do `/01/`;
 - anos fora do intervalo de uma UF aparecem como célula clara "sem dados";
 - o hover mostra mediana, mínimo, máximo e nº de notas no tooltip, com a guia
   vertical no ano; clicar numa célula trava a UF, como nos chips;
@@ -114,6 +140,9 @@ web/dados/
   base.json                 # medianas estado × ano, medianas por governo e catálogo
   ondas.json                # mediana, min, max e n por UF × ano (streamgraph)
   estados/{UF}.json         # por ano: min, max, 10 contagens e até 10 amostras/faixa
+  heatmap.json              # carne e cortes por capital (gráfico 09 e home)
+  combustiveis.json         # diesel S10/comum por capital (gráfico 09)
+  notas-recentes.json       # últimas notas sintéticas da home
 ```
 
 ### `base.json`
@@ -174,6 +203,35 @@ Para gerar apenas esse arquivo sem sortear novas amostras:
 npm run compilar:ondas
 ```
 
+### `notas-recentes.json`
+
+Feed enxuto da home, gerado por `npm run compilar:notas` (também roda no fim de
+`npm run compilar`). Ele lê `base.json` e `estados/{UF}.json`, achata as
+amostras, ordena por data e guarda as **5 mais recentes** até a data de hoje.
+
+```text
+{
+  schemaVersion: 1,
+  geradoEm, origem, fonte, limite, totalAmostras,
+  notas: [
+    { data, uf, estabelecimento, precoRealCentavos, precoNominalCentavos, chave }
+  ]
+}
+```
+
+O `estabelecimento` é resolvido pelo `base.json`. O feed não altera as amostras
+originais e é apenas para exibição na home.
+
+### `heatmap.json` e `combustiveis.json`
+
+Esses dois arquivos vêm dos scripts Python de fontes externas (DIEESE, INPC,
+IPCA, IEA, Procons e ANP), não de `compilar-web.js`. O compilador preserva os
+dois ao limpar `web/dados/`.
+
+- `heatmap.json`: preço real e percentual do salário mínimo por capital e ano,
+  para a carne e os 12 cortes.
+- `combustiveis.json`: diesel S10 e comum por capital e mês.
+
 ### Amostragem
 
 - O intervalo `mín–máx` de cada célula é dividido em **10 faixas**.
@@ -182,6 +240,8 @@ npm run compilar:ondas
 - Empates no menor/maior preço são sorteados.
 - O sorteio usa `crypto.randomInt`, sem seed fixa: cada `npm run compilar` muda
   as amostras de `web/dados/`.
+- `notas-recentes.json` é apenas um recorte das amostras já sorteadas; ele não
+  participa do sorteio.
 
 ### Tamanho aproximado
 
@@ -191,6 +251,8 @@ Com as 100 mil notas sintéticas atuais:
 - **~4,2 MB raw / ~1,1 MB gzip / ~0,8 MB Brotli**;
 - `base.json` com ~27 KB raw / ~10 KB gzip;
 - `ondas.json` com ~33 KB raw / ~12 KB gzip / ~9 KB Brotli;
+- `notas-recentes.json` com ~1,1 KB raw;
+- `heatmap.json` com ~380 KB raw;
 - o estado é baixado sob demanda no primeiro hover do popup.
 
 A Vercel aplica gzip/Brotli automaticamente; não é necessário versionar `.gz`.

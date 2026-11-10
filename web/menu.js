@@ -6,7 +6,7 @@
 // O /05/ e uma copia exata do /03/ e fica fora do menu de proposito.
 
 const ITENS = [
-  { id: "01", rotulo: "Heatmap estado × ano", href: new URL("./", import.meta.url) },
+  { id: "01", rotulo: "Heatmap estado × ano", href: new URL("01/", import.meta.url) },
   { id: "02", rotulo: "Streamgraph UF × ano", href: new URL("02/", import.meta.url) },
   { id: "03", rotulo: "Heatmap UF × ano", href: new URL("03/", import.meta.url) },
   { id: "04", rotulo: "Barras + linhas", href: new URL("04/", import.meta.url) },

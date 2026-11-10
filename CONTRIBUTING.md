@@ -8,7 +8,7 @@ de bugs.
 
 ## Tipos de contribuição
 
-- **Bugs e melhorias** no heatmap, no popup ou no pipeline.
+- **Bugs e melhorias** na home, no heatmap, no popup ou no pipeline.
 - **Novos produtos e categorias** no catálogo.
 - **Importação e validação de NFC-e** para o futuro envio de notas.
 - **Documentação** e exemplos.

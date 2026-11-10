@@ -71,6 +71,8 @@ Antes de abrir um PR ou fazer deploy:
 npm run verificar
 ```
 
-O script confere `web/index.html`, `web/styles.css`, `web/app.js`,
-`web/governos.js`, `web/favicon.svg`, `web/dados/base.json` e os 27 arquivos de
+O script confere `web/index.html`, `web/styles.css`, `web/home.js`,
+`web/governos.js`, `web/menu.js`, `web/menu.css`, `web/favicon.svg`,
+`web/01/`, `web/dados/base.json`, `web/dados/ondas.json`,
+`web/dados/heatmap.json`, `web/dados/notas-recentes.json` e os 27 arquivos de
 estado.

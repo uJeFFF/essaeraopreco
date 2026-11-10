@@ -23,8 +23,8 @@ Gerador (seed fixa)  --XML NFC-e-->  Builder (Node)  --SQLite-->  bundle/
   heatmap, as contagens por faixa de preço e até 10 notas de exemplo por faixa.
 - O **compilador de ondas** reaproveita esse conjunto e gera `ondas.json` para o
   streamgraph.
-- O **frontend** (heatmap e streamgraph) lê apenas `web/dados/`. Nada de usuário
-  acessando banco.
+- O **frontend** (home, heatmap e demais gráficos) lê apenas `web/dados/`.
+  Nada de usuário acessando banco.
 
 O projeto não tem dependências externas: usa apenas o Node.js (incluindo
 `node:sqlite` nativo) e HTML/CSS/JavaScript puro no frontend.
@@ -69,6 +69,8 @@ node src/compilar-web.js --entrada=bundle --saida=web/dados
 - Cada execução gera um `web/dados/` diferente.
 - Em seguida, `node src/compilar-ondas.js` combina medianas e intervalos em
   `web/dados/ondas.json`, sem sortear nada.
+- Por fim, `node src/compilar-notas-recentes.js` recorta as amostras mais
+  recentes em `web/dados/notas-recentes.json` para a home.
 
 O bundle completo continua com médias ponderadas para análise; o `web/dados/`
 que alimenta o heatmap é a camada de medianas.

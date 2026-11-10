@@ -10,45 +10,166 @@
   </head>
   <body>
     <div class="pagina">
-      <header class="topo">
-        <h1>ESSE ERA O PREÇO DE <span id="produto" class="produto">1KG DE CARNE</span></h1>
+      <main class="home-grade">
+        <article class="card card-comparacao">
+          <p class="comparacao-titulo">
+            Custo de 1Kg de
+            <select
+              id="corte"
+              class="seletor-titulo"
+              aria-label="Selecionar corte de carne"
+              disabled
+            >
+              <option value="primeira">Carne de Primeira</option>
+            </select>
+            em porcentagem do salário mínimo em
+            <select
+              id="capital"
+              class="seletor-titulo"
+              aria-label="Selecionar capital"
+              disabled
+            >
+              <option>Carregando…</option>
+            </select>
+            <button
+              type="button"
+              class="titulo-info"
+              id="info-carne"
+              aria-label="O que é carne de primeira?"
+            >
+              ?
+            </button>
+          </p>
 
-        <div class="filtros" id="filtros">
-          <label class="filtro-ano">De <select id="filtroDe"></select></label>
-          <label class="filtro-ano">Até <select id="filtroAte"></select></label>
+          <div class="comparacao-topo">
+            <details class="gov-dropdown" data-grafico="a">
+              <summary
+                class="gov-resumo"
+                aria-label="Selecionar governo do primeiro bloco"
+              >
+                <span class="gov-nome">—</span>
+                <svg
+                  class="gov-seta"
+                  viewBox="0 0 16 16"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <path
+                    d="M3 6l5 5 5-5"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </summary>
+              <div
+                class="gov-opcoes"
+                role="listbox"
+                aria-label="Governos do primeiro bloco"
+              ></div>
+            </details>
 
-          <details class="filtro-menu" id="menuGovernos">
-            <summary>Governos</summary>
-            <div class="menu-painel" id="painelGovernos"></div>
-          </details>
+            <details class="gov-dropdown" data-grafico="b">
+              <summary
+                class="gov-resumo"
+                aria-label="Selecionar governo do segundo bloco"
+              >
+                <span class="gov-nome">—</span>
+                <svg
+                  class="gov-seta"
+                  viewBox="0 0 16 16"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <path
+                    d="M3 6l5 5 5-5"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </summary>
+              <div
+                class="gov-opcoes"
+                role="listbox"
+                aria-label="Governos do segundo bloco"
+              ></div>
+            </details>
+          </div>
 
-          <details class="filtro-menu" id="menuEstados">
-            <summary>Estados</summary>
-            <div class="menu-painel menu-painel-estados" id="painelEstados"></div>
-          </details>
+          <div
+            class="grafico-svg"
+            role="img"
+            aria-label="Comparação de dois governos em barras por ano"
+          >
+            <p class="aviso">Carregando…</p>
+          </div>
 
-          <button type="button" class="filtro-limpar" id="limparFiltros">Limpar</button>
-        </div>
-      </header>
+          <div class="comparacao-legenda" aria-label="Legenda do gráfico">
+            <span class="leg-ext">MAIS BARATO</span>
+            <div class="leg-blocos" aria-hidden="true">
+              <i></i><i></i><i></i><i></i><i></i>
+            </div>
+            <span class="leg-ext">MAIS CARO</span>
+            <span class="leg-vazio">
+              <i class="amostra-missing"></i> sem dados
+            </span>
+          </div>
+        </article>
 
-      <main>
-        <div class="legenda">
-          <span class="leg-ext" id="legMin">MAIS BARATO</span>
-          <div class="leg-barra" id="legBarra" aria-hidden="true"></div>
-          <span class="leg-ext" id="legMax">MAIS CARO</span>
-          <span class="leg-vazio"><i class="amostra-missing"></i> sem dados</span>
-        </div>
-
-        <div class="heatmap-area">
-          <div id="heatmap" class="heatmap" role="table" aria-label="Heatmap de preços por estado e ano"></div>
-          <p id="vazio" class="vazio oculto"></p>
-        </div>
-
-        <p class="nota" id="nota"></p>
+        <article class="card card-notas">
+          <header class="notas-topo">
+            <div>
+              <h2>Últimas notas enviadas</h2>
+            </div>
+            <span class="selo">sintéticas</span>
+          </header>
+          <div id="notas" class="notas-lista" aria-live="polite">
+            <p class="aviso">Carregando notas…</p>
+          </div>
+          <button type="button" class="botao-enviar">
+            Enviar nota fiscal
+          </button>
+        </article>
       </main>
+
+      <section class="card secao-cortes" aria-labelledby="titulo-cortes">
+        <header class="cortes-topo">
+          <div>
+            <h2 id="titulo-cortes">
+              Custo de cortes de carne em % do salário mínimo em
+              <select
+                id="cidade-heatmap"
+                class="seletor-titulo"
+                aria-label="Selecionar cidade do heatmap"
+                disabled
+              >
+                <option>Carregando…</option>
+              </select>
+            </h2>
+          </div>
+          <div class="cortes-legenda">
+            <span class="leg-ext">MAIS BARATO</span>
+            <div class="leg-blocos" aria-hidden="true">
+              <i></i><i></i><i></i><i></i><i></i>
+            </div>
+            <span class="leg-ext">MAIS CARO</span>
+            <span class="leg-vazio">
+              <i class="amostra-missing"></i> sem dados
+            </span>
+          </div>
+        </header>
+        <div id="heatmap-cortes" class="cortes-heatmap"></div>
+        <p id="erro-cortes" class="aviso erro oculto" role="alert"></p>
+      </section>
     </div>
 
-    <script type="module" src="app.js"></script>
+    <div id="tooltip" class="tooltip oculto" role="tooltip"></div>
+    <script type="module" src="home.js"></script>
     <script type="module" src="menu.js"></script>
   </body>
 </html>

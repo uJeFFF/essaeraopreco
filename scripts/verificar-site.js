@@ -6,13 +6,18 @@ import { access, readFile } from 'node:fs/promises';
 const obrigatorios = [
   'web/index.html',
   'web/styles.css',
-  'web/app.js',
+  'web/home.js',
   'web/governos.js',
   'web/menu.css',
   'web/menu.js',
   'web/favicon.svg',
   'web/dados/base.json',
   'web/dados/ondas.json',
+  'web/dados/heatmap.json',
+  'web/dados/notas-recentes.json',
+  'web/01/index.html',
+  'web/01/styles.css',
+  'web/01/app.js',
   'web/02/index.html',
   'web/02/styles.css',
   'web/02/app.js',
@@ -47,9 +52,46 @@ try {
     }
   }
 
+  const heatmap = JSON.parse(
+    await readFile('web/dados/heatmap.json', 'utf8'),
+  );
+  if (
+    !Array.isArray(heatmap.anos_cortes) ||
+    !Array.isArray(heatmap.capitais) ||
+    !heatmap.capitais.some((capital) => capital.nome === 'São Paulo') ||
+    !heatmap.cortes ||
+    !Object.keys(heatmap.cortes).length
+  ) {
+    throw new Error('heatmap.json sem os cortes de São Paulo.');
+  }
+
+  const notasRecentes = JSON.parse(
+    await readFile('web/dados/notas-recentes.json', 'utf8'),
+  );
+  if (
+    !Array.isArray(notasRecentes.notas) ||
+    !notasRecentes.notas.length
+  ) {
+    throw new Error('notas-recentes.json sem notas.');
+  }
+  for (const nota of notasRecentes.notas) {
+    if (
+      !nota.data ||
+      !nota.uf ||
+      !nota.estabelecimento ||
+      !nota.chave ||
+      !Number.isFinite(nota.precoRealCentavos) ||
+      !Number.isFinite(nota.precoNominalCentavos)
+    ) {
+      throw new Error('notas-recentes.json com nota incompleta.');
+    }
+  }
+
   console.log(
     `Site estatico pronto: ${obrigatorios.length} arquivos base, ` +
-      `${base.estados.length} estados e ${ondas.estados.length} ondas verificados.`,
+      `${base.estados.length} estados, ${ondas.estados.length} ondas, ` +
+      `${Object.keys(heatmap.cortes).length} cortes de São Paulo e ` +
+      `${notasRecentes.notas.length} notas recentes verificados.`,
   );
 } catch (erro) {
   console.error(
